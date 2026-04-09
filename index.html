@@ -1,106 +1,59 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>oblivious film</title>
-  <meta name="description" content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos.">
-  <style>
-    :root {
-      --bg: #f6f4ee;
-      --text: #1d1d1b;
-      --muted: #5f5a50;
-      --line: #d9d4c9;
-      --card: rgba(255,255,255,.72);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.8;
-    }
-    main {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 56px 24px 72px;
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2.2rem, 7vw, 4.4rem);
-      line-height: 1.02;
-      letter-spacing: -0.04em;
-    }
-    .lead {
-      margin: 0 0 36px;
-      color: var(--muted);
-      font-size: 1.05rem;
-    }
-    section {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      padding: 28px;
-      margin-bottom: 18px;
-      backdrop-filter: blur(12px);
-    }
-    h2 {
-      margin: 0 0 12px;
-      font-size: .92rem;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-    p { margin: 0 0 14px; }
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 18px;
-    }
-    a {
-      color: inherit;
-      text-decoration-thickness: 1px;
-      text-underline-offset: .18em;
-    }
-    .button {
-      display: inline-block;
-      text-decoration: none;
-      border: 1px solid var(--text);
-      border-radius: 999px;
-      padding: 10px 16px;
-    }
-    footer {
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: .95rem;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>oblivious film</h1>
-    <p class="lead">You were oblivious. But the moment wasn’t.</p>
+  <head>
+    <meta charset="utf-8">
+    <title>oblivious film</title>
+    <meta name="description" content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos.">
+    <link href="https://oblivious.jp/" rel="author">
+    <link href="https://oblivious.jp/" rel="canonical">
+    <meta content="width=device-width" name="viewport">
+    <meta content="website" property="og:type">
+    <meta content="oblivious film" property="og:title">
+    <meta content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos." property="og:description">
+    <meta content="https://oblivious.jp/" property="og:url">
+    <meta content="summary" name="twitter:card">
+    <meta content="oblivious.jp" name="twitter:domain">
+    <meta content="https://oblivious.jp/" name="twitter:url">
+    <meta content="oblivious film" name="twitter:title">
+    <meta content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos." name="twitter:description">
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="visually-hidden">oblivious film</h1>
+        <a class="brand" href="/" aria-label="oblivious film home">
+          <span class="brand-mark">oblivious film</span>
+          <span class="brand-subtitle">1-second moments become a film</span>
+        </a>
+      </header>
 
-    <section>
-      <h2>About</h2>
-      <p>oblivious film is an app for creating films from 1-second moments cut from your photos and videos.</p>
-      <p>Even ordinary moments can begin to reveal a flow, meaning, or emotion you did not notice at the time, simply through the way they are arranged and layered.</p>
-      <div class="links">
-        <a class="button" href="/support/">Support</a>
-        <a class="button" href="/privacy/">Privacy Policy</a>
-      </div>
-    </section>
+      <main>
+        <section aria-labelledby="about-title">
+          <h2 id="about-title">About</h2>
+          <p>oblivious film is an app for creating films from 1-second moments cut from your photos and videos.</p>
+          <p>Even ordinary moments can begin to reveal a flow, meaning, or emotion you did not notice at the time, simply through the way they are arranged and layered.</p>
+        </section>
 
-    <section>
-      <h2>Overview</h2>
-      <p>Use it for daily memories, travel moments, or promotional storytelling. There is no single way to use it.</p>
-      <p>Your fragments can become your own story.</p>
-    </section>
+        <section aria-labelledby="overview-title">
+          <h2 id="overview-title">Overview</h2>
+          <ul class="compact-list">
+            <li>Create films from fragments of your existing photos and videos.</li>
+            <li>Use it for daily memories, travel moments, or promotional storytelling.</li>
+            <li>Your fragments can become your own story.</li>
+          </ul>
+        </section>
 
-    <footer>
-      <p>&copy; KMNGY Inc.</p>
-    </footer>
-  </main>
-</body>
+        <section aria-labelledby="links-title">
+          <h2 id="links-title">Information</h2>
+          <p><a href="/support/">Support</a></p>
+          <p><a href="/privacy/">Privacy Policy</a></p>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; KMNGY Inc.</p>
+      </footer>
+    </div>
+  </body>
 </html>
