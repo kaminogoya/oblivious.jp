@@ -2,45 +2,75 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Support | oblivious film</title>
-    <meta name="description" content="Support information for oblivious film.">
+    <title>support | oblivious film</title>
+    <meta name="description" content="support information for oblivious film.">
     <link href="https://oblivious.jp/support/" rel="canonical">
-    <meta content="width=device-width" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'fxp6kgk',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function() {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try { Typekit.load(config); } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script>
+      window.__I18N_MESSAGES__ = {
+        title: "サポート | oblivious film",
+        metaDescription: "oblivious film のサポート情報。",
+        nav_home: "home",
+        nav_support: "support",
+        nav_privacy: "privacy",
+        page_title: "support",
+        line_1: "ご質問、ご意見、不具合のご報告は、メールでご連絡ください。",
+        line_2: "お問い合わせでいただいた情報は、返信のためにのみ利用します。",
+        footer_copy: "© KMNGY Inc."
+      };
+    </script>
+    <script defer src="/i18n.js"></script>
     <link href="/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1 class="visually-hidden">Support | oblivious film</h1>
-        <a class="brand" href="/" aria-label="oblivious film home">
-          <span class="brand-mark">oblivious film</span>
-          <span class="brand-subtitle">Support</span>
-        </a>
+      <header class="site-header">
+        <nav class="top-nav" aria-label="Primary">
+          <a href="/" data-i18n="nav_home">home</a>
+          <a href="/support/" data-i18n="nav_support">support</a>
+          <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
+        </nav>
       </header>
 
       <main>
-        <section aria-labelledby="support-title">
-          <h2 id="support-title">Support</h2>
-          <p>oblivious film is an app for creating films from 1-second moments cut from your photos and videos.</p>
-          <p>For support, feedback, or bug reports, please contact the address below.</p>
-        </section>
-
-        <section aria-labelledby="contact-title">
-          <h2 id="contact-title">Contact</h2>
-          <address>
-            <p><a href="mailto:info@kmngy.co.jp">&#105;nf&#111;&#64;kmngy&#46;&#99;o&#46;jp</a></p>
-          </address>
-        </section>
-
-        <section aria-labelledby="navigation-title">
-          <h2 id="navigation-title">Navigation</h2>
-          <p><a href="/">Home</a></p>
-          <p><a href="/privacy/">Privacy Policy</a></p>
+        <section class="hero" aria-labelledby="support-title">
+          <h1 class="page-title" id="support-title" data-i18n="page_title">support</h1>
+          <p class="hero-copy" data-i18n="line_1">for questions, feedback, or bug reports, please contact us by email.</p>
+          <p class="hero-copy" data-i18n="line_2">we use your message only to respond to your inquiry.</p>
+          <p class="hero-copy"><a href="mailto:info@kmngy.co.jp">&#105;nf&#111;&#64;kmngy&#46;&#99;o&#46;jp</a></p>
         </section>
       </main>
 
       <footer>
-        <p>&copy; KMNGY Inc.</p>
+        <p data-i18n="footer_copy">&copy; KMNGY Inc.</p>
       </footer>
     </div>
   </body>

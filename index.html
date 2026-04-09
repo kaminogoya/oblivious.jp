@@ -3,56 +3,87 @@
   <head>
     <meta charset="utf-8">
     <title>oblivious film</title>
-    <meta name="description" content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos.">
+    <meta name="description" content="create films from 1-second moments cut from your photos and videos. reframe everyday fragments, travel memories, or promos into a story with music.">
     <link href="https://oblivious.jp/" rel="author">
     <link href="https://oblivious.jp/" rel="canonical">
-    <meta content="width=device-width" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="website" property="og:type">
     <meta content="oblivious film" property="og:title">
-    <meta content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos." property="og:description">
+    <meta content="create films from 1-second moments cut from your photos and videos. reframe everyday fragments, travel memories, or promos into a story with music." property="og:description">
     <meta content="https://oblivious.jp/" property="og:url">
     <meta content="summary" name="twitter:card">
     <meta content="oblivious.jp" name="twitter:domain">
     <meta content="https://oblivious.jp/" name="twitter:url">
     <meta content="oblivious film" name="twitter:title">
-    <meta content="oblivious film is an app for creating films from 1-second moments cut from your photos and videos." name="twitter:description">
+    <meta content="create films from 1-second moments cut from your photos and videos. reframe everyday fragments, travel memories, or promos into a story with music." name="twitter:description">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'fxp6kgk',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function() {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try { Typekit.load(config); } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script>
+      window.__I18N_MESSAGES__ = {
+        title: "oblivious film",
+        metaDescription: "写真や動画から切り取った 1 秒の moment を重ねて film をつくる。日常の断片や旅の記憶、プロモーションを、音とともに物語へ。",
+        nav_home: "home",
+        nav_support: "support",
+        nav_privacy: "privacy",
+        hero_line_1: "you were oblivious. but the moment wasn't.",
+        hero_line_2: "oblivious は瞬間を重ねて、物語を紡ぐアプリです。",
+        hero_line_3: "何気なく残した日常の断片も、重なり方や並び方が変わることで、それまで気づかなかった流れや意味、感情を帯びはじめる。",
+        hero_line_4: "日常の記録でも、旅の思い出でも、プロモーションでも、使い方はひとつではありません。あなたが記録した断片が、あなた自身の物語になっていきます。",
+        footer_copy: "© KMNGY Inc."
+      };
+    </script>
+    <script defer src="/i18n.js"></script>
     <link href="/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1 class="visually-hidden">oblivious film</h1>
-        <a class="brand" href="/" aria-label="oblivious film home">
-          <span class="brand-mark">oblivious film</span>
-          <span class="brand-subtitle">1-second moments become a film</span>
-        </a>
+      <header class="site-header">
+        <nav class="top-nav" aria-label="Primary">
+          <a href="/" data-i18n="nav_home">home</a>
+          <a href="/support/" data-i18n="nav_support">support</a>
+          <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
+        </nav>
       </header>
 
       <main>
-        <section aria-labelledby="about-title">
-          <h2 id="about-title">About</h2>
-          <p>oblivious film is an app for creating films from 1-second moments cut from your photos and videos.</p>
-          <p>Even ordinary moments can begin to reveal a flow, meaning, or emotion you did not notice at the time, simply through the way they are arranged and layered.</p>
-        </section>
-
-        <section aria-labelledby="overview-title">
-          <h2 id="overview-title">Overview</h2>
-          <ul class="compact-list">
-            <li>Create films from fragments of your existing photos and videos.</li>
-            <li>Use it for daily memories, travel moments, or promotional storytelling.</li>
-            <li>Your fragments can become your own story.</li>
-          </ul>
-        </section>
-
-        <section aria-labelledby="links-title">
-          <h2 id="links-title">Information</h2>
-          <p><a href="/support/">Support</a></p>
-          <p><a href="/privacy/">Privacy Policy</a></p>
+        <section class="hero" aria-labelledby="hero-title">
+          <h1 class="visually-hidden" id="hero-title">oblivious film</h1>
+          <img class="hero-logo" src="/logo-oblivious.svg" alt="oblivious film">
+          <p class="hero-copy" data-i18n="hero_line_1">you were oblivious. but the moment wasn't.</p>
+          <p class="hero-copy" data-i18n="hero_line_2">create films from 1-second moments cut from your photos and videos.</p>
+          <p class="hero-copy" data-i18n="hero_line_3">everyday moments can begin to reveal a flow, meaning, or emotion you did not notice at the time, simply through the way they are arranged and layered.</p>
+          <p class="hero-copy" data-i18n="hero_line_4">whether you are shaping daily memories, travel moments, or something promotional, there is no single way to use it. your moments can become your own story.</p>
         </section>
       </main>
 
       <footer>
-        <p>&copy; KMNGY Inc.</p>
+        <p data-i18n="footer_copy">&copy; KMNGY Inc.</p>
       </footer>
     </div>
   </body>

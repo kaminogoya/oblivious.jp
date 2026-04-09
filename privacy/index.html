@@ -2,63 +2,83 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Privacy Policy | oblivious film</title>
-    <meta name="description" content="Privacy Policy for oblivious film.">
+    <title>privacy | oblivious film</title>
+    <meta name="description" content="privacy policy for oblivious film.">
     <link href="https://oblivious.jp/privacy/" rel="canonical">
-    <meta content="width=device-width" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'fxp6kgk',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function() {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try { Typekit.load(config); } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script>
+      window.__I18N_MESSAGES__ = {
+        title: "プライバシーポリシー | oblivious film",
+        metaDescription: "oblivious film のプライバシーポリシー。",
+        nav_home: "home",
+        nav_support: "support",
+        nav_privacy: "privacy",
+        page_title: "privacy",
+        line_1: "oblivious film は、アプリ自体を通じて個人情報を収集しません。",
+        line_2: "写真ライブラリへのアクセスは、moment の選択と film の保存のために、ユーザーの許可を得たうえでのみ利用します。",
+        line_3: "サポートへのお問い合わせでは、メールアドレスやメッセージに含まれる情報を受け取る場合があります。これらは必要がある場合、返信のためにのみ利用します。",
+        line_4: "取得した情報を第三者へ提供することはありません。",
+        line_5: "このポリシーについてご質問がある場合はお問い合わせください。",
+        line_6: "施行日: 2026年4月6日",
+        footer_copy: "© KMNGY Inc."
+      };
+    </script>
+    <script defer src="/i18n.js"></script>
     <link href="/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1 class="visually-hidden">Privacy Policy | oblivious film</h1>
-        <a class="brand" href="/" aria-label="oblivious film home">
-          <span class="brand-mark">oblivious film</span>
-          <span class="brand-subtitle">Privacy Policy</span>
-        </a>
+      <header class="site-header">
+        <nav class="top-nav" aria-label="Primary">
+          <a href="/" data-i18n="nav_home">home</a>
+          <a href="/support/" data-i18n="nav_support">support</a>
+          <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
+        </nav>
       </header>
 
       <main>
-        <section aria-labelledby="summary-title">
-          <h2 id="summary-title">Summary</h2>
-          <p>oblivious film does not collect personal information through the app itself.</p>
-          <p>The app may request access to the photo library, with the user's permission, in order to create films from photos and videos.</p>
-        </section>
-
-        <section aria-labelledby="usage-title">
-          <h2 id="usage-title">Information We Handle</h2>
-          <p>The app does not require account registration, login, or personal information input.</p>
-          <p>Photo library access is used only to select source photos and videos and to save exported films.</p>
-        </section>
-
-        <section aria-labelledby="support-title">
-          <h2 id="support-title">Support Inquiries</h2>
-          <p>If you contact us for support, we may receive your email address and any other information included in your message. This information is used only to respond to your inquiry.</p>
-        </section>
-
-        <section aria-labelledby="sharing-title">
-          <h2 id="sharing-title">Third-Party Sharing</h2>
-          <p>We do not provide your information to third parties.</p>
-        </section>
-
-        <section aria-labelledby="contact-title">
-          <h2 id="contact-title">Contact</h2>
-          <address>
-            <p>For questions about this policy, please contact:</p>
-            <p><a href="mailto:info@kmngy.co.jp">&#105;nf&#111;&#64;kmngy&#46;&#99;o&#46;jp</a></p>
-          </address>
-        </section>
-
-        <section aria-labelledby="navigation-title">
-          <h2 id="navigation-title">Navigation</h2>
-          <p>Effective date: April 6, 2026</p>
-          <p><a href="/">Home</a></p>
-          <p><a href="/support/">Support</a></p>
+        <section class="hero" aria-labelledby="privacy-title">
+          <h1 class="page-title" id="privacy-title" data-i18n="page_title">privacy</h1>
+          <p class="hero-copy" data-i18n="line_1">oblivious film does not collect personal information through the app itself.</p>
+          <p class="hero-copy" data-i18n="line_2">photo library access is used only with your permission to select moments and save films.</p>
+          <p class="hero-copy" data-i18n="line_3">if you contact us for support, we may receive your email address and any other information included in your message. this information is used only to respond to your inquiry.</p>
+          <p class="hero-copy" data-i18n="line_4">we do not provide your information to third parties.</p>
+          <p class="hero-copy" data-i18n="line_5">for questions about this policy, please contact.</p>
+          <p class="hero-copy"><a href="mailto:info@kmngy.co.jp">&#105;nf&#111;&#64;kmngy&#46;&#99;o&#46;jp</a></p>
+          <p class="hero-copy" data-i18n="line_6">effective date: April 6, 2026</p>
         </section>
       </main>
 
       <footer>
-        <p>&copy; KMNGY Inc.</p>
+        <p data-i18n="footer_copy">&copy; KMNGY Inc.</p>
       </footer>
     </div>
   </body>
