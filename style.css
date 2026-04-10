@@ -35,6 +35,19 @@ body {
   z-index: 0;
 }
 
+.app-store-badge {
+  position: fixed;
+  right: 4rem;
+  bottom: 2rem;
+  z-index: 6;
+  width: clamp(140px, 16vw, 180px);
+}
+
+.app-store-badge img {
+  width: 100%;
+  height: auto;
+}
+
 a {
   color: inherit;
   text-decoration-color: rgba(23, 23, 23, 0.22);
@@ -162,5 +175,11 @@ footer {
 
   .hero {
     padding-top: 88px;
+  }
+
+  .app-store-badge {
+    right: 1.25rem;
+    bottom: 1.25rem;
+    width: min(42vw, 168px);
   }
 }

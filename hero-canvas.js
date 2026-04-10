@@ -133,16 +133,16 @@
       var particle = particles[i];
       var density = densityAt(particle.nx, particle.ny, time);
 
-      if (density < 0.012) continue;
+      if (density < 0.01) continue;
 
       var shimmer = Math.sin(time * 2.8 + particle.nx * 2.2 + particle.ny * 6.4) * 0.05;
-      var threshold = 0.14 + density * 1.12 + shimmer;
+      var threshold = 0.16 + density * 1.16 + shimmer;
       if (particle.seed > threshold) continue;
 
-      var alpha = Math.min(0.17, 0.01 + density * 0.135);
+      var alpha = Math.min(0.19, 0.012 + density * 0.145);
 
       context.beginPath();
-      context.fillStyle = "rgba(136, 128, 120, " + alpha.toFixed(4) + ")";
+      context.fillStyle = "rgba(134, 126, 118, " + alpha.toFixed(4) + ")";
       context.arc(particle.x + particle.jitterX, particle.y + particle.jitterY, particle.radius, 0, Math.PI * 2);
       context.fill();
     }

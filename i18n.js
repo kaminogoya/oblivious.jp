@@ -2,6 +2,15 @@
   var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
   var useJa = lang.indexOf("ja") === 0;
   var messages = window.__I18N_MESSAGES__;
+  var badge = document.querySelector("[data-app-store-badge]");
+
+  if (badge) {
+    badge.src = useJa ? badge.dataset.badgeJaSrc : badge.dataset.badgeDefaultSrc;
+    badge.alt = useJa ? badge.dataset.badgeJaAlt : badge.dataset.badgeDefaultAlt;
+    if (badge.parentElement) {
+      badge.parentElement.setAttribute("aria-label", badge.alt);
+    }
+  }
 
   if (!useJa || !messages) return;
 
