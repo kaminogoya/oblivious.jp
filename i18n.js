@@ -3,6 +3,14 @@
   var useJa = lang.indexOf("ja") === 0;
   var messages = window.__I18N_MESSAGES__;
   var badge = document.querySelector("[data-app-store-badge]");
+  var emailLinks = document.querySelectorAll(".email-link[data-email-user][data-email-domain]");
+
+  emailLinks.forEach(function (link) {
+    var address = link.dataset.emailUser + "@" + link.dataset.emailDomain;
+    link.href = "mailto:" + address;
+    link.textContent = address;
+    link.setAttribute("aria-label", address);
+  });
 
   if (badge) {
     badge.src = useJa ? badge.dataset.badgeJaSrc : badge.dataset.badgeDefaultSrc;
