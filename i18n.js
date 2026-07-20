@@ -1,10 +1,9 @@
 (function () {
-  var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
-  var useJa = lang.indexOf("ja") === 0;
-  var messages = window.__I18N_MESSAGES__;
-  var badge = document.querySelector("[data-app-store-badge]");
-  var emailLinks = document.querySelectorAll(".email-link[data-email-user][data-email-domain]");
+  var STORAGE_KEY = "oblivious-lang";
+  var translations = window.__I18N_MESSAGES__ || {};
+  var supported = ["en"].concat(Object.keys(translations));
 
+  var emailLinks = document.querySelectorAll(".email-link[data-email-user][data-email-domain]");
   emailLinks.forEach(function (link) {
     var address = link.dataset.emailUser + "@" + link.dataset.emailDomain;
     link.href = "mailto:" + address;
@@ -12,38 +11,83 @@
     link.setAttribute("aria-label", address);
   });
 
-  if (badge) {
-    badge.src = useJa ? badge.dataset.badgeJaSrc : badge.dataset.badgeDefaultSrc;
-    badge.alt = useJa ? badge.dataset.badgeJaAlt : badge.dataset.badgeDefaultAlt;
-    if (badge.parentElement) {
-      badge.parentElement.setAttribute("aria-label", badge.alt);
+  var badge = document.querySelector("[data-app-store-badge]");
+  var selects = document.querySelectorAll("[data-lang-select]");
+  var nodes = document.querySelectorAll("[data-i18n]");
+
+  var defaultTitle = document.title;
+  var descriptionMeta = document.querySelector('meta[name="description"]');
+  var defaultDescription = descriptionMeta ? descriptionMeta.getAttribute("content") : "";
+  var defaults = {};
+  nodes.forEach(function (node) {
+    defaults[node.dataset.i18n] = node.textContent;
+  });
+
+  function storedLang() {
+    try {
+      var value = localStorage.getItem(STORAGE_KEY);
+      return supported.indexOf(value) !== -1 ? value : null;
+    } catch (e) {
+      return null;
     }
   }
 
-  if (!useJa || !messages) return;
-
-  document.documentElement.lang = "ja";
-
-  if (messages.title) {
-    document.title = messages.title;
+  function detectLang() {
+    var candidates = navigator.languages || [navigator.language || navigator.userLanguage || ""];
+    for (var i = 0; i < candidates.length; i++) {
+      var code = (candidates[i] || "").toLowerCase();
+      for (var j = 0; j < supported.length; j++) {
+        if (code === supported[j] || code.indexOf(supported[j] + "-") === 0) {
+          return supported[j];
+        }
+      }
+    }
+    return "en";
   }
 
-  if (messages.metaDescription) {
-    var description = document.querySelector('meta[name="description"]');
-    var ogDescription = document.querySelector('meta[property="og:description"]');
-    var twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  function apply(lang) {
+    var messages = translations[lang] || {};
 
-    if (description) description.setAttribute("content", messages.metaDescription);
-    if (ogDescription) ogDescription.setAttribute("content", messages.metaDescription);
-    if (twitterDescription) twitterDescription.setAttribute("content", messages.metaDescription);
+    document.documentElement.lang = lang;
+    document.title = messages.title || defaultTitle;
+
+    var description = messages.metaDescription || defaultDescription;
+    if (description) {
+      [
+        document.querySelector('meta[name="description"]'),
+        document.querySelector('meta[property="og:description"]'),
+        document.querySelector('meta[name="twitter:description"]')
+      ].forEach(function (meta) {
+        if (meta) meta.setAttribute("content", description);
+      });
+    }
+
+    nodes.forEach(function (node) {
+      var text = messages[node.dataset.i18n];
+      node.textContent = text != null ? text : defaults[node.dataset.i18n];
+    });
+
+    if (badge) {
+      badge.src = badge.getAttribute("data-badge-" + lang + "-src") || badge.dataset.badgeDefaultSrc;
+      badge.alt = badge.getAttribute("data-badge-" + lang + "-alt") || badge.dataset.badgeDefaultAlt;
+      if (badge.parentElement) {
+        badge.parentElement.setAttribute("aria-label", badge.alt);
+      }
+    }
+
+    selects.forEach(function (select) {
+      select.value = lang;
+    });
   }
 
-  Object.keys(messages).forEach(function (key) {
-    if (key === "title" || key === "metaDescription") return;
-
-    var node = document.querySelector('[data-i18n="' + key + '"]');
-    if (!node) return;
-
-    node.textContent = messages[key];
+  selects.forEach(function (select) {
+    select.addEventListener("change", function () {
+      try {
+        localStorage.setItem(STORAGE_KEY, select.value);
+      } catch (e) {}
+      apply(select.value);
+    });
   });
+
+  apply(storedLang() || detectLang());
 })();

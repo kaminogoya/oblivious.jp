@@ -35,7 +35,8 @@
       })(document);
     </script>
     <script>
-      window.__I18N_MESSAGES__ = {
+      window.__I18N_MESSAGES__ = {};
+      window.__I18N_MESSAGES__.ja = {
         title: "サポート | oblivious film",
         metaDescription: "oblivious film のサポート情報。",
         nav_home: "home",
@@ -49,6 +50,7 @@
       };
     </script>
     <script defer src="/i18n.js"></script>
+    <script defer src="/nav.js"></script>
     <script defer src="/hero-canvas.js"></script>
     <link href="/style.css" rel="stylesheet">
   </head>
@@ -71,12 +73,22 @@
     </a>
     <div class="container">
       <header class="site-header">
-        <nav class="top-nav" aria-label="Primary">
-          <a href="/" data-i18n="nav_home">home</a>
-          <a href="/support/" data-i18n="nav_support">support</a>
-          <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
-          <a href="/terms/" data-i18n="nav_terms">terms</a>
-        </nav>
+        <a class="header-logo" href="/" aria-label="oblivious film">
+          <img src="/logo-oblivious.svg" alt="oblivious film">
+        </a>
+        <div class="header-nav-area">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <nav class="top-nav" id="site-nav" aria-label="Primary">
+            <a href="/" data-i18n="nav_home">home</a>
+            <a href="/support/" data-i18n="nav_support">support</a>
+            <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
+            <a href="/terms/" data-i18n="nav_terms">terms</a>
+          </nav>
+        </div>
       </header>
 
       <main>

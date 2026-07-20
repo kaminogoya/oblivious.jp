@@ -73,15 +73,28 @@ img {
   position: absolute;
   inset: 0 0 auto 0;
   z-index: 10;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px 1.5rem 0 4rem;
   pointer-events: none;
 }
 
-.site-header {
+.header-logo {
+  display: block;
+  pointer-events: auto;
+}
+
+.header-logo img {
+  width: 240px;
+  height: auto;
+}
+
+.header-nav-area {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-top: 24px;
-  padding-right: 1.5rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
 }
 
 .top-nav {
@@ -90,6 +103,52 @@ img {
   align-items: flex-end;
   gap: 8px;
   pointer-events: auto;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.nav-toggle-bar {
+  width: 18px;
+  height: 1px;
+  background: var(--text);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle.open .nav-toggle-bar:nth-child(1) {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.nav-toggle.open .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.open .nav-toggle-bar:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}
+
+.lang-select {
+  margin-top: 20px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .top-nav a,
@@ -105,13 +164,8 @@ img {
 .hero {
   position: relative;
   min-height: auto;
-  padding: 112px 0 0;
+  padding: 160px 0 0;
   overflow: clip;
-}
-
-.hero-logo {
-  width: min(36vw, 270px);
-  margin: 0;
 }
 
 .hero-copy {
@@ -193,16 +247,34 @@ footer {
   }
 
   .site-header {
-    padding-top: 18px;
-    padding-right: 0.5rem;
+    padding: 18px 0.5rem 0 1.25rem;
+  }
+
+  .header-logo img {
+    width: 160px;
+  }
+
+  .nav-toggle {
+    display: flex;
   }
 
   .top-nav {
+    display: none;
     gap: 6px;
   }
 
+  .top-nav.open {
+    display: flex;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: var(--surface);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+  }
+
   .hero {
-    padding-top: 88px;
+    padding-top: 120px;
   }
 
   .app-store-badge {
