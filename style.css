@@ -138,6 +138,34 @@ img {
   letter-spacing: -0.04em;
 }
 
+.section-title {
+  max-width: 48ch;
+  margin: 44px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.section-title + .hero-copy,
+.section-title + .policy-list {
+  margin-top: 14px;
+}
+
+.policy-list {
+  max-width: 48ch;
+  margin: 20px 0 0;
+  padding-left: 1.2em;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.policy-list li {
+  margin-top: 12px;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
 footer {
   width: 100%;
   margin: 24px 0 0;
