@@ -55,7 +55,7 @@
         pp_s_sound_b: "soundtrack をつくるときだけ、本アプリは、その film を作曲のために表す抽象的な記述をサーバーへ送ります。",
         pp_sent: "送るもの：数値や on/off の値（明るさ・動き・暖かみなど）と、固定の語彙から選ばれた短いムード語。これらは、作曲に必要な特徴だけを端末内で取り出して作られます。あわせて、月ごとの生成回数の管理と不正利用の防止のために、匿名の識別情報を送ります。この識別情報は、氏名やメールアドレスとは結びついていません。",
         pp_notsent: "送らないもの：あなたの写真・動画・タイトル・メモなどの内容、氏名・メールアドレスなどの身元情報、撮影日時や位置情報などの生データ。アカウント登録や、メールアドレス・パスワードを使ったログインはありません。",
-        pp_use: "使いみち：送った記述は、soundtrack を作る仕組み（当方のサーバーと、当方が利用するクラウド・生成音楽サービス）で、soundtrack の生成・提供と、サービスの安全な運用に必要な範囲で処理されます。この記述が、生成 AI モデルの学習や製品改善に使われることはありません。写真・動画・テキストがこれらのサーバーへ送られることはありません。",
+        pp_use: "使いみち：送った記述は、soundtrack を作る仕組み（当方のサーバーと、当方が利用するクラウド・生成音楽サービス）で、soundtrack の生成・提供と、サービスの安全な運用に必要な範囲で処理されます。この記述が、生成 AI モデルの学習に使われることはありません。音楽の品質を調整するために、記述から導かれた値（選ばれた曲調やテンポなど）を集計して用いることがあります。写真・動画・テキストがこれらのサーバーへ送られることはありません。",
         pp_s_logs_t: "ログについて",
         pp_s_logs_b: "soundtrack を生成するとき、残り回数を確認するとき、またはお問い合わせフォームから送信したとき、本アプリはサーバーへ通信します。その際、当方のサーバーおよび当方が利用するクラウド基盤には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、匿名の識別情報とアプリ・iOS のバージョンも含まれますが、入力された本文とメールアドレスは含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。",
         pp_s_support_t: "サポートへのお問い合わせ",
@@ -124,7 +124,7 @@
           <ul class="policy-list">
             <li data-i18n="pp_sent">What is sent: numbers and on/off values, such as brightness, motion, and warmth, plus a short list of mood words chosen from a fixed vocabulary. These are produced on your device using only the features needed to compose music. The app also sends anonymous identification data used to manage the monthly generation limit and prevent unauthorized use. This data is not linked to your name or email address.</li>
             <li data-i18n="pp_notsent">What is not sent: the contents of your photos, videos, titles, or notes; identity information such as your name or email address; or raw data such as capture dates or location. You do not need to create an account or sign in with an email address or password.</li>
-            <li data-i18n="pp_use">What it is used for: the description is processed within the system that creates the soundtrack—our servers and the cloud and generative-music services we use—only as necessary to generate and deliver the soundtrack and operate the service safely. It is not used to train generative AI models or improve products. Your photos, videos, and text are never sent to these servers.</li>
+            <li data-i18n="pp_use">What it is used for: the description is processed within the system that creates the soundtrack—our servers and the cloud and generative-music services we use—only as necessary to generate and deliver the soundtrack and operate the service safely. It is not used to train generative AI models. We do aggregate values derived from it—such as which musical style and tempo were chosen—to tune the quality of the music. Your photos, videos, and text are never sent to these servers.</li>
           </ul>
 
           <h2 class="section-title" data-i18n="pp_s_logs_t">Logs</h2>
