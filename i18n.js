@@ -14,6 +14,9 @@
   var badge = document.querySelector("[data-app-store-badge]");
   var selects = document.querySelectorAll("[data-lang-select]");
   var nodes = document.querySelectorAll("[data-i18n]");
+  // 本文に強調を含むノード。textContent では markup を運べないので innerHTML で差し替える。
+  // 値は自前の生成物（scripts/build-pages.mjs）か手書きのページ内マップで、外から来ることはない。
+  var htmlNodes = document.querySelectorAll("[data-i18n-html]");
 
   var defaultTitle = document.title;
   var descriptionMeta = document.querySelector('meta[name="description"]');
@@ -21,6 +24,10 @@
   var defaults = {};
   nodes.forEach(function (node) {
     defaults[node.dataset.i18n] = node.textContent;
+  });
+  var htmlDefaults = {};
+  htmlNodes.forEach(function (node) {
+    htmlDefaults[node.dataset.i18nHtml] = node.innerHTML;
   });
 
   function storedLang() {
@@ -65,6 +72,11 @@
     nodes.forEach(function (node) {
       var text = messages[node.dataset.i18n];
       node.textContent = text != null ? text : defaults[node.dataset.i18n];
+    });
+
+    htmlNodes.forEach(function (node) {
+      var html = messages[node.dataset.i18nHtml];
+      node.innerHTML = html != null ? html : htmlDefaults[node.dataset.i18nHtml];
     });
 
     if (badge) {
