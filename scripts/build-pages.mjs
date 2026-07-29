@@ -243,7 +243,10 @@ function renderNodes(nodes) {
 // ページ
 // -----------------------------------------------------------------------------
 
-/// ページ自身が持つ文言。トピック本文は help.json が正本だが、題・ナビ・出口はページの器に属する。
+/// ページ自身が持つ文言。**題とナビだけ**に留める。
+///
+/// 本文の外に文言を足すと、`help.json` に無いものを生成器が 2 言語ぶん抱えることになり、
+/// 1 ソースにした意味が薄れる。読者を support へ送る役目は nav が担う。
 const CHROME = [
   ["title", "help | oblivious film", "ヘルプ | oblivious film"],
   ["metaDescription", "help for oblivious film.", "oblivious film のヘルプ。"],
@@ -252,12 +255,7 @@ const CHROME = [
   ["nav_support", "support", "support"],
   ["nav_privacy", "privacy", "privacy"],
   ["nav_terms", "terms", "terms"],
-  ["page_title", "help", "help"],
-  // 最後のトピックが「解決しなければ問い合わせて」で終わる。その行き先がこれ。
-  // help は読み物、support は連絡手段、という役割分担（issue #3）に沿って support へ送る。
-  ["help_contact_pre", "for anything not answered here, see ", "ここで解決しないときは "],
-  ["help_contact_link", "support", "support"],
-  ["help_contact_post", ".", " をご覧ください。"]
+  ["page_title", "help", "help"]
 ];
 
 const TYPEKIT = `      (function(d) {
@@ -350,12 +348,6 @@ ${ja}
           </select>
 
 ${body}
-
-          <p class="hero-copy"><span data-i18n="help_contact_pre">${escapeHTML(
-            chromeEN.help_contact_pre
-          )}</span><a href="/support/" data-i18n="help_contact_link">${escapeHTML(
-    chromeEN.help_contact_link
-  )}</a><span data-i18n="help_contact_post">${escapeHTML(chromeEN.help_contact_post)}</span></p>
         </section>
       </main>
 
