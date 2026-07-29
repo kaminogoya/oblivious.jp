@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "id": "help",
+      "topics": [
+        {
+          "id": "film-and-moment",
+          "title": {
+            "en": "what are films and moments?",
+            "ja": "film と moment とは？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "a **film** is what you make in oblivious: an ordered run of **moments**, with an optional **soundtrack** over it."
+              },
+              {
+                "type": "paragraph",
+                "text": "a **moment** is one photo, or one short piece of video. every moment plays for the same length, so a film reads as a rhythm rather than a timeline."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "a film can hold up to 60 moments.",
+                  "moment length is 1 or 2 seconds, chosen per film under **moment duration**.",
+                  "order carries meaning. reordering the moments changes how the film reads."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "**film** は oblivious でつくるものです。順番を持った **moment** の連なりに、必要なら **soundtrack** が重なります。"
+              },
+              {
+                "type": "paragraph",
+                "text": "**moment** は写真 1 枚、または短い動画 1 本です。どの moment も同じ長さで流れるので、film はタイムラインというより、ひとつのリズムとして読めます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "1 つの film に入れられる moment は 60 件までです。",
+                  "moment の長さは film ごとに 1 秒か 2 秒。**moment の長さ** で切り替えます。",
+                  "並び順には意味があります。並べ替えると、film の読み味が変わります。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "adding-moments",
+          "title": {
+            "en": "how do i add moments?",
+            "ja": "moment を追加するには？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "open the film and tap **＋**. photos and videos come in the order you picked them, and that becomes the order of the moments."
+              },
+              {
+                "type": "paragraph",
+                "text": "if only some of your library shows up, oblivious has access to a selected set of photos. tap **select more photos** to widen that set, or **change settings** to allow all photos."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "a video shorter than the moment duration becomes a single still frame.",
+                  "a moment refers back to the item in your photo library. delete the original there and the moment has nothing left to show."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "film を開いて **＋** を押します。写真と動画は選んだ順に入り、その順がそのまま moment の並び順になります。"
+              },
+              {
+                "type": "paragraph",
+                "text": "一部の写真しか出てこないときは、oblivious に「選択した写真」だけへのアクセスが許可されています。**他の写真を選択** で対象を増やすか、**設定を変更** ですべての写真へのアクセスに切り替えられます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "moment の長さより短い動画は、静止した 1 コマとして扱われます。",
+                  "moment は写真ライブラリの元のファイルを参照しています。元を削除すると、moment は映すものを失います。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "saving-and-sharing",
+          "title": {
+            "en": "how do i save or share a film?",
+            "ja": "film を保存・共有するには？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "when the film plays the way you want, **Save Video** writes it to your photo library, and the share button hands the same video to another app."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "the video is written at the film's orientation, with the soundtrack mixed in.",
+                  "saving changes nothing about the film. you can keep editing and save again."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "思ったとおりに流れるようになったら、**ビデオを保存** で写真ライブラリに書き出せます。共有ボタンからは、同じ動画を他のアプリへ渡せます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "書き出す動画は film の向きに合わせ、soundtrack も一緒に入ります。",
+                  "保存しても film はそのままです。編集を続けて、また保存できます。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "soundtrack-generation",
+          "title": {
+            "en": "how does creating a soundtrack work?",
+            "ja": "soundtrack の作成はどう動きますか？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "in **choose soundtrack** you can take one of the tracks that ship with oblivious, use audio from your device, or pick **generate soundtrack**, where oblivious reads the film and writes a track for it."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "each film can generate its own track **once**.",
+                  "you can create **3 soundtracks a month** in total, counted across every film. settings shows how many are left and when the count resets.",
+                  "a track created in one film can be chosen from another film. reusing one costs nothing.",
+                  "creating needs a network connection. it keeps running if you leave the app, and you can stop it while it runs."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "**soundtrack を選択** から、oblivious に入っている曲を選ぶ・端末の音源を使う・**soundtrack を作成** を選ぶ、のいずれかができます。作成では、oblivious が film を読んで、その film のための曲を書きます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "1 つの film で作成できるのは **1 回**です。",
+                  "作成できるのは **月に 3 曲**まで（film をまたいだ合計）。残りとリセット日は 設定 で確認できます。",
+                  "ある film で作った曲は、別の film からも選べます。使い回しは月の数を消費しません。",
+                  "作成には通信が必要です。アプリを離れても続き、途中でやめることもできます。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "icloud-sync",
+          "title": {
+            "en": "what does iCloud sync cover?",
+            "ja": "iCloud 同期では何が同期されますか？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "**iCloud sync** stays off until you turn it on in settings, under **sync across devices**. with it on, your films travel between devices signed in to the same Apple Account."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "carried across: films — their moments, order, trims, name and orientation — and the soundtrack attached to each one.",
+                  "not carried across: the photos and videos themselves. a moment points at your photo library, so the other device needs **iCloud Photos** on to show the same picture.",
+                  "a video you saved lives in your photo library like any other video, and travels the same way."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "**iCloud 同期** は、設定 の **端末間の同期** でオンにするまで動きません。オンにすると、同じ Apple アカウントの端末のあいだで film を持ち運べます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "運ばれるもの: film（moment・並び順・トリミング・名前・向き）と、それぞれに付いた soundtrack。",
+                  "運ばれないもの: 写真や動画そのもの。moment は写真ライブラリを指しているだけなので、別の端末で同じ絵を出すには **iCloud 写真** がオンである必要があります。",
+                  "保存した動画は写真ライブラリの動画として、ほかの動画と同じように運ばれます。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "dim-flashing-lights",
+          "platforms": ["ios"],
+          "title": {
+            "en": "why does the screen dim on bright scenes?",
+            "ja": "再生すると画面が一瞬暗くなるのはなぜ？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "this isn't coming from oblivious. it's a setting on your iPhone called **Dim Flashing Lights**, which dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes."
+              },
+              {
+                "type": "paragraph",
+                "text": "because a film cuts between scenes, it tends to kick in the instant a dark scene turns bright, or on bright footage that shimmers, like moving water. it acts on the display rather than on the video, so the same thing happens in other apps, including Photos."
+              },
+              {
+                "type": "paragraph",
+                "text": "to turn it off: **Settings → Accessibility → Display & Text Size → Dim Flashing Lights**."
+              },
+              {
+                "type": "paragraph",
+                "text": "it's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call. the exact wording can vary by iOS version."
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "これは oblivious の側で起きていることではありません。iPhone の設定「**刺激的な光の点滅を検知時に暗くする**」が働いています。画面の明るさが急に大きく変わったとき、目への刺激をやわらげるために画面を一時的に暗くする機能です。"
+              },
+              {
+                "type": "paragraph",
+                "text": "film は場面がぱっと切り替わるので、暗い場面から明るい場面に変わる瞬間や、水面のようにちらちら光る映像で働きやすくなります。動画そのものではなく表示側の機能なので、写真アプリなど他のアプリでも同じように起こります。"
+              },
+              {
+                "type": "paragraph",
+                "text": "オフにするには: **設定 → アクセシビリティ → 画面表示とテキストサイズ → 刺激的な光の点滅を検知時に暗くする**"
+              },
+              {
+                "type": "paragraph",
+                "text": "光の点滅に敏感な方のための保護機能です。オフにするかはご自身の判断でお願いします。メニュー名は iOS のバージョンによって少し違うことがあります。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "troubleshooting",
+          "title": {
+            "en": "something isn't working — what can i check?",
+            "ja": "うまくいかないときは？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "bullets",
+                "items": [
+                  "**a moment won't show its picture**: the original may have been deleted, or it may not have come down from iCloud Photos yet. open Photos and check it's there.",
+                  "**moments won't add**: check the film hasn't reached 60 moments, and that oblivious can see the items you're picking.",
+                  "**a soundtrack won't generate**: creating needs a network connection. if this month's 3 are used up, settings shows when the count resets.",
+                  "**films aren't reaching another device**: check sync across devices is on for both, signed in to the same Apple Account, and give the other device a moment to catch up."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "still stuck? tell us below. the form asks for your email only if you want a reply."
+              }
+            ],
+            "ja": [
+              {
+                "type": "bullets",
+                "items": [
+                  "**moment の絵が出ない**: 元の写真・動画が削除されているか、iCloud 写真からまだ降りてきていない可能性があります。写真アプリで元があるか確認してください。",
+                  "**moment を追加できない**: film の moment が 60 件に達していないか、選ぼうとしている写真に oblivious がアクセスできているかを確認してください。",
+                  "**soundtrack を作成できない**: 作成には通信が必要です。今月の 3 曲を使い切っている場合は、設定 にリセット日が出ています。",
+                  "**別の端末に film が出てこない**: 両方の端末で 端末間の同期 がオンか、同じ Apple アカウントかを確認し、少し待ってみてください。"
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "それでも解決しないときは、下のお問い合わせからお知らせください。返信を希望する場合以外、メールアドレスの入力は要りません。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
