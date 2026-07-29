@@ -70,7 +70,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, it connects to a server. The help text lives on our website (oblivious.jp) and the app loads it to display; that request sends no anonymous identification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. A record of a contact form submission also includes the anonymous identification data and the app and iOS versions, but not the message you wrote or the address you entered. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
+        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, privacy policy, or terms of use, it connects to a server. The help text, this policy, and the terms live on our website (oblivious.jp) and the app loads them to display; those requests send no anonymous identification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. A record of a contact form submission also includes the anonymous identification data and the app and iOS versions, but not the message you wrote or the address you entered. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
       },
       {
         "type": "heading",
@@ -173,7 +173,7 @@
       },
       {
         "type": "paragraph",
-        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内のヘルプを開いたときに、本アプリはサーバーへ通信します。ヘルプの本文は当サイト（oblivious.jp）に置いており、アプリはそれを読み込んで表示します。この読み込みでは、匿名の識別情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、匿名の識別情報とアプリ・iOS のバージョンも含まれますが、入力された本文とメールアドレスは含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
+        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内でヘルプ・本ポリシー・利用規約を開いたときに、本アプリはサーバーへ通信します。ヘルプの本文、本ポリシー、利用規約は当サイト（oblivious.jp）に置いており、アプリはそれらを読み込んで表示します。これらの読み込みでは、匿名の識別情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、匿名の識別情報とアプリ・iOS のバージョンも含まれますが、入力された本文とメールアドレスは含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
       },
       {
         "type": "heading",
