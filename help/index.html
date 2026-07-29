@@ -1,0 +1,182 @@
+<!doctype html>
+<!-- 生成物。手で編集しない。正本は /help/help.json で、`node scripts/build-pages.mjs` が作る。 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>help | oblivious film</title>
+    <meta name="description" content="help for oblivious film.">
+    <link href="https://oblivious.jp/help/" rel="canonical">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'fxp6kgk',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function() {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try { Typekit.load(config); } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script>
+      window.__I18N_MESSAGES__ = {};
+      window.__I18N_MESSAGES__.ja = {
+        title: "ヘルプ | oblivious film",
+        metaDescription: "oblivious film のヘルプ。",
+        nav_home: "home",
+        nav_help: "help",
+        nav_support: "support",
+        nav_privacy: "privacy",
+        nav_terms: "terms",
+        page_title: "help",
+        help_film_and_moment_t: "film と moment とは？",
+        help_film_and_moment_b0: "\u003Cstrong>film\u003C/strong> は oblivious でつくるものです。順番を持った \u003Cstrong>moment\u003C/strong> の連なりに、必要なら \u003Cstrong>soundtrack\u003C/strong> が重なります。",
+        help_film_and_moment_b1: "\u003Cstrong>moment\u003C/strong> は写真 1 枚、または短い動画 1 本です。どの moment も同じ長さで流れるので、film はタイムラインというより、ひとつのリズムとして読めます。",
+        help_film_and_moment_b2_0: "1 つの film に入れられる moment は 60 件までです。",
+        help_film_and_moment_b2_1: "moment の長さは film ごとに 1 秒か 2 秒。\u003Cstrong>moment の長さ\u003C/strong> で切り替えます。",
+        help_film_and_moment_b2_2: "並び順には意味があります。並べ替えると、film の読み味が変わります。",
+        help_adding_moments_t: "moment を追加するには？",
+        help_adding_moments_b0: "film を開いて \u003Cstrong>＋\u003C/strong> を押します。写真と動画は選んだ順に入り、その順がそのまま moment の並び順になります。",
+        help_adding_moments_b1: "一部の写真しか出てこないときは、oblivious に「選択した写真」だけへのアクセスが許可されています。\u003Cstrong>他の写真を選択\u003C/strong> で対象を増やすか、\u003Cstrong>設定を変更\u003C/strong> ですべての写真へのアクセスに切り替えられます。",
+        help_adding_moments_b2_0: "moment の長さより短い動画は、静止した 1 コマとして扱われます。",
+        help_adding_moments_b2_1: "moment は写真ライブラリの元のファイルを参照しています。元を削除すると、moment は映すものを失います。",
+        help_saving_and_sharing_t: "film を保存・共有するには？",
+        help_saving_and_sharing_b0: "思ったとおりに流れるようになったら、\u003Cstrong>ビデオを保存\u003C/strong> で写真ライブラリに書き出せます。共有ボタンからは、同じ動画を他のアプリへ渡せます。",
+        help_saving_and_sharing_b1_0: "書き出す動画は film の向きに合わせ、soundtrack も一緒に入ります。",
+        help_saving_and_sharing_b1_1: "保存しても film はそのままです。編集を続けて、また保存できます。",
+        help_soundtrack_generation_t: "soundtrack の作成はどう動きますか？",
+        help_soundtrack_generation_b0: "\u003Cstrong>soundtrack を選択\u003C/strong> から、oblivious に入っている曲を選ぶ・端末の音源を使う・\u003Cstrong>soundtrack を作成\u003C/strong> を選ぶ、のいずれかができます。作成では、oblivious が film を読んで、その film のための曲を書きます。",
+        help_soundtrack_generation_b1_0: "1 つの film で作成できるのは \u003Cstrong>1 回\u003C/strong>です。",
+        help_soundtrack_generation_b1_1: "作成できるのは \u003Cstrong>月に 3 曲\u003C/strong>まで（film をまたいだ合計）。残りとリセット日は 設定 で確認できます。",
+        help_soundtrack_generation_b1_2: "ある film で作った曲は、別の film からも選べます。使い回しは月の数を消費しません。",
+        help_soundtrack_generation_b1_3: "作成には通信が必要です。アプリを離れても続き、途中でやめることもできます。",
+        help_icloud_sync_t: "iCloud 同期では何が同期されますか？",
+        help_icloud_sync_b0: "\u003Cstrong>iCloud 同期\u003C/strong> は、設定 の \u003Cstrong>端末間の同期\u003C/strong> でオンにするまで動きません。オンにすると、同じ Apple アカウントの端末のあいだで film を持ち運べます。",
+        help_icloud_sync_b1_0: "運ばれるもの: film（moment・並び順・トリミング・名前・向き）と、それぞれに付いた soundtrack。",
+        help_icloud_sync_b1_1: "運ばれないもの: 写真や動画そのもの。moment は写真ライブラリを指しているだけなので、別の端末で同じ絵を出すには \u003Cstrong>iCloud 写真\u003C/strong> がオンである必要があります。",
+        help_icloud_sync_b1_2: "保存した動画は写真ライブラリの動画として、ほかの動画と同じように運ばれます。",
+        help_dim_flashing_lights_t: "再生すると画面が一瞬暗くなるのはなぜ？",
+        help_dim_flashing_lights_b0: "これは oblivious の側で起きていることではありません。iPhone の設定「\u003Cstrong>刺激的な光の点滅を検知時に暗くする\u003C/strong>」が働いています。画面の明るさが急に大きく変わったとき、目への刺激をやわらげるために画面を一時的に暗くする機能です。",
+        help_dim_flashing_lights_b1: "film は場面がぱっと切り替わるので、暗い場面から明るい場面に変わる瞬間や、水面のようにちらちら光る映像で働きやすくなります。動画そのものではなく表示側の機能なので、写真アプリなど他のアプリでも同じように起こります。",
+        help_dim_flashing_lights_b2: "オフにするには: \u003Cstrong>設定 → アクセシビリティ → 画面表示とテキストサイズ → 刺激的な光の点滅を検知時に暗くする\u003C/strong>",
+        help_dim_flashing_lights_b3: "光の点滅に敏感な方のための保護機能です。オフにするかはご自身の判断でお願いします。メニュー名は iOS のバージョンによって少し違うことがあります。",
+        help_troubleshooting_t: "うまくいかないときは？",
+        help_troubleshooting_b0_0: "\u003Cstrong>moment の絵が出ない\u003C/strong>: 元の写真・動画が削除されているか、iCloud 写真からまだ降りてきていない可能性があります。写真アプリで元があるか確認してください。",
+        help_troubleshooting_b0_1: "\u003Cstrong>moment を追加できない\u003C/strong>: film の moment が 60 件に達していないか、選ぼうとしている写真に oblivious がアクセスできているかを確認してください。",
+        help_troubleshooting_b0_2: "\u003Cstrong>soundtrack を作成できない\u003C/strong>: 作成には通信が必要です。今月の 3 曲を使い切っている場合は、設定 にリセット日が出ています。",
+        help_troubleshooting_b0_3: "\u003Cstrong>別の端末に film が出てこない\u003C/strong>: 両方の端末で 端末間の同期 がオンか、同じ Apple アカウントかを確認し、少し待ってみてください。",
+        help_troubleshooting_b1: "問題が解決しない場合は、お問い合わせください。",
+        footer_copy: "© KMNGY Inc."
+      };
+    </script>
+    <script defer src="/i18n.js"></script>
+    <script defer src="/nav.js"></script>
+    <script defer src="/hero-canvas.js"></script>
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <canvas class="page-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <header class="site-header">
+        <a class="header-logo" href="/" aria-label="oblivious film">
+          <img src="/logo-oblivious.svg" alt="oblivious film">
+        </a>
+        <div class="header-nav-area">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <nav class="top-nav" id="site-nav" aria-label="Primary">
+            <a href="/" data-i18n="nav_home">home</a>
+            <a href="/help/" data-i18n="nav_help">help</a>
+            <a href="/support/" data-i18n="nav_support">support</a>
+            <a href="/privacy/" data-i18n="nav_privacy">privacy</a>
+            <a href="/terms/" data-i18n="nav_terms">terms</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="help-title">
+          <h1 class="page-title" id="help-title" data-i18n="page_title">help</h1>
+          <select class="lang-select" data-lang-select aria-label="language">
+            <option value="en">english</option>
+            <option value="ja">日本語</option>
+          </select>
+
+          <h2 class="section-title" id="film-and-moment" data-i18n="help_film_and_moment_t">what are films and moments?</h2>
+          <p class="hero-copy" data-i18n-html="help_film_and_moment_b0">a <strong>film</strong> is what you make in oblivious: an ordered run of <strong>moments</strong>, with an optional <strong>soundtrack</strong> over it.</p>
+          <p class="hero-copy" data-i18n-html="help_film_and_moment_b1">a <strong>moment</strong> is one photo, or one short piece of video. every moment plays for the same length, so a film reads as a rhythm rather than a timeline.</p>
+          <ul class="policy-list">
+            <li data-i18n="help_film_and_moment_b2_0">a film can hold up to 60 moments.</li>
+            <li data-i18n-html="help_film_and_moment_b2_1">moment length is 1 or 2 seconds, chosen per film under <strong>moment duration</strong>.</li>
+            <li data-i18n="help_film_and_moment_b2_2">order carries meaning. reordering the moments changes how the film reads.</li>
+          </ul>
+          <h2 class="section-title" id="adding-moments" data-i18n="help_adding_moments_t">how do i add moments?</h2>
+          <p class="hero-copy" data-i18n-html="help_adding_moments_b0">open the film and tap <strong>＋</strong>. photos and videos come in the order you picked them, and that becomes the order of the moments.</p>
+          <p class="hero-copy" data-i18n-html="help_adding_moments_b1">if only some of your library shows up, oblivious has access to a selected set of photos. tap <strong>select more photos</strong> to widen that set, or <strong>change settings</strong> to allow all photos.</p>
+          <ul class="policy-list">
+            <li data-i18n="help_adding_moments_b2_0">a video shorter than the moment duration becomes a single still frame.</li>
+            <li data-i18n="help_adding_moments_b2_1">a moment refers back to the item in your photo library. delete the original there and the moment has nothing left to show.</li>
+          </ul>
+          <h2 class="section-title" id="saving-and-sharing" data-i18n="help_saving_and_sharing_t">how do i save or share a film?</h2>
+          <p class="hero-copy" data-i18n-html="help_saving_and_sharing_b0">when the film plays the way you want, <strong>Save Video</strong> writes it to your photo library, and the share button hands the same video to another app.</p>
+          <ul class="policy-list">
+            <li data-i18n="help_saving_and_sharing_b1_0">the video is written at the film's orientation, with the soundtrack mixed in.</li>
+            <li data-i18n="help_saving_and_sharing_b1_1">saving changes nothing about the film. you can keep editing and save again.</li>
+          </ul>
+          <h2 class="section-title" id="soundtrack-generation" data-i18n="help_soundtrack_generation_t">how does creating a soundtrack work?</h2>
+          <p class="hero-copy" data-i18n-html="help_soundtrack_generation_b0">in <strong>choose soundtrack</strong> you can take one of the tracks that ship with oblivious, use audio from your device, or pick <strong>generate soundtrack</strong>, where oblivious reads the film and writes a track for it.</p>
+          <ul class="policy-list">
+            <li data-i18n-html="help_soundtrack_generation_b1_0">each film can generate its own track <strong>once</strong>.</li>
+            <li data-i18n-html="help_soundtrack_generation_b1_1">you can create <strong>3 soundtracks a month</strong> in total, counted across every film. settings shows how many are left and when the count resets.</li>
+            <li data-i18n="help_soundtrack_generation_b1_2">a track created in one film can be chosen from another film. reusing one costs nothing.</li>
+            <li data-i18n="help_soundtrack_generation_b1_3">creating needs a network connection. it keeps running if you leave the app, and you can stop it while it runs.</li>
+          </ul>
+          <h2 class="section-title" id="icloud-sync" data-i18n="help_icloud_sync_t">what does iCloud sync cover?</h2>
+          <p class="hero-copy" data-i18n-html="help_icloud_sync_b0"><strong>iCloud sync</strong> stays off until you turn it on in settings, under <strong>sync across devices</strong>. with it on, your films travel between devices signed in to the same Apple Account.</p>
+          <ul class="policy-list">
+            <li data-i18n="help_icloud_sync_b1_0">carried across: films — their moments, order, trims, name and orientation — and the soundtrack attached to each one.</li>
+            <li data-i18n-html="help_icloud_sync_b1_1">not carried across: the photos and videos themselves. a moment points at your photo library, so the other device needs <strong>iCloud Photos</strong> on to show the same picture.</li>
+            <li data-i18n="help_icloud_sync_b1_2">a video you saved lives in your photo library like any other video, and travels the same way.</li>
+          </ul>
+          <h2 class="section-title" id="dim-flashing-lights" data-i18n="help_dim_flashing_lights_t">why does the screen dim on bright scenes?</h2>
+          <p class="hero-copy" data-i18n-html="help_dim_flashing_lights_b0">this isn't coming from oblivious. it's a setting on your iPhone called <strong>Dim Flashing Lights</strong>, which dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes.</p>
+          <p class="hero-copy" data-i18n="help_dim_flashing_lights_b1">because a film cuts between scenes, it tends to kick in the instant a dark scene turns bright, or on bright footage that shimmers, like moving water. it acts on the display rather than on the video, so the same thing happens in other apps, including Photos.</p>
+          <p class="hero-copy" data-i18n-html="help_dim_flashing_lights_b2">to turn it off: <strong>Settings → Accessibility → Display &amp; Text Size → Dim Flashing Lights</strong>.</p>
+          <p class="hero-copy" data-i18n="help_dim_flashing_lights_b3">it's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call. the exact wording can vary by iOS version.</p>
+          <h2 class="section-title" id="troubleshooting" data-i18n="help_troubleshooting_t">something isn't working — what can i check?</h2>
+          <ul class="policy-list">
+            <li data-i18n-html="help_troubleshooting_b0_0"><strong>a moment won't show its picture</strong>: the original may have been deleted, or it may not have come down from iCloud Photos yet. open Photos and check it's there.</li>
+            <li data-i18n-html="help_troubleshooting_b0_1"><strong>moments won't add</strong>: check the film hasn't reached 60 moments, and that oblivious can see the items you're picking.</li>
+            <li data-i18n-html="help_troubleshooting_b0_2"><strong>a soundtrack won't generate</strong>: creating needs a network connection. if this month's 3 are used up, settings shows when the count resets.</li>
+            <li data-i18n-html="help_troubleshooting_b0_3"><strong>films aren't reaching another device</strong>: check sync across devices is on for both, signed in to the same Apple Account, and give the other device a moment to catch up.</li>
+          </ul>
+          <p class="hero-copy" data-i18n="help_troubleshooting_b1">if the problem persists, get in touch.</p>
+        </section>
+      </main>
+
+      <footer>
+        <p data-i18n="footer_copy">&copy; KMNGY Inc.</p>
+      </footer>
+    </div>
+  </body>
+</html>

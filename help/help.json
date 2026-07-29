@@ -268,7 +268,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "still stuck? tell us below. the form asks for your email only if you want a reply."
+                "text": "if the problem persists, get in touch."
               }
             ],
             "ja": [
@@ -283,7 +283,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "それでも解決しないときは、下のお問い合わせからお知らせください。返信を希望する場合以外、メールアドレスの入力は要りません。"
+                "text": "問題が解決しない場合は、お問い合わせください。"
               }
             ]
           }
