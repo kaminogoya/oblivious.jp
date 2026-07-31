@@ -96,14 +96,14 @@
           "id": "editing-moments",
           "platforms": ["ios"],
           "title": {
-            "en": "what can i do in edit moment?",
+            "en": "what can i do when editing a moment?",
             "ja": "moment の編集では何ができますか？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "tap a moment to open **edit moment**. changes stay staged until you tap **Done**, and closing instead lets you throw them away."
+                "text": "tap a moment to open it for editing. changes stay staged until you tap **Done**, and closing instead lets you throw them away."
               },
               {
                 "type": "bullets",
@@ -119,7 +119,7 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "moment をタップすると **moment を編集** が開きます。変更は **完了** を押すまで仮のままで、代わりに閉じれば破棄できます。"
+                "text": "moment をタップすると編集が開きます。変更は **完了** を押すまで仮のままで、代わりに閉じれば破棄できます。"
               },
               {
                 "type": "bullets",
