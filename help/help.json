@@ -93,6 +93,48 @@
           }
         },
         {
+          "id": "editing-moments",
+          "platforms": ["ios"],
+          "title": {
+            "en": "what can i do in edit moment?",
+            "ja": "moment の編集では何ができますか？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "tap a moment to open **edit moment**. changes stay staged until you tap **Done**, and closing instead lets you throw them away."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "pinch and drag to choose how the picture sits in the frame. **fill** fills the frame in one tap, and **reset** returns to unfilled.",
+                  "for a video, the filmstrip picks which part plays.",
+                  "burn in a short line of **text**, and stamp the **capture date and time**.",
+                  "choose whether a video keeps its **own sound**.",
+                  "**previous moment ghost** shows the moment before, faintly, for lining the two up."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "moment をタップすると **moment を編集** が開きます。変更は **完了** を押すまで仮のままで、代わりに閉じれば破棄できます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "ピンチとドラッグで、フレームへの収まりを調整できます。**fill** でワンタップでフレームいっぱいに、**リセット** で元に戻せます。",
+                  "動画は、フィルムストリップで再生する部分を選べます。",
+                  "短い **テキスト** や、**撮影日・時刻** のスタンプを焼き込めます。",
+                  "動画の **元の音声** を入れるかどうかを選べます。",
+                  "**前 moment の残像** をうっすら重ねて、前の moment とのつながりを合わせられます。"
+                ]
+              }
+            ]
+          }
+        },
+        {
           "id": "saving-and-sharing",
           "title": {
             "en": "how do i save or share a film?",
