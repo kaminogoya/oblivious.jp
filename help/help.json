@@ -7,25 +7,25 @@
         {
           "id": "film-and-moment",
           "title": {
-            "en": "what are films and moments?",
+            "en": "What are films and moments?",
             "ja": "film と moment とは？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "a **film** is what you make in oblivious: an ordered run of **moments**, with an optional **soundtrack** over it."
+                "text": "A **film** is what you make in oblivious: an ordered run of **moments**, with an optional **soundtrack** over it."
               },
               {
                 "type": "paragraph",
-                "text": "a **moment** is one photo, or one short piece of video. every moment plays for the same length, so a film reads as a rhythm rather than a timeline."
+                "text": "A **moment** is one photo, or one short piece of video. Every moment plays for the same length, so a film reads as a rhythm rather than a timeline."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "a film can hold up to 60 moments.",
+                  "A film can hold up to 60 moments.",
                   "moment length is 1 or 2 seconds, chosen per film under **moment duration**.",
-                  "order carries meaning. reordering the moments changes how the film reads."
+                  "Order carries meaning. Reordering the moments changes how the film reads."
                 ]
               }
             ],
@@ -52,24 +52,24 @@
         {
           "id": "adding-moments",
           "title": {
-            "en": "how do i add moments?",
+            "en": "How do I add moments?",
             "ja": "moment を追加するには？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "open the film and tap **＋**. photos and videos come in the order you picked them, and that becomes the order of the moments."
+                "text": "Open the film and tap **＋**. Photos and videos come in the order you picked them, and that becomes the order of the moments."
               },
               {
                 "type": "paragraph",
-                "text": "if only some of your library shows up, oblivious has access to a selected set of photos. tap **select more photos** to widen that set, or **change settings** to allow all photos."
+                "text": "If only some of your library shows up, oblivious has access to a selected set of photos. Tap **Select more photos** to widen that set, or **Change settings** to allow all photos."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "a video shorter than the moment duration becomes a single still frame.",
-                  "a moment refers back to the item in your photo library. delete the original there and the moment has nothing left to show."
+                  "A video shorter than the moment duration becomes a single still frame.",
+                  "A moment refers back to the item in your photo library. Delete the original there and the moment has nothing left to show."
                 ]
               }
             ],
@@ -96,23 +96,23 @@
           "id": "editing-moments",
           "platforms": ["ios"],
           "title": {
-            "en": "what can i do when editing a moment?",
+            "en": "What can I do when editing a moment?",
             "ja": "moment の編集では何ができますか？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "tap a moment to open it for editing. changes stay staged until you tap **Done**, and closing instead lets you throw them away."
+                "text": "Tap a moment to open it for editing. Changes stay staged until you tap **Done**, and closing instead lets you throw them away."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "pinch and drag to choose how the picture sits in the frame. **fill** fills the frame in one tap, and **reset** returns to unfilled.",
-                  "for a video, the filmstrip picks which part plays.",
-                  "burn in a short line of **text**, and stamp the **capture date and time**.",
-                  "choose whether a video keeps its **own sound**.",
-                  "**previous moment ghost** shows the moment before, faintly, for lining the two up."
+                  "Pinch and drag to choose how the picture sits in the frame. **Fill** fills the frame in one tap, and **Reset** returns to unfilled.",
+                  "For a video, the filmstrip picks which part plays.",
+                  "Burn in a short line of **text**, and stamp the **capture date and time**.",
+                  "Choose whether a video keeps its **own sound**.",
+                  "**Previous moment ghost** shows the moment before, faintly, for lining the two up."
                 ]
               }
             ],
@@ -137,20 +137,20 @@
         {
           "id": "saving-and-sharing",
           "title": {
-            "en": "how do i save or share a film?",
+            "en": "How do I save or share a film?",
             "ja": "film を保存・共有するには？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "when the film plays the way you want, **Save Video** writes it to your photo library, and the share button hands the same video to another app."
+                "text": "When the film plays the way you want, **Save Video** writes it to your photo library, and the share button hands the same video to another app."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "the video is written at the film's orientation, with the soundtrack mixed in.",
-                  "saving changes nothing about the film. you can keep editing and save again."
+                  "The video is written at the film's orientation, with the soundtrack mixed in.",
+                  "Saving changes nothing about the film. You can keep editing and save again."
                 ]
               }
             ],
@@ -172,22 +172,22 @@
         {
           "id": "soundtrack-generation",
           "title": {
-            "en": "how does creating a soundtrack work?",
+            "en": "How does creating a soundtrack work?",
             "ja": "soundtrack の作成はどう動きますか？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "in **choose soundtrack** you can take one of the tracks that ship with oblivious, use audio from your device, or pick **generate soundtrack**, where oblivious reads the film and writes a track for it."
+                "text": "In **Choose soundtrack** you can take one of the tracks that ship with oblivious, use audio from your device, or pick **Generate soundtrack**, where oblivious reads the film and writes a track for it."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "each film can generate its own track **once**.",
-                  "you can create **3 soundtracks a month** in total, counted across every film. settings shows how many are left and when the count resets.",
-                  "a track created in one film can be chosen from another film. reusing one costs nothing.",
-                  "creating needs a network connection. it keeps running if you leave the app, and you can stop it while it runs."
+                  "Each film can generate its own track **once**.",
+                  "You can create **3 soundtracks a month** in total, counted across every film. Settings shows how many are left and when the count resets.",
+                  "A track created in one film can be chosen from another film. Reusing one costs nothing.",
+                  "Creating needs a network connection. It keeps running if you leave the app, and you can stop it while it runs."
                 ]
               }
             ],
@@ -211,21 +211,21 @@
         {
           "id": "icloud-sync",
           "title": {
-            "en": "what does iCloud sync cover?",
+            "en": "What does iCloud sync cover?",
             "ja": "iCloud 同期では何が同期されますか？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "**iCloud sync** stays off until you turn it on in settings, under **sync across devices**. with it on, your films travel between devices signed in to the same Apple Account."
+                "text": "**iCloud sync** stays off until you turn it on in Settings, under **Sync across devices**. With it on, your films travel between devices signed in to the same Apple Account."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "carried across: films — their moments, order, trims, name and orientation — and the soundtrack attached to each one.",
-                  "not carried across: the photos and videos themselves. a moment points at your photo library, so the other device needs **iCloud Photos** on to show the same picture.",
-                  "a video you saved lives in your photo library like any other video, and travels the same way."
+                  "Carried across: films — their moments, order, trims, name and orientation — and the soundtrack attached to each one.",
+                  "Not carried across: the photos and videos themselves. A moment points at your photo library, so the other device needs **iCloud Photos** on to show the same picture.",
+                  "A video you saved lives in your photo library like any other video, and travels the same way."
                 ]
               }
             ],
@@ -249,26 +249,26 @@
           "id": "dim-flashing-lights",
           "platforms": ["ios"],
           "title": {
-            "en": "why does the screen dim on bright scenes?",
+            "en": "Why does the screen dim on bright scenes?",
             "ja": "再生すると画面が一瞬暗くなるのはなぜ？"
           },
           "body": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "this isn't coming from oblivious. it's a setting on your iPhone called **Dim Flashing Lights**, which dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes."
+                "text": "This isn't coming from oblivious. It's a setting on your iPhone called **Dim Flashing Lights**, which dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes."
               },
               {
                 "type": "paragraph",
-                "text": "because a film cuts between scenes, it tends to kick in the instant a dark scene turns bright, or on bright footage that shimmers, like moving water. it acts on the display rather than on the video, so the same thing happens in other apps, including Photos."
+                "text": "Because a film cuts between scenes, it tends to kick in the instant a dark scene turns bright, or on bright footage that shimmers, like moving water. It acts on the display rather than on the video, so the same thing happens in other apps, including Photos."
               },
               {
                 "type": "paragraph",
-                "text": "to turn it off: **Settings → Accessibility → Display & Text Size → Dim Flashing Lights**."
+                "text": "To turn it off: **Settings → Accessibility → Display & Text Size → Dim Flashing Lights**."
               },
               {
                 "type": "paragraph",
-                "text": "it's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call. the exact wording can vary by iOS version."
+                "text": "It's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call. The exact wording can vary by iOS version."
               }
             ],
             "ja": [
@@ -294,7 +294,7 @@
         {
           "id": "troubleshooting",
           "title": {
-            "en": "something isn't working — what can i check?",
+            "en": "Something isn't working — what can I check?",
             "ja": "うまくいかないときは？"
           },
           "body": {
@@ -302,15 +302,15 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**a moment won't show its picture**: the original may have been deleted, or it may not have come down from iCloud Photos yet. open Photos and check it's there.",
+                  "**A moment won't show its picture**: the original may have been deleted, or it may not have come down from iCloud Photos yet. Open Photos and check it's there.",
                   "**moments won't add**: check the film hasn't reached 60 moments, and that oblivious can see the items you're picking.",
-                  "**a soundtrack won't generate**: creating needs a network connection. if this month's 3 are used up, settings shows when the count resets.",
+                  "**A soundtrack won't generate**: creating needs a network connection. If this month's 3 are used up, Settings shows when the count resets.",
                   "**films aren't reaching another device**: check sync across devices is on for both, signed in to the same Apple Account, and give the other device a moment to catch up."
                 ]
               },
               {
                 "type": "paragraph",
-                "text": "if the problem persists, get in touch."
+                "text": "If the problem persists, get in touch."
               }
             ],
             "ja": [
