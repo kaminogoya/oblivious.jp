@@ -365,11 +365,11 @@ function renderNodes(nodes) {
 
 /// 全ページ共通のナビ。
 const NAV = [
-  ["nav_home", "home", "home"],
-  ["nav_help", "help", "help"],
-  ["nav_support", "support", "support"],
-  ["nav_privacy", "privacy", "privacy"],
-  ["nav_terms", "terms", "terms"]
+  ["nav_home", "Home", "Home"],
+  ["nav_help", "Help", "Help"],
+  ["nav_support", "Support", "Support"],
+  ["nav_privacy", "Privacy", "Privacy"],
+  ["nav_terms", "Terms", "Terms"]
 ];
 
 /// ページ自身が持つ文言。**題とナビだけ**に留める。
@@ -496,9 +496,9 @@ const PAGES = [
     target: "help/index.html",
     titleID: "help-title",
     canonical: "https://oblivious.jp/help/",
-    title: { en: "help | oblivious film", ja: "ヘルプ | oblivious film" },
-    description: { en: "help for oblivious film.", ja: "oblivious film のヘルプ。" },
-    pageTitle: { en: "help", ja: "help" },
+    title: { en: "Help | oblivious film", ja: "ヘルプ | oblivious film" },
+    description: { en: "Help for oblivious film.", ja: "oblivious film のヘルプ。" },
+    pageTitle: { en: "Help", ja: "Help" },
     build: buildHelpNodes
   },
   {
@@ -506,9 +506,9 @@ const PAGES = [
     target: "privacy/index.html",
     titleID: "privacy-title",
     canonical: "https://oblivious.jp/privacy/",
-    title: { en: "privacy | oblivious film", ja: "プライバシーポリシー | oblivious film" },
-    description: { en: "privacy policy for oblivious film.", ja: "oblivious film のプライバシーポリシー。" },
-    pageTitle: { en: "privacy", ja: "privacy" },
+    title: { en: "Privacy | oblivious film", ja: "プライバシーポリシー | oblivious film" },
+    description: { en: "Privacy policy for oblivious film.", ja: "oblivious film のプライバシーポリシー。" },
+    pageTitle: { en: "Privacy", ja: "Privacy" },
     build: buildPolicyNodes
   },
   {
@@ -516,9 +516,9 @@ const PAGES = [
     target: "terms/index.html",
     titleID: "terms-title",
     canonical: "https://oblivious.jp/terms/",
-    title: { en: "terms | oblivious film", ja: "利用規約 | oblivious film" },
-    description: { en: "terms of service for oblivious film.", ja: "oblivious film の利用規約。" },
-    pageTitle: { en: "terms", ja: "terms" },
+    title: { en: "Terms | oblivious film", ja: "利用規約 | oblivious film" },
+    description: { en: "Terms of service for oblivious film.", ja: "oblivious film の利用規約。" },
+    pageTitle: { en: "Terms", ja: "Terms" },
     build: buildPolicyNodes
   }
 ];
