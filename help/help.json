@@ -144,12 +144,17 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "When the film plays the way you want, **Save Video** writes it to your photo library, and the share button hands the same video to another app."
+                "text": "When the film plays the way you want, tap **Save Video** to open the save screen. Saving and sharing both happen here."
+              },
+              {
+                "type": "paragraph",
+                "text": "The preview is exactly what will come out — the film at its orientation, with the soundtrack mixed in. You can also put a **color finish** (a “look”) on the video, chosen from 13 built-in LUTs, with adjustable strength. Tap the picture to briefly see it without the finish."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "The video is written at the film's orientation, with the soundtrack mixed in.",
+                  "**Save** writes the video to your photo library. The share button at the top hands the same video to another app.",
+                  "A color finish goes onto the video you export, not onto the film itself. The screen always opens at **Original**.",
                   "Saving changes nothing about the film. You can keep editing and save again."
                 ]
               }
@@ -157,12 +162,17 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "思ったとおりに流れるようになったら、**ビデオを保存** で写真ライブラリに書き出せます。共有ボタンからは、同じ動画を他のアプリへ渡せます。"
+                "text": "思ったとおりに流れるようになったら、**ビデオを保存** を押すと保存画面が開きます。保存も共有も、この画面で行います。"
+              },
+              {
+                "type": "paragraph",
+                "text": "プレビューは出てくるものそのものです。film の向きで、soundtrack も一緒に流れます。書き出す動画には **色の仕上げ**（look）をかけることもできます。用意された 13 の LUT から選べて、かかり具合も調整できます。映像をタップすると、仕上げなしの絵と見比べられます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "書き出す動画は film の向きに合わせ、soundtrack も一緒に入ります。",
+                  "**保存** で写真ライブラリに書き出せます。上の共有ボタンからは、同じ動画を他のアプリへ渡せます。",
+                  "色の仕上げは書き出す動画にかかるもので、film 自体は変わりません。画面を開くと毎回 **オリジナル** から始まります。",
                   "保存しても film はそのままです。編集を続けて、また保存できます。"
                 ]
               }
