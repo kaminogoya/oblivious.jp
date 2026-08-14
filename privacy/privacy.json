@@ -79,7 +79,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The contact form in the app sends only the message you write. There is no field for an email address, and the form does not ask you for contact details anywhere—so we have no way to identify you, and no way to reply."
+        "text": "The contact form in the app asks only for your message. There is no field for an email address, and it does not ask you for contact details anywhere—so we have no way to identify you, and no way to reply."
       },
       {
         "type": "bullets",
@@ -182,7 +182,7 @@
       },
       {
         "type": "paragraph",
-        "text": "アプリ内のお問い合わせフォームは、入力された本文のみを送信します。メールアドレスの入力欄はなく、フォームのどこでも連絡先をおたずねしません。そのため、当方から個人を特定することも、返信することもできません。"
+        "text": "アプリ内のお問い合わせフォームでご入力いただくのは、本文だけです。メールアドレスの入力欄はなく、連絡先をおたずねすることもありません。そのため、当方から個人を特定することも、返信することもできません。"
       },
       {
         "type": "bullets",
