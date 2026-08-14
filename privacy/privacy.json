@@ -70,7 +70,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, privacy policy, or terms of use, it connects to a server. The help text, this policy, and the terms live on our website (oblivious.jp) and the app loads them to display; those requests send no anonymous identification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. A record of a contact form submission also includes the anonymous identification data and the app and iOS versions, but not the message you wrote or the address you entered. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
+        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, privacy policy, or terms of use, it connects to a server. The help text, this policy, and the terms live on our website (oblivious.jp) and the app loads them to display; those requests send no anonymous identification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. A record of a contact form submission also includes the anonymous identification data and the app and iOS versions, but not the message you wrote. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
       },
       {
         "type": "heading",
@@ -79,13 +79,13 @@
       },
       {
         "type": "paragraph",
-        "text": "The contact form in the app sends only the message you write. An email address is optional: you can send the form with that field empty, and then we have no way to identify you or to reply. We never send anything to an address you enter—if you asked for a reply, a person writes to you by hand."
+        "text": "The contact form in the app sends only the message you write. There is no field for an email address, and the form does not ask you for contact details anywhere—so we have no way to identify you, and no way to reply."
       },
       {
         "type": "bullets",
         "items": [
-          "What is sent: the message you write, and—only if you fill it in—an email address for a reply. The app also sends its own version, your iOS version, and the same anonymous identification data used for the soundtrack limit, so we can investigate problems. That data is not linked to your name or email address.",
-          "How it is kept: messages are stored on Google Cloud (Firestore, Tokyo region) as our processor, and are deleted automatically 90 days after they arrive. If you left the email field empty, no address is stored—not even a blank one."
+          "What is sent: the message you write. The app also sends its own version, your iOS version, and the same anonymous identification data used for the soundtrack limit, so we can investigate problems. That data is not linked to your name or email address.",
+          "How it is kept: messages are stored on Google Cloud (Firestore, Tokyo region) as our processor, and are deleted automatically 90 days after they arrive."
         ]
       },
       {
@@ -173,7 +173,7 @@
       },
       {
         "type": "paragraph",
-        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内でヘルプ・本ポリシー・利用規約を開いたときに、本アプリはサーバーへ通信します。ヘルプの本文、本ポリシー、利用規約は当サイト（oblivious.jp）に置いており、アプリはそれらを読み込んで表示します。これらの読み込みでは、匿名の識別情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、匿名の識別情報とアプリ・iOS のバージョンも含まれますが、入力された本文とメールアドレスは含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
+        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内でヘルプ・本ポリシー・利用規約を開いたときに、本アプリはサーバーへ通信します。ヘルプの本文、本ポリシー、利用規約は当サイト（oblivious.jp）に置いており、アプリはそれらを読み込んで表示します。これらの読み込みでは、匿名の識別情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、匿名の識別情報とアプリ・iOS のバージョンも含まれますが、入力された本文は含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
       },
       {
         "type": "heading",
@@ -182,13 +182,13 @@
       },
       {
         "type": "paragraph",
-        "text": "アプリ内のお問い合わせフォームは、入力された本文のみを送信します。メールアドレスは任意です。空のまま送信でき、その場合、当方から個人を特定することも返信することもできません。入力されたアドレスへ自動でメールを送ることはなく、返信をご希望の場合にのみ、担当者が手作業でお送りします。"
+        "text": "アプリ内のお問い合わせフォームは、入力された本文のみを送信します。メールアドレスの入力欄はなく、フォームのどこでも連絡先をおたずねしません。そのため、当方から個人を特定することも、返信することもできません。"
       },
       {
         "type": "bullets",
         "items": [
-          "送るもの：入力された本文と、入力があった場合にかぎり返信用のメールアドレス。あわせて、不具合の調査のために、アプリのバージョン・iOS のバージョン・soundtrack の上限管理と同じ匿名の識別情報を送ります。この識別情報は氏名やメールアドレスとは結びついていません。",
-          "保存と削除：お問い合わせの内容は、委託先である Google Cloud（Firestore・東京リージョン）に保存し、受信から 90 日後に自動削除します。メールアドレスを空のまま送信した場合、アドレスは空欄としても保存されません。"
+          "送るもの：入力された本文。あわせて、不具合の調査のために、アプリのバージョン・iOS のバージョン・soundtrack の上限管理と同じ匿名の識別情報を送ります。この識別情報は氏名やメールアドレスとは結びついていません。",
+          "保存と削除：お問い合わせの内容は、委託先である Google Cloud（Firestore・東京リージョン）に保存し、受信から 90 日後に自動削除します。"
         ]
       },
       {
