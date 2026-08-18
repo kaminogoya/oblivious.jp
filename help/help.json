@@ -112,7 +112,9 @@
                   "For a video, the filmstrip picks which part plays.",
                   "Burn in a short line of **text**, and stamp the **capture date and time**.",
                   "Choose whether a video keeps its **own sound**.",
-                  "**Previous moment ghost** shows the moment before, faintly, for lining the two up."
+                  "**Previous moment ghost** shows the moment before, faintly, for lining the two up.",
+                  "**Duplicate before** and **Duplicate after** in the **⋯** menu drop a copy of this moment next to it, carrying over everything you've set. For a video, the copy takes the stretch of footage just before or just after.",
+                  "**Remove moment**, in the same **⋯** menu, takes it out of the film. The photo or video in your library isn't touched."
                 ]
               }
             ],
@@ -128,7 +130,52 @@
                   "動画は、フィルムストリップで再生する部分を選べます。",
                   "短い **テキスト** や、**撮影日・時刻** のスタンプを焼き込めます。",
                   "動画の **元の音声** を入れるかどうかを選べます。",
-                  "**前 moment の残像** をうっすら重ねて、前の moment とのつながりを合わせられます。"
+                  "**前 moment の残像** をうっすら重ねて、前の moment とのつながりを合わせられます。",
+                  "**⋯** メニューの **前に複製** / **次に複製** で、この moment のコピーを隣に置けます。編集した内容はそのまま引き継がれます。動画なら、コピーは前後に続く区間を映します。",
+                  "同じ **⋯** メニューの **moment を削除** で、film から外せます。写真ライブラリの写真・動画はそのままです。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "changing-a-film",
+          "platforms": ["ios"],
+          "minAppVersion": "2.0.1",
+          "title": {
+            "en": "What can I change about the film itself?",
+            "ja": "film 自体について変えられることは？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Open the film and tap **⋯** at the top. What's in there acts on the whole film, not on a single moment."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**1 sec per moment** / **2 sec per moment** sets how long every moment plays.",
+                  "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
+                  "**Edit name** renames the film.",
+                  "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
+                  "**Delete film** can't be undone. The photos and videos in your library aren't touched — but if other films are using a soundtrack created from this one, it goes from them too."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "film を開いて上の **⋯** を押します。ここにあるものは moment 1 件ではなく、film 全体にはたらきます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**moment あたり1秒** / **moment あたり2秒** で、どの moment も流れる長さを決めます。",
+                  "**並び順序** で film 全体を並べ替えます（**撮影日順** / **追加順**）。そのあと手で並べ替えることもできます。",
+                  "**名前を変更** で film の名前を変えられます。",
+                  "**アスペクト比を変更** でフレームの形を選びます（16:9 / 3:2 / 4:3 / 1:1・縦と横）。moment の filled / unfilled は引き継がれますが、表示範囲の位置と拡大率はリセットされます。",
+                  "**film を削除** は取り消せません。写真ライブラリの写真・動画はそのままです。ただし、この film で作った soundtrack を他の film が使っている場合は、そちらからも外れます。"
                 ]
               }
             ]
@@ -297,6 +344,49 @@
               {
                 "type": "paragraph",
                 "text": "光の点滅に敏感な方のための保護機能です。オフにするかはご自身の判断でお願いします。メニュー名は iOS のバージョンによって少し違うことがあります。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "moment-wont-load",
+          "platforms": ["ios"],
+          "minAppVersion": "2.0.1",
+          "title": {
+            "en": "A moment won't load — what happened?",
+            "ja": "moment が読み込めないときは？"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "A moment points at a photo or video in your photo library. When oblivious can't reach that original, the row says **Couldn't load**, or **Deleted from camera roll** when the original can't be found in the library at all."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Put the original back and the moment comes back.** If you deleted it, Photos keeps it under **Recently Deleted** for a while. If iCloud Photos simply hasn't brought it down yet, it returns on its own.",
+                  "**It may only be out of reach on this device.** oblivious sees a selected set of photos, iCloud Photos is off, or a photo from another device hasn't synced yet — any of these can read as **Deleted from camera roll**. Open Photos and check the original is there.",
+                  "**Leaving it is fine.** A moment that can't load is skipped — it doesn't play, and it isn't in the video you save. The film closes up around it, and the times in the list follow that shortened run.",
+                  "**It can't be edited** while it's in this state, so tapping the row does nothing.",
+                  "**To remove it**, swipe the row in the moment list and delete it."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "moment は写真ライブラリの写真・動画を指しています。その元に届かないとき、行には **読み込めませんでした** と出ます。ライブラリに元が見つからないと判断された場合は **カメラロールから削除されました** になります。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**元を戻せば moment も戻ります。** 削除した場合は、写真アプリの **最近削除した項目** にしばらく残っています。iCloud 写真からまだ降りてきていないだけなら、そのうち自分で戻ります。",
+                  "**この端末から見えていないだけのこともあります。** oblivious のアクセスが「選択した写真」に限られている、iCloud 写真がオフ、他の端末の写真がまだ同期されていない — いずれも **カメラロールから削除されました** と出ることがあります。写真アプリで元があるか確かめてください。",
+                  "**そのままでも構いません。** 読み込めない moment は飛ばされます。再生にも、保存する動画にも入りません。前後は詰められ、一覧の時刻もその詰めた流れに合わせて出ます。",
+                  "**この状態では編集できません。** 行をタップしても何も起きません。",
+                  "**消したいときは**、一覧で行をスワイプして削除できます。"
+                ]
               }
             ]
           }
