@@ -14,7 +14,7 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "A **film** is what you make in oblivious: an ordered run of **moments**, with an optional **soundtrack** over it."
+                "text": "A **film** is what you make in oblivious: an ordered run of **moments**, with an optional **soundtrack** over it as its background music."
               },
               {
                 "type": "paragraph",
@@ -24,7 +24,7 @@
                 "type": "bullets",
                 "items": [
                   "A film can hold up to 60 moments.",
-                  "moment length is 1 or 2 seconds, chosen per film under **moment duration**.",
+                  "moment length is 1 or 2 seconds, chosen per film.",
                   "Order carries meaning. Reordering the moments changes how the film reads."
                 ]
               }
@@ -32,18 +32,18 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "oblivious でつくるのが **film** です。**moment** を順に並べ、必要なら **soundtrack** を重ねます。"
+                "text": "film とは、複数の moment を繋ぎ合わせて作成する動画です。film の BGM として soundtrack を追加できます（設定なしも可）。"
               },
               {
                 "type": "paragraph",
-                "text": "**moment** は写真 1 枚か、短い動画 1 本です。どの moment も同じ長さで流れます。だから film は、時間の記録というより、ひとつのリズムになります。"
+                "text": "moment は、1枚の写真または1本の短い動画です。すべての moment が等しい長さで再生されるため、film はタイムラインというよりも、ひとつの「リズム」として感じられます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "1 つの film に入る moment は 60 件までです。",
-                  "moment の長さは 1 秒か 2 秒。film ごとに **moment の長さ** で選びます。",
-                  "並び順には意味があります。並べ替えると、film の印象が変わります。"
+                  "1つの film に含められる moment は最大60件です",
+                  "moment の表示時間は film ごとに1秒または2秒から選択できます",
+                  "moment の並び順によって、film のテンポや印象を調整できます"
                 ]
               }
             ]
@@ -68,25 +68,27 @@
               {
                 "type": "bullets",
                 "items": [
-                  "A video shorter than the moment duration becomes a single still frame.",
-                  "A moment refers back to the item in your photo library. Delete the original there and the moment has nothing left to show."
+                  "A video shorter than the moment length becomes a single still frame.",
+                  "A moment refers back to the original file in your photo library.",
+                  "Delete that original and the moment has nothing left to show in the film."
                 ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "film を開いて **＋** を押します。写真と動画は選んだ順に入り、その順がそのまま moment の並びになります。"
+                "text": "film を開いて［＋］をタップします。選択した写真や動画は選んだ順に追加されます。"
               },
               {
                 "type": "paragraph",
-                "text": "写真や動画が一部しか出てこないときは、oblivious に見せている範囲が絞られています。**他の写真を選択** で増やすか、**設定を変更** ですべてを見せられます。"
+                "text": "写真や動画が一部しか表示されない場合は、oblivious への写真アクセス権限が制限されています。［他の写真を選択］で対象を増やすか、［設定を変更］からすべての写真へのアクセスを許可してください。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "moment の長さより短い動画は、静止した 1 コマになります。",
-                  "moment は写真ライブラリの元のファイルを参照しています。元を削除すると、moment は映すものを失います。"
+                  "moment の設定時間より短い動画は、静止画（1コマ）として扱われます",
+                  "moment は写真ライブラリの元ファイルを参照しています",
+                  "写真ライブラリの元ファイルを削除すると、film 内でも表示されなくなります"
                 ]
               }
             ]
@@ -103,7 +105,7 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "Tap a moment to open it for editing. Changes stay staged until you tap **Done**, and closing instead lets you throw them away."
+                "text": "Tap a moment to open it for editing. Tap **Done** to keep what you changed."
               },
               {
                 "type": "bullets",
@@ -113,7 +115,8 @@
                   "Burn in a short line of **text**, and stamp the **capture date and time**.",
                   "Choose whether a video keeps its **own sound**.",
                   "**Previous moment ghost** shows the moment before, faintly, for lining the two up.",
-                  "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set. For a video, the copy takes the stretch of footage just before or just after. (from 2.0.1)",
+                  "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set. (from 2.0.1)",
+                  "For a video, the copy takes the stretch of footage just before or just after.",
                   "**Remove moment**, in the same **⋯** menu, takes it out of the film. The photo or video in your library isn't touched."
                 ]
               }
@@ -121,18 +124,19 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "moment をタップすると編集が開きます。変更は **完了** を押すまで仮のままです。閉じれば捨てられます。"
+                "text": "moment をタップすると編集画面が開きます。編集内容は［完了］をタップすると保存されます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "ピンチとドラッグで、フレームへの収まりを決めます。**fill** で一度にフレームいっぱい、**リセット** で元に戻ります。",
-                  "動画は、フィルムストリップで映す部分を選びます。",
-                  "短い **テキスト** と、**撮影日・時刻** のスタンプを焼き込めます。",
-                  "動画の **元の音声** を入れるかどうかを選べます。",
-                  "**前 moment の残像** をうっすら重ねて、前の moment とのつながりを見ながら合わせられます。",
-                  "**⋯** メニューの **前に複製** / **次に複製** で、同じ moment を前か後ろに増やせます。編集した内容はそのまま引き継がれます。動画は、前後に続く区間が入ります。（2.0.1 から）",
-                  "同じ **⋯** メニューの **moment を削除** で、film から外せます。写真ライブラリの写真・動画はそのままです。"
+                  "ピンチやドラッグで位置や大きさを調整できます（［Fill］でフレーム全体に拡大、［リセット］で初期状態に戻ります）",
+                  "動画はフィルムストリップを動かして使いたいシーンを選択できます",
+                  "短いテキストや、撮影日時スタンプを焼き込めます",
+                  "動画の元の音声を含めるかどうかを選択できます",
+                  "前の moment の残像を重ねて表示し、前後のつながりを確認しながら位置を合わせられます",
+                  "［⋯］メニューの［前に複製］/［次に複製］で、編集内容を保ったまま前後に複製できます（2.0.1 から）",
+                  "複製した moment が動画の場合は前後に連続するシーンを自動で割り当てます",
+                  "［⋯］メニューの［moment を削除］で film から削除できます（film から削除しても写真ライブラリの元のデータは削除されません）"
                 ]
               }
             ]
@@ -165,16 +169,16 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "film を開いて上の **⋯** を押します。ここにあるのは、moment 1 件ではなく film 全体に効く操作です。"
+                "text": "film を開いて画面上の［⋯］をタップします。ここには、moment 単体ではなく編集中の film 全体に適用される設定項目が集まっています。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**moment あたり1秒** / **moment あたり2秒** で、どの moment も流れる長さを決めます。",
-                  "**並び順序** で film 全体を並べ替えます（**撮影日順** / **追加順**）。そのあと手で並べ替えることもできます。",
-                  "**名前を変更** で film の名前を変えます。",
-                  "**アスペクト比を変更** でフレームの形を選びます（16:9 / 3:2 / 4:3 / 1:1・縦と横）。moment の filled / unfilled は引き継がれますが、表示範囲の位置と拡大率はリセットされます。（引き継ぎは 2.0.1 から）",
-                  "**film を削除** は取り消せません。写真ライブラリの写真・動画はそのままです。ただし、この film で作った soundtrack を他の film が使っているときは、そちらからも消えます。"
+                  "［moment あたり1秒］/［moment あたり2秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
+                  "［名前を変更］で、film のタイトルを変更できます",
+                  "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。2.0.1 以降は filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
+                  "［film を削除］で、film を削除できます（写真ライブラリの元のデータは削除されません。削除の取り消しは不可。また、この film で作成した soundtrack を別の film で利用している場合、その soundtrack も削除されます）"
                 ]
               }
             ]
@@ -190,17 +194,20 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "When the film plays the way you want, tap **Save Video** to open the save screen. Saving and sharing both happen here."
+                "text": "When the film is ready, tap the save icon at the bottom of the screen — a tray with a downward arrow. The save screen opens, and saving and sharing both happen there."
               },
               {
                 "type": "paragraph",
-                "text": "The preview is exactly what will come out — the film at its orientation, with the soundtrack mixed in. You can also put a **color finish** (a “look”) on the video, chosen from 13 built-in LUTs, with adjustable strength. Tap the picture to briefly see it without the finish."
+                "text": "The preview is exactly what will come out, at the film's orientation and with the soundtrack mixed in."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**Save** writes the video to your photo library. The share button at the top hands the same video to another app.",
-                  "A color finish goes onto the video you export, not onto the film itself. The screen always opens at **Original**.",
+                  "**Save** writes the video to your photo library.",
+                  "The share button at the top hands the same video to another app.",
+                  "Pick a **look** for the color finish of the film, and adjust how strongly it applies.",
+                  "While a look is on, tap the preview to see it against the original.",
+                  "A color finish goes onto the video you export, not onto the film itself.",
                   "Saving changes nothing about the film. You can keep editing and save again."
                 ]
               }
@@ -208,18 +215,21 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "思ったとおりに流れるようになったら、**ビデオを保存** を押します。保存画面が開き、保存も共有もそこで行います。"
+                "text": "film がまとまったら、画面下の保存アイコン（下向き矢印のトレイ）をタップします。保存画面が開き、端末への保存や他アプリへの共有を行えます。"
               },
               {
                 "type": "paragraph",
-                "text": "プレビューに映るものが、そのまま書き出されます。film の向きのまま、soundtrack も一緒に流れます。書き出す動画には **色の仕上げ**（look）をかけられます。用意された 13 の LUT から選べて、かかり具合も変えられます。映像をタップすると、仕上げなしの絵と見比べられます。"
+                "text": "プレビューに表示されている内容がそのまま動画として書き出されます（film の向きや soundtrack も反映されます）。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**保存** で写真ライブラリに書き出します。上の共有ボタンからは、同じ動画を他のアプリへ渡せます。",
-                  "色の仕上げがかかるのは書き出す動画で、film 自体は変わりません。画面を開くと毎回 **オリジナル** から始まります。",
-                  "保存しても film はそのままです。編集を続けて、また保存できます。"
+                  "［保存］ で写真ライブラリに動画を書き出せます",
+                  "画面上の共有ボタンから、書き出した動画を直接他のアプリへ共有できます",
+                  "用意された look から film の仕上げ（色味）を選択し、適用度合いを調整できます",
+                  "look を適用中、プレビュー映像をタップすると、仕上げ前のオリジナル映像と見比べられます",
+                  "色の仕上げは書き出す動画にのみ適用され、film 自体のデータは変更されません",
+                  "動画を保存した後も film データは残るため、いつでも再編集や再保存できます"
                 ]
               }
             ]
@@ -235,30 +245,30 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "In **Choose soundtrack** you can take one of the tracks that ship with oblivious, use audio from your device, or pick **Generate soundtrack**, where oblivious reads the film and writes a track for it."
+                "text": "Tap the icon at the bottom of the screen — a music note with a plus — to open **Choose soundtrack**, where you set the soundtrack for the film. Take one of the soundtracks that ship with oblivious, use audio from your device, or create a new one, where oblivious reads the film and writes a soundtrack for it."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "Each film can generate its own track **once**.",
+                  "A soundtrack can be created once per film.",
                   "You can create **3 soundtracks a month** in total, counted across every film. Settings shows how many are left and when the count resets.",
-                  "A track created in one film can be chosen from another film. Reusing one costs nothing.",
-                  "Creating needs a network connection. It keeps running if you leave the app, and you can stop it while it runs."
+                  "A soundtrack created in one film can be chosen from another film, and reusing one doesn't count against the monthly total.",
+                  "Creating needs a network connection. It keeps running in the background if you leave the app."
                 ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "**soundtrack を選択** から、oblivious に入っている曲を選ぶ、端末の音源を使う、**soundtrack を作成** を選ぶ、のいずれかができます。作成では、oblivious が film を読んで、その film のための曲を書きます。"
+                "text": "画面下の音符に＋がついたアイコンをタップすると、［soundtrack を選択］が開き、film に設定する soundtrack を選べます。soundtrack はプリセットのほか、端末に保存されている音源、または新しく soundtrack を作成して設定できます。作成機能では、oblivious が film の内容を読み取り、その film 専用の soundtrack を生成します。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "1 つの film で作成できるのは **1 回** です。",
-                  "作成できるのは **月に 3 曲** まで。film をまたいだ合計です。残りとリセット日は 設定 で確認できます。",
-                  "ある film で作った曲は、別の film からも選べます。使い回しは月の数を減らしません。",
-                  "作成には通信が必要です。アプリを離れても続きます。途中でやめることもできます。"
+                  "soundtrack の作成は film ごとに1回までです",
+                  "月に作成できる soundtrack 数は全 film の合計で最大 3 soundtracks までです（残りの作成可能数とリセット日は［設定］から確認できます）",
+                  "作成した soundtrack は他の film にも適用でき、既存の soundtrack を再利用しても月の作成可能数は消費されません",
+                  "soundtrack の作成には通信環境が必要です（作成処理はアプリを離れてもバックグラウンドで継続されます）"
                 ]
               }
             ]
@@ -280,22 +290,20 @@
                 "type": "bullets",
                 "items": [
                   "Carried across: films — their moments, order, trims, name and orientation — and the soundtrack attached to each one.",
-                  "Not carried across: the photos and videos themselves. A moment points at your photo library, so the other device needs **iCloud Photos** on to show the same picture.",
-                  "A video you saved lives in your photo library like any other video, and travels the same way."
+                  "Not carried across: the photos and videos themselves. A moment points at your photo library, so the other device needs **iCloud Photos** on to show the same picture."
                 ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "**iCloud 同期** は、設定 の **端末間の同期** でオンにするまで動きません。オンにすると、同じ Apple アカウントの端末のあいだで film を持ち運べます。"
+                "text": "iCloud 同期は、［設定］の［端末間の同期］をオンにすると有効になります。同じ Apple アカウント（Apple ID）を使用している端末間で、film データを共有して編集できます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "同期されるもの: film（moment・並び順・トリミング・名前・向き）と、film ごとの soundtrack。",
-                  "同期されないもの: 写真や動画そのもの。moment は写真ライブラリを指しているだけです。別の端末で同じ絵を出すには、その端末で **iCloud 写真** をオンにしてください。",
-                  "保存した動画は写真ライブラリの動画なので、ほかの動画と同じように同期されます。"
+                  "同期されるもの: film の編集データ（moment・並び順・トリミング・名前・向き）および各 film の soundtrack",
+                  "同期されないもの: 写真や動画の元ファイル（moment は端末の写真ライブラリを参照しているため、別端末で同じ写真・動画を表示するには、その端末でも「iCloud 写真」をオンにする必要があります）"
                 ]
               }
             ]
@@ -312,37 +320,31 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "This isn't coming from oblivious. It's a setting on your iPhone called **Dim Flashing Lights**, which dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes."
+                "text": "This isn't coming from oblivious. It's most likely **Dim Flashing Lights**, an accessibility setting on your iPhone that dims the screen when it detects large, sudden changes in brightness, to ease the strain on your eyes."
               },
               {
-                "type": "paragraph",
-                "text": "Because a film cuts between scenes, it tends to kick in the instant a dark scene turns bright, or on bright footage that shimmers, like moving water. It acts on the display rather than on the video, so the same thing happens in other apps, including Photos."
-              },
-              {
-                "type": "paragraph",
-                "text": "To turn it off: **Settings → Accessibility → Display & Text Size → Dim Flashing Lights**."
-              },
-              {
-                "type": "paragraph",
-                "text": "It's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call. The exact wording can vary by iOS version."
+                "type": "bullets",
+                "items": [
+                  "It tends to kick in the instant a dark scene turns bright, or on footage that shimmers, like light on water.",
+                  "It acts on the display rather than on the video, so the same thing happens in other apps, including Photos.",
+                  "To turn it off: **Settings > Accessibility > Display & Text Size > Dim Flashing Lights**. The exact wording and where it sits can vary by iOS version.",
+                  "It's a safeguard for people who are sensitive to flashing lights, so whether to turn it off is your call."
+                ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "これは oblivious が起こしているものではありません。iPhone の設定「**刺激的な光の点滅を検知時に暗くする**」が働いています。画面の明るさが急に大きく変わったとき、目への刺激をやわらげるために画面を一時的に暗くする機能です。"
+                "text": "film 再生中に画面が一瞬暗くなる現象は、oblivious の不具合ではなく、iOS のアクセシビリティ機能「刺激的な光の点滅を検知時に暗くする」が作動している可能性があります。画面の明るさが急激に変化した際、目への刺激をやわらげるために一時的に画面全体を減光する機能です。"
               },
               {
-                "type": "paragraph",
-                "text": "film は場面がぱっと切り替わるので、暗い場面から明るい場面に変わる瞬間や、水面のようにちらちら光る映像で働きやすくなります。動画そのものではなく画面側の機能なので、写真アプリなど他のアプリでも同じように起こります。"
-              },
-              {
-                "type": "paragraph",
-                "text": "オフにするには: **設定 → アクセシビリティ → 画面表示とテキストサイズ → 刺激的な光の点滅を検知時に暗くする**"
-              },
-              {
-                "type": "paragraph",
-                "text": "光の点滅に敏感な方のための機能です。オフにするかはご自身で判断してください。メニュー名は iOS のバージョンによって少し違うことがあります。"
+                "type": "bullets",
+                "items": [
+                  "暗いシーンから明るいシーンへの切り替え時や、水面の反射のように光がちらつく映像で機能が作動しやすくなります",
+                  "動画ファイル自体の問題ではなく iPhone 本体の表示制御機能のため、写真アプリなど他のアプリで再生した場合でも同様に発生します",
+                  "この機能を無効化するには iPhone の［設定］＞［アクセシビリティ］＞［画面表示とテキストサイズ］＞［刺激的な光の点滅を検知時に暗くする］ をオフにします（※iOS のバージョンによってメニューの名称や階層が異なる場合があります）",
+                  "光の点滅に敏感な方を保護するための安全機能です。設定を変更するかどうかはご自身でご判断ください"
+                ]
               }
             ]
           }
@@ -367,23 +369,23 @@
                   "**It may only be out of reach on this device.** oblivious sees a selected set of photos, iCloud Photos is off, or a photo or video from another device hasn't synced yet — any of these can read as **Deleted from camera roll**. Open Photos and check the original is there.",
                   "**Leaving it is fine.** A moment that can't load is skipped — it doesn't play, and it isn't in the video you save. The film closes up around it.",
                   "**It can't be edited** while it's in this state, so tapping the row does nothing.",
-                  "**To remove it**, swipe the row in the moment list and delete it."
+                  "**To remove it**, swipe the row left in the moment list and delete it."
                 ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "moment は写真ライブラリの元のファイルを参照しています。その元が読めないとき、行に **読み込めませんでした** と出ます。ライブラリに見あたらないときは **カメラロールから削除されました** になります。"
+                "text": "moment は端末の写真ライブラリ内の元ファイルを参照しています。元ファイルを読み込めない場合は［読み込めませんでした］、ライブラリ内に見当たらない場合は［カメラロールから削除されました］と表示されます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**元を戻せば moment も戻ります。** 削除した場合は、写真アプリの **最近削除した項目** にしばらく残っています。iCloud 写真からまだ降りてきていないだけなら、待てば戻ります。",
-                  "**この端末で見えていないだけのこともあります。** oblivious に見せている範囲が絞られているとき。iCloud 写真がオフのとき。他の端末で撮った写真や動画がまだ届いていないとき。どれも **カメラロールから削除されました** と出ることがあります。写真アプリで元を確かめてください。",
-                  "**そのままにしておけます。** 読み込めない moment は飛ばされます。再生にも、保存する動画にも入りません。前後は詰まって流れます。",
-                  "**この状態では編集できません。** 行をタップしても何も起きません。",
-                  "**消したいときは**、一覧で行を横にスワイプすると削除できます。"
+                  "写真ライブラリの元ファイルを復元すれば moment の表示も戻ります（誤って削除した場合は、写真アプリの［最近削除した項目］から復元できます。iCloud からのダウンロード待ちの場合は完了までお待ちください）",
+                  "写真アクセス権限が制限されている、端末の「iCloud 写真」がオフになっている、他端末で撮影したデータが未同期であるといった場合にも［カメラロールから削除されました］と表示される場合があります（写真アプリ側で元データをご確認ください）",
+                  "読み込めない moment は自動的にスキップされ、再生時や動画の書き出し時には含まれず前後の moment が詰めて再生されます",
+                  "読み込みに失敗している状態の moment はタップしても編集画面を開けません",
+                  "該当の moment を削除したい場合は、一覧画面で対象の行を左へスワイプして削除できます"
                 ]
               }
             ]
@@ -398,10 +400,14 @@
           "body": {
             "en": [
               {
+                "type": "paragraph",
+                "text": "Common problems, and what to check for each."
+              },
+              {
                 "type": "bullets",
                 "items": [
                   "**moments won't add**: check the film hasn't reached 60 moments, and that oblivious can see the items you're picking.",
-                  "**A soundtrack won't generate**: creating needs a network connection. If this month's 3 are used up, Settings shows when the count resets.",
+                  "**a soundtrack won't generate**: creating needs a network connection. If this month's 3 soundtracks are used up, Settings shows when the count resets.",
                   "**films aren't reaching another device**: check sync across devices is on for both, signed in to the same Apple Account, and give the other device a moment to catch up."
                 ]
               },
@@ -412,11 +418,15 @@
             ],
             "ja": [
               {
+                "type": "paragraph",
+                "text": "よくあるトラブルとその対処方法についてのご案内です。"
+              },
+              {
                 "type": "bullets",
                 "items": [
-                  "**moment を追加できない**: film の moment が 60 件に達していないか、選ぼうとしている写真や動画を oblivious が見られるかを確かめてください。",
-                  "**soundtrack を作成できない**: 作成には通信が必要です。今月の 3 曲を使い切っているときは、設定 にリセット日が出ています。",
-                  "**別の端末に film が出てこない**: 両方の端末で 端末間の同期 がオンか、同じ Apple アカウントかを確かめて、少し待ってみてください。"
+                  "**moment を追加できない**: 1つの film に登録できる上限（最大60件）に達していないか、端末の［設定］で写真へのアクセス権限が許可されているかをご確認ください",
+                  "**soundtrack を作成できない**: インターネット通信環境が整っているかをご確認ください（今月の作成上限である 3 soundtracks を使い切っている場合は、［設定］に次回のリセット日が表示されます）",
+                  "**別の端末に film が同期されない**: すべての端末で同じ Apple アカウントを使用しているか、［設定］の［端末間の同期］がオンになっているかをご確認のうえ、同期が完了するまでしばらくお待ちください"
                 ]
               },
               {
