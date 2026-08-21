@@ -115,7 +115,7 @@
                   "Burn in a short line of **text**, and stamp the **capture date and time**.",
                   "Choose whether a video keeps its **own sound**.",
                   "**Previous moment ghost** shows the moment before, faintly, for lining the two up.",
-                  "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set. (from 2.0.1)",
+                  "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set.",
                   "For a video, the copy takes the stretch of footage just before or just after.",
                   "**Remove moment**, in the same **⋯** menu, takes it out of the film. The photo or video in your library isn't touched."
                 ]
@@ -134,7 +134,7 @@
                   "短いテキストや、撮影日時スタンプを焼き込めます",
                   "動画の元の音声を含めるかどうかを選択できます",
                   "前の moment の残像を重ねて表示し、前後のつながりを確認しながら位置を合わせられます",
-                  "［⋯］メニューの［前に複製］/［次に複製］で、編集内容を保ったまま前後に複製できます（2.0.1 から）",
+                  "［⋯］メニューの［前に複製］/［次に複製］で、編集内容を保ったまま前後に複製できます",
                   "複製した moment が動画の場合は前後に連続するシーンを自動で割り当てます",
                   "［⋯］メニューの［moment を削除］で film から削除できます（film から削除しても写真ライブラリの元のデータは削除されません）"
                 ]
@@ -161,7 +161,7 @@
                   "**1 sec per moment** / **2 sec per moment** sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
-                  "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start. (keeping filled / unfilled is from 2.0.1)",
+                  "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
                   "**Delete film** can't be undone. The photos and videos in your library aren't touched — but if other films are using a soundtrack created from this one, it goes from them too."
                 ]
               }
@@ -177,7 +177,7 @@
                   "［moment あたり1秒］/［moment あたり2秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
-                  "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。2.0.1 以降は filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
+                  "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
                   "［film を削除］で、film を削除できます（写真ライブラリの元のデータは削除されません。削除の取り消しは不可。また、この film で作成した soundtrack を別の film で利用している場合、その soundtrack も削除されます）"
                 ]
               }
