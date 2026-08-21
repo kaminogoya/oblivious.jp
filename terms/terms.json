@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "terms",
   "effectiveDate": {
-    "en": "Effective date: July 19, 2026",
-    "ja": "施行日: 2026年7月19日"
+    "en": "Effective date: August 22, 2026",
+    "ja": "施行日: 2026年8月22日"
   },
   "provider": {
     "en": "Provider: KMNGY Inc.",
@@ -49,7 +49,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Rights in the photos, videos, films, and text you work with in the app remain with you or their respective rights holders. We do not acquire ownership or other rights in them through your use of the app. They are processed and stored on your device, and we do not collect them on our servers. When you generate a soundtrack, what is sent to our server is not the contents of your photos, videos, or text, but an abstract description of the film (numbers, on/off values, and mood words from a fixed vocabulary), together with anonymous identification data used to manage the monthly generation limit and prevent unauthorized use. See our Privacy Policy for details on the data we handle."
+        "text": "Rights in the photos, videos, films, and text you work with in the app remain with you or their respective rights holders. We do not acquire ownership or other rights in them through your use of the app. They are processed and stored on your device, and we do not collect them on our servers. When you generate a soundtrack, what is sent to our server is not the contents of your photos, videos, or text, but an abstract description of the film (numbers, on/off values, and mood words from a fixed vocabulary), together with verification data used to manage the monthly generation limit and prevent unauthorized use (a one-time value confirming a genuine device; older versions of the app send anonymous identification data instead). See our Privacy Policy for details on the data we handle."
       },
       {
         "type": "heading",
@@ -195,7 +195,7 @@
       },
       {
         "type": "paragraph",
-        "text": "あなたが本アプリで扱う写真・動画・film・テキストに関する権利は、あなたまたは正当な権利者に帰属します。当方は、本アプリの利用によって、これらの所有権その他の権利を取得しません。これらは端末内で処理・保存され、当方のサーバーへ収集されません。soundtrack を生成する際にサーバーへ送られるのは、写真・動画やテキストの内容ではなく、film を表す抽象的な記述（数値・on/off 値・固定語彙のムード語）と、生成回数の管理・不正利用の防止のための匿名の識別情報です。取り扱うデータの詳細はプライバシーポリシーをご覧ください。"
+        "text": "あなたが本アプリで扱う写真・動画・film・テキストに関する権利は、あなたまたは正当な権利者に帰属します。当方は、本アプリの利用によって、これらの所有権その他の権利を取得しません。これらは端末内で処理・保存され、当方のサーバーへ収集されません。soundtrack を生成する際にサーバーへ送られるのは、写真・動画やテキストの内容ではなく、film を表す抽象的な記述（数値・on/off 値・固定語彙のムード語）と、生成回数の管理・不正利用の防止のための確認情報（正規の端末であることを確かめる一時的な情報。旧バージョンのアプリでは匿名の識別情報）です。取り扱うデータの詳細はプライバシーポリシーをご覧ください。"
       },
       {
         "type": "heading",
