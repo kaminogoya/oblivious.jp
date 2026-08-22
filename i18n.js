@@ -39,15 +39,35 @@
     }
   }
 
+  // ブラウザの言語タグを対応言語のキーへ解決する。中国語だけは一次言語では繁体・簡体を
+  // 区別できないため、script（無ければ地域）まで見て zh-Hant / zh-Hans のどちらかへ倒す
+  // （アプリ側 HelpContentParser.languagePreference と同じ規則・oblivious #981）。
+  function resolveCandidate(tag) {
+    var code = (tag || "").toLowerCase();
+    if (!code) return null;
+    var parts = code.split("-");
+    if (parts[0] === "zh") {
+      var script = "hans";
+      for (var i = 1; i < parts.length; i++) {
+        var part = parts[i];
+        if (part === "hant" || part === "tw" || part === "hk" || part === "mo") { script = "hant"; break; }
+        if (part === "hans" || part === "cn" || part === "sg" || part === "my") { script = "hans"; break; }
+      }
+      code = "zh-" + script;
+    } else {
+      code = parts[0];
+    }
+    for (var j = 0; j < supported.length; j++) {
+      if (supported[j].toLowerCase() === code) return supported[j];
+    }
+    return null;
+  }
+
   function detectLang() {
     var candidates = navigator.languages || [navigator.language || navigator.userLanguage || ""];
     for (var i = 0; i < candidates.length; i++) {
-      var code = (candidates[i] || "").toLowerCase();
-      for (var j = 0; j < supported.length; j++) {
-        if (code === supported[j] || code.indexOf(supported[j] + "-") === 0) {
-          return supported[j];
-        }
-      }
+      var lang = resolveCandidate(candidates[i]);
+      if (lang) return lang;
     }
     return "en";
   }

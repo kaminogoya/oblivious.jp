@@ -34,6 +34,25 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 // -----------------------------------------------------------------------------
+// 言語
+// -----------------------------------------------------------------------------
+
+/// en 以外の対応言語（oblivious #981）。en は HTML に直書きされ、これらは `__I18N_MESSAGES__` に入る。
+/// 並びは表示順（言語セレクタ）にもなる。
+const LANGS = ["ja", "zh-Hant", "ko", "zh-Hans", "es", "de"];
+
+/// 言語セレクタに出す自称。en を先頭に、LANGS の順で並ぶ。
+const LANG_LABELS = {
+  en: "english",
+  ja: "日本語",
+  "zh-Hant": "繁體中文",
+  ko: "한국어",
+  "zh-Hans": "简体中文",
+  es: "español",
+  de: "deutsch"
+};
+
+// -----------------------------------------------------------------------------
 // 文字列
 // -----------------------------------------------------------------------------
 
@@ -106,21 +125,35 @@ const keyPart = (id) => id.replace(/[^A-Za-z0-9]/g, "_");
 /// 生成する 1 ノード。`kind` は出力先のタグ、`key` は i18n のキー。
 /// `html` が true なら `data-i18n-html`（innerHTML 差し替え）、false なら `data-i18n`（textContent 差し替え）。
 ///
-/// `en` は必ず HTML として埋められる形にし、`ja` は差し替え方に合わせる —
+/// `en` は必ず HTML として埋められる形にし、`locales`（言語コード → 値）は差し替え方に合わせる —
 /// textContent へ渡す値は生のまま（代入時にブラウザが扱う）、innerHTML へ渡す値は HTML。
-function node(kind, key, en, ja, html, extra = {}) {
-  return { kind, key, en, ja, html, ...extra };
+function node(kind, key, en, locales, html, extra = {}) {
+  return { kind, key, en, locales, html, ...extra };
 }
 
-/// 強調の有無を見て、片方の言語にでもあれば innerHTML 差し替えに倒す。
-function textNode(kind, key, en, ja, where, extra = {}) {
-  const html = hasEmphasis(en) || hasEmphasis(ja);
+/// JSON から言語ごとの値を取り出す。**全言語そろっていることを要求する** — 1 言語だけ抜けた本文は
+/// 実行時に en へ落ちて気づかれないので、ここで止める。
+function requireLocales(map, where) {
+  const locales = {};
+  for (const lang of LANGS) {
+    const value = map?.[lang];
+    if (value == null) throw new Error(`${where}: ${lang} が無い。全言語（${LANGS.join(", ")}）をそろえること。`);
+    locales[lang] = value;
+  }
+  return locales;
+}
+
+/// 強調の有無を見て、どれか 1 言語にでもあれば innerHTML 差し替えに倒す。
+function textNode(kind, key, en, locales, where, extra = {}) {
+  const html = hasEmphasis(en) || LANGS.some((lang) => hasEmphasis(locales[lang]));
   if (html) {
-    return node(kind, key, renderInline(en, `${where} en`), renderInline(ja, `${where} ja`), true, extra);
+    const rendered = {};
+    for (const lang of LANGS) rendered[lang] = renderInline(locales[lang], `${where} ${lang}`);
+    return node(kind, key, renderInline(en, `${where} en`), rendered, true, extra);
   }
   assertOnlySupportedMarkdown(en, `${where} en`);
-  assertOnlySupportedMarkdown(ja, `${where} ja`);
-  return node(kind, key, escapeHTML(en), ja, false, extra);
+  for (const lang of LANGS) assertOnlySupportedMarkdown(locales[lang], `${where} ${lang}`);
+  return node(kind, key, escapeHTML(en), locales, false, extra);
 }
 
 function blockShape(blocks) {
@@ -129,12 +162,12 @@ function blockShape(blocks) {
     .join("|");
 }
 
-/// en の構造から DOM を起こし、ja は同じキーへ流し込む作り。ずれるとキーが噛み合わない。
-function assertSameShape(en, ja, where) {
-  if (blockShape(en) !== blockShape(ja)) {
+/// en の構造から DOM を起こし、他言語は同じキーへ流し込む作り。ずれるとキーが噛み合わない。
+function assertSameShape(en, other, lang, where) {
+  if (blockShape(en) !== blockShape(other)) {
     throw new Error(
-      `${where}: en と ja でブロックの構成が違う（${blockShape(en)} / ${blockShape(ja)}）。` +
-        `Web は en の構造に ja を流し込むので、種類と数はそろえること。`
+      `${where}: en と ${lang} でブロックの構成が違う（${blockShape(en)} / ${blockShape(other)}）。` +
+        `Web は en の構造に他言語を流し込むので、種類と数はそろえること。`
     );
   }
 }
@@ -156,7 +189,7 @@ function buildHelpNodes(doc, reservedIDs) {
           "h2",
           `help_s_${keyPart(section.id)}_t`,
           section.title.en,
-          section.title.ja,
+          requireLocales(section.title, `section "${section.id}" title`),
           `section "${section.id}"`
         )
       );
@@ -183,21 +216,21 @@ function buildHelpNodes(doc, reservedIDs) {
       }
 
       const en = topic.body.en;
-      const ja = topic.body.ja;
-      assertSameShape(en, ja, where);
+      const byLang = requireLocales(topic.body, `${where} body`);
+      for (const lang of LANGS) assertSameShape(en, byLang[lang], lang, where);
 
       const base = `help_${keyPart(topic.id)}`;
       nodes.push(
-        textNode(topicHeading, `${base}_t`, topic.title.en, topic.title.ja, where, { id: topic.id })
+        textNode(topicHeading, `${base}_t`, topic.title.en, requireLocales(topic.title, `${where} title`), where, { id: topic.id })
       );
 
       en.forEach((block, i) => {
-        const jaBlock = ja[i];
+        const pick = (read) => Object.fromEntries(LANGS.map((lang) => [lang, read(byLang[lang][i])]));
         if (block.type === "paragraph") {
-          nodes.push(textNode("p", `${base}_b${i}`, block.text, jaBlock.text, where));
+          nodes.push(textNode("p", `${base}_b${i}`, block.text, pick((b) => b.text), where));
         } else if (block.type === "bullets") {
           const items = block.items.map((item, j) =>
-            textNode("li", `${base}_b${i}_${j}`, item, jaBlock.items[j], where)
+            textNode("li", `${base}_b${i}_${j}`, item, pick((b) => b.items[j]), where)
           );
           nodes.push(node("ul", null, null, null, false, { items }));
         } else {
@@ -225,8 +258,8 @@ function buildHelpNodes(doc, reservedIDs) {
 function buildPolicyNodes(doc, reservedIDs) {
   const where = `${doc.id}`;
   const en = doc.blocks.en;
-  const ja = doc.blocks.ja;
-  assertSameShape(en, ja, where);
+  const byLang = requireLocales(doc.blocks, `${where} blocks`);
+  for (const lang of LANGS) assertSameShape(en, byLang[lang], lang, where);
 
   const prefix = keyPart(doc.id);
   const nodes = [];
@@ -235,8 +268,8 @@ function buildPolicyNodes(doc, reservedIDs) {
   let index = 0;
 
   en.forEach((block, i) => {
-    const jaBlock = ja[i];
     const at = `${where} block ${i}`;
+    const pick = (read) => Object.fromEntries(LANGS.map((lang) => [lang, read(byLang[lang][i])]));
 
     if (block.type === "heading") {
       if (!block.id) throw new Error(`${at}: 見出しに id が無い。anchor とキーの導出に要る。`);
@@ -246,15 +279,17 @@ function buildPolicyNodes(doc, reservedIDs) {
       if (reservedIDs.has(block.id)) {
         throw new Error(`${at}: id "${block.id}" はページ側が使っている。anchor が別の要素を指してしまう。`);
       }
-      if (jaBlock.id !== block.id) {
-        throw new Error(`${at}: en と ja で見出し id が違う（${block.id} / ${jaBlock.id}）。`);
+      for (const lang of LANGS) {
+        if (byLang[lang][i].id !== block.id) {
+          throw new Error(`${at}: en と ${lang} で見出し id が違う（${block.id} / ${byLang[lang][i].id}）。`);
+        }
       }
       headingIDs.add(block.id);
       section = keyPart(block.id);
       index = 0;
       // 見出しの前で 1 行空ける。生成物とはいえ人が読むので、節の切れ目が見えた方がよい。
       if (nodes.length > 0) nodes.push({ kind: "blank" });
-      nodes.push(textNode("h2", `${prefix}_${section}_t`, block.text, jaBlock.text, at, { id: block.id }));
+      nodes.push(textNode("h2", `${prefix}_${section}_t`, block.text, pick((b) => b.text), at, { id: block.id }));
       return;
     }
 
@@ -262,10 +297,10 @@ function buildPolicyNodes(doc, reservedIDs) {
     index += 1;
 
     if (block.type === "paragraph") {
-      nodes.push(textNode("p", key, block.text, jaBlock.text, at));
+      nodes.push(textNode("p", key, block.text, pick((b) => b.text), at));
     } else if (block.type === "bullets") {
       const items = block.items.map((item, j) =>
-        textNode("li", `${key}_${j}`, item, jaBlock.items[j], at)
+        textNode("li", `${key}_${j}`, item, pick((b) => b.items[j]), at)
       );
       nodes.push(node("ul", null, null, null, false, { items }));
     } else if (block.type === "contact") {
@@ -277,8 +312,8 @@ function buildPolicyNodes(doc, reservedIDs) {
         kind: "contact",
         user: email.user,
         domain: email.domain,
-        before: textNode("span", `${key}_pre`, block.before, jaBlock.before, `${at} before`),
-        after: textNode("span", `${key}_post`, block.after, jaBlock.after, `${at} after`)
+        before: textNode("span", `${key}_pre`, block.before, pick((b) => b.before), `${at} before`),
+        after: textNode("span", `${key}_post`, block.after, pick((b) => b.after), `${at} after`)
       });
     } else {
       throw new Error(
@@ -291,9 +326,9 @@ function buildPolicyNodes(doc, reservedIDs) {
   // 施行日と提供者は本文の外（JSON のトップレベル）にあり、どの文書でも末尾に同じ形で出る。
   nodes.push({ kind: "blank" });
   nodes.push(
-    textNode("p", `${prefix}_effective`, doc.effectiveDate.en, doc.effectiveDate.ja, `${where} effectiveDate`)
+    textNode("p", `${prefix}_effective`, doc.effectiveDate.en, requireLocales(doc.effectiveDate, `${where} effectiveDate`), `${where} effectiveDate`)
   );
-  nodes.push(textNode("p", `${prefix}_provider`, doc.provider.en, doc.provider.ja, `${where} provider`));
+  nodes.push(textNode("p", `${prefix}_provider`, doc.provider.en, requireLocales(doc.provider, `${where} provider`), `${where} provider`));
 
   return nodes;
 }
@@ -319,7 +354,7 @@ function renderNodes(nodes) {
       throw new Error(`i18n キー "${item.key}" が重複している（id の記号を _ に寄せた結果ぶつかった可能性）。`);
     }
     seen.add(item.key);
-    messages.push([item.key, item.ja]);
+    messages.push([item.key, item.locales]);
   };
 
   for (const item of nodes) {
@@ -363,25 +398,30 @@ function renderNodes(nodes) {
 // ページ
 // -----------------------------------------------------------------------------
 
-/// 全ページ共通のナビ。
+/// 全言語で同じ値を出す文言（ナビ・ページ題は ja の前例どおり英語のまま）。
+function uniform(value) {
+  return Object.fromEntries(LANGS.map((lang) => [lang, value]));
+}
+
+/// 全ページ共通のナビ。全言語で英語のまま（ja の前例に他言語も従う）。
 const NAV = [
-  ["nav_home", "Home", "Home"],
-  ["nav_help", "Help", "Help"],
-  ["nav_support", "Support", "Support"],
-  ["nav_privacy", "Privacy", "Privacy"],
-  ["nav_terms", "Terms", "Terms"]
+  ["nav_home", "Home", uniform("Home")],
+  ["nav_help", "Help", uniform("Help")],
+  ["nav_support", "Support", uniform("Support")],
+  ["nav_privacy", "Privacy", uniform("Privacy")],
+  ["nav_terms", "Terms", uniform("Terms")]
 ];
 
 /// ページ自身が持つ文言。**題とナビだけ**に留める。
 ///
-/// 本文の外に文言を足すと、JSON に無いものを生成器が 2 言語ぶん抱えることになり、
+/// 本文の外に文言を足すと、JSON に無いものを生成器が全言語ぶん抱えることになり、
 /// 1 ソースにした意味が薄れる。読者を support へ送る役目は nav が担う。
 function chrome(page) {
   return [
-    ["title", page.title.en, page.title.ja],
-    ["metaDescription", page.description.en, page.description.ja],
+    ["title", page.title.en, requireLocales(page.title, `${page.target} title`)],
+    ["metaDescription", page.description.en, requireLocales(page.description, `${page.target} description`)],
     ...NAV,
-    ["page_title", page.pageTitle.en, page.pageTitle.ja]
+    ["page_title", page.pageTitle.en, uniform(page.pageTitle.en)]
   ];
 }
 
@@ -419,8 +459,17 @@ function renderPage(page, doc) {
 
   const pageChrome = chrome(page);
   const chromeEN = Object.fromEntries(pageChrome.map(([key, en]) => [key, en]));
-  const all = [...pageChrome.map(([key, , ja]) => [key, ja]), ...messages];
-  const ja = all.map(([key, value]) => `        ${key}: ${jsString(value)},`).join("\n");
+  const all = [...pageChrome.map(([key, , locales]) => [key, locales]), ...messages];
+  const messageBlocks = LANGS.map((lang) => {
+    const lines = all.map(([key, locales]) => `        ${key}: ${jsString(locales[lang])},`).join("\n");
+    return `      window.__I18N_MESSAGES__[${jsString(lang)}] = {
+${lines}
+        footer_copy: "© KMNGY Inc."
+      };`;
+  }).join("\n");
+  const langOptions = ["en", ...LANGS]
+    .map((lang) => `            <option value="${lang}">${LANG_LABELS[lang]}</option>`)
+    .join("\n");
 
   return `<!doctype html>
 <!-- 生成物。手で編集しない。正本は /${page.source} で、\`node scripts/build-pages.mjs\` が作る。 -->
@@ -436,10 +485,7 @@ ${TYPEKIT}
     </script>
     <script>
       window.__I18N_MESSAGES__ = {};
-      window.__I18N_MESSAGES__.ja = {
-${ja}
-        footer_copy: "© KMNGY Inc."
-      };
+${messageBlocks}
     </script>
     <script defer src="/i18n.js"></script>
     <script defer src="/nav.js"></script>
@@ -473,8 +519,7 @@ ${ja}
         <section class="hero" aria-labelledby="${page.titleID}">
           <h1 class="page-title" id="${page.titleID}" data-i18n="page_title">${escapeHTML(chromeEN.page_title)}</h1>
           <select class="lang-select" data-lang-select aria-label="language">
-            <option value="en">english</option>
-            <option value="ja">日本語</option>
+${langOptions}
           </select>
 
 ${body}
@@ -496,9 +541,25 @@ const PAGES = [
     target: "help/index.html",
     titleID: "help-title",
     canonical: "https://oblivious.jp/help/",
-    title: { en: "Help | oblivious film", ja: "ヘルプ | oblivious film" },
-    description: { en: "Help for oblivious film.", ja: "oblivious film のヘルプ。" },
-    pageTitle: { en: "Help", ja: "Help" },
+    title: {
+      en: "Help | oblivious film",
+      ja: "ヘルプ | oblivious film",
+      "zh-Hant": "使用說明 | oblivious film",
+      ko: "도움말 | oblivious film",
+      "zh-Hans": "帮助 | oblivious film",
+      es: "Ayuda | oblivious film",
+      de: "Hilfe | oblivious film"
+    },
+    description: {
+      en: "Help for oblivious film.",
+      ja: "oblivious film のヘルプ。",
+      "zh-Hant": "oblivious film 的使用說明。",
+      ko: "oblivious film 도움말.",
+      "zh-Hans": "oblivious film 的帮助。",
+      es: "Ayuda de oblivious film.",
+      de: "Hilfe zu oblivious film."
+    },
+    pageTitle: { en: "Help" },
     build: buildHelpNodes
   },
   {
@@ -506,9 +567,25 @@ const PAGES = [
     target: "privacy/index.html",
     titleID: "privacy-title",
     canonical: "https://oblivious.jp/privacy/",
-    title: { en: "Privacy | oblivious film", ja: "プライバシーポリシー | oblivious film" },
-    description: { en: "Privacy policy for oblivious film.", ja: "oblivious film のプライバシーポリシー。" },
-    pageTitle: { en: "Privacy", ja: "Privacy" },
+    title: {
+      en: "Privacy | oblivious film",
+      ja: "プライバシーポリシー | oblivious film",
+      "zh-Hant": "隱私權政策 | oblivious film",
+      ko: "개인정보 처리방침 | oblivious film",
+      "zh-Hans": "隐私政策 | oblivious film",
+      es: "Privacidad | oblivious film",
+      de: "Datenschutz | oblivious film"
+    },
+    description: {
+      en: "Privacy policy for oblivious film.",
+      ja: "oblivious film のプライバシーポリシー。",
+      "zh-Hant": "oblivious film 的隱私權政策。",
+      ko: "oblivious film의 개인정보 처리방침.",
+      "zh-Hans": "oblivious film 的隐私政策。",
+      es: "Política de privacidad de oblivious film.",
+      de: "Datenschutzrichtlinie von oblivious film."
+    },
+    pageTitle: { en: "Privacy" },
     build: buildPolicyNodes
   },
   {
@@ -516,9 +593,25 @@ const PAGES = [
     target: "terms/index.html",
     titleID: "terms-title",
     canonical: "https://oblivious.jp/terms/",
-    title: { en: "Terms | oblivious film", ja: "利用規約 | oblivious film" },
-    description: { en: "Terms of service for oblivious film.", ja: "oblivious film の利用規約。" },
-    pageTitle: { en: "Terms", ja: "Terms" },
+    title: {
+      en: "Terms | oblivious film",
+      ja: "利用規約 | oblivious film",
+      "zh-Hant": "使用條款 | oblivious film",
+      ko: "이용약관 | oblivious film",
+      "zh-Hans": "使用条款 | oblivious film",
+      es: "Condiciones | oblivious film",
+      de: "Nutzungsbedingungen | oblivious film"
+    },
+    description: {
+      en: "Terms of service for oblivious film.",
+      ja: "oblivious film の利用規約。",
+      "zh-Hant": "oblivious film 的使用條款。",
+      ko: "oblivious film의 이용약관.",
+      "zh-Hans": "oblivious film 的使用条款。",
+      es: "Condiciones de uso de oblivious film.",
+      de: "Nutzungsbedingungen von oblivious film."
+    },
+    pageTitle: { en: "Terms" },
     build: buildPolicyNodes
   }
 ];
