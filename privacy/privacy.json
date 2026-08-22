@@ -3,11 +3,21 @@
   "id": "privacy",
   "effectiveDate": {
     "en": "Effective date: August 22, 2026",
-    "ja": "施行日: 2026年8月22日"
+    "ja": "施行日: 2026年8月22日",
+    "zh-Hant": "生效日期：2026年8月22日",
+    "ko": "시행일: 2026년 8월 22일",
+    "zh-Hans": "生效日期：2026年8月22日",
+    "es": "Fecha de entrada en vigor: 22 de agosto de 2026",
+    "de": "Gültig ab: 22. August 2026"
   },
   "provider": {
     "en": "Operated by: KMNGY Inc.",
-    "ja": "提供者: KMNGY Inc."
+    "ja": "提供者: KMNGY Inc.",
+    "zh-Hant": "營運者：KMNGY Inc.",
+    "ko": "운영자: KMNGY Inc.",
+    "zh-Hans": "运营方：KMNGY Inc.",
+    "es": "Operado por: KMNGY Inc.",
+    "de": "Betrieben von: KMNGY Inc."
   },
   "contactEmail": {
     "user": "support",
@@ -218,6 +228,521 @@
         "type": "contact",
         "before": "本ポリシーに関するご質問は ",
         "after": " までご連絡ください。"
+      }
+    ],
+    "zh-Hant": [
+      {
+        "type": "paragraph",
+        "text": "oblivious（以下稱「本 App」）是一款從你的照片和影片中挑選 moment、疊合成 film 的影片製作 App。本 App 的設計原則，是讓你的內容不會傳到我們手上。本政策說明本 App 所處理的少量資訊及其原因。"
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "我們不會收到你的內容"
+      },
+      {
+        "type": "paragraph",
+        "text": "你的照片、影片、製作的 film，以及加在 moment 上的文字，都儲存在你的裝置中；我們不會將你的媒體或文字上傳、收集或儲存到我們的伺服器。將完成的 film 儲存到照片圖庫或與他人分享，只會在你選擇時，透過裝置本身的儲存與分享功能進行——它會送到你指定的對象，而不會送到我們這裡。你能主動傳給我們的，只有在聯絡表單中輸入的訊息（詳見下文）。"
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "照片圖庫的取用"
+      },
+      {
+        "type": "paragraph",
+        "text": "本 App 只會在取得你的許可後，為了選取 moment 和儲存完成的 film 而取用照片圖庫。所選內容的處理都在你的裝置上進行。"
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "iCloud 同步"
+      },
+      {
+        "type": "paragraph",
+        "text": "iCloud 同步預設為關閉。開啟後，為了讓各裝置保持一致，film 會保存在你自己的 iCloud 中——包括 film 的標題、加在 moment 上的文字，以及 soundtrack 的音訊。這些資料存放在你自己的 Apple 帳號之下，而不是我們的伺服器，因此我們無法讀取。我們不會將你的照片或影片複製到那裡；同步的只是照片圖庫中項目的參照，媒體本身則由你使用的 iCloud 照片（如有）處理。關閉開關後，該裝置就會停止同步。"
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "soundtrack 的製作"
+      },
+      {
+        "type": "paragraph",
+        "text": "只有在你製作 soundtrack 時，本 App 才會將該 film 的抽象描述傳送到我們的伺服器，以便為它作曲。"
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "會傳送的內容：數值與開／關的值（例如亮度、動態、暖度），加上從固定詞彙中選出的少量氣氛詞。這些都是在你的裝置上、只擷取作曲所需的特徵而產生的。本 App 同時會傳送一組一次性的驗證值（Apple 的 DeviceCheck 機制），用來確認請求來自正規裝置，以管理每月製作次數並防止濫用。次數由 Apple 的機制按裝置計算，我們的伺服器不會儲存任何可識別你的資訊。舊版 App 則改為傳送匿名的識別資料。兩者都不會與你的姓名或電子郵件地址連結。",
+          "不會傳送的內容：你的照片、影片、標題或備註的內容；姓名、電子郵件地址等身分資訊；拍攝日期或位置資訊等原始資料。你不需要建立帳號，也不需要以電子郵件地址或密碼登入。",
+          "用途：傳送的描述只會在製作 soundtrack 的系統（我們的伺服器，以及我們使用的雲端與生成音樂服務）中，於製作與提供 soundtrack、安全營運服務所需的範圍內處理。它不會被用於訓練生成式 AI 模型。為了調整音樂品質，我們可能會彙整由描述導出的值（例如選用的曲風和節奏）。你的照片、影片和文字絕不會傳送到這些伺服器。"
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "關於記錄"
+      },
+      {
+        "type": "paragraph",
+        "text": "當本 App 製作 soundtrack、查詢剩餘次數、從聯絡表單送出訊息，或打開 App 內的使用說明、本政策、使用條款時，會連線到伺服器。使用說明的內容、本政策與使用條款放在我們的網站（oblivious.jp）上，App 會讀取它們來顯示；這些讀取不會傳送驗證資料或任何你輸入的內容。在這些連線中，我們的伺服器、我們使用的雲端基礎設施，以及網站的託管服務商，會在一定期間內保留連線相關的記錄（例如 IP 位址、時間、錯誤內容）。聯絡表單送出的記錄還會包含 App 與 iOS 的版本，但不含可識別你的資訊。這些記錄只用於防止濫用、診斷問題和維持服務運作；其中不含照片、影片或文字的內容，也絕不會用於銷售或廣告。"
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "支援相關的聯絡"
+      },
+      {
+        "type": "paragraph",
+        "text": "App 內的聯絡表單只需要填寫訊息內容。沒有電子郵件地址欄位，也不會在任何地方詢問你的聯絡方式——因此我們無法識別你的身分，也無法回覆。"
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "會傳送的內容：你所寫的訊息。為了調查問題，App 也會一併傳送自身的版本與 iOS 版本。送出時還會附上與 soundtrack 製作相同的一次性驗證值（舊版 App 為匿名識別資料），僅用於驗證請求，不會保留在訊息記錄中。",
+          "保存方式：訊息儲存在我們委託的 Google Cloud（Firestore，東京區域），並在收到後 90 天自動刪除。"
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "不用於銷售或廣告"
+      },
+      {
+        "type": "paragraph",
+        "text": "我們不會將本 App 處理的任何資訊（包括為製作 soundtrack 而傳送的抽象描述）出售給第三方，或用於廣告。透過支援聯絡收到的資訊也一樣。"
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "變更"
+      },
+      {
+        "type": "paragraph",
+        "text": "隨著本 App 的演進，我們可能會更新本政策。更新時，會一併更新下方的生效日期。"
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "聯絡我們"
+      },
+      {
+        "type": "contact",
+        "before": "關於本政策的問題，請聯絡 ",
+        "after": "。"
+      }
+    ],
+    "ko": [
+      {
+        "type": "paragraph",
+        "text": "oblivious(이하 \"본 앱\")는 사진과 동영상에서 고른 moment를 겹쳐 film을 만드는 앱입니다. 본 앱은 사용자의 콘텐츠가 당사에 도달하지 않도록 설계되어 있습니다. 이 방침은 본 앱이 다루는 최소한의 정보와 그 이유를 설명합니다."
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "콘텐츠를 수집하지 않습니다"
+      },
+      {
+        "type": "paragraph",
+        "text": "사용자의 사진과 동영상, 만든 film, moment에 붙인 텍스트는 사용자의 기기에 저장되며, 당사가 서버로 업로드하거나 수집·보관하지 않습니다. 완성한 film을 사진 보관함에 저장하거나 다른 사람과 공유하는 일은 사용자가 선택했을 때, 기기의 저장·공유 기능을 통해 이루어집니다. 그 대상은 사용자가 지정한 상대이며 당사가 받는 일은 없습니다. 사용자가 당사에 의도적으로 보낼 수 있는 것은 문의 양식에 입력한 메시지뿐입니다(아래 참조)."
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "사진 보관함 접근"
+      },
+      {
+        "type": "paragraph",
+        "text": "본 앱은 사용자의 허가를 받은 뒤, moment의 선택과 완성한 film의 저장을 위해서만 사진 보관함에 접근합니다. 선택 항목의 처리는 기기 안에서 이루어집니다."
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "iCloud 동기화"
+      },
+      {
+        "type": "paragraph",
+        "text": "iCloud 동기화는 기본적으로 꺼져 있습니다. 켜면 기기 간에 맞추기 위해 film을 사용자 자신의 iCloud에 보관합니다. 대상은 film의 제목, moment에 붙인 텍스트, soundtrack의 오디오입니다. 이 보관 위치는 사용자 자신의 Apple 계정에 속하며 당사의 서버가 아니므로 당사가 읽을 수 없습니다. 사진과 동영상 자체를 그곳에 복사하지 않으며, 동기화되는 것은 사진 보관함 항목에 대한 참조뿐입니다. 미디어 자체는 사용자가 iCloud 사진을 사용 중이라면 그쪽에서 처리됩니다. 스위치를 끄면 해당 기기는 더 이상 동기화하지 않습니다."
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "soundtrack 만들기"
+      },
+      {
+        "type": "paragraph",
+        "text": "soundtrack을 만들 때만, 본 앱은 작곡을 위해 해당 film을 나타내는 추상적인 기술(記述)을 서버로 보냅니다."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "보내는 것: 수치와 on/off 값(밝기, 움직임, 따뜻함 등), 그리고 고정된 어휘에서 고른 짧은 무드 단어. 이들은 작곡에 필요한 특징만을 기기 안에서 추출해 만들어집니다. 아울러 월간 만들기 횟수의 관리와 부정 사용 방지를 위해, 정상적인 기기에서의 요청임을 확인하는 일회성 확인 값(Apple의 DeviceCheck 방식)을 보냅니다. 횟수는 Apple의 방식으로 기기별로 관리되며, 당사의 서버는 사용자를 식별하는 정보를 저장하지 않습니다. 구버전 앱은 대신 익명의 식별 데이터를 보냅니다. 어느 쪽도 이름이나 이메일 주소와 연결되어 있지 않습니다.",
+          "보내지 않는 것: 사진·동영상·제목·메모의 내용, 이름·이메일 주소 같은 신원 정보, 촬영 일시나 위치 정보 같은 원본 데이터. 계정 등록이나 이메일 주소·암호를 사용한 로그인은 없습니다.",
+          "사용 목적: 보낸 기술은 soundtrack을 만드는 시스템(당사의 서버와 당사가 이용하는 클라우드·생성 음악 서비스)에서, soundtrack의 생성·제공과 서비스의 안전한 운영에 필요한 범위에서만 처리됩니다. 생성형 AI 모델의 학습에는 사용되지 않습니다. 음악 품질을 조정하기 위해 그 기술에서 도출된 값(선택된 곡풍이나 템포 등)을 집계해 사용할 수 있습니다. 사진·동영상·텍스트가 이 서버들로 전송되는 일은 없습니다."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "로그"
+      },
+      {
+        "type": "paragraph",
+        "text": "soundtrack을 만들 때, 남은 횟수를 확인할 때, 문의 양식에서 메시지를 보낼 때, 또는 앱 안에서 도움말·이 방침·이용약관을 열 때 본 앱은 서버에 접속합니다. 도움말 본문, 이 방침, 이용약관은 당사 웹사이트(oblivious.jp)에 있으며 앱은 이를 불러와 표시합니다. 이 요청에는 확인 값이나 사용자가 입력한 내용이 전송되지 않습니다. 각 통신 시 당사의 서버, 당사가 이용하는 클라우드 기반, 웹사이트의 호스팅 사업자에는 요청에 관한 기록(IP 주소, 시각, 오류 내용 등)이 일정 기간 남습니다. 문의 제출 기록에는 앱과 iOS의 버전도 포함되지만, 사용자를 식별하는 정보는 포함되지 않습니다. 이 기록들은 부정 사용 방지, 문제 진단, 서비스 유지에만 사용되며, 사진·동영상·텍스트의 내용을 포함하지 않고, 판매나 광고에 사용되는 일도 없습니다."
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "지원 문의"
+      },
+      {
+        "type": "paragraph",
+        "text": "앱 안의 문의 양식에서 입력하는 것은 메시지뿐입니다. 이메일 주소 입력란은 없으며, 어디에서도 연락처를 묻지 않습니다. 따라서 당사가 사용자를 특정할 수도, 답장을 보낼 수도 없습니다."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "보내는 것: 사용자가 작성한 메시지. 문제 조사를 위해 앱의 버전과 iOS 버전도 함께 전송됩니다. 제출 시에는 soundtrack 만들기와 같은 일회성 확인 값(구버전 앱은 익명의 식별 데이터)도 검증을 위해 전송되지만, 메시지 기록에는 남지 않습니다.",
+          "보관 방식: 메시지는 처리 위탁처인 Google Cloud(Firestore, 도쿄 리전)에 저장되며, 도착 후 90일이 지나면 자동으로 삭제됩니다."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "판매·광고에 사용하지 않습니다"
+      },
+      {
+        "type": "paragraph",
+        "text": "soundtrack을 만들기 위해 전송되는 추상적인 기술을 포함하여, 본 앱이 다루는 어떤 정보도 제3자에게 판매하거나 광고에 사용하지 않습니다. 지원 문의를 통해 받은 정보도 마찬가지입니다."
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "변경"
+      },
+      {
+        "type": "paragraph",
+        "text": "본 앱의 변화에 따라 이 방침을 갱신할 수 있습니다. 갱신한 경우에는 아래의 시행일을 고칩니다."
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "문의"
+      },
+      {
+        "type": "contact",
+        "before": "이 방침에 관한 질문은 ",
+        "after": " 로 연락해 주세요."
+      }
+    ],
+    "zh-Hans": [
+      {
+        "type": "paragraph",
+        "text": "oblivious（以下简称「本 App」）是一款把你从照片和视频中选出的 moment 叠成 film 的应用。我们在设计本 App 时，就确保你的内容不会到达我们这里。本政策说明本 App 处理的少量信息，以及处理的原因。"
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "我们不会收到你的内容"
+      },
+      {
+        "type": "paragraph",
+        "text": "你的照片、视频、创作的 film，以及添加到 moment 上的文本，都保存在你的设备中，我们不会将你的媒体或文本上传、收集或存储到我们的服务器。把完成的 film 存储到照片图库，或与他人共享，都只在你主动选择时，通过设备自身的存储和共享功能进行 — 内容只会送达你指定的对象，不会送达我们。你能够主动发送给我们的，只有在联系表单中输入的留言（详见下文）。"
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "照片图库的访问"
+      },
+      {
+        "type": "paragraph",
+        "text": "本 App 只在获得你的许可后访问照片图库，且仅用于让你选择 moment 和存储完成的 film。所有选择都在你的设备上处理。"
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "iCloud 同步"
+      },
+      {
+        "type": "paragraph",
+        "text": "iCloud 同步默认关闭。如果你打开它，你的 film 会保存在你自己的 iCloud 中，使各台设备保持一致 — 包括 film 的标题、添加到 moment 上的文本，以及 soundtrack 的音频。这些数据位于你自己的 Apple 账户之下，而不是我们的服务器，因此我们无法读取。我们不会把你的照片或视频复制到那里；同步的只是指向照片图库中项目的引用，媒体本身由你使用的 iCloud 照片（如已开启）负责处理。关闭这个开关后，该设备即停止同步。"
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "soundtrack 的创建"
+      },
+      {
+        "type": "paragraph",
+        "text": "只有在你创建 soundtrack 时，本 App 才会向我们的服务器发送对该 film 的一段抽象描述，用于为它谱曲。"
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "会发送的内容：数值和开/关值（例如亮度、动态、色彩的暖度），以及从固定词汇表中选出的少量情绪词。这些内容在你的设备上生成，只提取谱曲所需的特征。同时会发送一个一次性的验证值（Apple 的 DeviceCheck 机制），用于确认请求来自正规设备，以管理每月创建次数并防止滥用。次数由 Apple 的机制按设备计数，我们的服务器不存储任何能识别你的信息。旧版本的 App 会改为发送匿名的识别数据。两者都不会与你的姓名或电子邮件地址关联。",
+          "不会发送的内容：你的照片、视频、标题或备注的内容；姓名、电子邮件地址等身份信息；拍摄日期、位置信息等原始数据。你无需创建账户，也无需使用电子邮件地址或密码登录。",
+          "用途：这段描述只在创建 soundtrack 的系统（我们的服务器，以及我们使用的云服务和生成音乐服务）中，在生成和交付 soundtrack、安全运营服务所必需的范围内处理，不会用于训练生成式 AI 模型。为调整音乐质量，我们可能会汇总由这段描述得出的数值（例如所选的曲风和节奏）。你的照片、视频和文本绝不会发送到这些服务器。"
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "日志"
+      },
+      {
+        "type": "paragraph",
+        "text": "当本 App 创建 soundtrack、查询剩余创建次数、从联系表单发送留言，或打开 App 内的帮助、本政策、使用条款时，会连接服务器。帮助内容、本政策和使用条款存放在我们的网站（oblivious.jp）上，App 加载后进行显示；这些读取请求不会发送验证数据或你输入的任何内容。在上述各类通信中，我们的服务器、我们使用的云基础设施，以及网站的托管方，会在一定期限内保留通信记录（例如 IP 地址、时间和错误详情）。联系表单提交的记录还包含 App 和 iOS 的版本，但不包含能识别你的信息。这些记录仅用于防止滥用、排查问题和维持服务运行；其中不含你的照片、视频或文本的内容，也绝不会用于出售或广告。"
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "支持咨询"
+      },
+      {
+        "type": "paragraph",
+        "text": "App 内的联系表单只需填写留言内容。没有电子邮件地址的输入栏，也不会在任何地方询问你的联系方式 — 因此我们既无法识别你的身份，也无法回复。"
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "会发送的内容：你填写的留言。App 还会一并发送自身版本和 iOS 版本，以便排查问题。提交时还会携带与创建 soundtrack 相同的一次性验证值（旧版本的 App 改为发送匿名的识别数据），它仅用于验证请求，不会保留在留言记录中。",
+          "保存方式：留言保存在作为我们受托处理方的 Google Cloud（Firestore，东京区域），并在送达 90 天后自动删除。"
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "不出售、不用于广告"
+      },
+      {
+        "type": "paragraph",
+        "text": "对于本 App 处理的信息 — 包括为创建 soundtrack 而发送的抽象描述 — 我们不会出售给第三方，也不会用于广告。通过支持咨询收到的信息同样如此。"
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "变更"
+      },
+      {
+        "type": "paragraph",
+        "text": "随着本 App 的发展，我们可能会更新本政策。更新时，我们会同步更新下方的生效日期。"
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "联系我们"
+      },
+      {
+        "type": "contact",
+        "before": "如对本政策有任何疑问，请联系 ",
+        "after": "。"
+      }
+    ],
+    "es": [
+      {
+        "type": "paragraph",
+        "text": "oblivious (la «app», «nosotros») es una app para crear films tejiendo moments a partir de tus fotos y videos. Diseñamos oblivious para que tu contenido nunca llegue a nosotros. Esta política explica la poca información que maneja la app y por qué."
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "Tu contenido nunca llega a nosotros"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tus fotos, tus videos, los films que creas y el texto que añades a un moment se guardan en tu dispositivo, y no subimos, recopilamos ni almacenamos tus contenidos ni tus textos en nuestros servidores. Guardar un film terminado en tu fototeca o compartirlo con otras personas ocurre solo cuando tú lo decides, a través de las funciones de guardado y compartición de tu propio dispositivo: llega a quien tú se lo envías, nunca a nosotros. Lo único que puedes enviarnos deliberadamente es el mensaje que escribas en el formulario de contacto, descrito más abajo."
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "Acceso a la fototeca"
+      },
+      {
+        "type": "paragraph",
+        "text": "La app accede a tu fototeca solo con tu permiso, y únicamente para que selecciones moments y guardes los films terminados. La selección se procesa en tu dispositivo."
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "Sincronización con iCloud"
+      },
+      {
+        "type": "paragraph",
+        "text": "La sincronización con iCloud está desactivada por omisión. Si la activas, tus films se guardan en tu propio iCloud para que tus dispositivos coincidan: los títulos de los films, el texto que añades a los moments y el audio de los soundtracks. Ese almacenamiento pertenece a tu propia Cuenta de Apple, no a nuestros servidores, así que no podemos leerlo. No copiamos allí tus fotos ni tus videos; solo se sincronizan referencias a los elementos de tu fototeca, y los archivos en sí los gestiona tu propio Fotos en iCloud si lo usas. Al desactivar el interruptor, ese dispositivo deja de sincronizarse."
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "Generación de soundtracks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Solo cuando generas un soundtrack, la app envía a nuestro servidor una descripción abstracta de ese film para que se pueda componer un soundtrack a su medida."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Qué se envía: números y valores de sí/no (como brillo, movimiento o calidez) y una lista corta de palabras de ánimo elegidas de un vocabulario fijo. Se producen en tu dispositivo usando solo las características necesarias para componer música. La app envía además un valor de verificación de un solo uso (el mecanismo DeviceCheck de Apple) que confirma que la solicitud procede de un dispositivo legítimo, usado para gestionar el límite mensual de generación y prevenir el uso no autorizado. El recuento lo lleva el mecanismo de Apple por dispositivo, y nuestro servidor no almacena nada que te identifique. Las versiones antiguas de la app envían en su lugar datos de identificación anónimos. Ninguno de los dos está vinculado a tu nombre ni a tu dirección de correo.",
+          "Qué no se envía: el contenido de tus fotos, videos, títulos o notas; información de identidad como tu nombre o tu correo; ni datos en bruto como fechas de captura o ubicación. No necesitas crear una cuenta ni iniciar sesión con correo y contraseña.",
+          "Para qué se usa: la descripción se procesa dentro del sistema que crea el soundtrack (nuestros servidores y los servicios en la nube y de música generativa que usamos) solo en la medida necesaria para generar y entregar el soundtrack y operar el servicio de forma segura. No se usa para entrenar modelos de IA generativa. Sí agregamos valores derivados de ella (como el estilo musical y el tempo elegidos) para ajustar la calidad de la música. Tus fotos, videos y textos nunca se envían a estos servidores."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "Registros"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cuando la app genera un soundtrack, consulta tu cuota restante, envía un mensaje desde el formulario de contacto o abre la ayuda, esta política o las condiciones de uso dentro de la app, se conecta a un servidor. El texto de la ayuda, esta política y las condiciones están en nuestro sitio web (oblivious.jp), y la app los carga para mostrarlos; esas solicitudes no envían datos de verificación ni nada que hayas escrito. En cada caso, nuestro servidor, la infraestructura en la nube que usamos y el proveedor que aloja nuestro sitio conservan durante un tiempo limitado registros de la solicitud, como la dirección IP, la hora y los detalles de error. El registro de un envío del formulario de contacto incluye también las versiones de la app y de iOS, pero nada que te identifique. Se usan solo para prevenir abusos, diagnosticar problemas y mantener el servicio en funcionamiento; no contienen el contenido de tus fotos, videos o textos, y nunca se usan para venta ni publicidad."
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "Consultas de soporte"
+      },
+      {
+        "type": "paragraph",
+        "text": "El formulario de contacto de la app solo pide tu mensaje. No hay campo para el correo electrónico ni te pedimos datos de contacto en ningún sitio, así que no tenemos forma de identificarte ni de responderte."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Qué se envía: el mensaje que escribes. La app envía además su propia versión y la de iOS para poder investigar problemas. El envío incluye el mismo valor de verificación de un solo uso que la generación de soundtracks (las versiones antiguas de la app envían en su lugar datos de identificación anónimos); se usa solo para validar la solicitud y no se conserva en el registro de tu mensaje.",
+          "Cómo se conserva: los mensajes se almacenan en Google Cloud (Firestore, región de Tokio) como nuestro encargado del tratamiento, y se eliminan automáticamente 90 días después de llegar."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "Sin venta ni publicidad"
+      },
+      {
+        "type": "paragraph",
+        "text": "No vendemos a terceros ninguna información que maneje la app, incluida la descripción abstracta que se envía para generar un soundtrack, ni la usamos para publicidad. Lo mismo se aplica a la información que recibimos a través de las consultas de soporte."
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "Cambios"
+      },
+      {
+        "type": "paragraph",
+        "text": "Podemos actualizar esta política a medida que la app evolucione. Cuando lo hagamos, actualizaremos la fecha de entrada en vigor indicada abajo."
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "Contacto"
+      },
+      {
+        "type": "contact",
+        "before": "Para preguntas sobre esta política, escribe a ",
+        "after": "."
+      }
+    ],
+    "de": [
+      {
+        "type": "paragraph",
+        "text": "oblivious („die App“, „wir“) ist eine App zum Filmemachen, mit der du moments aus deinen Fotos und Videos zu einem film verwebst. Wir haben oblivious so gestaltet, dass deine Inhalte uns nie erreichen. Diese Richtlinie erklärt, welche wenigen Informationen die App verarbeitet – und warum."
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "Deine Inhalte erreichen uns nicht"
+      },
+      {
+        "type": "paragraph",
+        "text": "Deine Fotos, Videos, die films, die du machst, und jeder Text, den du einem moment hinzufügst, werden auf deinem Gerät gespeichert. Wir laden deine Medien und deine Texte nicht auf unsere Server hoch und sammeln oder speichern sie dort nicht. Einen fertigen film in deiner Fotomediathek zu sichern oder mit anderen zu teilen geschieht nur, wenn du es auswählst – über die Sichern- und Teilen-Funktionen deines Geräts. Er geht an die Empfänger, die du wählst, nie an uns. Das Einzige, was du uns bewusst senden kannst, ist eine Nachricht über das Kontaktformular (siehe unten)."
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "Zugriff auf die Fotomediathek"
+      },
+      {
+        "type": "paragraph",
+        "text": "Die App greift nur mit deiner Erlaubnis auf deine Fotomediathek zu – und nur, damit du moments auswählen und fertige films sichern kannst. Deine Auswahl wird auf deinem Gerät verarbeitet."
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "iCloud-Synchronisierung"
+      },
+      {
+        "type": "paragraph",
+        "text": "Die iCloud-Synchronisierung ist standardmäßig aus. Schaltest du sie ein, werden deine films in deiner eigenen iCloud abgelegt, damit deine Geräte übereinstimmen – film-Titel, die Texte, die du moments hinzufügst, und das Audio der soundtracks. Dieser Speicher liegt in deinem eigenen Apple-Account, nicht auf unserem Server; wir können ihn nicht lesen. Deine Fotos oder Videos kopieren wir nicht dorthin: Synchronisiert werden nur Verweise auf Objekte in deiner Fotomediathek – die Medien selbst verwaltet dein eigenes iCloud-Fotos, sofern du es verwendest. Schaltest du den Schalter aus, synchronisiert dieses Gerät nicht mehr."
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "Erstellen von soundtracks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nur wenn du einen soundtrack erstellst, sendet die App eine abstrakte Beschreibung dieses films an unseren Server, damit dafür ein soundtrack komponiert werden kann."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Was gesendet wird: Zahlen und Ein/Aus-Werte – etwa Helligkeit, Bewegung und Wärme – sowie eine kurze Liste von Stimmungswörtern aus einem festen Vokabular. Sie entstehen auf deinem Gerät, allein aus den Merkmalen, die zum Komponieren nötig sind. Zusätzlich sendet die App einen einmaligen Bestätigungswert (Apples DeviceCheck-Mechanismus), der belegt, dass die Anfrage von einem echten Gerät stammt; er dient der Verwaltung des monatlichen Erstellungslimits und der Verhinderung von Missbrauch. Der Zähler wird über Apples Mechanismus pro Gerät geführt, und unser Server speichert nichts, was dich identifiziert. Ältere Versionen der App senden stattdessen anonyme Identifikationsdaten. Beides ist nicht mit deinem Namen oder deiner E-Mail-Adresse verknüpft.",
+          "Was nicht gesendet wird: die Inhalte deiner Fotos, Videos, Titel oder Notizen; Identitätsdaten wie Name oder E-Mail-Adresse; Rohdaten wie Aufnahmedaten oder Standorte. Du musst kein Konto anlegen und dich nicht mit E-Mail-Adresse oder Passwort anmelden.",
+          "Wofür es verwendet wird: Die Beschreibung wird innerhalb des Systems verarbeitet, das den soundtrack erstellt – unsere Server sowie die Cloud- und Musikgenerierungs-Dienste, die wir nutzen –, und nur soweit nötig, um den soundtrack zu erzeugen und bereitzustellen und den Dienst sicher zu betreiben. Sie wird nicht zum Trainieren generativer KI-Modelle verwendet. Abgeleitete Werte – etwa welcher Musikstil und welches Tempo gewählt wurden – werten wir gesammelt aus, um die Qualität der Musik zu verbessern. Deine Fotos, Videos und Texte werden nie an diese Server gesendet."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "Protokolle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wenn die App einen soundtrack erstellt, dein verbleibendes Kontingent prüft, eine Nachricht aus dem Kontaktformular sendet oder die Hilfe, diese Richtlinie oder die Nutzungsbedingungen in der App öffnet, verbindet sie sich mit einem Server. Die Hilfetexte, diese Richtlinie und die Nutzungsbedingungen liegen auf unserer Website (oblivious.jp); die App lädt sie zur Anzeige. Diese Abrufe senden keine Bestätigungsdaten und nichts, was du eingegeben hast. In jedem dieser Fälle behalten unser Server, die von uns genutzte Cloud-Infrastruktur und der Anbieter, der unsere Website hostet, für begrenzte Zeit Aufzeichnungen über die Anfrage – etwa IP-Adresse, Zeitpunkt und Fehlerdetails. Die Aufzeichnung einer Kontaktformular-Einsendung enthält zusätzlich die App- und iOS-Version, aber nichts, was dich identifiziert. All das dient allein dazu, Missbrauch zu verhindern, Probleme zu untersuchen und den Dienst am Laufen zu halten; es enthält keinerlei Inhalte deiner Fotos, Videos oder Texte und wird nie für Verkauf oder Werbung verwendet."
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "Support-Anfragen"
+      },
+      {
+        "type": "paragraph",
+        "text": "Das Kontaktformular in der App fragt nur nach deiner Nachricht. Es gibt kein Feld für eine E-Mail-Adresse, und die App fragt dich an keiner Stelle nach Kontaktdaten – wir können dich also weder identifizieren noch dir antworten."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Was gesendet wird: die Nachricht, die du schreibst. Zusätzlich sendet die App ihre eigene Version und deine iOS-Version, damit wir Probleme untersuchen können. Die Einsendung trägt außerdem denselben einmaligen Bestätigungswert wie das Erstellen von soundtracks (ältere Versionen der App senden stattdessen anonyme Identifikationsdaten); er dient nur der Prüfung der Anfrage und wird nicht in der Aufzeichnung deiner Nachricht aufbewahrt.",
+          "Wie sie aufbewahrt wird: Nachrichten werden bei Google Cloud (Firestore, Region Tokio) als unserem Auftragsverarbeiter gespeichert und 90 Tage nach Eingang automatisch gelöscht."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "Kein Verkauf, keine Werbung"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wir verkaufen keine von der App verarbeiteten Informationen an Dritte – auch nicht die abstrakte Beschreibung, die zum Erstellen eines soundtracks gesendet wird – und verwenden sie nicht für Werbung. Dasselbe gilt für Informationen, die uns über Support-Anfragen erreichen."
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "Änderungen"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wir können diese Richtlinie anpassen, wenn sich die App weiterentwickelt. Tun wir das, aktualisieren wir das unten stehende Gültigkeitsdatum."
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "Kontakt"
+      },
+      {
+        "type": "contact",
+        "before": "Bei Fragen zu dieser Richtlinie erreichst du uns unter ",
+        "after": "."
       }
     ]
   }

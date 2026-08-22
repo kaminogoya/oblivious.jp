@@ -8,7 +8,12 @@
           "id": "film-and-moment",
           "title": {
             "en": "What are films and moments?",
-            "ja": "film と moment とは？"
+            "ja": "film と moment とは？",
+            "zh-Hant": "film 和 moment 是什麼？",
+            "ko": "film과 moment란 무엇인가요?",
+            "zh-Hans": "film 和 moment 是什么？",
+            "es": "¿Qué son los films y los moments?",
+            "de": "Was sind films und moments?"
           },
           "body": {
             "en": [
@@ -46,6 +51,96 @@
                   "moment の並び順によって、film のテンポや印象を調整できます"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "**film** 是你在 oblivious 中製作的作品：由多個 **moment** 依序串成的影片，並可加上 **soundtrack** 作為背景音樂（也可以不設定）。"
+              },
+              {
+                "type": "paragraph",
+                "text": "**moment** 是一張照片或一段短影片。每個 moment 都以相同的長度播放，因此 film 感覺起來不像時間軸，而更像一種節奏。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "一個 film 最多可包含 60 個 moment。",
+                  "moment 的長度可依每個 film 選擇1秒或2秒。",
+                  "排列順序會改變 film 的節奏與印象。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "**film**은 여러 **moment**를 이어 붙여 만드는 동영상입니다. film의 배경 음악(BGM)으로 **soundtrack**을 더할 수 있습니다(설정하지 않아도 됩니다)."
+              },
+              {
+                "type": "paragraph",
+                "text": "**moment**는 사진 한 장 또는 짧은 동영상 하나입니다. 모든 moment가 같은 길이로 재생되기 때문에 film은 타임라인이라기보다 하나의 리듬처럼 느껴집니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "film 하나에는 moment를 최대 60개까지 담을 수 있습니다.",
+                  "moment의 재생 시간은 film마다 1초 또는 2초 중에서 선택할 수 있습니다.",
+                  "moment를 배열하는 순서에 따라 film의 흐름과 인상이 달라집니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "**film** 是你在 oblivious 中创作的作品：把多个 **moment** 按顺序连在一起的视频，还可以为它加上一条 **soundtrack** 作为背景音乐（不加也可以）。"
+              },
+              {
+                "type": "paragraph",
+                "text": "**moment** 是一张照片，或一段很短的视频。每个 moment 的播放时长都相同，所以 film 更像一段节奏，而不是一条时间线。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "一个 film 最多可以容纳 60 个 moment。",
+                  "moment 的时长可以按 film 选择 1秒或 2秒。",
+                  "顺序本身就有意义。调整 moment 的排列，film 的节奏和印象也会随之改变。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Un **film** es lo que creas en oblivious: un video hecho de **moments** encadenados, con un **soundtrack** opcional como música de fondo."
+              },
+              {
+                "type": "paragraph",
+                "text": "Un **moment** es una foto o un fragmento corto de video. Todos los moments se reproducen con la misma duración, así que un film se siente más como un ritmo que como una línea de tiempo."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Un film puede contener hasta 60 moments.",
+                  "La duración de cada moment es de 1 o 2 segundos, y se elige por film.",
+                  "El orden importa: al reordenar los moments cambia el tempo y la impresión del film."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Ein **film** ist das, was du in oblivious machst: eine Abfolge von **moments**, auf Wunsch mit einem **soundtrack** als Hintergrundmusik darüber."
+              },
+              {
+                "type": "paragraph",
+                "text": "Ein **moment** ist ein Foto oder ein kurzes Stück Video. Jedes moment läuft gleich lang, dadurch wirkt ein film weniger wie eine Zeitleiste und mehr wie ein Rhythmus."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Ein film kann bis zu 60 moments enthalten.",
+                  "Die Dauer pro moment beträgt 1 oder 2 Sekunden, wählbar pro film.",
+                  "Die Reihenfolge trägt Bedeutung. Ordnest du die moments neu an, verändert sich, wie der film wirkt."
+                ]
+              }
             ]
           }
         },
@@ -53,7 +148,12 @@
           "id": "adding-moments",
           "title": {
             "en": "How do I add moments?",
-            "ja": "moment を追加したい"
+            "ja": "moment を追加したい",
+            "zh-Hant": "如何加入 moment？",
+            "ko": "moment 추가하기",
+            "zh-Hans": "如何添加 moment？",
+            "es": "¿Cómo añado moments?",
+            "de": "Wie füge ich moments hinzu?"
           },
           "body": {
             "en": [
@@ -91,15 +191,112 @@
                   "写真ライブラリの元ファイルを削除すると、film 内でも表示されなくなります"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "打開 film 後點一下 **＋**。照片和影片會依你選取的順序加入，成為 moment 的順序。"
+              },
+              {
+                "type": "paragraph",
+                "text": "如果只顯示部分照片，表示 oblivious 只能取用所選的照片。點一下**選取更多照片**擴大範圍，或從**更改設定**允許取用所有照片。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "比 moment 長度短的影片會以靜止畫面（單格）呈現。",
+                  "moment 參照的是照片圖庫中的原始檔案。",
+                  "如果刪除原始檔案，該 moment 在 film 中也會無法顯示。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "film을 열고 **＋**를 탭하세요. 선택한 사진과 동영상은 고른 순서대로 moment가 됩니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "사진이 일부만 보인다면 oblivious가 선택된 사진에만 접근할 수 있는 상태입니다. **더 많은 사진 선택**으로 대상을 늘리거나, **설정 변경**에서 모든 사진에 대한 접근을 허용하세요."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "moment의 설정 시간보다 짧은 동영상은 정지 화면(한 프레임)으로 처리됩니다.",
+                  "moment는 사진 보관함의 원본 파일을 참조합니다.",
+                  "사진 보관함에서 원본을 삭제하면 film에서도 표시되지 않습니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "打开 film，轻点 **＋**。选中的照片和视频会按选择的顺序加入，成为 moment 的排列顺序。"
+              },
+              {
+                "type": "paragraph",
+                "text": "如果只显示出一部分照片，说明 oblivious 只被允许访问所选的部分照片。轻点**选择更多照片**扩大范围，或轻点**更改设置**允许访问所有照片。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "比 moment 时长更短的视频，会作为一张静止画面处理。",
+                  "moment 引用的是照片图库中的原始文件。",
+                  "如果删除了原始文件，这个 moment 在 film 中也无法再显示。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Abre el film y toca **＋**. Las fotos y los videos se añaden en el orden en que los seleccionas, y ese pasa a ser el orden de los moments."
+              },
+              {
+                "type": "paragraph",
+                "text": "Si solo aparece una parte de tu fototeca, oblivious tiene acceso a una selección de fotos. Toca **Seleccionar más fotos** para ampliarla, o **Cambiar ajustes** para permitir el acceso a todas las fotos."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Un video más corto que la duración del moment se trata como una imagen fija.",
+                  "Cada moment hace referencia al archivo original de tu fototeca.",
+                  "Si eliminas ese original de la fototeca, el moment deja de mostrarse en el film."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Öffne den film und tippe auf **＋**. Fotos und Videos kommen in der Reihenfolge in den film, in der du sie auswählst."
+              },
+              {
+                "type": "paragraph",
+                "text": "Wenn nur ein Teil deiner Mediathek angezeigt wird, hat oblivious Zugriff auf eine Auswahl deiner Fotos. Tippe auf **Weitere Fotos auswählen**, um die Auswahl zu erweitern, oder auf **Einstellungen ändern**, um alle Fotos zu erlauben."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Ein Video, das kürzer ist als die moment-Dauer, wird als Standbild übernommen.",
+                  "Ein moment verweist auf die Originaldatei in deiner Fotomediathek.",
+                  "Löschst du das Original, hat das moment im film nichts mehr, das es zeigen kann."
+                ]
+              }
             ]
           }
         },
         {
           "id": "editing-moments",
-          "platforms": ["ios"],
+          "platforms": [
+            "ios"
+          ],
           "title": {
             "en": "What can I do when editing a moment?",
-            "ja": "moment を編集したい"
+            "ja": "moment を編集したい",
+            "zh-Hant": "如何編輯 moment？",
+            "ko": "moment 편집하기",
+            "zh-Hans": "编辑 moment 时可以做什么？",
+            "es": "¿Qué puedo hacer al editar un moment?",
+            "de": "Was kann ich beim Bearbeiten eines moments tun?"
           },
           "body": {
             "en": [
@@ -139,15 +336,117 @@
                   "［⋯］メニューの［moment を削除］で film から削除できます（film から削除しても写真ライブラリの元のデータは削除されません）"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "點一下 moment 即可開始編輯。點一下**完成**以儲存變更。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "以雙指縮放或拖移調整畫面中的位置與大小（點一下 **Fill** 即可填滿整個畫面，**重置**則回到原始狀態）。",
+                  "影片可移動膠卷來選擇要使用的片段。",
+                  "可以燒錄一行簡短的**文字**，以及**拍攝日期與時間**的標記。",
+                  "可以選擇影片是否使用原始音訊。",
+                  "**上一個 moment 的殘影**會淡淡地顯示前一個 moment，方便對齊兩者的位置。",
+                  "**⋯** 選單中的**複製到前面**／**複製到後面**會在這個 moment 的前後加入一份複本，並保留你所做的所有設定。",
+                  "複製的 moment 若是影片，會自動使用緊接在前或緊接在後的片段。",
+                  "同一個 **⋯** 選單中的**移除 moment** 會將它從 film 中移除。照片圖庫裡的原始檔案不會受影響。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "moment를 탭하면 편집 화면이 열립니다. **완료**를 탭하면 편집한 내용이 저장됩니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "핀치와 드래그로 위치와 크기를 조절할 수 있습니다. **Fill**을 탭하면 프레임 전체를 채우고, **재설정**을 탭하면 처음 상태로 돌아갑니다.",
+                  "동영상은 필름 스트립을 움직여 사용할 장면을 고를 수 있습니다.",
+                  "짧은 **텍스트**와 **촬영 날짜·시간** 스탬프를 새겨 넣을 수 있습니다.",
+                  "동영상의 **원본 오디오**를 포함할지 선택할 수 있습니다.",
+                  "**이전 moment 잔상**을 겹쳐 보면서 앞뒤 moment의 위치를 맞출 수 있습니다.",
+                  "**⋯** 메뉴의 **이전에 복제** / **다음에 복제**로, 편집한 내용을 그대로 유지한 채 앞뒤에 복제할 수 있습니다.",
+                  "복제한 moment가 동영상이면 바로 앞 또는 뒤에 이어지는 장면이 자동으로 배정됩니다.",
+                  "같은 **⋯** 메뉴의 **moment 삭제**로 film에서 삭제할 수 있습니다. 사진 보관함의 원본은 삭제되지 않습니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "轻点某个 moment 即可打开编辑画面。轻点**完成**保存所做的更改。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "通过捏合和拖移调整画面在画框中的位置和大小。**Fill** 一键填满画框，**重置**恢复到 unfilled 的初始状态。",
+                  "视频可以拖动胶片条，选择要使用的片段。",
+                  "可以烧录一行短**文本**，或加上**拍摄日期和时间**的印记。",
+                  "可以选择视频是否保留**原声**。",
+                  "**上一个 moment 的残影**会淡淡地叠加显示前一个 moment，方便对齐两者的画面。",
+                  "**⋯** 菜单中的**复制到前面** / **复制到后面**，会在这个 moment 的前后加入一份副本，并保留你所做的全部设置。",
+                  "如果复制的是视频 moment，副本会自动取用紧接在前面或后面的片段。",
+                  "同一个 **⋯** 菜单中的**删除 moment**可以把它从 film 中移除。照片图库中的原始照片或视频不会受影响。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Toca un moment para abrir la pantalla de edición. Toca **OK** para guardar los cambios."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Pellizca y arrastra para ajustar la posición y el tamaño. **Fill** llena el encuadre de un toque y **Restablecer** vuelve al estado inicial.",
+                  "En un video, mueve la tira de fotogramas para elegir qué parte se reproduce.",
+                  "Puedes grabar en la imagen una línea corta de **texto** y el sello con la **fecha y hora de captura**.",
+                  "Puedes elegir si un video conserva su **audio original**.",
+                  "El **fantasma del moment anterior** muestra tenuemente el moment previo, para alinear los dos.",
+                  "**Duplicar antes** y **Duplicar después**, en el menú **⋯**, añaden una copia de este moment antes o después de él, conservando todo lo que hayas ajustado.",
+                  "Si el moment es un video, la copia toma el tramo inmediatamente anterior o posterior.",
+                  "**Eliminar moment**, en el mismo menú **⋯**, lo quita del film. La foto o el video de tu fototeca no se toca."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Tippe auf ein moment, um es zu bearbeiten. Mit **Fertig** behältst du deine Änderungen."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Mit Aufziehen und Bewegen legst du fest, wie das Bild im Rahmen sitzt. **Fill** füllt den Rahmen mit einem Tipp, **Zurücksetzen** kehrt zu unfilled zurück.",
+                  "Bei einem Video wählst du über den Filmstreifen aus, welcher Teil abgespielt wird.",
+                  "Du kannst eine kurze **Text**-Zeile sowie **Aufnahmedatum und Uhrzeit** einbrennen.",
+                  "Du entscheidest, ob ein Video seinen **Originalton** behält.",
+                  "Das **Geisterbild des vorherigen moments** zeigt das moment davor schwach im Hintergrund, damit du beide aufeinander ausrichten kannst.",
+                  "**Davor duplizieren** und **Danach duplizieren** im **⋯**-Menü fügen eine Kopie dieses moments davor oder danach ein – mit allem, was du eingestellt hast.",
+                  "Bei einem Video übernimmt die Kopie den Abschnitt direkt davor oder direkt danach.",
+                  "**moment entfernen**, ebenfalls im **⋯**-Menü, nimmt das moment aus dem film. Das Foto oder Video in deiner Mediathek bleibt unberührt."
+                ]
+              }
             ]
           }
         },
         {
           "id": "changing-a-film",
-          "platforms": ["ios"],
+          "platforms": [
+            "ios"
+          ],
           "title": {
             "en": "What can I change about the film itself?",
-            "ja": "film の設定を変更したい"
+            "ja": "film の設定を変更したい",
+            "zh-Hant": "如何更改 film 的設定？",
+            "ko": "film 설정 변경하기",
+            "zh-Hans": "如何更改 film 本身的设置？",
+            "es": "¿Qué puedo cambiar del film en conjunto?",
+            "de": "Was kann ich am film selbst ändern?"
           },
           "body": {
             "en": [
@@ -181,6 +480,86 @@
                   "［film を削除］で、film を削除できます（写真ライブラリの元のデータは削除されません。削除の取り消しは不可。また、この film で作成した soundtrack を別の film で利用している場合、その soundtrack も削除されます）"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "打開 film 後點一下畫面上方的 **⋯**。這裡的項目作用於整個 film，而不是單一 moment。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**每個 moment 1秒**／**每個 moment 2秒**可一次設定所有 moment 的播放長度。",
+                  "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
+                  "**編輯名稱**可更改 film 的標題。",
+                  "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
+                  "**刪除 film** 無法復原。照片圖庫中的照片和影片不會受影響；但如果其他 film 正在使用由這個 film 製作的 soundtrack，該 soundtrack 也會一併從那些 film 中移除。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "film을 열고 화면 위의 **⋯**를 탭하세요. 이곳에는 moment 하나가 아니라 film 전체에 적용되는 항목이 모여 있습니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**moment당 1초** / **moment당 2초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
+                  "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
+                  "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
+                  "**film 삭제**는 되돌릴 수 없습니다. 사진 보관함의 원본은 삭제되지 않지만, 이 film으로 만든 soundtrack을 다른 film에서 사용 중이라면 그 film에서도 함께 삭제됩니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "打开 film，轻点顶部的 **⋯**。这里的项目作用于整个 film，而不是单个 moment。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**每个 moment 1秒** / **每个 moment 2秒**：统一设置所有 moment 的播放时长。",
+                  "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
+                  "**编辑名称**：更改 film 的标题。",
+                  "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
+                  "**删除 film**：删除后无法恢复。照片图库中的照片和视频不会受影响 — 但如果其他 film 正在使用由这个 film 创建的 soundtrack，那些 film 中的 soundtrack 也会一并移除。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Abre el film y toca **⋯** en la parte superior. Lo que hay ahí actúa sobre todo el film, no sobre un moment concreto."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**1 s por moment** / **2 s por moment** define cuánto dura la reproducción de cada moment.",
+                  "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
+                  "**Editar nombre** cambia el título del film.",
+                  "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
+                  "**Eliminar film** no se puede deshacer. Las fotos y los videos de tu fototeca no se tocan, pero si otros films usan un soundtrack creado a partir de este, también desaparecerá de ellos."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Öffne den film und tippe oben auf **⋯**. Alles dort wirkt auf den ganzen film, nicht auf ein einzelnes moment."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**1 Sek. pro moment** / **2 Sek. pro moment** legt fest, wie lang jedes moment läuft.",
+                  "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
+                  "**Namen ändern** benennt den film um.",
+                  "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
+                  "**film löschen** lässt sich nicht rückgängig machen. Die Fotos und Videos in deiner Mediathek bleiben unberührt – aber wenn andere films einen soundtrack verwenden, der aus diesem film erstellt wurde, verschwindet er auch dort."
+                ]
+              }
             ]
           }
         },
@@ -188,7 +567,12 @@
           "id": "saving-and-sharing",
           "title": {
             "en": "How do I save or share a film?",
-            "ja": "film を保存・共有したい"
+            "ja": "film を保存・共有したい",
+            "zh-Hant": "如何儲存或分享 film？",
+            "ko": "film 저장 및 공유하기",
+            "zh-Hans": "如何存储或共享 film？",
+            "es": "¿Cómo guardo o comparto un film?",
+            "de": "Wie sichere oder teile ich einen film?"
           },
           "body": {
             "en": [
@@ -232,6 +616,111 @@
                   "動画を保存した後も film データは残るため、いつでも再編集や再保存できます"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "film 完成後，點一下畫面下方的儲存圖示（帶向下箭頭的托盤）。儲存畫面隨即打開，儲存與分享都在這裡進行。"
+              },
+              {
+                "type": "paragraph",
+                "text": "預覽所顯示的內容就是輸出的結果，包含 film 的方向與混合後的 soundtrack。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**儲存**會將影片寫入照片圖庫。",
+                  "畫面上方的分享按鈕可將同一部影片傳給其他 App。",
+                  "可以從 look 中選擇 film 的色彩風格，並調整套用的強度。",
+                  "套用 look 時，點一下預覽即可與原始畫面比較。",
+                  "色彩風格只會套用到輸出的影片，不會改變 film 本身。",
+                  "儲存不會改變 film 的任何內容。你可以繼續編輯，之後再儲存一次。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "film이 완성되면 화면 아래의 저장 아이콘(아래쪽 화살표가 있는 트레이)을 탭하세요. 저장 화면이 열리고, 기기에 저장하거나 다른 앱으로 공유할 수 있습니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "미리보기에 보이는 내용이 그대로 동영상으로 저장됩니다. film의 방향과 soundtrack도 함께 반영됩니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**저장**을 탭하면 사진 보관함에 동영상이 저장됩니다.",
+                  "화면 위의 공유 버튼으로 같은 동영상을 다른 앱에 바로 전달할 수 있습니다.",
+                  "준비된 **look** 중에서 film의 색감 마무리를 고르고, 적용 강도를 조절할 수 있습니다.",
+                  "look을 적용한 상태에서 미리보기를 탭하면 원본 영상과 비교해 볼 수 있습니다.",
+                  "색감 마무리는 내보내는 동영상에만 적용되며, film 자체의 데이터는 바뀌지 않습니다.",
+                  "동영상을 저장한 뒤에도 film은 그대로 남아 있으므로 언제든지 다시 편집하고 다시 저장할 수 있습니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "film 完成后，轻点屏幕底部的存储图标（带下箭头的托盘）。存储画面随即打开，存储和共享都在这里进行。"
+              },
+              {
+                "type": "paragraph",
+                "text": "预览中显示的内容就是最终输出的视频，包括 film 的方向和混入的 soundtrack。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**存储**：把视频写入照片图库。",
+                  "顶部的共享按钮可以把同一个视频交给其他 App。",
+                  "可以为 film 选择一种 **look** 作为色彩风格，并调整应用的强度。",
+                  "应用 look 时，轻点预览画面即可与原始画面对比。",
+                  "色彩风格只应用在导出的视频上，不会改变 film 本身。",
+                  "存储不会改变 film 的任何内容。你可以继续编辑，然后再次存储。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Cuando el film esté listo, toca el icono de guardar en la parte inferior de la pantalla: una bandeja con una flecha hacia abajo. Se abre la pantalla de guardado, y tanto guardar como compartir se hacen ahí."
+              },
+              {
+                "type": "paragraph",
+                "text": "La previsualización es exactamente lo que se exportará, con la orientación del film y el soundtrack ya mezclado."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Guardar** escribe el video en tu fototeca.",
+                  "El botón de compartir de la parte superior entrega el mismo video a otra app.",
+                  "Elige un **look** para el acabado de color del film y ajusta con qué intensidad se aplica.",
+                  "Con un look activo, toca la previsualización para compararla con el original.",
+                  "El acabado de color se aplica solo al video exportado, no al film en sí.",
+                  "Guardar no cambia nada del film: puedes seguir editando y volver a guardar."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Wenn der film so weit ist, tippe unten auf das Sichern-Symbol – eine Ablage mit Pfeil nach unten. Der Sichern-Bildschirm öffnet sich; Sichern und Teilen passieren beide dort."
+              },
+              {
+                "type": "paragraph",
+                "text": "Die Vorschau zeigt genau das, was herauskommt – im Format des films und mit dem soundtrack darin."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Sichern** schreibt das Video in deine Fotomediathek.",
+                  "Über die Teilen-Taste oben gibst du dasselbe Video an eine andere App weiter.",
+                  "Wähle einen **look** für die Farbstimmung des films und passe an, wie stark er wirkt.",
+                  "Solange ein look aktiv ist, kannst du auf die Vorschau tippen und mit dem Original vergleichen.",
+                  "Die Farbstimmung liegt auf dem exportierten Video, nicht auf dem film selbst.",
+                  "Sichern ändert nichts am film. Du kannst weiter bearbeiten und erneut sichern."
+                ]
+              }
             ]
           }
         },
@@ -239,7 +728,12 @@
           "id": "soundtrack-generation",
           "title": {
             "en": "How does creating a soundtrack work?",
-            "ja": "soundtrack を設定・作成したい"
+            "ja": "soundtrack を設定・作成したい",
+            "zh-Hant": "如何設定或製作 soundtrack？",
+            "ko": "soundtrack 설정 및 만들기",
+            "zh-Hans": "如何设置和创建 soundtrack？",
+            "es": "¿Cómo funciona la creación de un soundtrack?",
+            "de": "Wie funktioniert das Erstellen eines soundtracks?"
           },
           "body": {
             "en": [
@@ -271,6 +765,81 @@
                   "soundtrack の作成には通信環境が必要です（作成処理はアプリを離れてもバックグラウンドで継続されます）"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "點一下畫面下方帶有＋的音符圖示，即可打開**選擇 soundtrack**，為 film 設定 soundtrack。你可以使用 oblivious 內建的 soundtrack、裝置中的音訊，或是讓 oblivious 讀取 film 的內容，為它製作一首專屬的 soundtrack。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "每個 film 可製作一次 soundtrack。",
+                  "每月可製作的數量為所有 film 合計 **3 soundtracks**。剩餘數量與重置日期可在**設定**中查看。",
+                  "在某個 film 中製作的 soundtrack 也可以在其他 film 中選用；重複使用不會計入每月數量。",
+                  "製作需要網路連線。即使離開 App，也會在背景繼續進行。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "화면 아래의 음표에 ＋가 붙은 아이콘을 탭하면 **soundtrack 선택**이 열리고, film에 넣을 soundtrack을 고를 수 있습니다. 기본으로 제공되는 soundtrack이나 기기에 저장된 오디오를 사용할 수도 있고, 새로 만들 수도 있습니다. 만들기에서는 oblivious가 film의 내용을 읽고 그 film에 맞는 soundtrack을 만들어 줍니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "soundtrack 만들기는 film마다 1회까지입니다.",
+                  "한 달에 만들 수 있는 soundtrack은 모든 film을 합쳐 최대 3 soundtracks입니다. 남은 횟수와 재설정 날짜는 **설정**에서 확인할 수 있습니다.",
+                  "한 film에서 만든 soundtrack은 다른 film에서도 선택할 수 있으며, 다시 사용해도 월간 횟수가 줄어들지 않습니다.",
+                  "soundtrack을 만들려면 네트워크 연결이 필요합니다. 앱을 떠나 있어도 만들기는 백그라운드에서 계속됩니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "轻点屏幕底部带 ＋ 的音符图标，即可打开**选择 soundtrack**，为 film 设置 soundtrack。可以使用 oblivious 自带的预设，使用设备中的音频，也可以创建一条新的 soundtrack — oblivious 会读取这个 film 的内容，为它谱写专属的 soundtrack。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "每个 film 只能创建一次 soundtrack。",
+                  "所有 film 加起来，每月最多可以创建 **3 soundtracks**。剩余次数和重置日期可以在设置中查看。",
+                  "在一个 film 中创建的 soundtrack 也可以在其他 film 中选用，重复使用不占用每月的创建次数。",
+                  "创建需要网络连接。离开 App 后，创建会在后台继续进行。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Toca el icono de la parte inferior de la pantalla (una nota musical con un signo ＋) para abrir **Elegir soundtrack**, donde se define el soundtrack del film. Puedes usar uno de los soundtracks incluidos en oblivious, un audio de tu dispositivo, o generar uno nuevo: oblivious lee el film y compone un soundtrack a su medida."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "El soundtrack se puede generar una vez por film.",
+                  "Puedes generar **3 soundtracks al mes** en total, contando todos los films. **Ajustes** muestra cuántos quedan y cuándo se restablece el contador.",
+                  "Un soundtrack generado en un film puede elegirse desde otro film, y reutilizarlo no consume el total mensual.",
+                  "Generar requiere conexión de red. El proceso continúa en segundo plano aunque salgas de la app."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Tippe unten auf das Symbol mit der Note und dem Plus, um **soundtrack auswählen** zu öffnen. Dort legst du den soundtrack des films fest: Nimm einen der soundtracks, die oblivious mitbringt, verwende Audio von deinem Gerät – oder lass einen neuen erstellen. Dabei liest oblivious den film und schreibt einen soundtrack dafür."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Pro film kann einmal ein soundtrack erstellt werden.",
+                  "Insgesamt kannst du **3 soundtracks pro Monat** erstellen, gezählt über alle films. In den Einstellungen siehst du, wie viele übrig sind und wann der Zähler zurückgesetzt wird.",
+                  "Ein in einem film erstellter soundtrack lässt sich auch in einem anderen film auswählen; das Wiederverwenden zählt nicht zum monatlichen Kontingent.",
+                  "Zum Erstellen ist eine Netzwerkverbindung nötig. Es läuft im Hintergrund weiter, wenn du die App verlässt."
+                ]
+              }
             ]
           }
         },
@@ -278,7 +847,12 @@
           "id": "icloud-sync",
           "title": {
             "en": "What does iCloud sync cover?",
-            "ja": "iCloud で他の端末と同期したい"
+            "ja": "iCloud で他の端末と同期したい",
+            "zh-Hant": "iCloud 同步會同步哪些內容？",
+            "ko": "iCloud로 다른 기기와 동기화하기",
+            "zh-Hans": "iCloud 同步会同步哪些内容？",
+            "es": "¿Qué cubre la sincronización con iCloud?",
+            "de": "Was deckt die iCloud-Synchronisierung ab?"
           },
           "body": {
             "en": [
@@ -306,15 +880,87 @@
                   "同期されないもの: 写真や動画の元ファイル（moment は端末の写真ライブラリを参照しているため、別端末で同じ写真・動画を表示するには、その端末でも「iCloud 写真」をオンにする必要があります）"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "iCloud 同步預設為關閉，可在**設定**的**跨裝置同步**中開啟。開啟後，film 會在登入相同 Apple 帳號的裝置之間同步。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "會同步的內容：film 的編輯資料（moment、順序、修剪、名稱、方向）以及各 film 的 soundtrack。",
+                  "不會同步的內容：照片和影片本身。moment 參照的是照片圖庫，因此另一部裝置需要開啟 **iCloud 照片**才能顯示相同的畫面。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "iCloud 동기화는 **설정**의 **기기 간 동기화**를 켜면 활성화됩니다. 같은 Apple 계정으로 로그인한 기기 사이에서 film이 오갑니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "동기화되는 것: film의 편집 데이터(moment, 순서, 다듬은 구간, 이름, 방향)와 각 film의 soundtrack.",
+                  "동기화되지 않는 것: 사진과 동영상 원본. moment는 사진 보관함을 참조하기 때문에, 다른 기기에서 같은 사진을 보려면 그 기기에서도 **iCloud 사진**이 켜져 있어야 합니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "**iCloud 同步**默认保持关闭，需要在设置中打开**跨设备同步**。打开后，你的 film 会在登录同一 Apple 账户的设备之间保持一致。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "会同步的内容：film 的编辑数据（moment、排列顺序、修剪、名称和方向），以及各个 film 所设置的 soundtrack。",
+                  "不会同步的内容：照片和视频本身。moment 引用的是照片图库，另一台设备需要打开 **iCloud 照片**才能显示相同的画面。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "La sincronización con iCloud está desactivada hasta que la actives en **Ajustes**, en **Sincronización entre dispositivos**. Con ella activada, tus films viajan entre los dispositivos con sesión iniciada en la misma Cuenta de Apple."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Se sincroniza: los films (sus moments, el orden, los recortes, el nombre y la orientación) y el soundtrack de cada uno.",
+                  "No se sincroniza: las fotos y los videos en sí. Un moment apunta a tu fototeca, así que el otro dispositivo necesita **Fotos en iCloud** activado para mostrar la misma imagen."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Die **iCloud-Synchronisierung** bleibt aus, bis du sie in den Einstellungen unter **Zwischen Geräten synchronisieren** einschaltest. Ist sie an, wandern deine films zwischen Geräten, die mit demselben Apple-Account angemeldet sind."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Synchronisiert werden: films – ihre moments, Reihenfolge, Zuschnitte, Name und Ausrichtung – sowie der soundtrack jedes films.",
+                  "Nicht synchronisiert werden: die Fotos und Videos selbst. Ein moment verweist auf deine Fotomediathek; damit das andere Gerät dasselbe Bild zeigt, muss dort **iCloud-Fotos** eingeschaltet sein."
+                ]
+              }
             ]
           }
         },
         {
           "id": "dim-flashing-lights",
-          "platforms": ["ios"],
+          "platforms": [
+            "ios"
+          ],
           "title": {
             "en": "Why does the screen dim on bright scenes?",
-            "ja": "film を再生中に画面が一瞬暗くなった"
+            "ja": "film を再生中に画面が一瞬暗くなった",
+            "zh-Hant": "播放 film 時畫面突然變暗",
+            "ko": "film 재생 중 화면이 잠시 어두워져요",
+            "zh-Hans": "播放时画面为什么会突然变暗？",
+            "es": "¿Por qué se oscurece la pantalla en escenas brillantes?",
+            "de": "Warum wird der Bildschirm bei hellen Szenen dunkler?"
           },
           "body": {
             "en": [
@@ -346,15 +992,97 @@
                   "光の点滅に敏感な方を保護するための安全機能です。設定を変更するかどうかはご自身でご判断ください"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "這不是 oblivious 造成的。最有可能的原因是 iPhone 的輔助使用設定**調暗閃爍燈光**：偵測到畫面亮度突然大幅變化時，會暫時調暗螢幕以減輕眼睛的負擔。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "從暗場景切換到亮場景的瞬間，或像水面反光這類閃爍的畫面，特別容易觸發。",
+                  "它作用的是螢幕顯示而不是影片本身，因此在照片等其他 App 中播放也會發生同樣的情況。",
+                  "若要關閉：**設定 > 輔助使用 > 螢幕與文字大小 > 調暗閃爍燈光**。名稱與位置可能因 iOS 版本而異。",
+                  "這是為了保護對閃光敏感的使用者所設的安全機制，是否關閉請自行判斷。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "이 현상은 oblivious에서 비롯된 것이 아닙니다. iPhone의 손쉬운 사용 설정인 **깜박이는 조명 어둡게 하기**가 작동했을 가능성이 큽니다. 밝기가 크게, 갑자기 바뀌는 장면을 감지하면 눈의 부담을 덜기 위해 화면을 잠시 어둡게 하는 기능입니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "어두운 장면이 갑자기 밝아지는 순간이나, 물에 비친 빛처럼 반짝이는 영상에서 작동하기 쉽습니다.",
+                  "동영상이 아니라 디스플레이에 작용하는 기능이므로, 사진 앱을 포함한 다른 앱에서도 똑같이 나타납니다.",
+                  "끄려면 **설정 > 손쉬운 사용 > 디스플레이 및 텍스트 크기 > 깜박이는 조명 어둡게 하기**를 끄세요. iOS 버전에 따라 명칭과 위치가 다를 수 있습니다.",
+                  "깜박이는 빛에 민감한 분들을 보호하기 위한 기능이므로, 끌지 여부는 직접 판단해 주세요."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "这不是 oblivious 造成的。最可能的原因是 iPhone 的辅助功能设置**调暗闪烁灯光**：当检测到画面亮度出现大幅骤变时，它会调暗屏幕，减轻对眼睛的刺激。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "它容易在暗场景突然切换到亮场景时触发，或在水面反光等闪烁的画面上触发。",
+                  "它作用于屏幕显示而不是视频本身，所以在照片等其他 App 中播放也会出现同样的现象。",
+                  "关闭方法：**设置 > 辅助功能 > 显示与文字大小 > 调暗闪烁灯光**。具体名称和位置可能因 iOS 版本而异。",
+                  "这是为对闪烁光线敏感的人准备的保护功能，是否关闭由你自己决定。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "No lo hace oblivious. Lo más probable es que sea **Atenuar luces intermitentes**, un ajuste de accesibilidad del iPhone que oscurece la pantalla cuando detecta cambios de brillo grandes y repentinos, para reducir la molestia visual."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Suele activarse justo cuando una escena oscura pasa a ser brillante, o con imágenes que destellan, como la luz sobre el agua.",
+                  "Actúa sobre la pantalla, no sobre el video, así que ocurre igual en otras apps, incluida Fotos.",
+                  "Para desactivarlo: **Ajustes > Accesibilidad > Pantalla y tamaño del texto > Atenuar luces intermitentes**. El nombre exacto y su ubicación pueden variar según la versión de iOS.",
+                  "Es una protección para personas sensibles a las luces parpadeantes, así que desactivarlo es decisión tuya."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Das kommt nicht von oblivious. Sehr wahrscheinlich ist es **Blinkende Lichter abdunkeln**, eine Bedienungshilfe deines iPhone: Sie dunkelt den Bildschirm ab, wenn sie große, plötzliche Helligkeitswechsel erkennt, um deine Augen zu schonen."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Sie greift gern in dem Augenblick, in dem eine dunkle Szene hell wird, oder bei flirrendem Material wie Licht auf Wasser.",
+                  "Sie wirkt auf die Anzeige, nicht auf das Video – dasselbe passiert deshalb auch in anderen Apps, einschließlich Fotos.",
+                  "Zum Ausschalten: **Einstellungen > Bedienungshilfen > Anzeige & Textgröße > Blinkende Lichter abdunkeln**. Wortlaut und Ort können sich je nach iOS-Version unterscheiden.",
+                  "Es ist eine Schutzfunktion für Menschen, die empfindlich auf blinkende Lichter reagieren – ob du sie ausschaltest, entscheidest du."
+                ]
+              }
             ]
           }
         },
         {
           "id": "moment-wont-load",
-          "platforms": ["ios"],
+          "platforms": [
+            "ios"
+          ],
           "title": {
             "en": "A moment won't load — what happened?",
-            "ja": "moment が読み込みに失敗した"
+            "ja": "moment が読み込みに失敗した",
+            "zh-Hant": "moment 無法載入",
+            "ko": "moment를 불러오지 못해요",
+            "zh-Hans": "moment 无法加载怎么办？",
+            "es": "Un moment no se carga. ¿Qué pasó?",
+            "de": "Ein moment lädt nicht – was ist passiert?"
           },
           "body": {
             "en": [
@@ -388,6 +1116,86 @@
                   "該当の moment を削除したい場合は、一覧画面で対象の行を左へスワイプして削除できます"
                 ]
               }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "moment 參照的是照片圖庫中的照片或影片。當 oblivious 無法讀取原始檔案時，該列會顯示**無法載入**；當圖庫中完全找不到原始檔案時，則顯示**已從相機膠卷刪除**。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**把原始檔案復原，moment 就會回來。**如果是誤刪，照片 App 會在**最近刪除**中保留一段時間。如果只是 iCloud 尚未下載完成，稍候就會自動恢復。",
+                  "**也可能只是這部裝置暫時讀取不到。**oblivious 只能取用所選的照片、iCloud 照片是關閉的，或另一部裝置的照片尚未同步——這些情況都可能顯示為**已從相機膠卷刪除**。請打開照片 App 確認原始檔案是否存在。",
+                  "**放著不管也沒關係。**無法載入的 moment 會自動略過：不會播放，也不會出現在儲存的影片中，前後的 moment 會接續播放。",
+                  "**這個狀態下無法編輯**，點一下該列不會有反應。",
+                  "**若要移除**，在 moment 列表中將該列向左滑動即可刪除。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "moment는 사진 보관함에 있는 사진이나 동영상을 참조합니다. 원본을 읽을 수 없으면 해당 행에 **불러올 수 없음**이, 보관함에서 원본을 찾을 수 없으면 **카메라 롤에서 삭제됨**이 표시됩니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**원본을 되돌리면 moment도 돌아옵니다.** 실수로 삭제했다면 사진 앱의 **최근 삭제된 항목**에서 한동안 복구할 수 있습니다. iCloud 사진이 아직 다운로드하지 않은 것뿐이라면 저절로 돌아옵니다.",
+                  "**이 기기에서만 접근하지 못하는 경우도 있습니다.** 사진 접근 권한이 일부로 제한되어 있거나, iCloud 사진이 꺼져 있거나, 다른 기기에서 찍은 항목이 아직 동기화되지 않았을 때도 **카메라 롤에서 삭제됨**으로 표시될 수 있습니다. 사진 앱에서 원본이 있는지 확인해 보세요.",
+                  "**그대로 두어도 괜찮습니다.** 불러오지 못한 moment는 건너뛰며, 재생과 저장한 동영상에 포함되지 않고 앞뒤 moment가 이어서 재생됩니다.",
+                  "**이 상태에서는 편집할 수 없으므로** 행을 탭해도 편집 화면이 열리지 않습니다.",
+                  "**삭제하려면** moment 목록에서 해당 행을 왼쪽으로 쓸어넘겨 삭제하세요."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "moment 引用的是照片图库中的照片或视频。当 oblivious 无法读取原始文件时，对应的行会显示**无法加载**；当图库中完全找不到原始文件时，会显示**已从相机胶卷中删除**。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**恢复原始文件，moment 就会恢复。**如果是误删，照片 App 的**最近删除**中会保留一段时间。如果只是 iCloud 照片还没下载完成，等待下载完成后会自行恢复。",
+                  "**也可能只是这台设备暂时读不到。**oblivious 只被允许访问部分照片、iCloud 照片处于关闭状态、其他设备上的照片或视频还没同步过来 — 这些情况都可能显示为**已从相机胶卷中删除**。请打开照片 App 确认原始文件是否存在。",
+                  "**放着不管也没问题。**无法加载的 moment 会被自动跳过 — 不会播放，也不会包含在存储的视频里，前后的 moment 会衔接起来。",
+                  "**这种状态下无法编辑**，轻点对应的行不会有反应。",
+                  "**想删除它**，在 moment 列表中把对应的行向左轻扫即可删除。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Un moment apunta a una foto o un video de tu fototeca. Cuando oblivious no puede acceder a ese original, la fila muestra **No se pudo cargar**, o **Eliminado del carrete** si el original no aparece en la fototeca."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Recupera el original y el moment volverá.** Si lo eliminaste, Fotos lo conserva un tiempo en **Eliminado recientemente**. Si Fotos en iCloud simplemente aún no lo ha descargado, volverá por sí solo.",
+                  "**Puede estar fuera de alcance solo en este dispositivo.** Que oblivious vea solo una selección de fotos, que Fotos en iCloud esté desactivado o que algo de otro dispositivo aún no se haya sincronizado también puede mostrarse como **Eliminado del carrete**. Abre Fotos y comprueba que el original está ahí.",
+                  "**No pasa nada por dejarlo.** Un moment que no se carga se omite: no se reproduce ni aparece en el video que guardes, y los moments vecinos se juntan.",
+                  "**No se puede editar** mientras esté en este estado, así que tocar la fila no hace nada.",
+                  "**Para quitarlo**, desliza la fila hacia la izquierda en la lista de moments y elimínalo."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Ein moment verweist auf ein Foto oder Video in deiner Fotomediathek. Wenn oblivious das Original nicht erreichen kann, steht in der Zeile **Konnte nicht geladen werden** – oder **Aus der Fotomediathek gelöscht**, wenn das Original in der Mediathek gar nicht mehr zu finden ist."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Kommt das Original zurück, kommt auch das moment zurück.** Falls du es gelöscht hast: Fotos bewahrt es eine Weile unter **Zuletzt gelöscht** auf. Hat iCloud-Fotos es nur noch nicht heruntergeladen, kehrt es von selbst zurück.",
+                  "**Vielleicht ist es nur auf diesem Gerät nicht erreichbar.** oblivious sieht nur eine Auswahl deiner Fotos, iCloud-Fotos ist aus, oder ein Foto oder Video von einem anderen Gerät ist noch nicht synchronisiert – all das kann als **Aus der Fotomediathek gelöscht** erscheinen. Öffne Fotos und prüfe, ob das Original da ist.",
+                  "**Du kannst es auch einfach lassen.** Ein moment, das nicht lädt, wird übersprungen – es wird nicht abgespielt und ist nicht im gesicherten Video. Der film schließt sich darum herum.",
+                  "**Bearbeiten geht in diesem Zustand nicht** – Tippen auf die Zeile bewirkt nichts.",
+                  "**Zum Entfernen** streichst du die Zeile in der moment-Liste nach links und löschst sie."
+                ]
+              }
             ]
           }
         },
@@ -395,7 +1203,12 @@
           "id": "troubleshooting",
           "title": {
             "en": "Something isn't working — what can I check?",
-            "ja": "その他"
+            "ja": "その他",
+            "zh-Hant": "其他問題",
+            "ko": "기타 문제 해결",
+            "zh-Hans": "其他问题",
+            "es": "Algo no funciona. ¿Qué puedo revisar?",
+            "de": "Etwas funktioniert nicht – was kann ich prüfen?"
           },
           "body": {
             "en": [
@@ -432,6 +1245,96 @@
               {
                 "type": "paragraph",
                 "text": "解決しないときは、お問い合わせください。"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "常見問題與檢查方式。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**無法加入 moment**：請確認 film 尚未達到 60 個 moment 的上限，以及 oblivious 能取用你選取的項目。",
+                  "**無法製作 soundtrack**：製作需要網路連線。如果本月的 3 soundtracks 已用完，**設定**中會顯示重置日期。",
+                  "**film 沒有同步到另一部裝置**：請確認兩部裝置都已開啟跨裝置同步、登入相同的 Apple 帳號，並稍等同步完成。"
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "如果問題仍未解決，請與我們聯絡。"
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "자주 있는 문제와 확인할 사항입니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**moment가 추가되지 않아요**: film이 상한(60개)에 도달하지 않았는지, 기기의 설정에서 사진 접근 권한이 허용되어 있는지 확인해 주세요.",
+                  "**soundtrack이 만들어지지 않아요**: 네트워크 연결이 필요합니다. 이번 달 상한인 3 soundtracks를 모두 사용했다면 **설정**에 재설정 날짜가 표시됩니다.",
+                  "**다른 기기에 film이 동기화되지 않아요**: 모든 기기가 같은 Apple 계정으로 로그인되어 있는지, **설정**의 **기기 간 동기화**가 켜져 있는지 확인한 뒤 동기화가 끝날 때까지 잠시 기다려 주세요."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "해결되지 않으면 문의해 주세요."
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "常见问题，以及各自可以检查的地方。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**无法添加 moment**：确认 film 是否已达到 60 个 moment 的上限，以及 oblivious 是否有权访问你选择的项目。",
+                  "**无法创建 soundtrack**：创建需要网络连接。如果本月的 3 soundtracks 已用完，设置中会显示下次重置的日期。",
+                  "**film 没有同步到另一台设备**：确认两台设备都已打开跨设备同步、登录的是同一 Apple 账户，然后稍等片刻让另一台设备完成同步。"
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "如果问题仍未解决，请联系我们。"
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Problemas frecuentes y qué revisar en cada caso."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**No se pueden añadir moments**: comprueba que el film no haya llegado a 60 moments y que oblivious tenga acceso a los elementos que seleccionas.",
+                  "**No se genera un soundtrack**: generar requiere conexión de red. Si ya usaste los 3 soundtracks del mes, **Ajustes** muestra cuándo se restablece el contador.",
+                  "**Los films no llegan a otro dispositivo**: comprueba que la sincronización entre dispositivos esté activada en ambos, con sesión en la misma Cuenta de Apple, y dale al otro dispositivo un tiempo para ponerse al día."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Si el problema continúa, escríbenos."
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Häufige Probleme, und was du jeweils prüfen kannst."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**moments lassen sich nicht hinzufügen**: Prüfe, ob der film schon 60 moments erreicht hat und ob oblivious die ausgewählten Objekte sehen darf.",
+                  "**Ein soundtrack wird nicht erstellt**: Zum Erstellen ist eine Netzwerkverbindung nötig. Sind die 3 soundtracks dieses Monats aufgebraucht, zeigen die Einstellungen, wann der Zähler zurückgesetzt wird.",
+                  "**films erreichen ein anderes Gerät nicht**: Prüfe, ob auf beiden Geräten Zwischen Geräten synchronisieren an ist und derselbe Apple-Account angemeldet ist – und gib dem anderen Gerät einen Augenblick zum Aufholen."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Wenn das Problem bleibt, melde dich bei uns."
               }
             ]
           }
