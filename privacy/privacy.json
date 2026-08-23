@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "privacy",
   "effectiveDate": {
-    "en": "Effective date: August 22, 2026",
-    "ja": "施行日: 2026年8月22日",
-    "zh-Hant": "生效日期：2026年8月22日",
-    "ko": "시행일: 2026년 8월 22일",
-    "zh-Hans": "生效日期：2026年8月22日",
-    "es": "Fecha de entrada en vigor: 22 de agosto de 2026",
-    "de": "Gültig ab: 22. August 2026"
+    "en": "Effective date: August 23, 2026",
+    "ja": "施行日: 2026年8月23日",
+    "zh-Hant": "生效日期：2026年8月23日",
+    "ko": "시행일: 2026년 8월 23일",
+    "zh-Hans": "生效日期：2026年8月23日",
+    "es": "Fecha de entrada en vigor: 23 de agosto de 2026",
+    "de": "Gültig ab: 23. August 2026"
   },
   "provider": {
     "en": "Operated by: KMNGY Inc.",
@@ -80,7 +80,7 @@
       },
       {
         "type": "paragraph",
-        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, privacy policy, or terms of use, it connects to a server. The help text, this policy, and the terms live on our website (oblivious.jp) and the app loads them to display; those requests send no verification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. A record of a contact form submission also includes the app and iOS versions, but nothing that identifies you. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
+        "text": "When the app generates a soundtrack, checks your remaining quota, sends a message from the contact form, or opens the in-app help, privacy policy, or terms of use, it connects to a server. The help text, this policy, and the terms live on our website (oblivious.jp) and the app loads them to display; those requests send no verification data and nothing you have entered. In each case, our server, the cloud infrastructure we use, and the host of our website keep records of the request—such as IP address, time, and error details—for a limited period. When a soundtrack is generated, a record of that single generation is also kept. It holds the conditions of that generation, such as the number of moments, the length of the film, the mood words that were sent, the musical style and tempo that were chosen, the soundtrack name that was composed automatically, and how that month's count was tallied. It contains none of the contents of your photos, videos, titles, or notes, and nothing that identifies you. A record of a contact form submission also includes the app and iOS versions, but nothing that identifies you. These are used only to prevent abuse, diagnose problems, and keep the service running; they contain none of the contents of your photos, videos, or text, and are never used for sale or advertising."
       },
       {
         "type": "heading",
@@ -183,7 +183,7 @@
       },
       {
         "type": "paragraph",
-        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内でヘルプ・本ポリシー・利用規約を開いたときに、本アプリはサーバーへ通信します。ヘルプの本文、本ポリシー、利用規約は当サイト（oblivious.jp）に置いており、アプリはそれらを読み込んで表示します。これらの読み込みでは、確認情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。お問い合わせの記録には、アプリ・iOS のバージョンも含まれますが、あなたを識別する情報は含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
+        "text": "soundtrack を生成するとき、残り回数を確認するとき、お問い合わせフォームから送信したとき、またはアプリ内でヘルプ・本ポリシー・利用規約を開いたときに、本アプリはサーバーへ通信します。ヘルプの本文、本ポリシー、利用規約は当サイト（oblivious.jp）に置いており、アプリはそれらを読み込んで表示します。これらの読み込みでは、確認情報や、あなたが入力した内容を送りません。これらの通信の際、当方のサーバー、当方が利用するクラウド基盤、および当サイトのホスティング事業者には、通信に関する記録（IP アドレス、日時、エラー内容など）が一定期間残ります。soundtrack を生成したときは、あわせてその 1 件の記録が残ります。含まれるのは、moment の枚数、film の長さ、送られたムード語、選ばれた曲調やテンポ、自動で付けられた soundtrack の名前、その月の回数の数え方といった、生成のときの条件です。写真・動画・タイトル・メモの内容や、あなたを識別する情報は含みません。お問い合わせの記録には、アプリ・iOS のバージョンも含まれますが、あなたを識別する情報は含みません。これらは、不正利用の防止・障害対応・サービスの維持のためにのみ利用し、写真・動画・テキストの内容は含みません。販売や広告には利用しません。"
       },
       {
         "type": "heading",
@@ -286,7 +286,7 @@
       },
       {
         "type": "paragraph",
-        "text": "當本 App 製作 soundtrack、查詢剩餘次數、從聯絡表單送出訊息，或打開 App 內的使用說明、本政策、使用條款時，會連線到伺服器。使用說明的內容、本政策與使用條款放在我們的網站（oblivious.jp）上，App 會讀取它們來顯示；這些讀取不會傳送驗證資料或任何你輸入的內容。在這些連線中，我們的伺服器、我們使用的雲端基礎設施，以及網站的託管服務商，會在一定期間內保留連線相關的記錄（例如 IP 位址、時間、錯誤內容）。聯絡表單送出的記錄還會包含 App 與 iOS 的版本，但不含可識別你的資訊。這些記錄只用於防止濫用、診斷問題和維持服務運作；其中不含照片、影片或文字的內容，也絕不會用於銷售或廣告。"
+        "text": "當本 App 製作 soundtrack、查詢剩餘次數、從聯絡表單送出訊息，或打開 App 內的使用說明、本政策、使用條款時，會連線到伺服器。使用說明的內容、本政策與使用條款放在我們的網站（oblivious.jp）上，App 會讀取它們來顯示；這些讀取不會傳送驗證資料或任何你輸入的內容。在這些連線中，我們的伺服器、我們使用的雲端基礎設施，以及網站的託管服務商，會在一定期間內保留連線相關的記錄（例如 IP 位址、時間、錯誤內容）。製作 soundtrack 時，也會保留該次製作的一筆記錄。其中是製作當時的條件，例如 moment 的數量、film 的長度、送出的氣氛詞、選定的曲風與速度、自動命名的 soundtrack 名稱，以及當月次數的計算方式。其中不含照片、影片、標題或備註的內容，也不含可識別你的資訊。聯絡表單送出的記錄還會包含 App 與 iOS 的版本，但不含可識別你的資訊。這些記錄只用於防止濫用、診斷問題和維持服務運作；其中不含照片、影片或文字的內容，也絕不會用於銷售或廣告。"
       },
       {
         "type": "heading",
@@ -389,7 +389,7 @@
       },
       {
         "type": "paragraph",
-        "text": "soundtrack을 만들 때, 남은 횟수를 확인할 때, 문의 양식에서 메시지를 보낼 때, 또는 앱 안에서 도움말·이 방침·이용약관을 열 때 본 앱은 서버에 접속합니다. 도움말 본문, 이 방침, 이용약관은 당사 웹사이트(oblivious.jp)에 있으며 앱은 이를 불러와 표시합니다. 이 요청에는 확인 값이나 사용자가 입력한 내용이 전송되지 않습니다. 각 통신 시 당사의 서버, 당사가 이용하는 클라우드 기반, 웹사이트의 호스팅 사업자에는 요청에 관한 기록(IP 주소, 시각, 오류 내용 등)이 일정 기간 남습니다. 문의 제출 기록에는 앱과 iOS의 버전도 포함되지만, 사용자를 식별하는 정보는 포함되지 않습니다. 이 기록들은 부정 사용 방지, 문제 진단, 서비스 유지에만 사용되며, 사진·동영상·텍스트의 내용을 포함하지 않고, 판매나 광고에 사용되는 일도 없습니다."
+        "text": "soundtrack을 만들 때, 남은 횟수를 확인할 때, 문의 양식에서 메시지를 보낼 때, 또는 앱 안에서 도움말·이 방침·이용약관을 열 때 본 앱은 서버에 접속합니다. 도움말 본문, 이 방침, 이용약관은 당사 웹사이트(oblivious.jp)에 있으며 앱은 이를 불러와 표시합니다. 이 요청에는 확인 값이나 사용자가 입력한 내용이 전송되지 않습니다. 각 통신 시 당사의 서버, 당사가 이용하는 클라우드 기반, 웹사이트의 호스팅 사업자에는 요청에 관한 기록(IP 주소, 시각, 오류 내용 등)이 일정 기간 남습니다. soundtrack을 만들 때는 그 한 번에 대한 기록도 남습니다. 여기에는 moment의 개수, film의 길이, 보낸 무드 단어, 선택된 곡풍과 템포, 자동으로 붙은 soundtrack 이름, 그달의 횟수를 세는 방식 등 만들 당시의 조건이 담깁니다. 사진·동영상·제목·메모의 내용이나 사용자를 식별하는 정보는 포함되지 않습니다. 문의 제출 기록에는 앱과 iOS의 버전도 포함되지만, 사용자를 식별하는 정보는 포함되지 않습니다. 이 기록들은 부정 사용 방지, 문제 진단, 서비스 유지에만 사용되며, 사진·동영상·텍스트의 내용을 포함하지 않고, 판매나 광고에 사용되는 일도 없습니다."
       },
       {
         "type": "heading",
@@ -492,7 +492,7 @@
       },
       {
         "type": "paragraph",
-        "text": "当本 App 创建 soundtrack、查询剩余创建次数、从联系表单发送留言，或打开 App 内的帮助、本政策、使用条款时，会连接服务器。帮助内容、本政策和使用条款存放在我们的网站（oblivious.jp）上，App 加载后进行显示；这些读取请求不会发送验证数据或你输入的任何内容。在上述各类通信中，我们的服务器、我们使用的云基础设施，以及网站的托管方，会在一定期限内保留通信记录（例如 IP 地址、时间和错误详情）。联系表单提交的记录还包含 App 和 iOS 的版本，但不包含能识别你的信息。这些记录仅用于防止滥用、排查问题和维持服务运行；其中不含你的照片、视频或文本的内容，也绝不会用于出售或广告。"
+        "text": "当本 App 创建 soundtrack、查询剩余创建次数、从联系表单发送留言，或打开 App 内的帮助、本政策、使用条款时，会连接服务器。帮助内容、本政策和使用条款存放在我们的网站（oblivious.jp）上，App 加载后进行显示；这些读取请求不会发送验证数据或你输入的任何内容。在上述各类通信中，我们的服务器、我们使用的云基础设施，以及网站的托管方，会在一定期限内保留通信记录（例如 IP 地址、时间和错误详情）。创建 soundtrack 时，也会保留该次创建的一条记录。其中是创建时的条件，例如 moment 的数量、film 的时长、发送的情绪词、选定的曲风与速度、自动生成的 soundtrack 名称，以及当月次数的计数方式。其中不含你的照片、视频、标题或备注的内容，也不含能识别你的信息。联系表单提交的记录还包含 App 和 iOS 的版本，但不包含能识别你的信息。这些记录仅用于防止滥用、排查问题和维持服务运行；其中不含你的照片、视频或文本的内容，也绝不会用于出售或广告。"
       },
       {
         "type": "heading",
@@ -595,7 +595,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Cuando la app genera un soundtrack, consulta tu cuota restante, envía un mensaje desde el formulario de contacto o abre la ayuda, esta política o las condiciones de uso dentro de la app, se conecta a un servidor. El texto de la ayuda, esta política y las condiciones están en nuestro sitio web (oblivious.jp), y la app los carga para mostrarlos; esas solicitudes no envían datos de verificación ni nada que hayas escrito. En cada caso, nuestro servidor, la infraestructura en la nube que usamos y el proveedor que aloja nuestro sitio conservan durante un tiempo limitado registros de la solicitud, como la dirección IP, la hora y los detalles de error. El registro de un envío del formulario de contacto incluye también las versiones de la app y de iOS, pero nada que te identifique. Se usan solo para prevenir abusos, diagnosticar problemas y mantener el servicio en funcionamiento; no contienen el contenido de tus fotos, videos o textos, y nunca se usan para venta ni publicidad."
+        "text": "Cuando la app genera un soundtrack, consulta tu cuota restante, envía un mensaje desde el formulario de contacto o abre la ayuda, esta política o las condiciones de uso dentro de la app, se conecta a un servidor. El texto de la ayuda, esta política y las condiciones están en nuestro sitio web (oblivious.jp), y la app los carga para mostrarlos; esas solicitudes no envían datos de verificación ni nada que hayas escrito. En cada caso, nuestro servidor, la infraestructura en la nube que usamos y el proveedor que aloja nuestro sitio conservan durante un tiempo limitado registros de la solicitud, como la dirección IP, la hora y los detalles de error. Cuando se genera un soundtrack, se conserva también un registro de esa generación concreta. Recoge las condiciones de esa generación, como el número de moments, la duración del film, las palabras de ánimo enviadas, el estilo musical y el tempo elegidos, el nombre del soundtrack compuesto automáticamente y la forma en que se lleva el recuento del mes. No contiene el contenido de tus fotos, videos, títulos ni notas, ni nada que te identifique. El registro de un envío del formulario de contacto incluye también las versiones de la app y de iOS, pero nada que te identifique. Se usan solo para prevenir abusos, diagnosticar problemas y mantener el servicio en funcionamiento; no contienen el contenido de tus fotos, videos o textos, y nunca se usan para venta ni publicidad."
       },
       {
         "type": "heading",
@@ -698,7 +698,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Wenn die App einen soundtrack erstellt, dein verbleibendes Kontingent prüft, eine Nachricht aus dem Kontaktformular sendet oder die Hilfe, diese Richtlinie oder die Nutzungsbedingungen in der App öffnet, verbindet sie sich mit einem Server. Die Hilfetexte, diese Richtlinie und die Nutzungsbedingungen liegen auf unserer Website (oblivious.jp); die App lädt sie zur Anzeige. Diese Abrufe senden keine Bestätigungsdaten und nichts, was du eingegeben hast. In jedem dieser Fälle behalten unser Server, die von uns genutzte Cloud-Infrastruktur und der Anbieter, der unsere Website hostet, für begrenzte Zeit Aufzeichnungen über die Anfrage – etwa IP-Adresse, Zeitpunkt und Fehlerdetails. Die Aufzeichnung einer Kontaktformular-Einsendung enthält zusätzlich die App- und iOS-Version, aber nichts, was dich identifiziert. All das dient allein dazu, Missbrauch zu verhindern, Probleme zu untersuchen und den Dienst am Laufen zu halten; es enthält keinerlei Inhalte deiner Fotos, Videos oder Texte und wird nie für Verkauf oder Werbung verwendet."
+        "text": "Wenn die App einen soundtrack erstellt, dein verbleibendes Kontingent prüft, eine Nachricht aus dem Kontaktformular sendet oder die Hilfe, diese Richtlinie oder die Nutzungsbedingungen in der App öffnet, verbindet sie sich mit einem Server. Die Hilfetexte, diese Richtlinie und die Nutzungsbedingungen liegen auf unserer Website (oblivious.jp); die App lädt sie zur Anzeige. Diese Abrufe senden keine Bestätigungsdaten und nichts, was du eingegeben hast. In jedem dieser Fälle behalten unser Server, die von uns genutzte Cloud-Infrastruktur und der Anbieter, der unsere Website hostet, für begrenzte Zeit Aufzeichnungen über die Anfrage – etwa IP-Adresse, Zeitpunkt und Fehlerdetails. Wird ein soundtrack erstellt, bleibt zusätzlich eine Aufzeichnung dieser einen Erstellung erhalten. Sie enthält die Bedingungen dieser Erstellung – etwa die Anzahl der moments, die Länge des films, die gesendeten Stimmungswörter, die gewählte Stilrichtung und das Tempo, den automatisch vergebenen Namen des soundtracks und die Art, wie der Zähler des Monats geführt wird. Inhalte deiner Fotos, Videos, Titel oder Notizen sind darin nicht enthalten, ebenso wenig etwas, das dich identifiziert. Die Aufzeichnung einer Kontaktformular-Einsendung enthält zusätzlich die App- und iOS-Version, aber nichts, was dich identifiziert. All das dient allein dazu, Missbrauch zu verhindern, Probleme zu untersuchen und den Dienst am Laufen zu halten; es enthält keinerlei Inhalte deiner Fotos, Videos oder Texte und wird nie für Verkauf oder Werbung verwendet."
       },
       {
         "type": "heading",
