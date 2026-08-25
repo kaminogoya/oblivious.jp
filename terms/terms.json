@@ -8,7 +8,8 @@
     "ko": "시행일: 2026년 8월 22일",
     "zh-Hans": "生效日期：2026年8月22日",
     "es": "Fecha de entrada en vigor: 22 de agosto de 2026",
-    "de": "Gültig ab: 22. August 2026"
+    "de": "Gültig ab: 22. August 2026",
+    "fr": "Date d’entrée en vigueur : 22 août 2026"
   },
   "provider": {
     "en": "Provider: KMNGY Inc.",
@@ -17,7 +18,8 @@
     "ko": "제공자: KMNGY Inc.",
     "zh-Hans": "提供方：KMNGY Inc.",
     "es": "Proveedor: KMNGY Inc.",
-    "de": "Anbieter: KMNGY Inc."
+    "de": "Anbieter: KMNGY Inc.",
+    "fr": "Fournisseur : KMNGY Inc."
   },
   "contactEmail": {
     "user": "support",
@@ -1043,6 +1045,152 @@
       {
         "type": "contact",
         "before": "Bei Fragen zu diesen Bedingungen erreichst du uns unter ",
+        "after": "."
+      }
+    ],
+    "fr": [
+      {
+        "type": "heading",
+        "id": "intro",
+        "text": "1. Introduction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les présentes conditions d’utilisation (les « Conditions ») régissent votre utilisation de l’app « oblivious » (l’« app ») fournie par KMNGY Inc. (« nous »). Veuillez lire ces Conditions avant d’utiliser l’app. En commençant à utiliser l’app, vous acceptez ces Conditions."
+      },
+      {
+        "type": "heading",
+        "id": "about",
+        "text": "2. À propos de l’app"
+      },
+      {
+        "type": "paragraph",
+        "text": "oblivious vous permet de tisser en un film les moments issus de vos photos et de vos vidéos, et d’y ajouter un soundtrack. Nous ne collectons pas sur nos serveurs le contenu de vos photos, de vos vidéos ni de vos textes. Voir notre politique de confidentialité pour le détail."
+      },
+      {
+        "type": "heading",
+        "id": "eligibility",
+        "text": "3. Conditions d’accès"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pour utiliser l’app, vous devez être en mesure d’accepter valablement les présentes Conditions. Si vous êtes mineur, vous devez avoir le consentement d’un parent ou de votre représentant légal."
+      },
+      {
+        "type": "heading",
+        "id": "your-content",
+        "text": "4. Vos contenus"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les droits sur les photos, les vidéos, les films et les textes que vous manipulez dans l’app restent les vôtres ou ceux de leurs titulaires respectifs. Nous n’acquérons sur eux aucun droit de propriété ni aucun autre droit du fait de votre utilisation de l’app. Ils sont traités et conservés sur votre appareil, et nous ne les collectons pas sur nos serveurs. Lorsque vous créez un soundtrack, ce qui est envoyé à notre serveur n’est pas le contenu de vos photos, de vos vidéos ou de vos textes, mais une description abstraite du film (valeurs numériques, indicateurs activé/désactivé et mots d’ambiance issus d’un vocabulaire fixe), accompagnée de données de vérification servant à gérer la limite mensuelle de créations et à empêcher les usages abusifs (une valeur ponctuelle confirmant un appareil authentique ; les versions antérieures de l’app envoient à la place des données d’identification anonymes). Voir notre politique de confidentialité pour le détail des données traitées."
+      },
+      {
+        "type": "heading",
+        "id": "soundtrack-use",
+        "text": "5. Utilisation des soundtracks créés"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vous pouvez intégrer les soundtracks créés dans l’app aux films que vous réalisez avec l’app, et enregistrer, publier et partager ces films à des fins commerciales ou non commerciales. Dans la mesure où nous détenons des droits sur un soundtrack créé ou sommes autorisés à concéder de tels droits, nous vous accordons une licence gratuite et non exclusive de l’utiliser à ces fins."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les soundtracks créés ne vous sont pas nécessairement exclusifs, et un résultat identique ou similaire peut être créé pour d’autres utilisateurs. En utilisant un soundtrack créé, vous devez respecter la loi applicable et les droits d’autrui."
+      },
+      {
+        "type": "heading",
+        "id": "prohibited",
+        "text": "6. Comportements interdits"
+      },
+      {
+        "type": "paragraph",
+        "text": "En utilisant l’app, vous ne devez pas :"
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Agir en violation de la loi applicable ou de l’ordre public ;",
+          "Utiliser l’app, ou publier ou partager un film que vous créez, d’une manière qui porte atteinte au droit d’auteur, au droit à l’image, à la vie privée ou à d’autres droits de tiers ;",
+          "Accéder sans autorisation à l’app, aux serveurs utilisés pour la fournir ou à l’infrastructure de création de soundtracks, les surcharger, ou en automatiser l’usage abusif ;",
+          "Tenter de contourner les limites d’utilisation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous pouvons restreindre ou suspendre l’utilisation de la fonction de création de soundtracks, dans la mesure nécessaire, si nous estimons raisonnablement qu’une violation de ces interdictions a eu lieu ou est en cours."
+      },
+      {
+        "type": "heading",
+        "id": "generation-limits",
+        "text": "7. Création de soundtracks et limites d’utilisation"
+      },
+      {
+        "type": "paragraph",
+        "text": "La fonction de création de soundtracks fait appel à un service externe de musique générative avec lequel nous avons contracté. De ce fait, nous pouvons modifier, restreindre ou suspendre cette fonction en cas de panne, de changement du service ou de ses spécifications, ou d’arrêt du service. Afin d’en garantir un accès équitable et d’en maîtriser le coût, la création est soumise à une limite mensuelle et à d’autres restrictions. Ces limites et restrictions peuvent évoluer en fonction de l’usage du service, des coûts ou d’autres nécessités d’exploitation. Les changements substantiels seront annoncés à l’avance, sauf lorsqu’une action urgente est requise."
+      },
+      {
+        "type": "heading",
+        "id": "app-changes",
+        "text": "8. Modification, suspension et arrêt de l’app"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous pouvons modifier l’app, ou en suspendre ou en arrêter tout ou partie, lorsque cela est nécessaire pour l’améliorer, la maintenir, assurer sa sécurité, tenir compte de changements des services externes que nous utilisons, ou pour d’autres motifs. Pour les modifications ou les arrêts qui affectent substantiellement les utilisateurs, nous en informerons à l’avance dans l’app, sur notre site ou par tout autre moyen approprié, sauf cas d’urgence."
+      },
+      {
+        "type": "heading",
+        "id": "intellectual-property",
+        "text": "9. Propriété intellectuelle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les droits de propriété intellectuelle sur l’app elle-même ainsi que sur les designs, logos, préréglages et autres éléments que nous fournissons nous appartiennent ou appartiennent à leurs titulaires légitimes. Vous pouvez utiliser l’app dans les limites des présentes Conditions et de la loi applicable."
+      },
+      {
+        "type": "heading",
+        "id": "warranties",
+        "text": "10. Exclusion de garanties"
+      },
+      {
+        "type": "paragraph",
+        "text": "L’app est fournie « en l’état ». Nous ne garantissons pas qu’elle fonctionnera sans interruption, qu’elle sera exempte d’erreurs, ni qu’elle conviendra à un usage particulier. Nous ne donnons aucune garantie quant au contenu ou à la qualité des soundtracks créés, ni quant à leur correspondance avec votre intention ou avec le contenu de votre film."
+      },
+      {
+        "type": "heading",
+        "id": "liability",
+        "text": "11. Limitation de responsabilité"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dans toute la mesure permise par la loi applicable, nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs, ni des pertes de profit, résultant de votre utilisation de l’app ou de l’impossibilité de l’utiliser. Cela ne s’applique ni à la responsabilité résultant de notre faute intentionnelle ou de notre faute lourde, ni à toute responsabilité qui ne peut être exclue en vertu de la loi japonaise sur les contrats de consommation ou d’une autre disposition impérative."
+      },
+      {
+        "type": "heading",
+        "id": "terms-changes",
+        "text": "12. Modification des présentes Conditions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous pouvons modifier les présentes Conditions lorsque cela est nécessaire en raison d’une évolution de la loi, d’un changement des fonctions de l’app ou pour un autre motif, en tenant compte de la nécessité et du caractère raisonnable de la modification. Le cas échéant, nous annoncerons à l’avance le contenu de la modification et sa date d’entrée en vigueur dans l’app, sur notre site ou par tout autre moyen approprié. Les Conditions modifiées s’appliqueront à compter de la date d’entrée en vigueur indiquée dans l’annonce. Pour les modifications qui requièrent votre consentement en vertu de la loi applicable, nous recueillerons ce consentement séparément."
+      },
+      {
+        "type": "heading",
+        "id": "governing-law",
+        "text": "13. Droit applicable et juridiction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les présentes Conditions sont régies par le droit japonais. Tout litige relatif à l’app relèvera de la compétence exclusive du tribunal de district de Tokyo ou du tribunal sommaire de Tokyo en première instance. Toutefois, cette clause ne vous prive d’aucune protection dont vous bénéficiez en vertu des dispositions impératives de votre pays de résidence."
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "14. Contact"
+      },
+      {
+        "type": "contact",
+        "before": "Pour toute question sur les présentes Conditions, écrivez à ",
         "after": "."
       }
     ]
