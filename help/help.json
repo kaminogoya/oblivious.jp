@@ -13,7 +13,8 @@
             "ko": "film과 moment란 무엇인가요?",
             "zh-Hans": "film 和 moment 是什么？",
             "es": "¿Qué son los films y los moments?",
-            "de": "Was sind films und moments?"
+            "de": "Was sind films und moments?",
+            "fr": "film et moment, qu’est-ce que c’est ?"
           },
           "body": {
             "en": [
@@ -141,6 +142,24 @@
                   "Die Reihenfolge trägt Bedeutung. Ordnest du die moments neu an, verändert sich, wie der film wirkt."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Un **film** est ce que vous créez dans oblivious : une suite ordonnée de **moments**, avec un **soundtrack** par-dessus en musique de fond (facultatif)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Un **moment** est une photo, ou un court extrait vidéo. Tous les moments durent le même temps, si bien qu’un film se lit comme un rythme plutôt que comme une chronologie."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Un film peut contenir jusqu’à 60 moments.",
+                  "La durée d’un moment est de 1 ou 2 secondes, au choix pour chaque film.",
+                  "L’ordre fait sens. Réorganiser les moments change la façon dont le film se lit."
+                ]
+              }
             ]
           }
         },
@@ -153,7 +172,8 @@
             "ko": "moment 추가하기",
             "zh-Hans": "如何添加 moment？",
             "es": "¿Cómo añado moments?",
-            "de": "Wie füge ich moments hinzu?"
+            "de": "Wie füge ich moments hinzu?",
+            "fr": "Comment ajouter des moments ?"
           },
           "body": {
             "en": [
@@ -281,6 +301,24 @@
                   "Löschst du das Original, hat das moment im film nichts mehr, das es zeigen kann."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Ouvrez le film et touchez **＋**. Les photos et les vidéos arrivent dans l’ordre où vous les avez choisies, et cet ordre devient celui des moments."
+              },
+              {
+                "type": "paragraph",
+                "text": "Si seule une partie de votre photothèque apparaît, c’est qu’oblivious n’a accès qu’à une sélection de photos. Touchez **Sélectionner plus de photos** pour élargir cette sélection, ou **Modifier les réglages** pour autoriser toutes les photos."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Une vidéo plus courte que la durée du moment devient une image fixe.",
+                  "Un moment renvoie au fichier d’origine dans votre photothèque.",
+                  "Supprimez cet original et le moment n’a plus rien à montrer dans le film."
+                ]
+              }
             ]
           }
         },
@@ -296,7 +334,8 @@
             "ko": "moment 편집하기",
             "zh-Hans": "编辑 moment 时可以做什么？",
             "es": "¿Qué puedo hacer al editar un moment?",
-            "de": "Was kann ich beim Bearbeiten eines moments tun?"
+            "de": "Was kann ich beim Bearbeiten eines moments tun?",
+            "fr": "Que peut-on faire en modifiant un moment ?"
           },
           "body": {
             "en": [
@@ -431,6 +470,25 @@
                   "**moment entfernen**, ebenfalls im **⋯**-Menü, nimmt das moment aus dem film. Das Foto oder Video in deiner Mediathek bleibt unberührt."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Touchez un moment pour l’ouvrir en modification. Touchez **Terminé** pour conserver vos changements."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Pincez et faites glisser pour placer l’image dans le cadre. **Fill** remplit le cadre d’un seul geste, et **Réinitialiser** revient à unfilled.",
+                  "Pour une vidéo, la pellicule choisit la partie qui sera lue.",
+                  "Incrustez une courte ligne de **texte**, et apposez la **date et l’heure de prise de vue**.",
+                  "Choisissez si une vidéo garde son **son d’origine**.",
+                  "**Fantôme du moment précédent** affiche faiblement le moment d’avant, pour aligner les deux.",
+                  "**Dupliquer avant** et **Dupliquer après**, dans le menu **⋯**, ajoutent une copie de ce moment avant ou après lui, en conservant tous vos réglages.",
+                  "Pour une vidéo, la copie prend l’extrait juste avant ou juste après.",
+                  "**Supprimer le moment**, dans le même menu **⋯**, le retire du film. La photo ou la vidéo de votre photothèque n’est pas touchée."
+                ]
+              }
             ]
           }
         },
@@ -446,7 +504,8 @@
             "ko": "film 설정 변경하기",
             "zh-Hans": "如何更改 film 本身的设置？",
             "es": "¿Qué puedo cambiar del film en conjunto?",
-            "de": "Was kann ich am film selbst ändern?"
+            "de": "Was kann ich am film selbst ändern?",
+            "fr": "Que peut-on changer sur le film lui-même ?"
           },
           "body": {
             "en": [
@@ -560,6 +619,22 @@
                   "**film löschen** lässt sich nicht rückgängig machen. Die Fotos und Videos in deiner Mediathek bleiben unberührt – aber wenn andere films einen soundtrack verwenden, der aus diesem film erstellt wurde, verschwindet er auch dort."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Ouvrez le film et touchez **⋯** en haut. Ce qui s’y trouve agit sur le film entier, pas sur un moment isolé."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**1 s par moment** / **2 s par moment** fixe la durée de lecture de chaque moment.",
+                  "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
+                  "**Modifier le nom** renomme le film.",
+                  "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
+                  "**Supprimer le film** est irréversible. Les photos et les vidéos de votre photothèque ne sont pas touchées — mais si d’autres films utilisent un soundtrack créé à partir de celui-ci, il disparaît aussi de ces films."
+                ]
+              }
             ]
           }
         },
@@ -572,7 +647,8 @@
             "ko": "film 저장 및 공유하기",
             "zh-Hans": "如何存储或共享 film？",
             "es": "¿Cómo guardo o comparto un film?",
-            "de": "Wie sichere oder teile ich einen film?"
+            "de": "Wie sichere oder teile ich einen film?",
+            "fr": "Comment enregistrer ou partager un film ?"
           },
           "body": {
             "en": [
@@ -721,6 +797,27 @@
                   "Sichern ändert nichts am film. Du kannst weiter bearbeiten und erneut sichern."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Quand le film est prêt, touchez l’icône d’enregistrement en bas de l’écran — une boîte surmontée d’une flèche vers le bas. L’écran d’enregistrement s’ouvre : l’enregistrement et le partage s’y font tous les deux."
+              },
+              {
+                "type": "paragraph",
+                "text": "L’aperçu montre exactement ce qui sortira, dans l’orientation du film et avec le soundtrack mixé."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Enregistrer** écrit la vidéo dans votre photothèque.",
+                  "Le bouton de partage en haut transmet la même vidéo à une autre app.",
+                  "Choisissez un **look** pour la finition colorimétrique du film, et réglez son intensité.",
+                  "Pendant qu’un look est actif, touchez l’aperçu pour le comparer à l’original.",
+                  "Une finition colorimétrique s’applique à la vidéo exportée, pas au film lui-même.",
+                  "Enregistrer ne change rien au film. Vous pouvez continuer à le modifier et l’enregistrer de nouveau."
+                ]
+              }
             ]
           }
         },
@@ -733,7 +830,8 @@
             "ko": "soundtrack 설정 및 만들기",
             "zh-Hans": "如何设置和创建 soundtrack？",
             "es": "¿Cómo funciona la creación de un soundtrack?",
-            "de": "Wie funktioniert das Erstellen eines soundtracks?"
+            "de": "Wie funktioniert das Erstellen eines soundtracks?",
+            "fr": "Comment fonctionne la création d’un soundtrack ?"
           },
           "body": {
             "en": [
@@ -840,6 +938,21 @@
                   "Zum Erstellen ist eine Netzwerkverbindung nötig. Es läuft im Hintergrund weiter, wenn du die App verlässt."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Touchez l’icône en bas de l’écran — une note de musique avec un plus — pour ouvrir **Choisir un soundtrack**, où vous réglez le soundtrack du film. Prenez l’un des soundtracks fournis avec oblivious, utilisez un fichier audio de votre appareil, ou créez-en un nouveau : oblivious lit alors le film et écrit un soundtrack pour lui."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Un soundtrack peut être créé une fois par film.",
+                  "Vous pouvez créer **3 soundtracks par mois** au total, tous films confondus. Les réglages indiquent combien il en reste et quand le compte est remis à zéro.",
+                  "Un soundtrack créé dans un film peut être choisi depuis un autre film, et le réutiliser ne compte pas dans le total mensuel.",
+                  "La création demande une connexion réseau. Elle se poursuit en arrière-plan si vous quittez l’app."
+                ]
+              }
             ]
           }
         },
@@ -852,7 +965,8 @@
             "ko": "iCloud로 다른 기기와 동기화하기",
             "zh-Hans": "iCloud 同步会同步哪些内容？",
             "es": "¿Qué cubre la sincronización con iCloud?",
-            "de": "Was deckt die iCloud-Synchronisierung ab?"
+            "de": "Was deckt die iCloud-Synchronisierung ab?",
+            "fr": "Que couvre la synchronisation iCloud ?"
           },
           "body": {
             "en": [
@@ -945,6 +1059,19 @@
                   "Nicht synchronisiert werden: die Fotos und Videos selbst. Ein moment verweist auf deine Fotomediathek; damit das andere Gerät dasselbe Bild zeigt, muss dort **iCloud-Fotos** eingeschaltet sein."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "La **Synchronisation iCloud** reste désactivée jusqu’à ce que vous l’activiez dans les réglages, sous **Synchronisation entre appareils**. Une fois activée, vos films circulent entre les appareils connectés au même compte Apple."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Ce qui circule : les films — leurs moments, l’ordre, les découpes, le nom et l’orientation — ainsi que le soundtrack attaché à chacun.",
+                  "Ce qui ne circule pas : les photos et les vidéos elles-mêmes. Un moment pointe vers votre photothèque, donc l’autre appareil doit avoir **Photos iCloud** activé pour afficher la même image."
+                ]
+              }
             ]
           }
         },
@@ -960,7 +1087,8 @@
             "ko": "film 재생 중 화면이 잠시 어두워져요",
             "zh-Hans": "播放时画面为什么会突然变暗？",
             "es": "¿Por qué se oscurece la pantalla en escenas brillantes?",
-            "de": "Warum wird der Bildschirm bei hellen Szenen dunkler?"
+            "de": "Warum wird der Bildschirm bei hellen Szenen dunkler?",
+            "fr": "Pourquoi l’écran s’assombrit-il sur les scènes lumineuses ?"
           },
           "body": {
             "en": [
@@ -1067,6 +1195,21 @@
                   "Es ist eine Schutzfunktion für Menschen, die empfindlich auf blinkende Lichter reagieren – ob du sie ausschaltest, entscheidest du."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Cela ne vient pas d’oblivious. Il s’agit très probablement d’**Atténuer les lumières clignotantes**, un réglage d’accessibilité de votre iPhone qui assombrit l’écran lorsqu’il détecte des changements de luminosité importants et soudains, pour ménager vos yeux."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Il se déclenche surtout à l’instant où une scène sombre devient lumineuse, ou sur des images scintillantes comme la lumière sur l’eau.",
+                  "Il agit sur l’affichage plutôt que sur la vidéo : la même chose se produit dans d’autres apps, y compris Photos.",
+                  "Pour le désactiver : **Réglages > Accessibilité > Affichage et taille du texte > Atténuer les lumières clignotantes**. Le libellé exact et son emplacement peuvent varier selon la version d’iOS.",
+                  "C’est une protection pour les personnes sensibles aux lumières clignotantes : à vous de juger s’il faut la désactiver."
+                ]
+              }
             ]
           }
         },
@@ -1082,7 +1225,8 @@
             "ko": "moment를 불러오지 못해요",
             "zh-Hans": "moment 无法加载怎么办？",
             "es": "Un moment no se carga. ¿Qué pasó?",
-            "de": "Ein moment lädt nicht – was ist passiert?"
+            "de": "Ein moment lädt nicht – was ist passiert?",
+            "fr": "Un moment ne se charge pas — que s’est-il passé ?"
           },
           "body": {
             "en": [
@@ -1196,6 +1340,22 @@
                   "**Zum Entfernen** streichst du die Zeile in der moment-Liste nach links und löschst sie."
                 ]
               }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Un moment pointe vers une photo ou une vidéo de votre photothèque. Quand oblivious n’atteint pas cet original, la ligne indique **Chargement impossible**, ou **Supprimé de la photothèque** lorsque l’original est introuvable dans la photothèque."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Remettez l’original et le moment revient.** Si vous l’avez supprimé, Photos le conserve un temps dans **Supprimés récemment**. Si Photos iCloud ne l’a simplement pas encore téléchargé, il revient tout seul.",
+                  "**Il peut n’être hors d’atteinte que sur cet appareil.** oblivious ne voit qu’une sélection de photos, Photos iCloud est désactivé, ou une photo ou vidéo venue d’un autre appareil n’est pas encore synchronisée — chacun de ces cas peut s’afficher comme **Supprimé de la photothèque**. Ouvrez Photos et vérifiez que l’original s’y trouve.",
+                  "**Vous pouvez le laisser tel quel.** Un moment qui ne se charge pas est ignoré : il n’est pas lu, et il n’apparaît pas dans la vidéo enregistrée. Le film se referme autour de lui.",
+                  "**Il ne peut pas être modifié** dans cet état : toucher la ligne ne fait rien.",
+                  "**Pour le retirer**, balayez la ligne vers la gauche dans la liste des moments et supprimez-la."
+                ]
+              }
             ]
           }
         },
@@ -1208,7 +1368,8 @@
             "ko": "기타 문제 해결",
             "zh-Hans": "其他问题",
             "es": "Algo no funciona. ¿Qué puedo revisar?",
-            "de": "Etwas funktioniert nicht – was kann ich prüfen?"
+            "de": "Etwas funktioniert nicht – was kann ich prüfen?",
+            "fr": "Quelque chose ne fonctionne pas — que vérifier ?"
           },
           "body": {
             "en": [
@@ -1335,6 +1496,24 @@
               {
                 "type": "paragraph",
                 "text": "Wenn das Problem bleibt, melde dich bei uns."
+              }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Les problèmes courants, et ce qu’il faut vérifier pour chacun."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Impossible d’ajouter des moments** : vérifiez que le film n’a pas atteint 60 moments, et qu’oblivious voit bien les éléments que vous choisissez.",
+                  "**Impossible de créer un soundtrack** : la création demande une connexion réseau. Si les 3 soundtracks du mois sont épuisés, les réglages indiquent quand le compte est remis à zéro.",
+                  "**Les films n’arrivent pas sur un autre appareil** : vérifiez que la synchronisation entre appareils est activée des deux côtés, avec le même compte Apple, et laissez à l’autre appareil le temps de se mettre à jour."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Si le problème persiste, écrivez-nous."
               }
             ]
           }

@@ -8,7 +8,8 @@
     "ko": "시행일: 2026년 8월 23일",
     "zh-Hans": "生效日期：2026年8月23日",
     "es": "Fecha de entrada en vigor: 23 de agosto de 2026",
-    "de": "Gültig ab: 23. August 2026"
+    "de": "Gültig ab: 23. August 2026",
+    "fr": "Date d’entrée en vigueur : 23 août 2026"
   },
   "provider": {
     "en": "Operated by: KMNGY Inc.",
@@ -17,7 +18,8 @@
     "ko": "운영자: KMNGY Inc.",
     "zh-Hans": "运营方：KMNGY Inc.",
     "es": "Operado por: KMNGY Inc.",
-    "de": "Betrieben von: KMNGY Inc."
+    "de": "Betrieben von: KMNGY Inc.",
+    "fr": "Exploité par : KMNGY Inc."
   },
   "contactEmail": {
     "user": "support",
@@ -742,6 +744,109 @@
       {
         "type": "contact",
         "before": "Bei Fragen zu dieser Richtlinie erreichst du uns unter ",
+        "after": "."
+      }
+    ],
+    "fr": [
+      {
+        "type": "paragraph",
+        "text": "oblivious (« l’app », « nous ») est une app de création de films qui vous permet de tisser en un film les moments issus de vos photos et de vos vidéos. Nous avons conçu oblivious pour que vos contenus ne nous parviennent jamais. Cette politique explique les rares informations que l’app traite, et pourquoi."
+      },
+      {
+        "type": "heading",
+        "id": "content",
+        "text": "Vos contenus ne nous parviennent jamais"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vos photos, vos vidéos, les films que vous créez et tout texte que vous ajoutez à un moment sont conservés sur votre appareil : nous n’envoyons, ne collectons et ne stockons ni vos médias ni vos textes sur nos serveurs. Enregistrer un film terminé dans votre photothèque ou le partager avec d’autres n’a lieu que si vous le décidez, au moyen des fonctions d’enregistrement et de partage de votre appareil — le film va à qui vous l’envoyez, jamais à nous. La seule chose que vous pouvez nous transmettre délibérément est le message que vous écrivez dans le formulaire de contact, décrit plus bas."
+      },
+      {
+        "type": "heading",
+        "id": "library",
+        "text": "Accès à la photothèque"
+      },
+      {
+        "type": "paragraph",
+        "text": "L’app accède à votre photothèque uniquement avec votre autorisation, et uniquement pour vous laisser sélectionner des moments et enregistrer les films terminés. Vos sélections sont traitées sur votre appareil."
+      },
+      {
+        "type": "heading",
+        "id": "icloud",
+        "text": "Synchronisation iCloud"
+      },
+      {
+        "type": "paragraph",
+        "text": "La synchronisation iCloud est désactivée par défaut. Si vous l’activez, vos films sont conservés dans votre propre iCloud afin que vos appareils concordent — titres des films, textes ajoutés aux moments et fichiers audio des soundtracks. Ce stockage se trouve dans votre propre compte Apple, pas sur notre serveur : nous ne pouvons donc pas le lire. Nous n’y copions ni vos photos ni vos vidéos ; seules des références aux éléments de votre photothèque sont synchronisées, les médias eux-mêmes relevant de Photos iCloud si vous l’utilisez. Désactiver l’interrupteur arrête la synchronisation de cet appareil."
+      },
+      {
+        "type": "heading",
+        "id": "sound",
+        "text": "Création de soundtracks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ce n’est qu’au moment où vous créez un soundtrack que l’app envoie à notre serveur une description abstraite de ce film, afin qu’un soundtrack puisse être composé pour lui."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Ce qui est envoyé : des valeurs numériques et des indicateurs activé/désactivé, tels que la luminosité, le mouvement et la chaleur des couleurs, ainsi qu’une courte liste de mots d’ambiance choisis dans un vocabulaire fixe. Ces éléments sont produits sur votre appareil à partir des seules caractéristiques nécessaires à la composition. L’app envoie également une valeur de vérification ponctuelle (le mécanisme DeviceCheck d’Apple) qui confirme que la demande provient d’un appareil authentique, utilisée pour gérer la limite mensuelle de créations et empêcher les usages abusifs. Le décompte est tenu par appareil grâce au mécanisme d’Apple, et notre serveur ne conserve rien qui vous identifie. Les versions antérieures de l’app envoient à la place des données d’identification anonymes. Ni l’une ni l’autre n’est liée à votre nom ou à votre adresse e-mail.",
+          "Ce qui n’est pas envoyé : le contenu de vos photos, de vos vidéos, de vos titres ou de vos notes ; les informations d’identité telles que votre nom ou votre adresse e-mail ; les données brutes telles que les dates de prise de vue ou la localisation. Vous n’avez pas besoin de créer un compte ni de vous connecter avec une adresse e-mail et un mot de passe.",
+          "À quoi cela sert : la description est traitée au sein du système qui crée le soundtrack — nos serveurs ainsi que les services cloud et de musique générative que nous utilisons — uniquement dans la mesure nécessaire pour produire et livrer le soundtrack et pour exploiter le service en toute sécurité. Elle n’est pas utilisée pour entraîner des modèles d’IA générative. Nous agrégeons en revanche des valeurs qui en sont dérivées — comme le style musical et le tempo retenus — pour ajuster la qualité de la musique. Vos photos, vos vidéos et vos textes ne sont jamais envoyés à ces serveurs."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "logs",
+        "text": "Journaux"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lorsque l’app crée un soundtrack, vérifie votre quota restant, envoie un message depuis le formulaire de contact, ou ouvre l’aide, cette politique ou les conditions d’utilisation dans l’app, elle se connecte à un serveur. Le texte de l’aide, cette politique et les conditions sont hébergés sur notre site (oblivious.jp) et l’app les charge pour les afficher ; ces requêtes n’envoient aucune donnée de vérification ni rien de ce que vous avez saisi. Dans chaque cas, notre serveur, l’infrastructure cloud que nous utilisons et l’hébergeur de notre site conservent pendant une durée limitée des traces de la requête — adresse IP, horodatage, détails d’erreur. Lorsqu’un soundtrack est créé, une trace de cette création est également conservée. Elle contient les conditions de cette création : le nombre de moments, la durée du film, les mots d’ambiance envoyés, le style musical et le tempo retenus, le nom du soundtrack composé automatiquement, et la façon dont le décompte du mois a été tenu. Elle ne contient rien du contenu de vos photos, vidéos, titres ou notes, ni rien qui vous identifie. La trace d’un envoi depuis le formulaire de contact comprend en outre les versions de l’app et d’iOS, mais rien qui vous identifie. Ces traces servent uniquement à prévenir les abus, diagnostiquer les problèmes et maintenir le service en état de marche ; elles ne contiennent rien du contenu de vos photos, vidéos ou textes, et ne sont jamais utilisées à des fins de vente ou de publicité."
+      },
+      {
+        "type": "heading",
+        "id": "support",
+        "text": "Demandes d’assistance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Le formulaire de contact de l’app ne demande que votre message. Il n’y a pas de champ pour une adresse e-mail, et il ne vous demande vos coordonnées à aucun endroit — nous n’avons donc aucun moyen de vous identifier, ni de vous répondre."
+      },
+      {
+        "type": "bullets",
+        "items": [
+          "Ce qui est envoyé : le message que vous écrivez. L’app envoie également sa propre version et celle de votre iOS afin que nous puissions étudier les problèmes. L’envoi comporte aussi la même valeur de vérification ponctuelle que la création de soundtracks (les versions antérieures de l’app envoient à la place des données d’identification anonymes) ; elle sert uniquement à vérifier la demande et n’est pas conservée dans la trace de votre message.",
+          "Conservation : les messages sont stockés sur Google Cloud (Firestore, région de Tokyo) en tant que sous-traitant, et sont supprimés automatiquement 90 jours après leur réception."
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "no-sale",
+        "text": "Ni vente ni publicité"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous ne vendons à des tiers aucune information traitée par l’app — y compris la description abstraite envoyée pour créer un soundtrack — et nous ne l’utilisons pas à des fins publicitaires. Il en va de même des informations que nous recevons par les demandes d’assistance."
+      },
+      {
+        "type": "heading",
+        "id": "changes",
+        "text": "Modifications"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous pouvons mettre à jour cette politique à mesure que l’app évolue. Le cas échéant, nous actualiserons la date d’entrée en vigueur ci-dessous."
+      },
+      {
+        "type": "heading",
+        "id": "contact",
+        "text": "Contact"
+      },
+      {
+        "type": "contact",
+        "before": "Pour toute question sur cette politique, écrivez à ",
         "after": "."
       }
     ]

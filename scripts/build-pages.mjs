@@ -39,7 +39,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 /// en 以外の対応言語（oblivious #981）。en は HTML に直書きされ、これらは `__I18N_MESSAGES__` に入る。
 /// 並びは表示順（言語セレクタ）にもなる。
-const LANGS = ["ja", "zh-Hant", "ko", "zh-Hans", "es", "de"];
+const LANGS = ["ja", "zh-Hant", "ko", "zh-Hans", "es", "de", "fr"];
 
 /// 言語セレクタに出す自称。en を先頭に、LANGS の順で並ぶ。
 const LANG_LABELS = {
@@ -49,7 +49,8 @@ const LANG_LABELS = {
   ko: "한국어",
   "zh-Hans": "简体中文",
   es: "español",
-  de: "deutsch"
+  de: "deutsch",
+  fr: "français"
 };
 
 // -----------------------------------------------------------------------------
@@ -548,7 +549,8 @@ const PAGES = [
       ko: "도움말 | oblivious film",
       "zh-Hans": "帮助 | oblivious film",
       es: "Ayuda | oblivious film",
-      de: "Hilfe | oblivious film"
+      de: "Hilfe | oblivious film",
+      fr: "Aide | oblivious film"
     },
     description: {
       en: "Help for oblivious film.",
@@ -557,7 +559,8 @@ const PAGES = [
       ko: "oblivious film 도움말.",
       "zh-Hans": "oblivious film 的帮助。",
       es: "Ayuda de oblivious film.",
-      de: "Hilfe zu oblivious film."
+      de: "Hilfe zu oblivious film.",
+      fr: "Aide pour oblivious film."
     },
     pageTitle: { en: "Help" },
     build: buildHelpNodes
@@ -574,7 +577,8 @@ const PAGES = [
       ko: "개인정보 처리방침 | oblivious film",
       "zh-Hans": "隐私政策 | oblivious film",
       es: "Privacidad | oblivious film",
-      de: "Datenschutz | oblivious film"
+      de: "Datenschutz | oblivious film",
+      fr: "Confidentialité | oblivious film"
     },
     description: {
       en: "Privacy policy for oblivious film.",
@@ -583,7 +587,8 @@ const PAGES = [
       ko: "oblivious film의 개인정보 처리방침.",
       "zh-Hans": "oblivious film 的隐私政策。",
       es: "Política de privacidad de oblivious film.",
-      de: "Datenschutzrichtlinie von oblivious film."
+      de: "Datenschutzrichtlinie von oblivious film.",
+      fr: "Politique de confidentialité d’oblivious film."
     },
     pageTitle: { en: "Privacy" },
     build: buildPolicyNodes
@@ -600,7 +605,8 @@ const PAGES = [
       ko: "이용약관 | oblivious film",
       "zh-Hans": "使用条款 | oblivious film",
       es: "Condiciones | oblivious film",
-      de: "Nutzungsbedingungen | oblivious film"
+      de: "Nutzungsbedingungen | oblivious film",
+      fr: "Conditions | oblivious film"
     },
     description: {
       en: "Terms of service for oblivious film.",
@@ -609,7 +615,8 @@ const PAGES = [
       ko: "oblivious film의 이용약관.",
       "zh-Hans": "oblivious film 的使用条款。",
       es: "Condiciones de uso de oblivious film.",
-      de: "Nutzungsbedingungen von oblivious film."
+      de: "Nutzungsbedingungen von oblivious film.",
+      fr: "Conditions d’utilisation d’oblivious film."
     },
     pageTitle: { en: "Terms" },
     build: buildPolicyNodes
