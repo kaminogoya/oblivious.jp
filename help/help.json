@@ -348,7 +348,7 @@
                 "items": [
                   "Pinch and drag to choose how the picture sits in the frame. **Fill** fills the frame in one tap, and **Reset** returns to unfilled.",
                   "For a video, the filmstrip picks which part plays.",
-                  "Burn in a short line of **text**, and stamp the **capture date and time**.",
+                  "**Aa** at the bottom puts **text** and the **capture date & time** on the moment.",
                   "Choose whether a video keeps its **own sound**.",
                   "**Previous moment ghost** shows the moment before, faintly, for lining the two up.",
                   "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set.",
@@ -367,7 +367,7 @@
                 "items": [
                   "ピンチやドラッグで位置や大きさを調整できます（［Fill］でフレーム全体に拡大、［リセット］で初期状態に戻ります）",
                   "動画はフィルムストリップを動かして使いたいシーンを選択できます",
-                  "短いテキストや、撮影日時スタンプを焼き込めます",
+                  "画面下の［Aa］から、文字や撮影日時を入れられます",
                   "動画の元の音声を含めるかどうかを選択できます",
                   "前の moment の残像を重ねて表示し、前後のつながりを確認しながら位置を合わせられます",
                   "［⋯］メニューの［前に複製］/［次に複製］で、編集内容を保ったまま前後に複製できます",
@@ -386,7 +386,7 @@
                 "items": [
                   "以雙指縮放或拖移調整畫面中的位置與大小（點一下 **Fill** 即可填滿整個畫面，**重置**則回到原始狀態）。",
                   "影片可移動膠卷來選擇要使用的片段。",
-                  "可以燒錄一行簡短的**文字**，以及**拍攝日期與時間**的標記。",
+                  "透過底部的 **Aa** 可以在 moment 上加入**文字**和**拍攝日期與時間**。",
                   "可以選擇影片是否使用原始音訊。",
                   "**上一個 moment 的殘影**會淡淡地顯示前一個 moment，方便對齊兩者的位置。",
                   "**⋯** 選單中的**複製到前面**／**複製到後面**會在這個 moment 的前後加入一份複本，並保留你所做的所有設定。",
@@ -405,7 +405,7 @@
                 "items": [
                   "핀치와 드래그로 위치와 크기를 조절할 수 있습니다. **Fill**을 탭하면 프레임 전체를 채우고, **재설정**을 탭하면 처음 상태로 돌아갑니다.",
                   "동영상은 필름 스트립을 움직여 사용할 장면을 고를 수 있습니다.",
-                  "짧은 **텍스트**와 **촬영 날짜·시간** 스탬프를 새겨 넣을 수 있습니다.",
+                  "아래의 **Aa**로 moment에 **텍스트**와 **촬영 날짜 및 시간**을 넣을 수 있습니다.",
                   "동영상의 **원본 오디오**를 포함할지 선택할 수 있습니다.",
                   "**이전 moment 잔상**을 겹쳐 보면서 앞뒤 moment의 위치를 맞출 수 있습니다.",
                   "**⋯** 메뉴의 **이전에 복제** / **다음에 복제**로, 편집한 내용을 그대로 유지한 채 앞뒤에 복제할 수 있습니다.",
@@ -424,7 +424,7 @@
                 "items": [
                   "通过捏合和拖移调整画面在画框中的位置和大小。**Fill** 一键填满画框，**重置**恢复到 unfilled 的初始状态。",
                   "视频可以拖动胶片条，选择要使用的片段。",
-                  "可以烧录一行短**文本**，或加上**拍摄日期和时间**的印记。",
+                  "通过底部的 **Aa** 可以在 moment 上加入**文本**和**拍摄日期和时间**。",
                   "可以选择视频是否保留**原声**。",
                   "**上一个 moment 的残影**会淡淡地叠加显示前一个 moment，方便对齐两者的画面。",
                   "**⋯** 菜单中的**复制到前面** / **复制到后面**，会在这个 moment 的前后加入一份副本，并保留你所做的全部设置。",
@@ -443,7 +443,7 @@
                 "items": [
                   "Pellizca y arrastra para ajustar la posición y el tamaño. **Fill** llena el encuadre de un toque y **Restablecer** vuelve al estado inicial.",
                   "En un video, mueve la tira de fotogramas para elegir qué parte se reproduce.",
-                  "Puedes grabar en la imagen una línea corta de **texto** y el sello con la **fecha y hora de captura**.",
+                  "Con **Aa** en la parte inferior puedes poner **texto** y la **fecha y hora de captura** en el moment.",
                   "Puedes elegir si un video conserva su **audio original**.",
                   "El **fantasma del moment anterior** muestra tenuemente el moment previo, para alinear los dos.",
                   "**Duplicar antes** y **Duplicar después**, en el menú **⋯**, añaden una copia de este moment antes o después de él, conservando todo lo que hayas ajustado.",
@@ -462,7 +462,7 @@
                 "items": [
                   "Mit Aufziehen und Bewegen legst du fest, wie das Bild im Rahmen sitzt. **Fill** füllt den Rahmen mit einem Tipp, **Zurücksetzen** kehrt zu unfilled zurück.",
                   "Bei einem Video wählst du über den Filmstreifen aus, welcher Teil abgespielt wird.",
-                  "Du kannst eine kurze **Text**-Zeile sowie **Aufnahmedatum und Uhrzeit** einbrennen.",
+                  "Über **Aa** unten bringst du **Text** und **Aufnahmedatum & Uhrzeit** auf das moment.",
                   "Du entscheidest, ob ein Video seinen **Originalton** behält.",
                   "Das **Geisterbild des vorherigen moments** zeigt das moment davor schwach im Hintergrund, damit du beide aufeinander ausrichten kannst.",
                   "**Davor duplizieren** und **Danach duplizieren** im **⋯**-Menü fügen eine Kopie dieses moments davor oder danach ein – mit allem, was du eingestellt hast.",
@@ -481,12 +481,166 @@
                 "items": [
                   "Pincez et faites glisser pour placer l’image dans le cadre. **Fill** remplit le cadre d’un seul geste, et **Réinitialiser** revient à unfilled.",
                   "Pour une vidéo, la pellicule choisit la partie qui sera lue.",
-                  "Incrustez une courte ligne de **texte**, et apposez la **date et l’heure de prise de vue**.",
+                  "**Aa** en bas permet de mettre du **texte** et la **date et l’heure de prise de vue** sur le moment.",
                   "Choisissez si une vidéo garde son **son d’origine**.",
                   "**Fantôme du moment précédent** affiche faiblement le moment d’avant, pour aligner les deux.",
                   "**Dupliquer avant** et **Dupliquer après**, dans le menu **⋯**, ajoutent une copie de ce moment avant ou après lui, en conservant tous vos réglages.",
                   "Pour une vidéo, la copie prend l’extrait juste avant ou juste après.",
                   "**Supprimer le moment**, dans le même menu **⋯**, le retire du film. La photo ou la vidéo de votre photothèque n’est pas touchée."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "adding-text",
+          "platforms": [
+            "ios"
+          ],
+          "title": {
+            "en": "How do I put text on a moment?",
+            "ja": "moment に文字を入れたい",
+            "zh-Hant": "如何在 moment 上加入文字？",
+            "ko": "moment에 텍스트를 넣으려면 어떻게 하나요?",
+            "zh-Hans": "如何在 moment 上添加文字？",
+            "es": "¿Cómo pongo texto en un moment?",
+            "de": "Wie bringe ich Text auf ein moment?",
+            "fr": "Comment mettre du texte sur un moment ?"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Open a moment for editing and tap **Aa** at the bottom to open **Arrange text**. This is where you choose where the text goes and what shows."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Layout** places the text and the capture date & time.",
+                  "**Show** turns the text and the capture date & time on or off. An item with no place in the layout can't be turned on.",
+                  "Tap the text on the moment to rewrite it. The tab above the keyboard switches to **Style**, where you pick a typeface.",
+                  "Tap the date & time to show both, or only the date or only the time.",
+                  "A line with characters the chosen typeface doesn't have is drawn in the standard typeface, Plain. Emoji and symbols don't count.",
+                  "Text left as **Tap to edit** isn't part of the saved film."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "moment の編集画面で、画面下の［Aa］をタップすると［文字を配置］が開きます。ここで文字の置き場所と、表示する項目を選びます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "［レイアウト］で、テキストと撮影日時をどこに置くかを選びます",
+                  "［表示するテキスト］で、テキストと撮影日時のどちらを出すかを切り替えられます。レイアウトに枠がない項目は選べません",
+                  "moment に置かれた文字をタップすると、その文字を書き換えられます。キーボードの上のタブで［スタイル］に切り替えると、書体を選べます",
+                  "撮影日時をタップすると、日付と時刻の両方を出すか、どちらか一方だけを出すかを選べます",
+                  "選んだ書体にない文字を含む文は、標準の書体（Plain）で描かれます。絵文字や記号は対象になりません",
+                  "「タップして編集」のままの文字は、保存・共有した film には含まれません"
+                ]
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "打開 moment 的編輯畫面，點一下底部的 **Aa** 即可打開**排列文字**。在這裡選擇文字的位置和要顯示的內容。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "在**版面**中選擇文字和拍攝日期與時間的位置。",
+                  "在**顯示的文字**中開啟或關閉文字和拍攝日期與時間。版面中沒有位置的項目無法開啟。",
+                  "點一下 moment 上的文字即可改寫。透過鍵盤上方的標籤切換到**樣式**，可以選擇字體。",
+                  "點一下拍攝日期與時間，可以選擇同時顯示日期和時間，或只顯示其中一項。",
+                  "如果一段文字包含所選字體沒有的字元，整段文字會以標準字體（Plain）繪製。表情符號和符號不在此列。",
+                  "保持為**點按以編輯**的文字不會包含在儲存的 film 中。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "moment 편집 화면에서 아래의 **Aa**를 탭하면 **텍스트 배치**가 열립니다. 여기에서 텍스트를 놓을 위치와 표시할 항목을 선택합니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**레이아웃**에서 텍스트와 촬영 날짜 및 시간을 놓을 위치를 선택합니다.",
+                  "**표시할 텍스트**에서 텍스트와 촬영 날짜 및 시간을 켜거나 끌 수 있습니다. 레이아웃에 자리가 없는 항목은 켤 수 없습니다.",
+                  "moment에 놓인 텍스트를 탭하면 내용을 고쳐 쓸 수 있습니다. 키보드 위의 탭에서 **스타일**로 전환하면 서체를 고를 수 있습니다.",
+                  "촬영 날짜 및 시간을 탭하면 날짜와 시간을 모두 표시할지, 둘 중 하나만 표시할지 선택할 수 있습니다.",
+                  "선택한 서체에 없는 글자가 포함된 문장은 기본 서체(Plain)로 그려집니다. 이모지와 기호는 해당하지 않습니다.",
+                  "**탭하여 편집** 그대로 둔 텍스트는 저장·공유한 film에 포함되지 않습니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "打开 moment 的编辑画面，轻点底部的 **Aa** 即可打开**排列文本**。在这里选择文字的位置和要显示的内容。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "在**布局**中选择文本和拍摄日期和时间的位置。",
+                  "在**显示的文本**中开启或关闭文本和拍摄日期和时间。布局中没有位置的项目无法开启。",
+                  "轻点 moment 上的文字即可改写。通过键盘上方的标签切换到**样式**，可以选择字体。",
+                  "轻点拍摄日期和时间，可以选择同时显示日期和时间，或只显示其中一项。",
+                  "如果一段文字包含所选字体没有的字符，整段文字会用标准字体（Plain）绘制。表情符号和符号不在此列。",
+                  "保持为**点按以编辑**的文字不会包含在保存的 film 中。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Abre un moment para editarlo y toca **Aa** en la parte inferior para abrir **Organizar texto**. Aquí eliges dónde va el texto y qué se muestra."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Diseño** coloca el texto y la fecha y hora de captura.",
+                  "**Mostrar** activa o desactiva el texto y la fecha y hora de captura. Lo que no tiene sitio en el diseño no se puede activar.",
+                  "Toca el texto en el moment para reescribirlo. La pestaña sobre el teclado cambia a **Estilo**, donde eliges una tipografía.",
+                  "Toca la fecha y hora para mostrar ambas, o solo la fecha o solo la hora.",
+                  "Una línea con caracteres que la tipografía elegida no tiene se dibuja con la tipografía estándar, Plain. Los emoji y los símbolos no cuentan.",
+                  "El texto que se deja como **Toca para editar** no forma parte del film guardado."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Öffne ein moment zum Bearbeiten und tippe unten auf **Aa**, um **Text anordnen** zu öffnen. Hier legst du fest, wo der Text steht und was angezeigt wird."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Layout** bestimmt, wo Text und Aufnahmedatum & Uhrzeit stehen.",
+                  "**Anzeigen** schaltet Text und Aufnahmedatum & Uhrzeit ein oder aus. Was im Layout keinen Platz hat, lässt sich nicht einschalten.",
+                  "Tippe auf den Text im moment, um ihn zu ändern. Über den Tab oberhalb der Tastatur wechselst du zu **Stil** und wählst eine Schrift.",
+                  "Tippe auf Datum & Uhrzeit, um beides, nur das Datum oder nur die Uhrzeit anzuzeigen.",
+                  "Eine Zeile mit Zeichen, die die gewählte Schrift nicht enthält, wird in der Standardschrift Plain gezeichnet. Emoji und Symbole zählen nicht dazu.",
+                  "Text, der bei **Zum Bearbeiten tippen** bleibt, ist nicht Teil des gespeicherten films."
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Ouvrez un moment en modification et touchez **Aa** en bas pour ouvrir **Disposer le texte**. C’est là que vous choisissez où va le texte et ce qui s’affiche."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Disposition** place le texte et la date et l’heure de prise de vue.",
+                  "**Afficher** active ou désactive le texte et la date et l’heure de prise de vue. Ce qui n’a pas de place dans la disposition ne peut pas être activé.",
+                  "Touchez le texte sur le moment pour le réécrire. L’onglet au-dessus du clavier passe à **Style**, où vous choisissez une police.",
+                  "Touchez la date et l’heure pour afficher les deux, ou seulement la date ou seulement l’heure.",
+                  "Une ligne contenant des caractères que la police choisie n’a pas est dessinée dans la police standard, Plain. Les emoji et les symboles ne comptent pas.",
+                  "Un texte laissé sur **Touchez pour modifier** ne fait pas partie du film enregistré."
                 ]
               }
             ]
