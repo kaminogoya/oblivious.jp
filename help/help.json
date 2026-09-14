@@ -516,10 +516,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**Layout** places the text and the capture date & time.",
+                  "**Layout** chooses how the text and the capture date & time are split across the frame.",
                   "**Show** turns the text and the capture date & time on or off. An item with no place in the layout can't be turned on.",
-                  "Tap the text on the moment to rewrite it. The tab above the keyboard switches to **Style**, where you pick a typeface.",
+                  "Tap the text on the moment to rewrite it. Among the icons above the keyboard, the one made of lines and an A lets you pick a typeface.",
                   "Tap the date & time to show both, or only the date or only the time.",
+                  "The alignment icon above the keyboard, a stack of lines, switches between left, center and right each time you tap it. Each piece of text keeps its own alignment, and choosing a **Layout** again resets it. In a portrait or square film with a side-by-side layout, the text stacks vertically, so the alignment can't be changed.",
                   "A line with characters the chosen typeface doesn't have is drawn in the standard typeface, Plain. Emoji and symbols don't count.",
                   "Text left as **Tap to edit** isn't part of the saved film."
                 ]
@@ -533,10 +534,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "［レイアウト］で、テキストと撮影日時をどこに置くかを選びます",
+                  "［レイアウト］で、テキストと撮影日時を画面のどこに分けて置くかを選びます",
                   "［表示するテキスト］で、テキストと撮影日時のどちらを出すかを切り替えられます。レイアウトに枠がない項目は選べません",
-                  "moment に置かれた文字をタップすると、その文字を書き換えられます。キーボードの上のタブで［スタイル］に切り替えると、書体を選べます",
+                  "moment に置かれた文字をタップすると、その文字を書き換えられます。キーボードの上に並ぶアイコンのうち、横線と「A」を組み合わせたアイコンをタップすると、書体を選べます",
                   "撮影日時をタップすると、日付と時刻の両方を出すか、どちらか一方だけを出すかを選べます",
+                  "キーボードの上の、横線が並んだ揃えのアイコンをタップするたびに、左揃え・中央・右揃えの順に切り替わります。揃えは置いた文字ごとに設定でき、［レイアウト］を選び直すと元に戻ります。縦長やスクエアの film で左右に並べるレイアウトを選んでいるときは、文字が上下に並ぶため揃えは変えられません",
                   "選んだ書体にない文字を含む文は、標準の書体（Plain）で描かれます。絵文字や記号は対象になりません",
                   "「タップして編集」のままの文字は、保存・共有した film には含まれません"
                 ]
@@ -550,10 +552,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "在**版面**中選擇文字和拍攝日期與時間的位置。",
+                  "在**版面**中選擇文字和拍攝日期與時間要如何分配在畫面上。",
                   "在**顯示的文字**中開啟或關閉文字和拍攝日期與時間。版面中沒有位置的項目無法開啟。",
-                  "點一下 moment 上的文字即可改寫。透過鍵盤上方的標籤切換到**樣式**，可以選擇字體。",
+                  "點一下 moment 上的文字即可改寫。點一下鍵盤上方由橫線和「A」組成的圖示，可以選擇字體。",
                   "點一下拍攝日期與時間，可以選擇同時顯示日期和時間，或只顯示其中一項。",
+                  "每點一下鍵盤上方由橫線組成的對齊圖示，就會依序切換靠左、置中、靠右。每段文字可以各自設定對齊方式，重新選擇**版面**後會恢復原狀。在直向或正方形的 film 中選擇左右並排的版面時，文字會改為上下排列，因此無法變更對齊方式。",
                   "如果一段文字包含所選字體沒有的字元，整段文字會以標準字體（Plain）繪製。表情符號和符號不在此列。",
                   "保持為**點按以編輯**的文字不會包含在儲存的 film 中。"
                 ]
@@ -567,10 +570,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**레이아웃**에서 텍스트와 촬영 날짜 및 시간을 놓을 위치를 선택합니다.",
+                  "**레이아웃**에서 텍스트와 촬영 날짜 및 시간을 화면에 어떻게 나누어 놓을지 선택합니다.",
                   "**표시할 텍스트**에서 텍스트와 촬영 날짜 및 시간을 켜거나 끌 수 있습니다. 레이아웃에 자리가 없는 항목은 켤 수 없습니다.",
-                  "moment에 놓인 텍스트를 탭하면 내용을 고쳐 쓸 수 있습니다. 키보드 위의 탭에서 **스타일**로 전환하면 서체를 고를 수 있습니다.",
+                  "moment에 놓인 텍스트를 탭하면 내용을 고쳐 쓸 수 있습니다. 키보드 위의 아이콘 중 가로줄과 ‘A’를 조합한 아이콘을 탭하면 서체를 고를 수 있습니다.",
                   "촬영 날짜 및 시간을 탭하면 날짜와 시간을 모두 표시할지, 둘 중 하나만 표시할지 선택할 수 있습니다.",
+                  "키보드 위의 가로줄로 된 정렬 아이콘을 탭할 때마다 왼쪽 정렬, 가운데, 오른쪽 정렬 순서로 바뀝니다. 정렬은 놓인 텍스트마다 따로 설정할 수 있으며, **레이아웃**을 다시 고르면 처음 상태로 돌아갑니다. 세로 또는 스퀘어 film에서 좌우로 나란히 놓는 레이아웃을 고른 경우에는 텍스트가 위아래로 놓이므로 정렬을 바꿀 수 없습니다.",
                   "선택한 서체에 없는 글자가 포함된 문장은 기본 서체(Plain)로 그려집니다. 이모지와 기호는 해당하지 않습니다.",
                   "**탭하여 편집** 그대로 둔 텍스트는 저장·공유한 film에 포함되지 않습니다."
                 ]
@@ -584,10 +588,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "在**布局**中选择文本和拍摄日期和时间的位置。",
+                  "在**布局**中选择文本和拍摄日期和时间在画面上如何分开放置。",
                   "在**显示的文本**中开启或关闭文本和拍摄日期和时间。布局中没有位置的项目无法开启。",
-                  "轻点 moment 上的文字即可改写。通过键盘上方的标签切换到**样式**，可以选择字体。",
+                  "轻点 moment 上的文字即可改写。轻点键盘上方由横线和“A”组成的图标，可以选择字体。",
                   "轻点拍摄日期和时间，可以选择同时显示日期和时间，或只显示其中一项。",
+                  "每轻点一次键盘上方由横线组成的对齐图标，就会依次切换左对齐、居中、右对齐。每段文字可以分别设置对齐方式，重新选择**布局**后会恢复原状。在竖向或正方形的 film 中选择左右并排的布局时，文字会改为上下排列，因此无法更改对齐方式。",
                   "如果一段文字包含所选字体没有的字符，整段文字会用标准字体（Plain）绘制。表情符号和符号不在此列。",
                   "保持为**点按以编辑**的文字不会包含在保存的 film 中。"
                 ]
@@ -601,10 +606,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**Diseño** coloca el texto y la fecha y hora de captura.",
+                  "**Diseño** elige cómo se reparten el texto y la fecha y hora de captura en el encuadre.",
                   "**Mostrar** activa o desactiva el texto y la fecha y hora de captura. Lo que no tiene sitio en el diseño no se puede activar.",
-                  "Toca el texto en el moment para reescribirlo. La pestaña sobre el teclado cambia a **Estilo**, donde eliges una tipografía.",
+                  "Toca el texto en el moment para reescribirlo. Entre los iconos sobre el teclado, el de líneas con una A te deja elegir una tipografía.",
                   "Toca la fecha y hora para mostrar ambas, o solo la fecha o solo la hora.",
+                  "Cada vez que tocas el icono de alineación sobre el teclado, unas líneas, cambia entre izquierda, centro y derecha. Cada texto guarda su propia alineación, y al volver a elegir un **Diseño** se restablece. En un film vertical o cuadrado con un diseño lado a lado, el texto se apila, así que la alineación no se puede cambiar.",
                   "Una línea con caracteres que la tipografía elegida no tiene se dibuja con la tipografía estándar, Plain. Los emoji y los símbolos no cuentan.",
                   "El texto que se deja como **Toca para editar** no forma parte del film guardado."
                 ]
@@ -618,10 +624,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**Layout** bestimmt, wo Text und Aufnahmedatum & Uhrzeit stehen.",
+                  "**Layout** bestimmt, wie Text und Aufnahmedatum & Uhrzeit auf den Rahmen verteilt werden.",
                   "**Anzeigen** schaltet Text und Aufnahmedatum & Uhrzeit ein oder aus. Was im Layout keinen Platz hat, lässt sich nicht einschalten.",
-                  "Tippe auf den Text im moment, um ihn zu ändern. Über den Tab oberhalb der Tastatur wechselst du zu **Stil** und wählst eine Schrift.",
+                  "Tippe auf den Text im moment, um ihn zu ändern. Unter den Symbolen oberhalb der Tastatur wählst du über das Symbol aus Linien und einem A eine Schrift.",
                   "Tippe auf Datum & Uhrzeit, um beides, nur das Datum oder nur die Uhrzeit anzuzeigen.",
+                  "Mit jedem Tipp auf das Ausrichtungssymbol oberhalb der Tastatur, ein paar Linien, wechselst du zwischen links, zentriert und rechts. Jeder Text behält seine eigene Ausrichtung, und wenn du ein **Layout** neu wählst, wird sie zurückgesetzt. In einem film im Hochformat oder als Quadrat mit einem Layout nebeneinander stehen die Texte untereinander, daher lässt sich die Ausrichtung nicht ändern.",
                   "Eine Zeile mit Zeichen, die die gewählte Schrift nicht enthält, wird in der Standardschrift Plain gezeichnet. Emoji und Symbole zählen nicht dazu.",
                   "Text, der bei **Zum Bearbeiten tippen** bleibt, ist nicht Teil des gespeicherten films."
                 ]
@@ -635,10 +642,11 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**Disposition** place le texte et la date et l’heure de prise de vue.",
+                  "**Disposition** choisit comment le texte et la date et l’heure de prise de vue se répartissent dans le cadre.",
                   "**Afficher** active ou désactive le texte et la date et l’heure de prise de vue. Ce qui n’a pas de place dans la disposition ne peut pas être activé.",
-                  "Touchez le texte sur le moment pour le réécrire. L’onglet au-dessus du clavier passe à **Style**, où vous choisissez une police.",
+                  "Touchez le texte sur le moment pour le réécrire. Parmi les icônes au-dessus du clavier, celle faite de lignes et d’un A permet de choisir une police.",
                   "Touchez la date et l’heure pour afficher les deux, ou seulement la date ou seulement l’heure.",
+                  "Chaque fois que vous touchez l’icône d’alignement au-dessus du clavier, faite de lignes, elle passe de gauche à centré puis à droite. Chaque texte garde son propre alignement, et choisir de nouveau une **Disposition** le réinitialise. Dans un film en portrait ou carré avec une disposition côte à côte, les textes s’empilent : l’alignement ne peut donc pas être modifié.",
                   "Une ligne contenant des caractères que la police choisie n’a pas est dessinée dans la police standard, Plain. Les emoji et les symboles ne comptent pas.",
                   "Un texte laissé sur **Touchez pour modifier** ne fait pas partie du film enregistré."
                 ]
@@ -665,12 +673,12 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "Open the film and tap **⋯** at the top. What's in there acts on the whole film, not on a single moment."
+                "text": "At the top of an open film, next to **⋯**, is an icon of a frame marked 1s or 2s. Both act on the whole film, not on a single moment: the frame icon sets how long moments play, and **⋯** holds everything else."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 sec per moment** / **2 sec per moment** sets how long every moment plays.",
+                  "**1 sec per moment** / **2 sec per moment**, under the frame icon, sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
                   "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
@@ -681,12 +689,12 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "film を開いて画面上の［⋯］をタップします。ここには、moment 単体ではなく編集中の film 全体に適用される設定項目が集まっています。"
+                "text": "film を開くと、画面上に「1s」または「2s」と書かれたコマのアイコンと［⋯］が並んでいます。どちらも、moment 単体ではなく編集中の film 全体に適用される設定です。コマのアイコンでは moment の再生時間を、［⋯］ではそれ以外の項目を変更できます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "［moment あたり1秒］/［moment あたり2秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "コマのアイコンの［moment あたり1秒］/［moment あたり2秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
                   "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
@@ -697,12 +705,12 @@
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "打開 film 後點一下畫面上方的 **⋯**。這裡的項目作用於整個 film，而不是單一 moment。"
+                "text": "打開 film 後，畫面上方會並排顯示寫著「1s」或「2s」的畫格圖示和 **⋯**。兩者都作用於整個 film，而不是單一 moment：畫格圖示用來設定 moment 的播放長度，**⋯** 則包含其他項目。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**每個 moment 1秒**／**每個 moment 2秒**可一次設定所有 moment 的播放長度。",
+                  "畫格圖示中的**每個 moment 1秒**／**每個 moment 2秒**可一次設定所有 moment 的播放長度。",
                   "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
                   "**編輯名稱**可更改 film 的標題。",
                   "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
@@ -713,12 +721,12 @@
             "ko": [
               {
                 "type": "paragraph",
-                "text": "film을 열고 화면 위의 **⋯**를 탭하세요. 이곳에는 moment 하나가 아니라 film 전체에 적용되는 항목이 모여 있습니다."
+                "text": "film을 열면 화면 위에 ‘1s’ 또는 ‘2s’가 적힌 프레임 아이콘과 **⋯**가 나란히 있습니다. 둘 다 moment 하나가 아니라 film 전체에 적용됩니다. 프레임 아이콘에서는 moment의 재생 시간을, **⋯**에서는 그 밖의 항목을 변경할 수 있습니다."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**moment당 1초** / **moment당 2초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "프레임 아이콘의 **moment당 1초** / **moment당 2초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
                   "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
                   "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
                   "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
@@ -729,12 +737,12 @@
             "zh-Hans": [
               {
                 "type": "paragraph",
-                "text": "打开 film，轻点顶部的 **⋯**。这里的项目作用于整个 film，而不是单个 moment。"
+                "text": "打开 film 后，顶部会并排显示写着“1s”或“2s”的画框图标和 **⋯**。两者都作用于整个 film，而不是单个 moment：画框图标用于设置 moment 的播放时长，**⋯** 中是其他项目。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**每个 moment 1秒** / **每个 moment 2秒**：统一设置所有 moment 的播放时长。",
+                  "画框图标中的**每个 moment 1秒** / **每个 moment 2秒**：统一设置所有 moment 的播放时长。",
                   "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
                   "**编辑名称**：更改 film 的标题。",
                   "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
@@ -745,12 +753,12 @@
             "es": [
               {
                 "type": "paragraph",
-                "text": "Abre el film y toca **⋯** en la parte superior. Lo que hay ahí actúa sobre todo el film, no sobre un moment concreto."
+                "text": "Al abrir un film, arriba aparecen juntos un icono de fotograma con «1s» o «2s» y **⋯**. Ambos actúan sobre todo el film, no sobre un moment concreto: el icono de fotograma fija cuánto dura cada moment y **⋯** reúne lo demás."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s por moment** / **2 s por moment** define cuánto dura la reproducción de cada moment.",
+                  "**1 s por moment** / **2 s por moment**, en el icono de fotograma, define cuánto dura la reproducción de cada moment.",
                   "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
                   "**Editar nombre** cambia el título del film.",
                   "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
@@ -761,12 +769,12 @@
             "de": [
               {
                 "type": "paragraph",
-                "text": "Öffne den film und tippe oben auf **⋯**. Alles dort wirkt auf den ganzen film, nicht auf ein einzelnes moment."
+                "text": "Öffnest du einen film, stehen oben ein Rahmen-Symbol mit „1s“ oder „2s“ und **⋯** nebeneinander. Beide wirken auf den ganzen film, nicht auf ein einzelnes moment: Das Rahmen-Symbol legt die Dauer der moments fest, in **⋯** steht alles andere."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 Sek. pro moment** / **2 Sek. pro moment** legt fest, wie lang jedes moment läuft.",
+                  "**1 Sek. pro moment** / **2 Sek. pro moment** im Rahmen-Symbol legt fest, wie lang jedes moment läuft.",
                   "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
                   "**Namen ändern** benennt den film um.",
                   "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
@@ -777,12 +785,12 @@
             "fr": [
               {
                 "type": "paragraph",
-                "text": "Ouvrez le film et touchez **⋯** en haut. Ce qui s’y trouve agit sur le film entier, pas sur un moment isolé."
+                "text": "Quand vous ouvrez un film, une icône de cadre marquée « 1s » ou « 2s » et **⋯** se trouvent côte à côte en haut. Les deux agissent sur le film entier, pas sur un moment isolé : l’icône de cadre fixe la durée des moments, et **⋯** regroupe le reste."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s par moment** / **2 s par moment** fixe la durée de lecture de chaque moment.",
+                  "**1 s par moment** / **2 s par moment**, dans l’icône de cadre, fixe la durée de lecture de chaque moment.",
                   "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
                   "**Modifier le nom** renomme le film.",
                   "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
