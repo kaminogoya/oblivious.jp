@@ -828,6 +828,7 @@
                   "**Save** writes the video to your photo library.",
                   "The share button at the top hands the same video to another app.",
                   "Pick a **look** for the color finish of the film, and adjust how strongly it applies.",
+                  "Add your own .cube (3D LUT) from the **Add** tile at the end of the look row. LUTs made for sRGB / Rec.709 work as intended; LUTs made for Log footage won't look as designed.",
                   "While a look is on, tap the preview to see it against the original.",
                   "A color finish goes onto the video you export, not onto the film itself.",
                   "Saving changes nothing about the film. You can keep editing and save again."
@@ -849,6 +850,7 @@
                   "［保存］ で写真ライブラリに動画を書き出せます",
                   "画面上の共有ボタンから、書き出した動画を直接他のアプリへ共有できます",
                   "用意された look から film の仕上げ（色味）を選択し、適用度合いを調整できます",
+                  "手持ちの .cube（3D LUT）を、look の列の末尾の［追加］から取り込めます。表示用（sRGB / Rec.709）の LUT が前提で、Log 用の LUT は意図した色になりません",
                   "look を適用中、プレビュー映像をタップすると、仕上げ前のオリジナル映像と見比べられます",
                   "色の仕上げは書き出す動画にのみ適用され、film 自体のデータは変更されません",
                   "動画を保存した後も film データは残るため、いつでも再編集や再保存できます"
@@ -870,6 +872,7 @@
                   "**儲存**會將影片寫入照片圖庫。",
                   "畫面上方的分享按鈕可將同一部影片傳給其他 App。",
                   "可以從 look 中選擇 film 的色彩風格，並調整套用的強度。",
+                  "可從 look 列末端的 **加入** 方塊匯入自己的 .cube（3D LUT）。以 sRGB / Rec.709 為前提製作的 LUT 會如預期套用；為 Log 素材製作的 LUT 則不會呈現原本設計的色彩。",
                   "套用 look 時，點一下預覽即可與原始畫面比較。",
                   "色彩風格只會套用到輸出的影片，不會改變 film 本身。",
                   "儲存不會改變 film 的任何內容。你可以繼續編輯，之後再儲存一次。"
@@ -891,6 +894,7 @@
                   "**저장**을 탭하면 사진 보관함에 동영상이 저장됩니다.",
                   "화면 위의 공유 버튼으로 같은 동영상을 다른 앱에 바로 전달할 수 있습니다.",
                   "준비된 **look** 중에서 film의 색감 마무리를 고르고, 적용 강도를 조절할 수 있습니다.",
+                  "look 열 끝의 **추가** 타일에서 가지고 있는 .cube(3D LUT)를 불러올 수 있습니다. sRGB / Rec.709용으로 만든 LUT는 의도대로 적용되지만, Log 소재용 LUT는 설계된 색으로 나오지 않습니다.",
                   "look을 적용한 상태에서 미리보기를 탭하면 원본 영상과 비교해 볼 수 있습니다.",
                   "색감 마무리는 내보내는 동영상에만 적용되며, film 자체의 데이터는 바뀌지 않습니다.",
                   "동영상을 저장한 뒤에도 film은 그대로 남아 있으므로 언제든지 다시 편집하고 다시 저장할 수 있습니다."
@@ -912,6 +916,7 @@
                   "**存储**：把视频写入照片图库。",
                   "顶部的共享按钮可以把同一个视频交给其他 App。",
                   "可以为 film 选择一种 **look** 作为色彩风格，并调整应用的强度。",
+                  "可从 look 列末尾的 **添加** 方块导入自己的 .cube（3D LUT）。为 sRGB / Rec.709 制作的 LUT 会按预期生效；为 Log 素材制作的 LUT 则不会呈现原本设计的色彩。",
                   "应用 look 时，轻点预览画面即可与原始画面对比。",
                   "色彩风格只应用在导出的视频上，不会改变 film 本身。",
                   "存储不会改变 film 的任何内容。你可以继续编辑，然后再次存储。"
@@ -933,6 +938,7 @@
                   "**Guardar** escribe el video en tu fototeca.",
                   "El botón de compartir de la parte superior entrega el mismo video a otra app.",
                   "Elige un **look** para el acabado de color del film y ajusta con qué intensidad se aplica.",
+                  "Añade tu propio .cube (LUT 3D) desde la casilla **Añadir** al final de la fila de looks. Los LUT creados para sRGB / Rec.709 funcionan como se espera; los creados para material Log no se verán como fueron diseñados.",
                   "Con un look activo, toca la previsualización para compararla con el original.",
                   "El acabado de color se aplica solo al video exportado, no al film en sí.",
                   "Guardar no cambia nada del film: puedes seguir editando y volver a guardar."
@@ -954,6 +960,7 @@
                   "**Sichern** schreibt das Video in deine Fotomediathek.",
                   "Über die Teilen-Taste oben gibst du dasselbe Video an eine andere App weiter.",
                   "Wähle einen **look** für die Farbstimmung des films und passe an, wie stark er wirkt.",
+                  "Füge eigene .cube-Dateien (3D-LUT) über das Feld **Hinzufügen** am Ende der look-Reihe hinzu. Für sRGB / Rec.709 erstellte LUTs wirken wie vorgesehen; für Log-Material erstellte LUTs sehen nicht so aus wie entworfen.",
                   "Solange ein look aktiv ist, kannst du auf die Vorschau tippen und mit dem Original vergleichen.",
                   "Die Farbstimmung liegt auf dem exportierten Video, nicht auf dem film selbst.",
                   "Sichern ändert nichts am film. Du kannst weiter bearbeiten und erneut sichern."
@@ -975,6 +982,7 @@
                   "**Enregistrer** écrit la vidéo dans votre photothèque.",
                   "Le bouton de partage en haut transmet la même vidéo à une autre app.",
                   "Choisissez un **look** pour la finition colorimétrique du film, et réglez son intensité.",
+                  "Ajoutez vos propres .cube (LUT 3D) depuis la case **Ajouter** à la fin de la rangée de looks. Les LUT conçues pour sRGB / Rec.709 s’appliquent comme prévu ; celles conçues pour des images Log ne rendront pas comme voulu.",
                   "Pendant qu’un look est actif, touchez l’aperçu pour le comparer à l’original.",
                   "Une finition colorimétrique s’applique à la vidéo exportée, pas au film lui-même.",
                   "Enregistrer ne change rien au film. Vous pouvez continuer à le modifier et l’enregistrer de nouveau."
