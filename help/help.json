@@ -30,7 +30,7 @@
                 "type": "bullets",
                 "items": [
                   "A film can hold up to 60 moments.",
-                  "moment length is 1 or 2 seconds, chosen per film.",
+                  "moment length is 1, 2 or 3 seconds, chosen per film.",
                   "Order carries meaning. Reordering the moments changes how the film reads."
                 ]
               }
@@ -48,7 +48,7 @@
                 "type": "bullets",
                 "items": [
                   "1つの film に含められる moment は最大60件です",
-                  "moment の表示時間は film ごとに1秒または2秒から選択できます",
+                  "moment の表示時間は film ごとに1秒・2秒・3秒から選択できます",
                   "moment の並び順によって、film のテンポや印象を調整できます"
                 ]
               }
@@ -66,7 +66,7 @@
                 "type": "bullets",
                 "items": [
                   "一個 film 最多可包含 60 個 moment。",
-                  "moment 的長度可依每個 film 選擇1秒或2秒。",
+                  "moment 的長度可依每個 film 選擇1秒、2秒或3秒。",
                   "排列順序會改變 film 的節奏與印象。"
                 ]
               }
@@ -84,7 +84,7 @@
                 "type": "bullets",
                 "items": [
                   "film 하나에는 moment를 최대 60개까지 담을 수 있습니다.",
-                  "moment의 재생 시간은 film마다 1초 또는 2초 중에서 선택할 수 있습니다.",
+                  "moment의 재생 시간은 film마다 1초, 2초, 3초 중에서 선택할 수 있습니다.",
                   "moment를 배열하는 순서에 따라 film의 흐름과 인상이 달라집니다."
                 ]
               }
@@ -102,7 +102,7 @@
                 "type": "bullets",
                 "items": [
                   "一个 film 最多可以容纳 60 个 moment。",
-                  "moment 的时长可以按 film 选择 1秒或 2秒。",
+                  "moment 的时长可以按 film 选择 1秒、2秒或 3秒。",
                   "顺序本身就有意义。调整 moment 的排列，film 的节奏和印象也会随之改变。"
                 ]
               }
@@ -120,7 +120,7 @@
                 "type": "bullets",
                 "items": [
                   "Un film puede contener hasta 60 moments.",
-                  "La duración de cada moment es de 1 o 2 segundos, y se elige por film.",
+                  "La duración de cada moment es de 1, 2 o 3 segundos, y se elige por film.",
                   "El orden importa: al reordenar los moments cambia el tempo y la impresión del film."
                 ]
               }
@@ -138,7 +138,7 @@
                 "type": "bullets",
                 "items": [
                   "Ein film kann bis zu 60 moments enthalten.",
-                  "Die Dauer pro moment beträgt 1 oder 2 Sekunden, wählbar pro film.",
+                  "Die Dauer pro moment beträgt 1, 2 oder 3 Sekunden, wählbar pro film.",
                   "Die Reihenfolge trägt Bedeutung. Ordnest du die moments neu an, verändert sich, wie der film wirkt."
                 ]
               }
@@ -156,7 +156,7 @@
                 "type": "bullets",
                 "items": [
                   "Un film peut contenir jusqu’à 60 moments.",
-                  "La durée d’un moment est de 1 ou 2 secondes, au choix pour chaque film.",
+                  "La durée d’un moment est de 1, 2 ou 3 secondes, au choix pour chaque film.",
                   "L’ordre fait sens. Réorganiser les moments change la façon dont le film se lit."
                 ]
               }
@@ -673,12 +673,12 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "At the top of an open film, next to **⋯**, is an icon of a frame marked 1s or 2s. Both act on the whole film, not on a single moment: the frame icon sets how long moments play, and **⋯** holds everything else."
+                "text": "At the top of an open film, next to **⋯**, is an icon of a frame marked 1s, 2s or 3s. Both act on the whole film, not on a single moment: the frame icon sets how long moments play, and **⋯** holds everything else."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 sec per moment** / **2 sec per moment**, under the frame icon, sets how long every moment plays.",
+                  "**1 sec per moment** / **2 sec per moment** / **3 sec per moment**, under the frame icon, sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
                   "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
@@ -689,12 +689,12 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "film を開くと、画面上に「1s」または「2s」と書かれたコマのアイコンと［⋯］が並んでいます。どちらも、moment 単体ではなく編集中の film 全体に適用される設定です。コマのアイコンでは moment の再生時間を、［⋯］ではそれ以外の項目を変更できます。"
+                "text": "film を開くと、画面上に「1s」「2s」「3s」のいずれかが書かれたコマのアイコンと［⋯］が並んでいます。どちらも、moment 単体ではなく編集中の film 全体に適用される設定です。コマのアイコンでは moment の再生時間を、［⋯］ではそれ以外の項目を変更できます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "コマのアイコンの［moment あたり1秒］/［moment あたり2秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "コマのアイコンの［moment あたり1秒］/［moment あたり2秒］/［moment あたり3秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
                   "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
@@ -705,12 +705,12 @@
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "打開 film 後，畫面上方會並排顯示寫著「1s」或「2s」的畫格圖示和 **⋯**。兩者都作用於整個 film，而不是單一 moment：畫格圖示用來設定 moment 的播放長度，**⋯** 則包含其他項目。"
+                "text": "打開 film 後，畫面上方會並排顯示寫著「1s」「2s」或「3s」的畫格圖示和 **⋯**。兩者都作用於整個 film，而不是單一 moment：畫格圖示用來設定 moment 的播放長度，**⋯** 則包含其他項目。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "畫格圖示中的**每個 moment 1秒**／**每個 moment 2秒**可一次設定所有 moment 的播放長度。",
+                  "畫格圖示中的**每個 moment 1秒**／**每個 moment 2秒**／**每個 moment 3秒**可一次設定所有 moment 的播放長度。",
                   "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
                   "**編輯名稱**可更改 film 的標題。",
                   "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
@@ -721,12 +721,12 @@
             "ko": [
               {
                 "type": "paragraph",
-                "text": "film을 열면 화면 위에 ‘1s’ 또는 ‘2s’가 적힌 프레임 아이콘과 **⋯**가 나란히 있습니다. 둘 다 moment 하나가 아니라 film 전체에 적용됩니다. 프레임 아이콘에서는 moment의 재생 시간을, **⋯**에서는 그 밖의 항목을 변경할 수 있습니다."
+                "text": "film을 열면 화면 위에 ‘1s’, ‘2s’ 또는 ‘3s’가 적힌 프레임 아이콘과 **⋯**가 나란히 있습니다. 둘 다 moment 하나가 아니라 film 전체에 적용됩니다. 프레임 아이콘에서는 moment의 재생 시간을, **⋯**에서는 그 밖의 항목을 변경할 수 있습니다."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "프레임 아이콘의 **moment당 1초** / **moment당 2초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "프레임 아이콘의 **moment당 1초** / **moment당 2초** / **moment당 3초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
                   "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
                   "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
                   "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
@@ -737,12 +737,12 @@
             "zh-Hans": [
               {
                 "type": "paragraph",
-                "text": "打开 film 后，顶部会并排显示写着“1s”或“2s”的画框图标和 **⋯**。两者都作用于整个 film，而不是单个 moment：画框图标用于设置 moment 的播放时长，**⋯** 中是其他项目。"
+                "text": "打开 film 后，顶部会并排显示写着“1s”“2s”或“3s”的画框图标和 **⋯**。两者都作用于整个 film，而不是单个 moment：画框图标用于设置 moment 的播放时长，**⋯** 中是其他项目。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "画框图标中的**每个 moment 1秒** / **每个 moment 2秒**：统一设置所有 moment 的播放时长。",
+                  "画框图标中的**每个 moment 1秒** / **每个 moment 2秒** / **每个 moment 3秒**：统一设置所有 moment 的播放时长。",
                   "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
                   "**编辑名称**：更改 film 的标题。",
                   "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
@@ -753,12 +753,12 @@
             "es": [
               {
                 "type": "paragraph",
-                "text": "Al abrir un film, arriba aparecen juntos un icono de fotograma con «1s» o «2s» y **⋯**. Ambos actúan sobre todo el film, no sobre un moment concreto: el icono de fotograma fija cuánto dura cada moment y **⋯** reúne lo demás."
+                "text": "Al abrir un film, arriba aparecen juntos un icono de fotograma con «1s», «2s» o «3s» y **⋯**. Ambos actúan sobre todo el film, no sobre un moment concreto: el icono de fotograma fija cuánto dura cada moment y **⋯** reúne lo demás."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s por moment** / **2 s por moment**, en el icono de fotograma, define cuánto dura la reproducción de cada moment.",
+                  "**1 s por moment** / **2 s por moment** / **3 s por moment**, en el icono de fotograma, define cuánto dura la reproducción de cada moment.",
                   "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
                   "**Editar nombre** cambia el título del film.",
                   "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
@@ -769,12 +769,12 @@
             "de": [
               {
                 "type": "paragraph",
-                "text": "Öffnest du einen film, stehen oben ein Rahmen-Symbol mit „1s“ oder „2s“ und **⋯** nebeneinander. Beide wirken auf den ganzen film, nicht auf ein einzelnes moment: Das Rahmen-Symbol legt die Dauer der moments fest, in **⋯** steht alles andere."
+                "text": "Öffnest du einen film, stehen oben ein Rahmen-Symbol mit „1s“, „2s“ oder „3s“ und **⋯** nebeneinander. Beide wirken auf den ganzen film, nicht auf ein einzelnes moment: Das Rahmen-Symbol legt die Dauer der moments fest, in **⋯** steht alles andere."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 Sek. pro moment** / **2 Sek. pro moment** im Rahmen-Symbol legt fest, wie lang jedes moment läuft.",
+                  "**1 Sek. pro moment** / **2 Sek. pro moment** / **3 Sek. pro moment** im Rahmen-Symbol legt fest, wie lang jedes moment läuft.",
                   "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
                   "**Namen ändern** benennt den film um.",
                   "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
@@ -785,12 +785,12 @@
             "fr": [
               {
                 "type": "paragraph",
-                "text": "Quand vous ouvrez un film, une icône de cadre marquée « 1s » ou « 2s » et **⋯** se trouvent côte à côte en haut. Les deux agissent sur le film entier, pas sur un moment isolé : l’icône de cadre fixe la durée des moments, et **⋯** regroupe le reste."
+                "text": "Quand vous ouvrez un film, une icône de cadre marquée « 1s », « 2s » ou « 3s » et **⋯** se trouvent côte à côte en haut. Les deux agissent sur le film entier, pas sur un moment isolé : l’icône de cadre fixe la durée des moments, et **⋯** regroupe le reste."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s par moment** / **2 s par moment**, dans l’icône de cadre, fixe la durée de lecture de chaque moment.",
+                  "**1 s par moment** / **2 s par moment** / **3 s par moment**, dans l’icône de cadre, fixe la durée de lecture de chaque moment.",
                   "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
                   "**Modifier le nom** renomme le film.",
                   "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
