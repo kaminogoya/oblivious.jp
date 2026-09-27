@@ -678,7 +678,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**1 sec per moment** / **2 sec per moment** / **3 sec per moment**, under the frame icon, sets how long every moment plays.",
+                  "The frame icon opens **moment duration**, where **1 sec**, **2 sec** or **3 sec** sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
                   "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
@@ -694,7 +694,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "コマのアイコンの［moment あたり1秒］/［moment あたり2秒］/［moment あたり3秒］で、film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "コマのアイコンを押すと［moment の長さ］が開き、［1秒］［2秒］［3秒］から film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
                   "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
@@ -710,7 +710,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "畫格圖示中的**每個 moment 1秒**／**每個 moment 2秒**／**每個 moment 3秒**可一次設定所有 moment 的播放長度。",
+                  "點按畫格圖示會開啟**moment 長度**，從**1秒**／**2秒**／**3秒**中選擇，即可一次設定所有 moment 的播放長度。",
                   "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
                   "**編輯名稱**可更改 film 的標題。",
                   "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
@@ -726,7 +726,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "프레임 아이콘의 **moment당 1초** / **moment당 2초** / **moment당 3초**로 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "프레임 아이콘을 누르면 **moment 길이**가 열리고, **1초** / **2초** / **3초** 중에서 골라 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
                   "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
                   "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
                   "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
@@ -742,7 +742,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "画框图标中的**每个 moment 1秒** / **每个 moment 2秒** / **每个 moment 3秒**：统一设置所有 moment 的播放时长。",
+                  "点按画框图标会打开**moment 时长**，从**1秒** / **2秒** / **3秒**中选择，即可统一设置所有 moment 的播放时长。",
                   "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
                   "**编辑名称**：更改 film 的标题。",
                   "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
@@ -758,7 +758,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s por moment** / **2 s por moment** / **3 s por moment**, en el icono de fotograma, define cuánto dura la reproducción de cada moment.",
+                  "El icono de fotograma abre **duración del moment**, donde **1 s**, **2 s** o **3 s** define cuánto dura la reproducción de cada moment.",
                   "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
                   "**Editar nombre** cambia el título del film.",
                   "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
@@ -774,7 +774,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**1 Sek. pro moment** / **2 Sek. pro moment** / **3 Sek. pro moment** im Rahmen-Symbol legt fest, wie lang jedes moment läuft.",
+                  "Das Rahmen-Symbol öffnet **moment-Dauer**; dort legt **1 Sek.**, **2 Sek.** oder **3 Sek.** fest, wie lang jedes moment läuft.",
                   "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
                   "**Namen ändern** benennt den film um.",
                   "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
@@ -790,7 +790,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "**1 s par moment** / **2 s par moment** / **3 s par moment**, dans l’icône de cadre, fixe la durée de lecture de chaque moment.",
+                  "L’icône de cadre ouvre **durée du moment**, où **1 s**, **2 s** ou **3 s** fixe la durée de lecture de chaque moment.",
                   "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
                   "**Modifier le nom** renomme le film.",
                   "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
