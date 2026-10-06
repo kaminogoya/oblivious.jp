@@ -341,7 +341,7 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "Tap a moment to open it for editing. Tap **Done** to keep what you changed."
+                "text": "Tap a moment to open it for editing. Changes are saved as you make them."
               },
               {
                 "type": "bullets",
@@ -351,142 +351,150 @@
                   "**Aa** at the bottom puts **text** and the **capture date & time** on the moment.",
                   "Choose whether a video keeps its **own sound**.",
                   "**Previous moment ghost** shows the moment before, faintly, for lining the two up.",
-                  "**Duplicate before** and **Duplicate after** in the **⋯** menu add a copy of this moment before or after it, carrying over everything you've set.",
+                  "**∧** and **∨** at the bottom right move to the previous or next moment without leaving the editing screen.",
+                  "The duplicate button at the top right (two overlapping squares) offers **Duplicate before** and **Duplicate after**. Either adds a copy of this moment before or after it, carrying over everything you've set.",
                   "For a video, the copy takes the stretch of footage just before or just after.",
-                  "**Remove moment**, in the same **⋯** menu, takes it out of the film. The photo or video in your library isn't touched."
+                  "The trash button at the top right takes the moment out of the film after you confirm. The photo or video in your library isn't touched."
                 ]
               }
             ],
             "ja": [
               {
                 "type": "paragraph",
-                "text": "moment をタップすると編集画面が開きます。編集内容は［完了］をタップすると保存されます。"
+                "text": "moment をタップすると編集画面が開きます。編集した内容はその場で保存されます。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "ピンチやドラッグで位置や大きさを調整できます（［Fill］でフレーム全体に拡大、［リセット］で初期状態に戻ります）",
+                  "ピンチやドラッグで位置や大きさを調整できます（［Fill］でフレーム全体に拡大、［Reset］で初期状態に戻ります）",
                   "動画はフィルムストリップを動かして使いたいシーンを選択できます",
                   "画面下の［Aa］から、文字や撮影日時を入れられます",
                   "動画の元の音声を含めるかどうかを選択できます",
                   "前の moment の残像を重ねて表示し、前後のつながりを確認しながら位置を合わせられます",
-                  "［⋯］メニューの［前に複製］/［次に複製］で、編集内容を保ったまま前後に複製できます",
+                  "画面右下の［∧］［∨］で、編集画面を閉じずに前後の moment へ移れます",
+                  "画面右上の複製アイコン（重なった2つの四角）をタップし、［前に複製］/［次に複製］を選ぶと、編集内容を保ったまま前後に複製できます",
                   "複製した moment が動画の場合は前後に連続するシーンを自動で割り当てます",
-                  "［⋯］メニューの［moment を削除］で film から削除できます（film から削除しても写真ライブラリの元のデータは削除されません）"
+                  "画面右上のごみ箱アイコンをタップすると、確認のあと moment を film から削除できます（film から削除しても写真ライブラリの元のデータは削除されません）"
                 ]
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "點一下 moment 即可開始編輯。點一下**完成**以儲存變更。"
+                "text": "點一下 moment 即可開始編輯。所做的變更會即時儲存。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "以雙指縮放或拖移調整畫面中的位置與大小（點一下 **Fill** 即可填滿整個畫面，**重置**則回到原始狀態）。",
+                  "以雙指縮放或拖移調整畫面中的位置與大小（點一下 **Fill** 即可填滿整個畫面，**Reset** 則回到原始狀態）。",
                   "影片可移動膠卷來選擇要使用的片段。",
                   "透過底部的 **Aa** 可以在 moment 上加入**文字**和**拍攝日期與時間**。",
                   "可以選擇影片是否使用原始音訊。",
                   "**上一個 moment 的殘影**會淡淡地顯示前一個 moment，方便對齊兩者的位置。",
-                  "**⋯** 選單中的**複製到前面**／**複製到後面**會在這個 moment 的前後加入一份複本，並保留你所做的所有設定。",
+                  "點一下右下角的 **∧** 或 **∨**，不必離開編輯畫面就能移到上一個或下一個 moment。",
+                  "點一下右上角的複製按鈕（兩個重疊的方塊），再選擇**複製到前面**或**複製到後面**，就會在這個 moment 的前後加入一份複本，並保留你所做的所有設定。",
                   "複製的 moment 若是影片，會自動使用緊接在前或緊接在後的片段。",
-                  "同一個 **⋯** 選單中的**移除 moment** 會將它從 film 中移除。照片圖庫裡的原始檔案不會受影響。"
+                  "點一下右上角的垃圾桶按鈕並確認後，就會將這個 moment 從 film 中移除。照片圖庫裡的原始檔案不會受影響。"
                 ]
               }
             ],
             "ko": [
               {
                 "type": "paragraph",
-                "text": "moment를 탭하면 편집 화면이 열립니다. **완료**를 탭하면 편집한 내용이 저장됩니다."
+                "text": "moment를 탭하면 편집 화면이 열립니다. 편집한 내용은 바로 저장됩니다."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "핀치와 드래그로 위치와 크기를 조절할 수 있습니다. **Fill**을 탭하면 프레임 전체를 채우고, **재설정**을 탭하면 처음 상태로 돌아갑니다.",
+                  "핀치와 드래그로 위치와 크기를 조절할 수 있습니다. **Fill**을 탭하면 프레임 전체를 채우고, **Reset**을 탭하면 처음 상태로 돌아갑니다.",
                   "동영상은 필름 스트립을 움직여 사용할 장면을 고를 수 있습니다.",
                   "아래의 **Aa**로 moment에 **텍스트**와 **촬영 날짜 및 시간**을 넣을 수 있습니다.",
                   "동영상의 **원본 오디오**를 포함할지 선택할 수 있습니다.",
                   "**이전 moment 잔상**을 겹쳐 보면서 앞뒤 moment의 위치를 맞출 수 있습니다.",
-                  "**⋯** 메뉴의 **이전에 복제** / **다음에 복제**로, 편집한 내용을 그대로 유지한 채 앞뒤에 복제할 수 있습니다.",
+                  "오른쪽 아래의 **∧** / **∨** 버튼으로, 편집 화면을 닫지 않고 앞뒤 moment로 이동할 수 있습니다.",
+                  "오른쪽 위의 복제 버튼(겹쳐진 두 개의 사각형)을 탭하고 **이전에 복제** 또는 **다음에 복제**를 선택하면, 편집한 내용을 그대로 유지한 채 앞뒤에 복제할 수 있습니다.",
                   "복제한 moment가 동영상이면 바로 앞 또는 뒤에 이어지는 장면이 자동으로 배정됩니다.",
-                  "같은 **⋯** 메뉴의 **moment 삭제**로 film에서 삭제할 수 있습니다. 사진 보관함의 원본은 삭제되지 않습니다."
+                  "오른쪽 위의 휴지통 버튼을 탭하고 확인하면 moment를 film에서 제거할 수 있습니다. 사진 보관함의 원본은 삭제되지 않습니다."
                 ]
               }
             ],
             "zh-Hans": [
               {
                 "type": "paragraph",
-                "text": "轻点某个 moment 即可打开编辑画面。轻点**完成**保存所做的更改。"
+                "text": "轻点某个 moment 即可打开编辑画面。所做的更改会即时保存。"
               },
               {
                 "type": "bullets",
                 "items": [
-                  "通过捏合和拖移调整画面在画框中的位置和大小。**Fill** 一键填满画框，**重置**恢复到 unfilled 的初始状态。",
+                  "通过捏合和拖移调整画面在画框中的位置和大小。**Fill** 一键填满画框，**Reset** 恢复到 unfilled 的初始状态。",
                   "视频可以拖动胶片条，选择要使用的片段。",
                   "通过底部的 **Aa** 可以在 moment 上加入**文本**和**拍摄日期和时间**。",
                   "可以选择视频是否保留**原声**。",
                   "**上一个 moment 的残影**会淡淡地叠加显示前一个 moment，方便对齐两者的画面。",
-                  "**⋯** 菜单中的**复制到前面** / **复制到后面**，会在这个 moment 的前后加入一份副本，并保留你所做的全部设置。",
+                  "轻点右下角的 **∧** 或 **∨**，无需离开编辑画面即可前往上一个或下一个 moment。",
+                  "轻点右上角的复制按钮（两个重叠的方块），再选择**复制到前面**或**复制到后面**，会在这个 moment 的前后加入一份副本，并保留你所做的全部设置。",
                   "如果复制的是视频 moment，副本会自动取用紧接在前面或后面的片段。",
-                  "同一个 **⋯** 菜单中的**删除 moment**可以把它从 film 中移除。照片图库中的原始照片或视频不会受影响。"
+                  "轻点右上角的废纸篓按钮并确认后，即可把这个 moment 从 film 中移除。照片图库中的原始照片或视频不会受影响。"
                 ]
               }
             ],
             "es": [
               {
                 "type": "paragraph",
-                "text": "Toca un moment para abrir la pantalla de edición. Toca **OK** para guardar los cambios."
+                "text": "Toca un moment para abrir la pantalla de edición. Los cambios se guardan al momento."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "Pellizca y arrastra para ajustar la posición y el tamaño. **Fill** llena el encuadre de un toque y **Restablecer** vuelve al estado inicial.",
+                  "Pellizca y arrastra para ajustar la posición y el tamaño. **Fill** llena el encuadre de un toque y **Reset** vuelve al estado inicial.",
                   "En un video, mueve la tira de fotogramas para elegir qué parte se reproduce.",
                   "Con **Aa** en la parte inferior puedes poner **texto** y la **fecha y hora de captura** en el moment.",
                   "Puedes elegir si un video conserva su **audio original**.",
                   "El **fantasma del moment anterior** muestra tenuemente el moment previo, para alinear los dos.",
-                  "**Duplicar antes** y **Duplicar después**, en el menú **⋯**, añaden una copia de este moment antes o después de él, conservando todo lo que hayas ajustado.",
+                  "Con **∧** y **∨**, abajo a la derecha, pasas al moment anterior o al siguiente sin salir de la pantalla de edición.",
+                  "El botón de duplicar, arriba a la derecha (dos cuadrados superpuestos), ofrece **Duplicar antes** y **Duplicar después**: añaden una copia de este moment antes o después de él, conservando todo lo que hayas ajustado.",
                   "Si el moment es un video, la copia toma el tramo inmediatamente anterior o posterior.",
-                  "**Eliminar moment**, en el mismo menú **⋯**, lo quita del film. La foto o el video de tu fototeca no se toca."
+                  "El botón de la papelera, arriba a la derecha, quita el moment del film tras pedirte confirmación. La foto o el video de tu fototeca no se toca."
                 ]
               }
             ],
             "de": [
               {
                 "type": "paragraph",
-                "text": "Tippe auf ein moment, um es zu bearbeiten. Mit **Fertig** behältst du deine Änderungen."
+                "text": "Tippe auf ein moment, um es zu bearbeiten. Änderungen werden sofort gesichert."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "Mit Aufziehen und Bewegen legst du fest, wie das Bild im Rahmen sitzt. **Fill** füllt den Rahmen mit einem Tipp, **Zurücksetzen** kehrt zu unfilled zurück.",
+                  "Mit Aufziehen und Bewegen legst du fest, wie das Bild im Rahmen sitzt. **Fill** füllt den Rahmen mit einem Tipp, **Reset** kehrt zu unfilled zurück.",
                   "Bei einem Video wählst du über den Filmstreifen aus, welcher Teil abgespielt wird.",
                   "Über **Aa** unten bringst du **Text** und **Aufnahmedatum & Uhrzeit** auf das moment.",
                   "Du entscheidest, ob ein Video seinen **Originalton** behält.",
                   "Das **Geisterbild des vorherigen moments** zeigt das moment davor schwach im Hintergrund, damit du beide aufeinander ausrichten kannst.",
-                  "**Davor duplizieren** und **Danach duplizieren** im **⋯**-Menü fügen eine Kopie dieses moments davor oder danach ein – mit allem, was du eingestellt hast.",
+                  "Mit **∧** und **∨** unten rechts wechselst du zum vorherigen oder nächsten moment, ohne die Bearbeitung zu verlassen.",
+                  "Die Duplizieren-Taste oben rechts (zwei überlappende Quadrate) bietet **Davor duplizieren** und **Danach duplizieren** an. Beides fügt eine Kopie dieses moments davor oder danach ein – mit allem, was du eingestellt hast.",
                   "Bei einem Video übernimmt die Kopie den Abschnitt direkt davor oder direkt danach.",
-                  "**moment entfernen**, ebenfalls im **⋯**-Menü, nimmt das moment aus dem film. Das Foto oder Video in deiner Mediathek bleibt unberührt."
+                  "Die Papierkorb-Taste oben rechts nimmt das moment nach einer Bestätigung aus dem film. Das Foto oder Video in deiner Mediathek bleibt unberührt."
                 ]
               }
             ],
             "fr": [
               {
                 "type": "paragraph",
-                "text": "Touchez un moment pour l’ouvrir en modification. Touchez **Terminé** pour conserver vos changements."
+                "text": "Touchez un moment pour l’ouvrir en modification. Vos changements sont enregistrés au fur et à mesure."
               },
               {
                 "type": "bullets",
                 "items": [
-                  "Pincez et faites glisser pour placer l’image dans le cadre. **Fill** remplit le cadre d’un seul geste, et **Réinitialiser** revient à unfilled.",
+                  "Pincez et faites glisser pour placer l’image dans le cadre. **Fill** remplit le cadre d’un seul geste, et **Reset** revient à unfilled.",
                   "Pour une vidéo, la pellicule choisit la partie qui sera lue.",
                   "**Aa** en bas permet de mettre du **texte** et la **date et l’heure de prise de vue** sur le moment.",
                   "Choisissez si une vidéo garde son **son d’origine**.",
                   "**Fantôme du moment précédent** affiche faiblement le moment d’avant, pour aligner les deux.",
-                  "**Dupliquer avant** et **Dupliquer après**, dans le menu **⋯**, ajoutent une copie de ce moment avant ou après lui, en conservant tous vos réglages.",
+                  "**∧** et **∨**, en bas à droite, passent au moment précédent ou suivant sans quitter l’écran de modification.",
+                  "Le bouton de duplication, en haut à droite (deux carrés superposés), propose **Dupliquer avant** et **Dupliquer après** : l’un comme l’autre ajoute une copie de ce moment avant ou après lui, en conservant tous vos réglages.",
                   "Pour une vidéo, la copie prend l’extrait juste avant ou juste après.",
-                  "**Supprimer le moment**, dans le même menu **⋯**, le retire du film. La photo ou la vidéo de votre photothèque n’est pas touchée."
+                  "Le bouton Corbeille, en haut à droite, retire le moment du film après confirmation. La photo ou la vidéo de votre photothèque n’est pas touchée."
                 ]
               }
             ]
@@ -1402,13 +1410,13 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "A moment points at a photo or video in your photo library. When oblivious can't reach that original, the row says **Couldn't load**, or **Deleted from camera roll** when the original can't be found in the library at all."
+                "text": "A moment points at a photo or video in your photo library. When oblivious can't reach that original, the row says **Couldn't load**, or **Deleted from photo library** when the original can't be found in the library at all."
               },
               {
                 "type": "bullets",
                 "items": [
                   "**Put the original back and the moment comes back.** If you deleted it, Photos keeps it under **Recently Deleted** for a while. If iCloud Photos simply hasn't brought it down yet, it returns on its own.",
-                  "**It may only be out of reach on this device.** oblivious sees a selected set of photos, iCloud Photos is off, or a photo or video from another device hasn't synced yet — any of these can read as **Deleted from camera roll**. Open Photos and check the original is there.",
+                  "**It may only be out of reach on this device.** oblivious sees a selected set of photos, iCloud Photos is off, or a photo or video from another device hasn't synced yet — any of these can read as **Deleted from photo library**. Open Photos and check the original is there.",
                   "**Leaving it is fine.** A moment that can't load is skipped — it doesn't play, and it isn't in the video you save. The film closes up around it.",
                   "**It can't be edited** while it's in this state, so tapping the row does nothing.",
                   "**To remove it**, swipe the row left in the moment list and delete it."
@@ -1418,13 +1426,13 @@
             "ja": [
               {
                 "type": "paragraph",
-                "text": "moment は端末の写真ライブラリ内の元ファイルを参照しています。元ファイルを読み込めない場合は［読み込めませんでした］、ライブラリ内に見当たらない場合は［カメラロールから削除されました］と表示されます。"
+                "text": "moment は端末の写真ライブラリ内の元ファイルを参照しています。元ファイルを読み込めない場合は［読み込めませんでした］、ライブラリ内に見当たらない場合は［写真ライブラリから削除されました］と表示されます。"
               },
               {
                 "type": "bullets",
                 "items": [
                   "写真ライブラリの元ファイルを復元すれば moment の表示も戻ります（誤って削除した場合は、写真アプリの［最近削除した項目］から復元できます。iCloud からのダウンロード待ちの場合は完了までお待ちください）",
-                  "写真アクセス権限が制限されている、端末の「iCloud 写真」がオフになっている、他端末で撮影したデータが未同期であるといった場合にも［カメラロールから削除されました］と表示される場合があります（写真アプリ側で元データをご確認ください）",
+                  "写真アクセス権限が制限されている、端末の「iCloud 写真」がオフになっている、他端末で撮影したデータが未同期であるといった場合にも［写真ライブラリから削除されました］と表示される場合があります（写真アプリ側で元データをご確認ください）",
                   "読み込めない moment は自動的にスキップされ、再生時や動画の書き出し時には含まれず前後の moment が詰めて再生されます",
                   "読み込みに失敗している状態の moment はタップしても編集画面を開けません",
                   "該当の moment を削除したい場合は、一覧画面で対象の行を左へスワイプして削除できます"
@@ -1434,14 +1442,14 @@
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "moment 參照的是照片圖庫中的照片或影片。當 oblivious 無法讀取原始檔案時，該列會顯示**無法載入**；當圖庫中完全找不到原始檔案時，則顯示**已從相機膠卷刪除**。"
+                "text": "moment 參照的是照片圖庫中的照片或影片。當 oblivious 無法讀取原始檔案時，該列會顯示**無法載入**；當圖庫中完全找不到原始檔案時，則顯示**已從照片圖庫刪除**。"
               },
               {
                 "type": "bullets",
                 "items": [
                   "**把原始檔案復原，moment 就會回來。**如果是誤刪，照片 App 會在**最近刪除**中保留一段時間。如果只是 iCloud 尚未下載完成，稍候就會自動恢復。",
-                  "**也可能只是這部裝置暫時讀取不到。**oblivious 只能取用所選的照片、iCloud 照片是關閉的，或另一部裝置的照片尚未同步——這些情況都可能顯示為**已從相機膠卷刪除**。請打開照片 App 確認原始檔案是否存在。",
-                  "**放著不管也沒關係。**無法載入的 moment 會自動略過：不會播放，也不會出現在儲存的影片中，前後的 moment 會接續播放。",
+                  "**也可能只是這部裝置暫時讀取不到。**oblivious 只能取用所選的照片、iCloud 照片是關閉的，或另一部裝置的照片尚未同步——這些情況都可能顯示為**已從照片圖庫刪除**。請打開照片 App 確認原始檔案是否存在。",
+                  "**放著不管也沒關係**。無法載入的 moment 會自動略過：不會播放，也不會出現在儲存的影片中，前後的 moment 會接續播放。",
                   "**這個狀態下無法編輯**，點一下該列不會有反應。",
                   "**若要移除**，在 moment 列表中將該列向左滑動即可刪除。"
                 ]
@@ -1450,13 +1458,13 @@
             "ko": [
               {
                 "type": "paragraph",
-                "text": "moment는 사진 보관함에 있는 사진이나 동영상을 참조합니다. 원본을 읽을 수 없으면 해당 행에 **불러올 수 없음**이, 보관함에서 원본을 찾을 수 없으면 **카메라 롤에서 삭제됨**이 표시됩니다."
+                "text": "moment는 사진 보관함에 있는 사진이나 동영상을 참조합니다. 원본을 읽을 수 없으면 해당 행에 **불러올 수 없음**이, 보관함에서 원본을 찾을 수 없으면 **사진 보관함에서 삭제됨**이 표시됩니다."
               },
               {
                 "type": "bullets",
                 "items": [
                   "**원본을 되돌리면 moment도 돌아옵니다.** 실수로 삭제했다면 사진 앱의 **최근 삭제된 항목**에서 한동안 복구할 수 있습니다. iCloud 사진이 아직 다운로드하지 않은 것뿐이라면 저절로 돌아옵니다.",
-                  "**이 기기에서만 접근하지 못하는 경우도 있습니다.** 사진 접근 권한이 일부로 제한되어 있거나, iCloud 사진이 꺼져 있거나, 다른 기기에서 찍은 항목이 아직 동기화되지 않았을 때도 **카메라 롤에서 삭제됨**으로 표시될 수 있습니다. 사진 앱에서 원본이 있는지 확인해 보세요.",
+                  "**이 기기에서만 접근하지 못하는 경우도 있습니다.** 사진 접근 권한이 일부로 제한되어 있거나, iCloud 사진이 꺼져 있거나, 다른 기기에서 찍은 항목이 아직 동기화되지 않았을 때도 **사진 보관함에서 삭제됨**으로 표시될 수 있습니다. 사진 앱에서 원본이 있는지 확인해 보세요.",
                   "**그대로 두어도 괜찮습니다.** 불러오지 못한 moment는 건너뛰며, 재생과 저장한 동영상에 포함되지 않고 앞뒤 moment가 이어서 재생됩니다.",
                   "**이 상태에서는 편집할 수 없으므로** 행을 탭해도 편집 화면이 열리지 않습니다.",
                   "**삭제하려면** moment 목록에서 해당 행을 왼쪽으로 쓸어넘겨 삭제하세요."
@@ -1466,14 +1474,14 @@
             "zh-Hans": [
               {
                 "type": "paragraph",
-                "text": "moment 引用的是照片图库中的照片或视频。当 oblivious 无法读取原始文件时，对应的行会显示**无法加载**；当图库中完全找不到原始文件时，会显示**已从相机胶卷中删除**。"
+                "text": "moment 引用的是照片图库中的照片或视频。当 oblivious 无法读取原始文件时，对应的行会显示**无法加载**；当图库中完全找不到原始文件时，会显示**已从照片图库中删除**。"
               },
               {
                 "type": "bullets",
                 "items": [
                   "**恢复原始文件，moment 就会恢复。**如果是误删，照片 App 的**最近删除**中会保留一段时间。如果只是 iCloud 照片还没下载完成，等待下载完成后会自行恢复。",
-                  "**也可能只是这台设备暂时读不到。**oblivious 只被允许访问部分照片、iCloud 照片处于关闭状态、其他设备上的照片或视频还没同步过来 — 这些情况都可能显示为**已从相机胶卷中删除**。请打开照片 App 确认原始文件是否存在。",
-                  "**放着不管也没问题。**无法加载的 moment 会被自动跳过 — 不会播放，也不会包含在存储的视频里，前后的 moment 会衔接起来。",
+                  "**也可能只是这台设备暂时读不到。**oblivious 只被允许访问部分照片、iCloud 照片处于关闭状态、其他设备上的照片或视频还没同步过来 — 这些情况都可能显示为**已从照片图库中删除**。请打开照片 App 确认原始文件是否存在。",
+                  "**放着不管也没问题**。无法加载的 moment 会被自动跳过 — 不会播放，也不会包含在存储的视频里，前后的 moment 会衔接起来。",
                   "**这种状态下无法编辑**，轻点对应的行不会有反应。",
                   "**想删除它**，在 moment 列表中把对应的行向左轻扫即可删除。"
                 ]
@@ -1482,13 +1490,13 @@
             "es": [
               {
                 "type": "paragraph",
-                "text": "Un moment apunta a una foto o un video de tu fototeca. Cuando oblivious no puede acceder a ese original, la fila muestra **No se pudo cargar**, o **Eliminado del carrete** si el original no aparece en la fototeca."
+                "text": "Un moment apunta a una foto o un video de tu fototeca. Cuando oblivious no puede acceder a ese original, la fila muestra **No se pudo cargar**, o **Eliminado de la fototeca** si el original no aparece en la fototeca."
               },
               {
                 "type": "bullets",
                 "items": [
                   "**Recupera el original y el moment volverá.** Si lo eliminaste, Fotos lo conserva un tiempo en **Eliminado recientemente**. Si Fotos en iCloud simplemente aún no lo ha descargado, volverá por sí solo.",
-                  "**Puede estar fuera de alcance solo en este dispositivo.** Que oblivious vea solo una selección de fotos, que Fotos en iCloud esté desactivado o que algo de otro dispositivo aún no se haya sincronizado también puede mostrarse como **Eliminado del carrete**. Abre Fotos y comprueba que el original está ahí.",
+                  "**Puede estar fuera de alcance solo en este dispositivo.** Que oblivious vea solo una selección de fotos, que Fotos en iCloud esté desactivado o que algo de otro dispositivo aún no se haya sincronizado también puede mostrarse como **Eliminado de la fototeca**. Abre Fotos y comprueba que el original está ahí.",
                   "**No pasa nada por dejarlo.** Un moment que no se carga se omite: no se reproduce ni aparece en el video que guardes, y los moments vecinos se juntan.",
                   "**No se puede editar** mientras esté en este estado, así que tocar la fila no hace nada.",
                   "**Para quitarlo**, desliza la fila hacia la izquierda en la lista de moments y elimínalo."
