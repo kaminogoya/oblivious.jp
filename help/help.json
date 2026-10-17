@@ -183,6 +183,14 @@
               },
               {
                 "type": "paragraph",
+                "text": "Starting in 2.2.0, you can also add from the Photos app. Select photos or videos in Photos, tap the share icon (a square with an arrow pointing up), and choose **oblivious** from the row of apps. Choose where to add them under **film**, then tap **Add**. To make a new film, choose **New film** and pick portrait or landscape under **orientation**."
+              },
+              {
+                "type": "paragraph",
+                "text": "Starting in 2.2.0, you can also add photos and videos to a film with the **add to film** action in the Shortcuts app. Leave **film** empty to make a new film."
+              },
+              {
+                "type": "paragraph",
                 "text": "If only some of your library shows up, oblivious has access to a selected set of photos. Tap **Select more photos** to widen that set, or **Change settings** to allow all photos."
               },
               {
@@ -198,6 +206,14 @@
               {
                 "type": "paragraph",
                 "text": "film を開いて［＋］をタップします。選択した写真や動画は選んだ順に追加されます。"
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.0 から、写真アプリからも追加できます。写真アプリで写真やビデオを選び、共有アイコン（四角から上向きの矢印）をタップして、アプリの並びから［oblivious］を選びます。［film］で追加先を選んで［追加］をタップします。新しい film を作るときは［新しい film］を選び、［向き］で縦向きか横向きかを選びます。"
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。［film］を空のままにすると、新しい film を作成します。"
               },
               {
                 "type": "paragraph",
@@ -219,6 +235,14 @@
               },
               {
                 "type": "paragraph",
+                "text": "從 2.2.0 開始，也可以從「照片」App 加入。在「照片」中選取照片或影片，點一下分享圖示（方框加上向上的箭頭），再從 App 列中選擇 **oblivious**。在 **film** 選擇要加入的位置，然後點一下 **加入**。要建立新的 film 時，選擇 **新的 film**，並在 **方向** 選擇直向或橫向。"
+              },
+              {
+                "type": "paragraph",
+                "text": "從 2.2.0 開始，也可以使用「捷徑」App 中的 **新增到 film** 動作，把照片或影片加入 film。將 **film** 留空時，會建立新的 film。"
+              },
+              {
+                "type": "paragraph",
                 "text": "如果只顯示部分照片，表示 oblivious 只能取用所選的照片。點一下**選取更多照片**擴大範圍，或從**更改設定**允許取用所有照片。"
               },
               {
@@ -234,6 +258,14 @@
               {
                 "type": "paragraph",
                 "text": "film을 열고 **＋**를 탭하세요. 선택한 사진과 동영상은 고른 순서대로 moment가 됩니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.0부터 사진 앱에서도 추가할 수 있습니다. 사진 앱에서 사진이나 비디오를 선택하고 공유 아이콘(사각형에서 위쪽을 가리키는 화살표)을 탭한 다음, 앱 목록에서 **oblivious**를 선택합니다. **film**에서 추가할 곳을 고르고 **추가**를 탭합니다. 새 film을 만들 때는 **새로운 film**을 선택하고 **방향**에서 세로 또는 가로를 고릅니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. **film**을 비워 두면 새 film을 만듭니다."
               },
               {
                 "type": "paragraph",
@@ -255,6 +287,14 @@
               },
               {
                 "type": "paragraph",
+                "text": "从 2.2.0 开始，也可以从“照片” App 添加。在“照片”中选择照片或视频，轻点共享图标（方框加上向上的箭头），然后从 App 列表中选择 **oblivious**。在 **film** 中选择要添加到的位置，然后轻点 **添加**。要创建新的 film 时，选择 **新 film**，并在 **方向** 中选择竖向或横向。"
+              },
+              {
+                "type": "paragraph",
+                "text": "从 2.2.0 开始，也可以使用“快捷指令” App 中的 **添加到 film** 操作，把照片或视频添加到 film。将 **film** 留空时，会创建新的 film。"
+              },
+              {
+                "type": "paragraph",
                 "text": "如果只显示出一部分照片，说明 oblivious 只被允许访问所选的部分照片。轻点**选择更多照片**扩大范围，或轻点**更改设置**允许访问所有照片。"
               },
               {
@@ -270,6 +310,14 @@
               {
                 "type": "paragraph",
                 "text": "Abre el film y toca **＋**. Las fotos y los videos se añaden en el orden en que los seleccionas, y ese pasa a ser el orden de los moments."
+              },
+              {
+                "type": "paragraph",
+                "text": "A partir de la 2.2.0, también puedes añadir desde la app Fotos. Selecciona fotos o vídeos en Fotos, toca el icono de compartir (un cuadrado con una flecha hacia arriba) y elige **oblivious** en la fila de apps. Elige dónde añadirlos en **film** y toca **Añadir**. Para crear un film nuevo, elige **Nuevo film** y selecciona vertical u horizontal en **orientación**."
+              },
+              {
+                "type": "paragraph",
+                "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Deja **film** vacío para crear un film nuevo."
               },
               {
                 "type": "paragraph",
@@ -291,6 +339,14 @@
               },
               {
                 "type": "paragraph",
+                "text": "Ab 2.2.0 kannst du auch aus der Fotos-App hinzufügen. Wähle in Fotos Fotos oder Videos aus, tippe auf das Teilen-Symbol (ein Quadrat mit einem Pfeil nach oben) und wähle in der Reihe der Apps **oblivious**. Wähle unter **film** aus, wohin sie kommen sollen, und tippe auf **Hinzufügen**. Für einen neuen film wählst du **Neuer film** und legst unter **Ausrichtung** Hoch- oder Querformat fest."
+              },
+              {
+                "type": "paragraph",
+                "text": "Ab 2.2.0 kannst du Fotos und Videos auch mit der Aktion **zum film hinzufügen** in der Kurzbefehle-App zu einem film hinzufügen. Lässt du **film** leer, wird ein neuer film erstellt."
+              },
+              {
+                "type": "paragraph",
                 "text": "Wenn nur ein Teil deiner Mediathek angezeigt wird, hat oblivious Zugriff auf eine Auswahl deiner Fotos. Tippe auf **Weitere Fotos auswählen**, um die Auswahl zu erweitern, oder auf **Einstellungen ändern**, um alle Fotos zu erlauben."
               },
               {
@@ -306,6 +362,14 @@
               {
                 "type": "paragraph",
                 "text": "Ouvrez le film et touchez **＋**. Les photos et les vidéos arrivent dans l’ordre où vous les avez choisies, et cet ordre devient celui des moments."
+              },
+              {
+                "type": "paragraph",
+                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter depuis l’app Photos. Sélectionnez des photos ou des vidéos dans Photos, touchez l’icône de partage (un carré avec une flèche vers le haut), puis choisissez **oblivious** dans la rangée d’apps. Choisissez où les ajouter sous **film**, puis touchez **Ajouter**. Pour créer un nouveau film, choisissez **Nouveau film** et sélectionnez portrait ou paysage sous **orientation**."
+              },
+              {
+                "type": "paragraph",
+                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Laissez **film** vide pour créer un nouveau film."
               },
               {
                 "type": "paragraph",
@@ -529,6 +593,8 @@
                   "Tap the text on the moment to rewrite it. Among the icons above the keyboard, the one made of lines and an A lets you pick a typeface.",
                   "Tap the date & time to show both, or only the date or only the time.",
                   "The alignment icon above the keyboard, a stack of lines, switches between left, center and right each time you tap it. Each piece of text keeps its own alignment, and choosing a **Layout** again resets it. In a portrait or square film with a side-by-side layout, the text stacks vertically, so the alignment can't be changed.",
+                  "Starting in 2.2.0, tap the icon with an “A” inside a square above the keyboard to give the text a background color. Pick one of the swatches, or tap the rainbow circle to choose any color. Choose **No fill** to remove the background color.",
+                  "Starting in 2.2.0, while editing text, tap **Undo** next to **Done** to undo your last change. Touch and hold it to choose **Redo** as well. As long as the same moment stays open, you can still undo after you finish editing.",
                   "A line with characters the chosen typeface doesn't have is drawn in the standard typeface, Plain. Emoji and symbols don't count.",
                   "Text left as **Tap to edit** isn't part of the saved film."
                 ]
@@ -547,6 +613,8 @@
                   "moment に置かれた文字をタップすると、その文字を書き換えられます。キーボードの上に並ぶアイコンのうち、横線と「A」を組み合わせたアイコンをタップすると、書体を選べます",
                   "撮影日時をタップすると、日付と時刻の両方を出すか、どちらか一方だけを出すかを選べます",
                   "キーボードの上の、横線が並んだ揃えのアイコンをタップするたびに、左揃え・中央・右揃えの順に切り替わります。揃えは置いた文字ごとに設定でき、［レイアウト］を選び直すと元に戻ります。縦長やスクエアの film で左右に並べるレイアウトを選んでいるときは、文字が上下に並ぶため揃えは変えられません",
+                  "2.2.0 から、キーボードの上の、四角の中に「A」があるアイコンをタップすると、文字の背景に色を付けられます。色の見本から選ぶか、虹色の丸をタップして好きな色を選びます。［塗りつぶしなし］を選ぶと、背景の色が外れます",
+                  "2.2.0 から、文字の編集中は［完了］の隣の［取り消す］で直前の変更を取り消せます。長押しすると［やり直す］も選べます。同じ moment を開いている間は、編集を閉じたあとでも取り消せます",
                   "選んだ書体にない文字を含む文は、標準の書体（Plain）で描かれます。絵文字や記号は対象になりません",
                   "「タップして編集」のままの文字は、保存・共有した film には含まれません"
                 ]
@@ -565,6 +633,8 @@
                   "點一下 moment 上的文字即可改寫。點一下鍵盤上方由橫線和「A」組成的圖示，可以選擇字體。",
                   "點一下拍攝日期與時間，可以選擇同時顯示日期和時間，或只顯示其中一項。",
                   "每點一下鍵盤上方由橫線組成的對齊圖示，就會依序切換靠左、置中、靠右。每段文字可以各自設定對齊方式，重新選擇**版面**後會恢復原狀。在直向或正方形的 film 中選擇左右並排的版面時，文字會改為上下排列，因此無法變更對齊方式。",
+                  "從 2.2.0 開始，點一下鍵盤上方方框中有「A」的圖示，即可為文字加上背景顏色。可以從色票中選擇，或點一下彩虹色的圓圈選擇任意顏色。選擇 **無填滿** 即可移除背景顏色。",
+                  "從 2.2.0 開始，編輯文字時點一下 **完成** 旁邊的 **還原**，即可還原上一個變更。按住它還可以選擇 **重做**。只要同一個 moment 仍然打開，結束編輯後也能還原。",
                   "如果一段文字包含所選字體沒有的字元，整段文字會以標準字體（Plain）繪製。表情符號和符號不在此列。",
                   "保持為**點按以編輯**的文字不會包含在儲存的 film 中。"
                 ]
@@ -583,6 +653,8 @@
                   "moment에 놓인 텍스트를 탭하면 내용을 고쳐 쓸 수 있습니다. 키보드 위의 아이콘 중 가로줄과 ‘A’를 조합한 아이콘을 탭하면 서체를 고를 수 있습니다.",
                   "촬영 날짜 및 시간을 탭하면 날짜와 시간을 모두 표시할지, 둘 중 하나만 표시할지 선택할 수 있습니다.",
                   "키보드 위의 가로줄로 된 정렬 아이콘을 탭할 때마다 왼쪽 정렬, 가운데, 오른쪽 정렬 순서로 바뀝니다. 정렬은 놓인 텍스트마다 따로 설정할 수 있으며, **레이아웃**을 다시 고르면 처음 상태로 돌아갑니다. 세로 또는 스퀘어 film에서 좌우로 나란히 놓는 레이아웃을 고른 경우에는 텍스트가 위아래로 놓이므로 정렬을 바꿀 수 없습니다.",
+                  "2.2.0부터 키보드 위의 사각형 안에 ‘A’가 있는 아이콘을 탭하면 텍스트에 배경색을 넣을 수 있습니다. 색상 견본에서 고르거나, 무지개색 원을 탭해 원하는 색을 고릅니다. **채우기 없음**을 선택하면 배경색이 사라집니다.",
+                  "2.2.0부터 텍스트를 편집하는 동안 **완료** 옆의 **실행 취소**를 탭하면 직전 변경을 취소할 수 있습니다. 길게 누르면 **실행 복귀**도 선택할 수 있습니다. 같은 moment를 열어 두는 동안에는 편집을 마친 뒤에도 취소할 수 있습니다.",
                   "선택한 서체에 없는 글자가 포함된 문장은 기본 서체(Plain)로 그려집니다. 이모지와 기호는 해당하지 않습니다.",
                   "**탭하여 편집** 그대로 둔 텍스트는 저장·공유한 film에 포함되지 않습니다."
                 ]
@@ -601,6 +673,8 @@
                   "轻点 moment 上的文字即可改写。轻点键盘上方由横线和“A”组成的图标，可以选择字体。",
                   "轻点拍摄日期和时间，可以选择同时显示日期和时间，或只显示其中一项。",
                   "每轻点一次键盘上方由横线组成的对齐图标，就会依次切换左对齐、居中、右对齐。每段文字可以分别设置对齐方式，重新选择**布局**后会恢复原状。在竖向或正方形的 film 中选择左右并排的布局时，文字会改为上下排列，因此无法更改对齐方式。",
+                  "从 2.2.0 开始，轻点键盘上方方框中有“A”的图标，即可为文字加上背景颜色。可以从色板中选择，或轻点彩虹色的圆圈选择任意颜色。选择 **无填充** 即可移除背景颜色。",
+                  "从 2.2.0 开始，编辑文字时轻点 **完成** 旁边的 **撤销**，即可撤销上一次更改。按住它还可以选择 **重做**。只要同一个 moment 仍然打开，结束编辑后也能撤销。",
                   "如果一段文字包含所选字体没有的字符，整段文字会用标准字体（Plain）绘制。表情符号和符号不在此列。",
                   "保持为**点按以编辑**的文字不会包含在保存的 film 中。"
                 ]
@@ -619,6 +693,8 @@
                   "Toca el texto en el moment para reescribirlo. Entre los iconos sobre el teclado, el de líneas con una A te deja elegir una tipografía.",
                   "Toca la fecha y hora para mostrar ambas, o solo la fecha o solo la hora.",
                   "Cada vez que tocas el icono de alineación sobre el teclado, unas líneas, cambia entre izquierda, centro y derecha. Cada texto guarda su propia alineación, y al volver a elegir un **Diseño** se restablece. En un film vertical o cuadrado con un diseño lado a lado, el texto se apila, así que la alineación no se puede cambiar.",
+                  "A partir de la 2.2.0, toca el icono con una «A» dentro de un cuadrado, encima del teclado, para dar al texto un color de fondo. Elige una de las muestras o toca el círculo arcoíris para elegir cualquier color. Elige **Sin relleno** para quitar el color de fondo.",
+                  "A partir de la 2.2.0, mientras editas el texto, toca **Deshacer** junto a **OK** para deshacer el último cambio. Mantenlo pulsado para elegir también **Rehacer**. Mientras sigas en el mismo moment, puedes deshacer incluso después de terminar de editar.",
                   "Una línea con caracteres que la tipografía elegida no tiene se dibuja con la tipografía estándar, Plain. Los emoji y los símbolos no cuentan.",
                   "El texto que se deja como **Toca para editar** no forma parte del film guardado."
                 ]
@@ -637,6 +713,8 @@
                   "Tippe auf den Text im moment, um ihn zu ändern. Unter den Symbolen oberhalb der Tastatur wählst du über das Symbol aus Linien und einem A eine Schrift.",
                   "Tippe auf Datum & Uhrzeit, um beides, nur das Datum oder nur die Uhrzeit anzuzeigen.",
                   "Mit jedem Tipp auf das Ausrichtungssymbol oberhalb der Tastatur, ein paar Linien, wechselst du zwischen links, zentriert und rechts. Jeder Text behält seine eigene Ausrichtung, und wenn du ein **Layout** neu wählst, wird sie zurückgesetzt. In einem film im Hochformat oder als Quadrat mit einem Layout nebeneinander stehen die Texte untereinander, daher lässt sich die Ausrichtung nicht ändern.",
+                  "Ab 2.2.0 tippst du über der Tastatur auf das Symbol mit einem „A“ in einem Quadrat, um dem Text eine Hintergrundfarbe zu geben. Wähle eines der Farbmuster oder tippe auf den Regenbogenkreis, um eine beliebige Farbe zu wählen. Mit **Keine Füllung** entfernst du die Hintergrundfarbe.",
+                  "Ab 2.2.0 tippst du beim Bearbeiten von Text neben **Fertig** auf **Widerrufen**, um die letzte Änderung zu widerrufen. Halte es gedrückt, um auch **Wiederholen** zu wählen. Solange dasselbe moment geöffnet bleibt, kannst du auch nach dem Bearbeiten noch widerrufen.",
                   "Eine Zeile mit Zeichen, die die gewählte Schrift nicht enthält, wird in der Standardschrift Plain gezeichnet. Emoji und Symbole zählen nicht dazu.",
                   "Text, der bei **Zum Bearbeiten tippen** bleibt, ist nicht Teil des gespeicherten films."
                 ]
@@ -655,6 +733,8 @@
                   "Touchez le texte sur le moment pour le réécrire. Parmi les icônes au-dessus du clavier, celle faite de lignes et d’un A permet de choisir une police.",
                   "Touchez la date et l’heure pour afficher les deux, ou seulement la date ou seulement l’heure.",
                   "Chaque fois que vous touchez l’icône d’alignement au-dessus du clavier, faite de lignes, elle passe de gauche à centré puis à droite. Chaque texte garde son propre alignement, et choisir de nouveau une **Disposition** le réinitialise. Dans un film en portrait ou carré avec une disposition côte à côte, les textes s’empilent : l’alignement ne peut donc pas être modifié.",
+                  "Depuis la version 2.2.0, touchez l’icône avec un « A » dans un carré, au-dessus du clavier, pour donner une couleur de fond au texte. Choisissez l’un des échantillons, ou touchez le cercle arc-en-ciel pour choisir n’importe quelle couleur. Choisissez **Aucun remplissage** pour retirer la couleur de fond.",
+                  "Depuis la version 2.2.0, pendant la modification du texte, touchez **Annuler** à côté de **Terminé** pour annuler la dernière modification. Maintenez le doigt dessus pour choisir aussi **Rétablir**. Tant que le même moment reste ouvert, vous pouvez annuler même après avoir terminé la modification.",
                   "Une ligne contenant des caractères que la police choisie n’a pas est dessinée dans la police standard, Plain. Les emoji et les symboles ne comptent pas.",
                   "Un texte laissé sur **Touchez pour modifier** ne fait pas partie du film enregistré."
                 ]
@@ -994,6 +1074,145 @@
                   "Pendant qu’un look est actif, touchez l’aperçu pour le comparer à l’original.",
                   "Une finition colorimétrique s’applique à la vidéo exportée, pas au film lui-même.",
                   "Enregistrer ne change rien au film. Vous pouvez continuer à le modifier et l’enregistrer de nouveau."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "opening-films",
+          "platforms": [
+            "ios"
+          ],
+          "minAppVersion": "2.2.0",
+          "title": {
+            "en": "How do I open a film from the Home Screen or Spotlight?",
+            "ja": "ホーム画面や Spotlight から film を開きたい",
+            "zh-Hant": "如何從主畫面或 Spotlight 打開 film？",
+            "ko": "홈 화면이나 Spotlight에서 film 열기",
+            "zh-Hans": "如何从主屏幕或 Spotlight 打开 film？",
+            "es": "¿Cómo abro un film desde la pantalla de inicio o Spotlight?",
+            "de": "Wie öffne ich einen film vom Home-Bildschirm oder aus Spotlight?",
+            "fr": "Comment ouvrir un film depuis l’écran d’accueil ou Spotlight ?"
+          },
+          "body": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "You can open a film directly from a Home Screen widget, Spotlight, or Shortcuts, without opening the app and looking for it."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Touch and hold the Home Screen, tap **Edit** → **Add Widget**, and choose oblivious to place a widget. Tap the widget to open its film.",
+                  "**recent film** shows the film you worked on most recently. **film of the day** shows one of your films each day, in the order you made them. For **chosen film**, touch and hold the widget and tap **Edit Widget** to choose the film it shows.",
+                  "Search for a film’s title in Spotlight to open the film from the results.",
+                  "Use the **open film** action in the Shortcuts app to open the film you choose."
+                ]
+              }
+            ],
+            "ja": [
+              {
+                "type": "paragraph",
+                "text": "アプリを開いて film を探さなくても、ホーム画面の widget、Spotlight、ショートカットから film を直接開けます。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "ホーム画面を長押しして［編集］→［ウィジェットを追加］から oblivious を選ぶと、widget を置けます。widget をタップすると、その film が開きます",
+                  "［最近の film］は最後に編集した film を表示します。［日替わりの film］は、作った順に毎日1本ずつ film を表示します。［選んだ film］は、widget を長押しして［ウィジェットを編集］から、表示する film を選びます",
+                  "Spotlight で film の題名を検索すると、検索結果から film を開けます",
+                  "ショートカットアプリのアクション［film を開く］で、選んだ film を開けます"
+                ]
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "不必打開 App 尋找 film，也可以從主畫面的 widget、Spotlight 或「捷徑」直接打開 film。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "按住主畫面，點一下 **編輯** → **加入小工具**，再選擇 oblivious，即可放置 widget。點一下 widget 就會打開該 film。",
+                  "**最近的 film** 會顯示你最後編輯的 film。**今日的 film** 會依照建立的順序，每天顯示一部 film。**選擇的 film** 則是按住 widget，點一下 **編輯小工具**，選擇要顯示的 film。",
+                  "在 Spotlight 中搜尋 film 的標題，即可從搜尋結果打開 film。",
+                  "使用「捷徑」App 中的 **打開 film** 動作，即可打開選擇的 film。"
+                ]
+              }
+            ],
+            "ko": [
+              {
+                "type": "paragraph",
+                "text": "앱을 열어 film을 찾지 않아도 홈 화면의 widget, Spotlight, 단축어에서 film을 바로 열 수 있습니다."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "홈 화면을 길게 누르고 **편집** → **위젯 추가**에서 oblivious를 선택하면 widget을 놓을 수 있습니다. widget을 탭하면 해당 film이 열립니다.",
+                  "**최근 film**은 마지막으로 편집한 film을 표시합니다. **오늘의 film**은 만든 순서대로 매일 film을 한 편씩 표시합니다. **선택한 film**은 widget을 길게 누르고 **위젯 편집**에서 표시할 film을 고릅니다.",
+                  "Spotlight에서 film 제목을 검색하면 검색 결과에서 film을 열 수 있습니다.",
+                  "단축어 앱의 **film 열기** 동작으로 선택한 film을 열 수 있습니다."
+                ]
+              }
+            ],
+            "zh-Hans": [
+              {
+                "type": "paragraph",
+                "text": "不必打开 App 查找 film，也可以从主屏幕的 widget、Spotlight 或“快捷指令”直接打开 film。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "按住主屏幕，轻点 **编辑** → **添加小组件**，再选择 oblivious，即可放置 widget。轻点 widget 就会打开该 film。",
+                  "**最近的 film** 会显示你最后编辑的 film。**今日 film** 会按照创建的顺序，每天显示一部 film。**所选 film** 则是按住 widget，轻点 **编辑小组件**，选择要显示的 film。",
+                  "在 Spotlight 中搜索 film 的标题，即可从搜索结果打开 film。",
+                  "使用“快捷指令” App 中的 **打开 film** 操作，即可打开选择的 film。"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "type": "paragraph",
+                "text": "Puedes abrir un film directamente desde un widget de la pantalla de inicio, Spotlight o Atajos, sin abrir la app para buscarlo."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Mantén pulsada la pantalla de inicio, toca **Editar** → **Añadir widget** y elige oblivious para colocar un widget. Toca el widget para abrir su film.",
+                  "**film reciente** muestra el film que editaste por última vez. **film del día** muestra uno de tus films cada día, en el orden en que los creaste. Para **film elegido**, mantén pulsado el widget y toca **Editar widget** para elegir el film que muestra.",
+                  "Busca el título de un film en Spotlight para abrirlo desde los resultados.",
+                  "Usa la acción **abrir film** de la app Atajos para abrir el film que elijas."
+                ]
+              }
+            ],
+            "de": [
+              {
+                "type": "paragraph",
+                "text": "Du kannst einen film direkt über ein Widget auf dem Home-Bildschirm, über Spotlight oder über Kurzbefehle öffnen, ohne die App zu öffnen und ihn zu suchen."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Halte den Home-Bildschirm gedrückt, tippe auf **Bearbeiten** → **Widget hinzufügen** und wähle oblivious, um ein Widget zu platzieren. Tippe auf das Widget, um seinen film zu öffnen.",
+                  "**letzter film** zeigt den film, den du zuletzt bearbeitet hast. **film des Tages** zeigt jeden Tag einen deiner films, in der Reihenfolge, in der du sie erstellt hast. Bei **gewählter film** hältst du das Widget gedrückt und tippst auf **Widget bearbeiten**, um den angezeigten film zu wählen.",
+                  "Suche in Spotlight nach dem Titel eines films, um ihn aus den Ergebnissen zu öffnen.",
+                  "Mit der Aktion **film öffnen** in der Kurzbefehle-App öffnest du den film, den du wählst."
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "type": "paragraph",
+                "text": "Vous pouvez ouvrir un film directement depuis un widget de l’écran d’accueil, Spotlight ou Raccourcis, sans ouvrir l’app pour le chercher."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "Maintenez le doigt sur l’écran d’accueil, touchez **Modifier** → **Ajouter un widget**, puis choisissez oblivious pour placer un widget. Touchez le widget pour ouvrir son film.",
+                  "**film récent** affiche le film que vous avez modifié en dernier. **film du jour** affiche chaque jour l’un de vos films, dans l’ordre où vous les avez créés. Pour **film choisi**, maintenez le doigt sur le widget et touchez **Modifier le widget** pour choisir le film affiché.",
+                  "Recherchez le titre d’un film dans Spotlight pour l’ouvrir depuis les résultats.",
+                  "Utilisez l’action **ouvrir le film** de l’app Raccourcis pour ouvrir le film de votre choix."
                 ]
               }
             ]
