@@ -187,7 +187,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "Starting in 2.2.0, you can also add photos and videos to a film with the **add to film** action in the Shortcuts app. Leave **film** empty to make a new film."
+                "text": "Starting in 2.2.0, you can also add photos and videos to a film with the **add to film** action in the Shortcuts app. To make a new film, use **create film** starting in 2.2.1. In 2.2.0, leave **film** empty."
               },
               {
                 "type": "paragraph",
@@ -213,7 +213,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。［film］を空のままにすると、新しい film を作成します。"
+                "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。新しい film を作るときは、2.2.1 からは［新しい film を作る］を使います。2.2.0 では［film］を空のままにします。"
               },
               {
                 "type": "paragraph",
@@ -239,7 +239,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "從 2.2.0 開始，也可以使用「捷徑」App 中的 **新增到 film** 動作，把照片或影片加入 film。將 **film** 留空時，會建立新的 film。"
+                "text": "從 2.2.0 開始，也可以使用「捷徑」App 中的 **新增到 film** 動作，把照片或影片加入 film。要建立新的 film 時，從 2.2.1 開始請使用 **建立新的 film**；在 2.2.0 中，請將 **film** 留空。"
               },
               {
                 "type": "paragraph",
@@ -265,7 +265,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. **film**을 비워 두면 새 film을 만듭니다."
+                "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. 새 film을 만들 때는 2.2.1부터 **새로운 film 만들기**를 사용합니다. 2.2.0에서는 **film**을 비워 둡니다."
               },
               {
                 "type": "paragraph",
@@ -291,7 +291,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "从 2.2.0 开始，也可以使用“快捷指令” App 中的 **添加到 film** 操作，把照片或视频添加到 film。将 **film** 留空时，会创建新的 film。"
+                "text": "从 2.2.0 开始，也可以使用“快捷指令” App 中的 **添加到 film** 操作，把照片或视频添加到 film。要创建新的 film 时，从 2.2.1 开始请使用 **创建新的 film**；在 2.2.0 中，请将 **film** 留空。"
               },
               {
                 "type": "paragraph",
@@ -317,7 +317,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Deja **film** vacío para crear un film nuevo."
+                "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Para crear un film nuevo, a partir de la 2.2.1 usa **crear un film nuevo**. En la 2.2.0, deja **film** vacío."
               },
               {
                 "type": "paragraph",
@@ -343,7 +343,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "Ab 2.2.0 kannst du Fotos und Videos auch mit der Aktion **zum film hinzufügen** in der Kurzbefehle-App zu einem film hinzufügen. Lässt du **film** leer, wird ein neuer film erstellt."
+                "text": "Ab 2.2.0 kannst du Fotos und Videos auch mit der Aktion **zum film hinzufügen** in der Kurzbefehle-App zu einem film hinzufügen. Um einen neuen film zu erstellen, verwende ab 2.2.1 **neuen film erstellen**. In 2.2.0 lässt du **film** leer."
               },
               {
                 "type": "paragraph",
@@ -369,7 +369,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Laissez **film** vide pour créer un nouveau film."
+                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Pour créer un nouveau film, utilisez **créer un nouveau film** à partir de la version 2.2.1. Dans la version 2.2.0, laissez **film** vide."
               },
               {
                 "type": "paragraph",
