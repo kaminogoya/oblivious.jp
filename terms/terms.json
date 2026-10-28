@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "terms",
   "effectiveDate": {
-    "en": "Effective date: August 22, 2026",
-    "ja": "施行日: 2026年8月22日",
-    "zh-Hant": "生效日期：2026年8月22日",
-    "ko": "시행일: 2026년 8월 22일",
-    "zh-Hans": "生效日期：2026年8月22日",
-    "es": "Fecha de entrada en vigor: 22 de agosto de 2026",
-    "de": "Gültig ab: 22. August 2026",
-    "fr": "Date d’entrée en vigueur : 22 août 2026"
+    "en": "Effective date: October 28, 2026",
+    "ja": "施行日: 2026年10月28日",
+    "zh-Hant": "生效日期：2026年10月28日",
+    "ko": "시행일: 2026년 10월 28일",
+    "zh-Hans": "生效日期：2026年10月28日",
+    "es": "Fecha de entrada en vigor: 28 de octubre de 2026",
+    "de": "Gültig ab: 28. Oktober 2026",
+    "fr": "Date d’entrée en vigueur : 28 octobre 2026"
   },
   "provider": {
     "en": "Provider: KMNGY Inc.",
@@ -61,7 +61,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Rights in the photos, videos, films, and text you work with in the app remain with you or their respective rights holders. We do not acquire ownership or other rights in them through your use of the app. They are processed and stored on your device, and we do not collect them on our servers. When you generate a soundtrack, what is sent to our server is not the contents of your photos, videos, or text, but an abstract description of the film (numbers, on/off values, and mood words from a fixed vocabulary), together with verification data used to manage the monthly generation limit and prevent unauthorized use (a one-time value confirming a genuine device; older versions of the app send anonymous identification data instead). See our Privacy Policy for details on the data we handle."
+        "text": "Rights in the photos, videos, films, and text you work with in the app remain with you or their respective rights holders. We do not acquire ownership or other rights in them through your use of the app. They are processed and stored on your device, and we do not collect them on our servers. When you generate a soundtrack, what is sent to our server is not the contents of your photos, videos, or text, but an abstract description of the film (numbers, on/off values, and mood words from a fixed vocabulary), together with verification data used to manage the monthly generation limit and prevent unauthorized use (a one-time value confirming a genuine device). See our Privacy Policy for details on the data we handle."
       },
       {
         "type": "heading",
@@ -207,7 +207,7 @@
       },
       {
         "type": "paragraph",
-        "text": "あなたが本アプリで扱う写真・動画・film・テキストに関する権利は、あなたまたは正当な権利者に帰属します。当方は、本アプリの利用によって、これらの所有権その他の権利を取得しません。これらは端末内で処理・保存され、当方のサーバーへ収集されません。soundtrack を生成する際にサーバーへ送られるのは、写真・動画やテキストの内容ではなく、film を表す抽象的な記述（数値・on/off 値・固定語彙のムード語）と、生成回数の管理・不正利用の防止のための確認情報（正規の端末であることを確かめる一時的な情報。旧バージョンのアプリでは匿名の識別情報）です。取り扱うデータの詳細はプライバシーポリシーをご覧ください。"
+        "text": "あなたが本アプリで扱う写真・動画・film・テキストに関する権利は、あなたまたは正当な権利者に帰属します。当方は、本アプリの利用によって、これらの所有権その他の権利を取得しません。これらは端末内で処理・保存され、当方のサーバーへ収集されません。soundtrack を生成する際にサーバーへ送られるのは、写真・動画やテキストの内容ではなく、film を表す抽象的な記述（数値・on/off 値・固定語彙のムード語）と、生成回数の管理・不正利用の防止のための確認情報（正規の端末であることを確かめる一時的な情報）です。取り扱うデータの詳細はプライバシーポリシーをご覧ください。"
       },
       {
         "type": "heading",
@@ -353,7 +353,7 @@
       },
       {
         "type": "paragraph",
-        "text": "你在本 App 中處理的照片、影片、film 和文字，其權利仍屬於你或其正當權利人。我們不會因你使用本 App 而取得其所有權或其他權利。這些內容在你的裝置上處理與儲存，不會被收集到我們的伺服器。製作 soundtrack 時傳送到伺服器的，不是照片、影片或文字的內容，而是描述該 film 的抽象資訊（數值、開／關值，以及固定詞彙中的氣氛詞），連同用於管理每月製作次數與防止濫用的驗證資料（確認裝置為正規裝置的一次性資訊；舊版 App 為匿名識別資料）。關於處理資料的詳情，請參閱隱私權政策。"
+        "text": "你在本 App 中處理的照片、影片、film 和文字，其權利仍屬於你或其正當權利人。我們不會因你使用本 App 而取得其所有權或其他權利。這些內容在你的裝置上處理與儲存，不會被收集到我們的伺服器。製作 soundtrack 時傳送到伺服器的，不是照片、影片或文字的內容，而是描述該 film 的抽象資訊（數值、開／關值，以及固定詞彙中的氣氛詞），連同用於管理每月製作次數與防止濫用的驗證資料（確認裝置為正規裝置的一次性資訊）。關於處理資料的詳情，請參閱隱私權政策。"
       },
       {
         "type": "heading",
@@ -499,7 +499,7 @@
       },
       {
         "type": "paragraph",
-        "text": "사용자가 본 앱에서 다루는 사진·동영상·film·텍스트에 관한 권리는 사용자 또는 정당한 권리자에게 귀속됩니다. 당사는 본 앱의 이용을 통해 이에 대한 소유권 기타 권리를 취득하지 않습니다. 이들은 기기 안에서 처리·저장되며 당사 서버로 수집되지 않습니다. soundtrack을 만들 때 서버로 전송되는 것은 사진·동영상·텍스트의 내용이 아니라 film을 나타내는 추상적인 기술(수치, on/off 값, 고정 어휘의 무드 단어)과, 만들기 횟수의 관리 및 부정 사용 방지를 위한 확인 데이터(정상적인 기기임을 확인하는 일회성 값. 구버전 앱은 익명의 식별 데이터)입니다. 취급하는 데이터의 자세한 내용은 개인정보 처리방침을 참조하세요."
+        "text": "사용자가 본 앱에서 다루는 사진·동영상·film·텍스트에 관한 권리는 사용자 또는 정당한 권리자에게 귀속됩니다. 당사는 본 앱의 이용을 통해 이에 대한 소유권 기타 권리를 취득하지 않습니다. 이들은 기기 안에서 처리·저장되며 당사 서버로 수집되지 않습니다. soundtrack을 만들 때 서버로 전송되는 것은 사진·동영상·텍스트의 내용이 아니라 film을 나타내는 추상적인 기술(수치, on/off 값, 고정 어휘의 무드 단어)과, 만들기 횟수의 관리 및 부정 사용 방지를 위한 확인 데이터(정상적인 기기임을 확인하는 일회성 값)입니다. 취급하는 데이터의 자세한 내용은 개인정보 처리방침을 참조하세요."
       },
       {
         "type": "heading",
@@ -645,7 +645,7 @@
       },
       {
         "type": "paragraph",
-        "text": "你在本 App 中处理的照片、视频、film 和文本的相关权利，归你或相应的权利人所有。我们不会因你使用本 App 而取得其所有权或其他权利。这些内容在你的设备上处理和保存，不会被收集到我们的服务器。创建 soundtrack 时发送到我们服务器的，不是你的照片、视频或文本的内容，而是描述该 film 的一段抽象信息（数值、开/关值，以及固定词汇表中的情绪词），连同用于管理每月创建次数、防止滥用的验证数据（确认设备为正规设备的一次性值；旧版本的 App 改为发送匿名的识别数据）。关于我们处理的数据，详情请参阅隐私政策。"
+        "text": "你在本 App 中处理的照片、视频、film 和文本的相关权利，归你或相应的权利人所有。我们不会因你使用本 App 而取得其所有权或其他权利。这些内容在你的设备上处理和保存，不会被收集到我们的服务器。创建 soundtrack 时发送到我们服务器的，不是你的照片、视频或文本的内容，而是描述该 film 的一段抽象信息（数值、开/关值，以及固定词汇表中的情绪词），连同用于管理每月创建次数、防止滥用的验证数据（确认设备为正规设备的一次性值）。关于我们处理的数据，详情请参阅隐私政策。"
       },
       {
         "type": "heading",
@@ -791,7 +791,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Los derechos sobre las fotos, videos, films y textos con los que trabajas en la app siguen siendo tuyos o de sus respectivos titulares. No adquirimos su propiedad ni otros derechos sobre ellos por tu uso de la app. Se procesan y guardan en tu dispositivo, y no los recopilamos en nuestros servidores. Al generar un soundtrack, lo que se envía a nuestro servidor no es el contenido de tus fotos, videos o textos, sino una descripción abstracta del film (números, valores de sí/no y palabras de ánimo de un vocabulario fijo), junto con datos de verificación usados para gestionar el límite mensual de generación y prevenir el uso no autorizado (un valor de un solo uso que confirma que se trata de un dispositivo legítimo; las versiones antiguas de la app envían en su lugar datos de identificación anónimos). Consulta la Política de Privacidad para los detalles sobre los datos que manejamos."
+        "text": "Los derechos sobre las fotos, videos, films y textos con los que trabajas en la app siguen siendo tuyos o de sus respectivos titulares. No adquirimos su propiedad ni otros derechos sobre ellos por tu uso de la app. Se procesan y guardan en tu dispositivo, y no los recopilamos en nuestros servidores. Al generar un soundtrack, lo que se envía a nuestro servidor no es el contenido de tus fotos, videos o textos, sino una descripción abstracta del film (números, valores de sí/no y palabras de ánimo de un vocabulario fijo), junto con datos de verificación usados para gestionar el límite mensual de generación y prevenir el uso no autorizado (un valor de un solo uso que confirma que se trata de un dispositivo legítimo). Consulta la Política de Privacidad para los detalles sobre los datos que manejamos."
       },
       {
         "type": "heading",
@@ -937,7 +937,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Die Rechte an den Fotos, Videos, films und Texten, mit denen du in der App arbeitest, verbleiben bei dir beziehungsweise den jeweiligen Rechteinhabern. Wir erwerben durch deine Nutzung der App kein Eigentum und keine sonstigen Rechte daran. Sie werden auf deinem Gerät verarbeitet und gespeichert; wir sammeln sie nicht auf unseren Servern. Wenn du einen soundtrack erstellst, wird an unseren Server nicht der Inhalt deiner Fotos, Videos oder Texte gesendet, sondern eine abstrakte Beschreibung des films (Zahlen, Ein/Aus-Werte und Stimmungswörter aus einem festen Vokabular) sowie Bestätigungsdaten zur Verwaltung des monatlichen Erstellungslimits und zur Verhinderung von Missbrauch (ein einmaliger Wert, der ein echtes Gerät belegt; ältere Versionen der App senden stattdessen anonyme Identifikationsdaten). Einzelheiten zu den verarbeiteten Daten findest du in unserer Datenschutzrichtlinie."
+        "text": "Die Rechte an den Fotos, Videos, films und Texten, mit denen du in der App arbeitest, verbleiben bei dir beziehungsweise den jeweiligen Rechteinhabern. Wir erwerben durch deine Nutzung der App kein Eigentum und keine sonstigen Rechte daran. Sie werden auf deinem Gerät verarbeitet und gespeichert; wir sammeln sie nicht auf unseren Servern. Wenn du einen soundtrack erstellst, wird an unseren Server nicht der Inhalt deiner Fotos, Videos oder Texte gesendet, sondern eine abstrakte Beschreibung des films (Zahlen, Ein/Aus-Werte und Stimmungswörter aus einem festen Vokabular) sowie Bestätigungsdaten zur Verwaltung des monatlichen Erstellungslimits und zur Verhinderung von Missbrauch (ein einmaliger Wert, der ein echtes Gerät belegt). Einzelheiten zu den verarbeiteten Daten findest du in unserer Datenschutzrichtlinie."
       },
       {
         "type": "heading",
@@ -1083,7 +1083,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Les droits sur les photos, les vidéos, les films et les textes que vous manipulez dans l’app restent les vôtres ou ceux de leurs titulaires respectifs. Nous n’acquérons sur eux aucun droit de propriété ni aucun autre droit du fait de votre utilisation de l’app. Ils sont traités et conservés sur votre appareil, et nous ne les collectons pas sur nos serveurs. Lorsque vous créez un soundtrack, ce qui est envoyé à notre serveur n’est pas le contenu de vos photos, de vos vidéos ou de vos textes, mais une description abstraite du film (valeurs numériques, indicateurs activé/désactivé et mots d’ambiance issus d’un vocabulaire fixe), accompagnée de données de vérification servant à gérer la limite mensuelle de créations et à empêcher les usages abusifs (une valeur ponctuelle confirmant un appareil authentique ; les versions antérieures de l’app envoient à la place des données d’identification anonymes). Voir notre politique de confidentialité pour le détail des données traitées."
+        "text": "Les droits sur les photos, les vidéos, les films et les textes que vous manipulez dans l’app restent les vôtres ou ceux de leurs titulaires respectifs. Nous n’acquérons sur eux aucun droit de propriété ni aucun autre droit du fait de votre utilisation de l’app. Ils sont traités et conservés sur votre appareil, et nous ne les collectons pas sur nos serveurs. Lorsque vous créez un soundtrack, ce qui est envoyé à notre serveur n’est pas le contenu de vos photos, de vos vidéos ou de vos textes, mais une description abstraite du film (valeurs numériques, indicateurs activé/désactivé et mots d’ambiance issus d’un vocabulaire fixe), accompagnée de données de vérification servant à gérer la limite mensuelle de créations et à empêcher les usages abusifs (une valeur ponctuelle confirmant un appareil authentique). Voir notre politique de confidentialité pour le détail des données traitées."
       },
       {
         "type": "heading",
