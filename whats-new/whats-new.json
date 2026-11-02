@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "2.2.1",
+      "version": "2.2.1",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Add photos and videos to a film with Shortcuts.",
+              "Add favorites to a film, or take a photo or video and add it right away, with Siri or Shortcuts.",
+              "Tell Siri which day you took the photos to create a film from that day's photos.",
+              "Fixed a rare issue where the app could quit when you stopped an export partway through.",
+              "See what's new in each update from Settings."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "ショートカットで、写真や動画を film に追加できるようになりました",
+              "Siri やショートカットで、お気に入りを film に追加したり、撮影してそのまま追加したりできるようになりました",
+              "Siri に撮った日を伝えて、その日の写真から film を作れるようになりました",
+              "書き出し処理の途中で止めたときに、まれにアプリが終了する問題を直しました",
+              "設定から、アップデートの内容を見られるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用「捷徑」把照片和影片加入 film 了。",
+              "可以用 Siri 或「捷徑」把喜好項目加入 film，或拍攝後直接加入了。",
+              "可以告訴 Siri 拍攝的日期，用那天的照片建立 film 了。",
+              "修正了在輸出途中停止時，App 偶爾會結束的問題。",
+              "可以在「設定」中查看每次更新的內容了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用“快捷指令”把照片和视频添加到 film 了。",
+              "可以用 Siri 或“快捷指令”把个人收藏添加到 film，或拍摄后直接添加了。",
+              "可以告诉 Siri 拍摄的日期，用那天的照片新建 film 了。",
+              "修复了在导出过程中停止时，App 偶尔会退出的问题。",
+              "可以在“设置”中查看每次更新的内容了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "단축어로 사진과 동영상을 film에 추가할 수 있습니다.",
+              "Siri나 단축어로 즐겨찾는 항목을 film에 추가하거나, 촬영한 뒤 바로 추가할 수 있습니다.",
+              "Siri에게 찍은 날을 말하면 그날의 사진으로 film을 만들 수 있습니다.",
+              "내보내기 도중에 중단하면 드물게 앱이 종료되는 문제를 수정했습니다.",
+              "설정에서 업데이트 내용을 볼 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Añade fotos y vídeos a un film con Atajos.",
+              "Con Siri o Atajos, añade tus favoritos a un film o haz una foto o un vídeo y añádelo al momento.",
+              "Dile a Siri qué día hiciste las fotos para crear un film con las fotos de ese día.",
+              "Se ha corregido un problema poco frecuente por el que la app podía cerrarse al detener una exportación a medias.",
+              "Consulta las novedades de cada actualización desde Ajustes."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Füge mit Kurzbefehlen Fotos und Videos zu einem film hinzu.",
+              "Füge mit Siri oder Kurzbefehlen Favoriten zu einem film hinzu, oder nimm ein Foto oder Video auf und füge es direkt hinzu.",
+              "Sag Siri, an welchem Tag du die Fotos aufgenommen hast, um aus den Fotos dieses Tages einen film zu erstellen.",
+              "Ein seltenes Problem wurde behoben, bei dem die App beendet werden konnte, wenn du einen Export mittendrin abgebrochen hast.",
+              "Sieh dir in den Einstellungen an, was jedes Update Neues bringt."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Ajoutez des photos et des vidéos à un film avec Raccourcis.",
+              "Avec Siri ou Raccourcis, ajoutez vos favoris à un film, ou prenez une photo ou une vidéo et ajoutez-la aussitôt.",
+              "Indiquez à Siri le jour où vous avez pris les photos pour créer un film à partir des photos de ce jour.",
+              "Correction d'un problème rare qui pouvait fermer l'app lorsque vous arrêtiez une exportation en cours.",
+              "Consultez les nouveautés de chaque mise à jour depuis les Réglages."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.2.0",
+      "version": "2.2.0",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Put a widget on your Home Screen to open a film right away.",
+              "Open a film directly from Spotlight, Siri, or Shortcuts.",
+              "Add the photos and videos you select in Photos straight to a film with the share button.",
+              "Added support for iPhone Duo."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "ホーム画面に widget を置いて、film をすぐに開けるようになりました",
+              "Spotlight・Siri・ショートカットから、film を直接開けるようになりました",
+              "写真アプリの共有から、選択した写真やビデオをそのまま film に追加できるようになりました",
+              "iPhone Duo での表示に対応しました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以在主畫面放置 widget，馬上打開 film 了。",
+              "可以從 Spotlight、Siri 或「捷徑」直接打開 film 了。",
+              "可以透過「照片」的分享按鈕，把選取的照片和影片直接加入 film 了。",
+              "支援在 iPhone Duo 上顯示。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以在主屏幕放置 widget，立即打开 film 了。",
+              "可以从 Spotlight、Siri 或“快捷指令”直接打开 film 了。",
+              "可以通过“照片”的共享按钮，把选中的照片和视频直接添加到 film 了。",
+              "支持在 iPhone Duo 上显示。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "홈 화면에 widget을 두고 film을 바로 열 수 있습니다.",
+              "Spotlight, Siri, 단축어에서 film을 바로 열 수 있습니다.",
+              "사진 앱의 공유 버튼으로 선택한 사진과 비디오를 바로 film에 추가할 수 있습니다.",
+              "iPhone Duo의 화면 표시를 지원합니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Pon un widget en la pantalla de inicio para abrir un film al instante.",
+              "Abre un film directamente desde Spotlight, Siri o Atajos.",
+              "Añade las fotos y vídeos que selecciones en Fotos directamente a un film con el botón de compartir.",
+              "Ahora es compatible con iPhone Duo."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Lege ein widget auf den Home-Bildschirm, um einen film sofort zu öffnen.",
+              "Öffne einen film direkt über Spotlight, Siri oder Kurzbefehle.",
+              "Füge die in Fotos ausgewählten Fotos und Videos über die Teilen-Taste direkt zu einem film hinzu.",
+              "Unterstützung für iPhone Duo hinzugefügt."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Placez un widget sur l'écran d'accueil pour ouvrir un film tout de suite.",
+              "Ouvrez un film directement depuis Spotlight, Siri ou Raccourcis.",
+              "Ajoutez directement à un film les photos et vidéos sélectionnées dans Photos avec le bouton Partager.",
+              "Prise en charge de l'iPhone Duo."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.6",
+      "version": "2.1.6",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Set the text on a moment vertically.",
+              "Add a background color behind the text on a moment.",
+              "Undo your last change while editing the text on a moment.",
+              "Photos and videos in a moment now appear larger when iPhone is in landscape."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment にのせる文字を、縦書きにできるようになりました",
+              "moment にのせる文字の背景に色を敷けるようになりました",
+              "moment にのせる文字の編集中に、直前の変更を取り消せるようになりました",
+              "iPhone を横向きにしたとき、moment の写真や映像が大きく表示されるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment 上的文字可以直排了。",
+              "可以為 moment 上的文字加上背景顏色了。",
+              "編輯 moment 上的文字時，可以還原上一步的變更了。",
+              "iPhone 橫向時，moment 的照片和影片會顯示得更大。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment 上的文字可以竖排了。",
+              "可以为 moment 上的文字加上背景颜色了。",
+              "编辑 moment 上的文字时，可以撤销上一步更改了。",
+              "iPhone 横向时，moment 的照片和视频会显示得更大。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment에 올리는 텍스트를 세로쓰기로 할 수 있습니다.",
+              "moment에 올리는 텍스트에 배경색을 넣을 수 있습니다.",
+              "moment에 올리는 텍스트를 편집하는 동안 바로 전의 변경을 취소할 수 있습니다.",
+              "iPhone을 가로로 두면 moment의 사진과 영상이 더 크게 표시됩니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Escribe en vertical el texto de un moment.",
+              "Pon un color de fondo al texto de un moment.",
+              "Deshaz el último cambio mientras editas el texto de un moment.",
+              "Con el iPhone en horizontal, las fotos y vídeos de un moment se ven más grandes."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Setze den Text auf einem moment vertikal.",
+              "Gib dem Text auf einem moment eine Hintergrundfarbe.",
+              "Mach beim Bearbeiten des Textes auf einem moment die letzte Änderung rückgängig.",
+              "Im Querformat werden die Fotos und Videos eines moment auf dem iPhone größer angezeigt."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Écrivez le texte d'un moment à la verticale.",
+              "Ajoutez une couleur de fond au texte d'un moment.",
+              "Annulez la dernière modification pendant que vous modifiez le texte d'un moment.",
+              "Sur iPhone en mode paysage, les photos et vidéos d'un moment s'affichent en plus grand."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.5",
+      "version": "2.1.5",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Export a film at a cinematic 24 fps or a smooth 60 fps."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "映画のような 24 fps や、なめらかな 60 fps で film を書き出せるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用電影般的 24 fps 或流暢的 60 fps 輸出 film 了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用电影般的 24 fps 或流畅的 60 fps 导出 film 了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "영화 같은 24 fps나 매끄러운 60 fps로 film을 내보낼 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exporta un film a 24 fps, como en el cine, o a unos fluidos 60 fps."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exportiere einen film mit kinoartigen 24 fps oder flüssigen 60 fps."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exportez un film à 24 fps, comme au cinéma, ou à 60 fps pour plus de fluidité."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.4",
+      "version": "2.1.4",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Export a film in 4K.",
+              "Add a fade in from black at the start of a video and a fade out to black at the end.",
+              "Choose 3 seconds as the length of each moment."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "film を 4K で書き出せるようになりました",
+              "動画の最初と最後に、黒からのフェードイン・黒へのフェードアウトを付けられるようになりました",
+              "moment 1 つの長さに、3 秒を選べるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用 4K 輸出 film 了。",
+              "可以在影片開頭加上從黑色淡入、在結尾加上淡出至黑色了。",
+              "每個 moment 的長度可以選擇 3 秒了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以用 4K 导出 film 了。",
+              "可以在视频开头加上从黑色淡入、在结尾加上淡出至黑色了。",
+              "每个 moment 的长度可以选择 3 秒了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "film을 4K로 내보낼 수 있습니다.",
+              "동영상의 처음에 검은 화면에서의 페이드 인, 끝에 검은 화면으로의 페이드 아웃을 넣을 수 있습니다.",
+              "moment 하나의 길이로 3초를 선택할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exporta un film en 4K.",
+              "Añade un fundido de entrada desde negro al principio del vídeo y un fundido de salida a negro al final.",
+              "Elige 3 segundos como duración de cada moment."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exportiere einen film in 4K.",
+              "Füge am Anfang des Videos eine Einblendung aus Schwarz und am Ende eine Ausblendung zu Schwarz hinzu.",
+              "Wähle 3 Sekunden als Länge eines moment."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Exportez un film en 4K.",
+              "Ajoutez un fondu d'ouverture depuis le noir au début de la vidéo et un fondu de fermeture vers le noir à la fin.",
+              "Choisissez 3 secondes comme durée de chaque moment."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.3",
+      "version": "2.1.3",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "The look (LUT) list now includes three new LUTs: Steel, Celadon, and Jade.",
+              "Use your own LUT files (.cube) as a look (LUT)."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "look (LUT) に Steel・Celadon・Jade の 3 つの LUT が加わりました",
+              "手持ちの LUT ファイル（.cube）を、look (LUT) として使えるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "look (LUT) 新增了 Steel、Celadon、Jade 3 種 LUT。",
+              "可以把自己的 LUT 檔案（.cube）當作 look (LUT) 使用了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "look (LUT) 新增了 Steel、Celadon、Jade 3 种 LUT。",
+              "可以把自己的 LUT 文件（.cube）当作 look (LUT) 使用了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "look (LUT)에 Steel, Celadon, Jade 3가지 LUT가 추가되었습니다.",
+              "가지고 있는 LUT 파일(.cube)을 look (LUT)으로 사용할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Se añaden 3 LUT a look (LUT): Steel, Celadon y Jade.",
+              "Usa tus propios archivos LUT (.cube) como look (LUT)."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Drei neue LUTs in look (LUT): Steel, Celadon und Jade.",
+              "Verwende deine eigenen LUT-Dateien (.cube) als look (LUT)."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Trois nouveaux LUT dans look (LUT) : Steel, Celadon et Jade.",
+              "Utilisez vos propres fichiers LUT (.cube) comme look (LUT)."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.2",
+      "version": "2.1.2",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Text on a moment is easier to read on bright photos."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "明るい写真の上でも、moment にのせる文字が読みやすくなりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "即使在明亮的照片上，moment 上的文字也更容易閱讀了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "即使在明亮的照片上，moment 上的文字也更容易阅读了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "밝은 사진 위에서도 moment의 텍스트를 읽기 쉬워졌습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "El texto de un moment se lee mejor sobre fotos luminosas."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Text auf einem moment ist auf hellen Fotos besser lesbar."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Le texte d'un moment est plus lisible sur les photos claires."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.1",
+      "version": "2.1.1",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Align the text on a moment left, center, or right."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment にのせる文字を、左揃え・中央・右揃えにできるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment 上的文字可以靠左、置中或靠右對齊了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment 上的文字可以左对齐、居中或右对齐了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment에 올리는 텍스트를 왼쪽, 가운데, 오른쪽으로 정렬할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Alinea el texto de un moment a la izquierda, al centro o a la derecha."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Richte den Text auf einem moment links, zentriert oder rechts aus."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Alignez le texte d'un moment à gauche, au centre ou à droite."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1.0",
+      "version": "2.1.0",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Choose a layout for the text on a moment.",
+              "Choose from 5 styles for the typeface of the text on a moment."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "1 つの moment にのせる文字のレイアウトを選択できるようになりました",
+              "moment にのせる文字の書体を、5 つのスタイルから選べるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以為 moment 上的文字選擇版面配置了。",
+              "moment 上文字的字體可以從 5 種樣式中選擇了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以为 moment 上的文字选择布局了。",
+              "moment 上文字的字体可以从 5 种样式中选择了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "moment에 올리는 텍스트의 레이아웃을 선택할 수 있습니다.",
+              "moment 텍스트의 서체를 5가지 스타일 중에서 선택할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Elige una disposición para el texto de un moment.",
+              "Elige entre 5 estilos de tipografía para el texto de un moment."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Wähle ein Layout für den Text auf einem moment.",
+              "Wähle aus 5 Stilen die Schrift für den Text auf einem moment."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Choisissez une disposition pour le texte d'un moment.",
+              "Choisissez parmi 5 styles la police du texte d'un moment."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.0.2",
+      "version": "2.0.2",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Now available in Spanish, German, French, Chinese (Traditional and Simplified), and Korean.",
+              "Shake iPhone to undo adding, removing, or reordering moments."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "スペイン語・ドイツ語・フランス語・中国語（繁体字・簡体字）・韓国語で使えるようになりました",
+              "iPhone を振って、moment の追加・削除・並べ替えを取り消せるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "現在支援西班牙文、德文、法文、中文（繁體、簡體）和韓文。",
+              "搖動 iPhone，就能還原 moment 的加入、移除或重新排序了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "现在支持西班牙语、德语、法语、中文（繁体、简体）和韩语。",
+              "摇动 iPhone，就能撤销 moment 的添加、移除或重新排序了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "스페인어, 독일어, 프랑스어, 중국어(번체, 간체), 한국어로 사용할 수 있습니다.",
+              "iPhone을 흔들어 moment의 추가, 삭제, 순서 변경을 취소할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Ya disponible en español, alemán, francés, chino (tradicional y simplificado) y coreano.",
+              "Agita el iPhone para deshacer al añadir, quitar o reordenar moments."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Jetzt auf Spanisch, Deutsch, Französisch, Chinesisch (traditionell und vereinfacht) und Koreanisch verfügbar.",
+              "Schüttle das iPhone, um das Hinzufügen, Entfernen oder Neuanordnen von moments rückgängig zu machen."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Désormais disponible en espagnol, allemand, français, chinois (traditionnel et simplifié) et coréen.",
+              "Secouez l'iPhone pour annuler l'ajout, le retrait ou la réorganisation de moments."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.0.1",
+      "version": "2.0.1",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Saving and sharing take less time.",
+              "Playback starts sooner after you edit a film.",
+              "Duplicate a moment."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "保存と共有にかかる時間が短くなりました",
+              "film を編集したあと、再生が始まるまでの待ち時間が短くなりました",
+              "moment を複製できるようになりました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "儲存和分享所需的時間縮短了。",
+              "編輯 film 後，開始播放前的等待時間縮短了。",
+              "可以複製 moment 了。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "存储和共享所需的时间缩短了。",
+              "编辑 film 后，开始播放前的等待时间缩短了。",
+              "可以复制 moment 了。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "저장과 공유에 걸리는 시간이 짧아졌습니다.",
+              "film을 편집한 뒤 재생이 시작되기까지의 대기 시간이 짧아졌습니다.",
+              "moment를 복제할 수 있습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Guardar y compartir lleva menos tiempo.",
+              "Menos espera hasta que empieza la reproducción después de editar un film.",
+              "Duplica un moment."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Sichern und Teilen dauern kürzer.",
+              "Nach dem Bearbeiten eines film beginnt die Wiedergabe schneller.",
+              "Dupliziere einen moment."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "L'enregistrement et le partage prennent moins de temps.",
+              "Moins d'attente avant le début de la lecture après la modification d'un film.",
+              "Dupliquez un moment."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.0.0",
+      "version": "2.0.0",
+      "platforms": [
+        "ios"
+      ],
+      "body": {
+        "en": [
+          {
+            "type": "bullets",
+            "items": [
+              "Create a soundtrack (background music) made for your film.",
+              "Fine-tune the color finish with a look (LUT) when you export a film.",
+              "Choose a shape for your film, such as portrait, landscape, or square.",
+              "Choose the length of each moment for each film.",
+              "Sync your films with your other iPhone and iPad through iCloud.",
+              "Set up default settings for new films and the moments you add.",
+              "Choose Light or Dark appearance for the app.",
+              "The app has a new icon and logo."
+            ]
+          }
+        ],
+        "ja": [
+          {
+            "type": "bullets",
+            "items": [
+              "film に合わせた soundtrack（BGM）を作れるようになりました",
+              "look (LUT) で色の仕上げを調整して film を書き出せるようになりました",
+              "film の形を、縦長・横長・正方形などから選べるようになりました",
+              "moment 1 つの長さを、film ごとに選べるようになりました",
+              "iCloud で、ほかの iPhone や iPad と film を同期できるようになりました",
+              "新しい film や追加する moment の初期設定を決めておけるようになりました",
+              "アプリの外観を、ライト・ダークから選べるようになりました",
+              "アプリのアイコンとロゴを新しくしました"
+            ]
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以建立配合 film 的 soundtrack（背景音樂）了。",
+              "可以用 look（LUT）調整色調後輸出 film 了。",
+              "可以為 film 選擇直式、橫式、正方形等形狀了。",
+              "可以為每個 film 選擇單個 moment 的長度了。",
+              "可以透過 iCloud 與其他 iPhone 或 iPad 同步 film 了。",
+              "可以預先決定新的 film 和加入的 moment 的初始設定了。",
+              "可以為 App 選擇淺色或深色外觀了。",
+              "App 的圖示和標誌煥然一新。"
+            ]
+          }
+        ],
+        "zh-Hans": [
+          {
+            "type": "bullets",
+            "items": [
+              "可以创建配合 film 的 soundtrack（背景音乐）了。",
+              "可以用 look（LUT）调整色调后导出 film 了。",
+              "可以为 film 选择竖版、横版、正方形等形状了。",
+              "可以为每个 film 选择单个 moment 的长度了。",
+              "可以通过 iCloud 与其他 iPhone 或 iPad 同步 film 了。",
+              "可以预先决定新的 film 和添加的 moment 的初始设置了。",
+              "可以为 App 选择浅色或深色外观了。",
+              "App 的图标和标志焕然一新。"
+            ]
+          }
+        ],
+        "ko": [
+          {
+            "type": "bullets",
+            "items": [
+              "film에 맞춘 soundtrack(배경 음악)을 만들 수 있습니다.",
+              "look(LUT)으로 색 마무리를 조정해 film을 내보낼 수 있습니다.",
+              "film의 형태를 세로, 가로, 정사각형 등에서 선택할 수 있습니다.",
+              "film마다 moment 하나의 길이를 선택할 수 있습니다.",
+              "iCloud로 다른 iPhone이나 iPad와 film을 동기화할 수 있습니다.",
+              "새 film과 추가하는 moment의 초기 설정을 미리 정해 둘 수 있습니다.",
+              "앱의 화면 모드를 라이트와 다크 중에서 선택할 수 있습니다.",
+              "앱 아이콘과 로고를 새롭게 바꿨습니다."
+            ]
+          }
+        ],
+        "es": [
+          {
+            "type": "bullets",
+            "items": [
+              "Crea un soundtrack (música de fondo) hecho para tu film.",
+              "Ajusta el acabado de color con un look (LUT) al exportar un film.",
+              "Elige la forma de tu film: vertical, horizontal, cuadrado y más.",
+              "Elige la duración de cada moment en cada film.",
+              "Sincroniza tus films con tu otro iPhone y iPad a través de iCloud.",
+              "Define de antemano los ajustes iniciales de los films nuevos y de los moments que añadas.",
+              "Elige el aspecto claro u oscuro para la app.",
+              "Nuevo icono y logotipo de la app."
+            ]
+          }
+        ],
+        "de": [
+          {
+            "type": "bullets",
+            "items": [
+              "Erstelle einen soundtrack (Hintergrundmusik), der zu deinem film passt.",
+              "Passe die Farbgebung mit einem look (LUT) an, wenn du einen film exportierst.",
+              "Wähle die Form deines film, etwa Hochformat, Querformat oder quadratisch.",
+              "Wähle für jeden film die Länge eines moment.",
+              "Synchronisiere deine films über iCloud mit deinem anderen iPhone und iPad.",
+              "Lege die Standardeinstellungen für neue films und hinzugefügte moments fest.",
+              "Wähle für die App das helle oder dunkle Erscheinungsbild.",
+              "Neues App-Symbol und Logo."
+            ]
+          }
+        ],
+        "fr": [
+          {
+            "type": "bullets",
+            "items": [
+              "Créez un soundtrack (musique de fond) conçu pour votre film.",
+              "Ajustez la finition des couleurs avec un look (LUT) lorsque vous exportez un film.",
+              "Choisissez la forme de votre film : portrait, paysage, carré, etc.",
+              "Choisissez la durée de chaque moment pour chaque film.",
+              "Synchronisez vos films avec vos autres iPhone et iPad via iCloud.",
+              "Définissez à l'avance les réglages par défaut des nouveaux films et des moments que vous ajoutez.",
+              "Choisissez l'apparence claire ou sombre pour l'app.",
+              "Nouvelles icône et logo de l'app."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
