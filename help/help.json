@@ -191,6 +191,18 @@
               },
               {
                 "type": "paragraph",
+                "text": "Starting in 2.2.1, you can also use these actions. You can ask Siri for any of them, too (for example, “Make a film from favorites from this week in oblivious”)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**add favorites to film**: adds favorite photos and videos taken in the period you choose. Leave **film** empty to choose where to add them in the app. If you choose **New film**, you can pick the orientation there too.",
+                  "**create film from photos taken**: opens a screen to choose photos and videos taken in the period you choose, and makes a new film from the ones you pick.",
+                  "**capture and add to film**: opens the camera right away. Photos and videos you take are saved to your photo library, and you choose where to add them after you take them."
+                ]
+              },
+              {
+                "type": "paragraph",
                 "text": "If only some of your library shows up, oblivious has access to a selected set of photos. Tap **Select more photos** to widen that set, or **Change settings** to allow all photos."
               },
               {
@@ -214,6 +226,18 @@
               {
                 "type": "paragraph",
                 "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。新しい film を作るときは、2.2.1 からは［新しい film を作る］を使います。2.2.0 では［film］を空のままにします。"
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.1 から、次のアクションも使えます。どれも Siri に頼むことができます（例：「oblivious で今週のお気に入りから film を作って」）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "［お気に入りを film に追加］：選んだ期間に撮ったお気に入りの写真や動画を追加します。［film］を空のままにすると、アプリで追加先を選べます。［新しい film］を選ぶと、向きもそこで選べます",
+                  "［撮った写真から film を作る］：選んだ期間に撮った写真や動画を選ぶ画面が開き、選んだものから新しい film を作ります",
+                  "［撮影して film に追加］：すぐに撮影画面が開きます。撮った写真や動画は写真ライブラリに保存され、追加先は撮ったあとで選びます"
+                ]
               },
               {
                 "type": "paragraph",
@@ -243,6 +267,18 @@
               },
               {
                 "type": "paragraph",
+                "text": "從 2.2.1 開始，也可以使用下列動作。每一個都可以請 Siri 執行（例如「在 oblivious 中用本週的喜好項目做一個 film」）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**將喜好項目加入 film**：加入在所選期間拍攝的喜好照片和影片。將 **film** 留空時，可以在 App 中選擇要加入的位置。選擇 **新的 film** 時，也可以在那裡選擇方向。",
+                  "**用拍的照片建立 film**：開啟畫面，讓你選擇在所選期間拍攝的照片和影片，並用選取的項目建立新的 film。",
+                  "**拍攝並新增到 film**：馬上開啟拍攝畫面。拍攝的照片和影片會儲存到照片圖庫，拍攝後再選擇要加入的位置。"
+                ]
+              },
+              {
+                "type": "paragraph",
                 "text": "如果只顯示部分照片，表示 oblivious 只能取用所選的照片。點一下**選取更多照片**擴大範圍，或從**更改設定**允許取用所有照片。"
               },
               {
@@ -266,6 +302,18 @@
               {
                 "type": "paragraph",
                 "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. 새 film을 만들 때는 2.2.1부터 **새로운 film 만들기**를 사용합니다. 2.2.0에서는 **film**을 비워 둡니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.1부터 다음 동작도 사용할 수 있습니다. 모두 Siri에게 요청할 수도 있습니다(예: “oblivious에서 이번 주의 즐겨찾는 항목으로 film 만들어 줘”)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**즐겨찾는 항목을 film에 추가**: 선택한 기간에 찍은 즐겨찾는 항목의 사진과 동영상을 추가합니다. **film**을 비워 두면 앱에서 추가할 곳을 고를 수 있습니다. **새로운 film**을 선택하면 방향도 그곳에서 고를 수 있습니다.",
+                  "**찍은 사진으로 film 만들기**: 선택한 기간에 찍은 사진과 동영상을 고르는 화면이 열리고, 고른 항목으로 새 film을 만듭니다.",
+                  "**촬영해서 film에 추가**: 바로 촬영 화면이 열립니다. 촬영한 사진과 동영상은 사진 보관함에 저장되며, 추가할 곳은 촬영한 뒤에 고릅니다."
+                ]
               },
               {
                 "type": "paragraph",
@@ -295,6 +343,18 @@
               },
               {
                 "type": "paragraph",
+                "text": "从 2.2.1 开始，也可以使用以下操作。每一个都可以让 Siri 执行（例如“在 oblivious 中用本周的个人收藏做一个 film”）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**将个人收藏添加到 film**：添加在所选时间段拍摄的个人收藏中的照片和视频。将 **film** 留空时，可以在 App 中选择要添加到的位置。选择 **新 film** 时，也可以在那里选择方向。",
+                  "**用拍的照片创建 film**：打开一个画面，让你选择在所选时间段拍摄的照片和视频，并用选中的项目创建新的 film。",
+                  "**拍摄并添加到 film**：立即打开拍摄画面。拍摄的照片和视频会存储到照片图库，拍摄后再选择要添加到的位置。"
+                ]
+              },
+              {
+                "type": "paragraph",
                 "text": "如果只显示出一部分照片，说明 oblivious 只被允许访问所选的部分照片。轻点**选择更多照片**扩大范围，或轻点**更改设置**允许访问所有照片。"
               },
               {
@@ -318,6 +378,18 @@
               {
                 "type": "paragraph",
                 "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Para crear un film nuevo, a partir de la 2.2.1 usa **crear un film nuevo**. En la 2.2.0, deja **film** vacío."
+              },
+              {
+                "type": "paragraph",
+                "text": "A partir de la 2.2.1, también puedes usar estas acciones. Puedes pedírselas a Siri (por ejemplo, «Haz un film con favoritos de esta semana en oblivious»)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**añadir favoritos a un film**: añade las fotos y vídeos favoritos que hiciste en el periodo que elijas. Deja **film** vacío para elegir en la app dónde añadirlos. Si eliges **Nuevo film**, ahí también puedes elegir la orientación.",
+                  "**crear film con fotos tomadas**: abre una pantalla para elegir fotos y vídeos hechos en el periodo que elijas y crea un film nuevo con los que selecciones.",
+                  "**capturar y añadir al film**: abre la cámara al instante. Las fotos y vídeos que hagas se guardan en tu fototeca, y eliges dónde añadirlos después de hacerlos."
+                ]
               },
               {
                 "type": "paragraph",
@@ -347,6 +419,18 @@
               },
               {
                 "type": "paragraph",
+                "text": "Ab 2.2.1 kannst du auch diese Aktionen verwenden. Du kannst Siri um jede davon bitten (zum Beispiel „Mach in oblivious einen film aus Favoriten“)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Favoriten zu film hinzufügen**: fügt Lieblingsfotos und -videos hinzu, die im gewählten Zeitraum aufgenommen wurden. Lässt du **film** leer, wählst du in der App aus, wohin sie kommen. Wählst du **Neuer film**, legst du dort auch die Ausrichtung fest.",
+                  "**film aus aufgenommenen Fotos erstellen**: öffnet einen Bildschirm, in dem du Fotos und Videos aus dem gewählten Zeitraum auswählst, und erstellt aus deiner Auswahl einen neuen film.",
+                  "**aufnehmen und zum film hinzufügen**: öffnet sofort die Kamera. Deine Fotos und Videos werden in der Fotomediathek gesichert, und du wählst nach der Aufnahme aus, wohin sie kommen."
+                ]
+              },
+              {
+                "type": "paragraph",
                 "text": "Wenn nur ein Teil deiner Mediathek angezeigt wird, hat oblivious Zugriff auf eine Auswahl deiner Fotos. Tippe auf **Weitere Fotos auswählen**, um die Auswahl zu erweitern, oder auf **Einstellungen ändern**, um alle Fotos zu erlauben."
               },
               {
@@ -370,6 +454,18 @@
               {
                 "type": "paragraph",
                 "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Pour créer un nouveau film, utilisez **créer un nouveau film** à partir de la version 2.2.1. Dans la version 2.2.0, laissez **film** vide."
+              },
+              {
+                "type": "paragraph",
+                "text": "Depuis la version 2.2.1, vous pouvez aussi utiliser ces actions. Vous pouvez les demander à Siri (par exemple, « Fais un film à partir des favoris de cette semaine dans oblivious »)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**ajouter des favoris à un film** : ajoute les photos et vidéos favorites prises pendant la période choisie. Laissez **film** vide pour choisir dans l’app où les ajouter. Si vous choisissez **Nouveau film**, vous y choisissez aussi l’orientation.",
+                  "**créer un film à partir des photos prises** : ouvre un écran pour choisir des photos et vidéos prises pendant la période choisie, et crée un nouveau film avec celles que vous sélectionnez.",
+                  "**capturer et ajouter au film** : ouvre l’appareil photo immédiatement. Les photos et vidéos prises sont enregistrées dans votre photothèque, et vous choisissez où les ajouter après la prise."
+                ]
               },
               {
                 "type": "paragraph",
