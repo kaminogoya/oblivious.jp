@@ -14,6 +14,10 @@ oblivious の Web サイト。素の HTML + CSS + JS で、GitHub Pages が `mai
 
 `/help/` は読み物、`/support/` は連絡手段、という役割分担。
 
+`whats-new/whats-new.json` はページを持たない JSON だけの正本で、iOS アプリのアップデート情報が取得して描く
+（kaminogoya/oblivious#1346・kaminogoya/oblivious.jp#36）。1 項目 = 1 版。アプリに同梱した
+`ios/oblivious/Resources/whats-new.json` と同じ中身にそろえる。
+
 ## 生成するページ
 
 JSON が本文の唯一の正本で、**iOS アプリと Web の両方がこれを描く**（アプリ側は取得してネイティブに
