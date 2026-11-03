@@ -197,7 +197,7 @@
                 "type": "bullets",
                 "items": [
                   "**add favorites to film**: adds favorite photos and videos taken in the period you choose. Leave **film** empty to choose where to add them in the app. If you choose **New film**, you can pick the orientation there too.",
-                  "**create film from photos taken**: opens a screen to choose photos and videos taken in the period you choose, and makes a new film from the ones you pick.",
+                  "**create film from photo library**: opens a screen to choose photos and videos taken in the period you choose, and makes a new film from the ones you pick.",
                   "**capture and add to film**: opens the camera right away. Photos and videos you take are saved to your photo library, and you choose where to add them after you take them."
                 ]
               },
@@ -235,7 +235,7 @@
                 "type": "bullets",
                 "items": [
                   "［お気に入りを film に追加］：選んだ期間に撮ったお気に入りの写真や動画を追加します。［film］を空のままにすると、アプリで追加先を選べます。［新しい film］を選ぶと、向きもそこで選べます",
-                  "［撮った写真から film を作る］：選んだ期間に撮った写真や動画を選ぶ画面が開き、選んだものから新しい film を作ります",
+                  "［写真ライブラリから film を作る］：選んだ期間に撮った写真や動画を選ぶ画面が開き、選んだものから新しい film を作ります",
                   "［撮影して film に追加］：すぐに撮影画面が開きます。撮った写真や動画は写真ライブラリに保存され、追加先は撮ったあとで選びます"
                 ]
               },
@@ -273,7 +273,7 @@
                 "type": "bullets",
                 "items": [
                   "**將喜好項目加入 film**：加入在所選期間拍攝的喜好照片和影片。將 **film** 留空時，可以在 App 中選擇要加入的位置。選擇 **新的 film** 時，也可以在那裡選擇方向。",
-                  "**用拍的照片建立 film**：開啟畫面，讓你選擇在所選期間拍攝的照片和影片，並用選取的項目建立新的 film。",
+                  "**從照片圖庫建立 film**：開啟畫面，讓你選擇在所選期間拍攝的照片和影片，並用選取的項目建立新的 film。",
                   "**拍攝並新增到 film**：馬上開啟拍攝畫面。拍攝的照片和影片會儲存到照片圖庫，拍攝後再選擇要加入的位置。"
                 ]
               },
@@ -311,7 +311,7 @@
                 "type": "bullets",
                 "items": [
                   "**즐겨찾는 항목을 film에 추가**: 선택한 기간에 찍은 즐겨찾는 항목의 사진과 동영상을 추가합니다. **film**을 비워 두면 앱에서 추가할 곳을 고를 수 있습니다. **새로운 film**을 선택하면 방향도 그곳에서 고를 수 있습니다.",
-                  "**찍은 사진으로 film 만들기**: 선택한 기간에 찍은 사진과 동영상을 고르는 화면이 열리고, 고른 항목으로 새 film을 만듭니다.",
+                  "**사진 보관함에서 film 만들기**: 선택한 기간에 찍은 사진과 동영상을 고르는 화면이 열리고, 고른 항목으로 새 film을 만듭니다.",
                   "**촬영해서 film에 추가**: 바로 촬영 화면이 열립니다. 촬영한 사진과 동영상은 사진 보관함에 저장되며, 추가할 곳은 촬영한 뒤에 고릅니다."
                 ]
               },
@@ -349,7 +349,7 @@
                 "type": "bullets",
                 "items": [
                   "**将个人收藏添加到 film**：添加在所选时间段拍摄的个人收藏中的照片和视频。将 **film** 留空时，可以在 App 中选择要添加到的位置。选择 **新 film** 时，也可以在那里选择方向。",
-                  "**用拍的照片创建 film**：打开一个画面，让你选择在所选时间段拍摄的照片和视频，并用选中的项目创建新的 film。",
+                  "**从照片图库创建 film**：打开一个画面，让你选择在所选时间段拍摄的照片和视频，并用选中的项目创建新的 film。",
                   "**拍摄并添加到 film**：立即打开拍摄画面。拍摄的照片和视频会存储到照片图库，拍摄后再选择要添加到的位置。"
                 ]
               },
@@ -387,7 +387,7 @@
                 "type": "bullets",
                 "items": [
                   "**añadir favoritos a un film**: añade las fotos y vídeos favoritos que hiciste en el periodo que elijas. Deja **film** vacío para elegir en la app dónde añadirlos. Si eliges **Nuevo film**, ahí también puedes elegir la orientación.",
-                  "**crear film con fotos tomadas**: abre una pantalla para elegir fotos y vídeos hechos en el periodo que elijas y crea un film nuevo con los que selecciones.",
+                  "**crear film desde la fototeca**: abre una pantalla para elegir fotos y vídeos hechos en el periodo que elijas y crea un film nuevo con los que selecciones.",
                   "**capturar y añadir al film**: abre la cámara al instante. Las fotos y vídeos que hagas se guardan en tu fototeca, y eliges dónde añadirlos después de hacerlos."
                 ]
               },
@@ -425,7 +425,7 @@
                 "type": "bullets",
                 "items": [
                   "**Favoriten zu film hinzufügen**: fügt Lieblingsfotos und -videos hinzu, die im gewählten Zeitraum aufgenommen wurden. Lässt du **film** leer, wählst du in der App aus, wohin sie kommen. Wählst du **Neuer film**, legst du dort auch die Ausrichtung fest.",
-                  "**film aus aufgenommenen Fotos erstellen**: öffnet einen Bildschirm, in dem du Fotos und Videos aus dem gewählten Zeitraum auswählst, und erstellt aus deiner Auswahl einen neuen film.",
+                  "**film aus der Fotomediathek erstellen**: öffnet einen Bildschirm, in dem du Fotos und Videos aus dem gewählten Zeitraum auswählst, und erstellt aus deiner Auswahl einen neuen film.",
                   "**aufnehmen und zum film hinzufügen**: öffnet sofort die Kamera. Deine Fotos und Videos werden in der Fotomediathek gesichert, und du wählst nach der Aufnahme aus, wohin sie kommen."
                 ]
               },
@@ -463,7 +463,7 @@
                 "type": "bullets",
                 "items": [
                   "**ajouter des favoris à un film** : ajoute les photos et vidéos favorites prises pendant la période choisie. Laissez **film** vide pour choisir dans l’app où les ajouter. Si vous choisissez **Nouveau film**, vous y choisissez aussi l’orientation.",
-                  "**créer un film à partir des photos prises** : ouvre un écran pour choisir des photos et vidéos prises pendant la période choisie, et crée un nouveau film avec celles que vous sélectionnez.",
+                  "**créer un film depuis la photothèque** : ouvre un écran pour choisir des photos et vidéos prises pendant la période choisie, et crée un nouveau film avec celles que vous sélectionnez.",
                   "**capturer et ajouter au film** : ouvre l’appareil photo immédiatement. Les photos et vidéos prises sont enregistrées dans votre photothèque, et vous choisissez où les ajouter après la prise."
                 ]
               },
@@ -862,7 +862,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "The frame icon opens **moment duration**, where **1 sec**, **2 sec** or **3 sec** sets how long every moment plays.",
+                  "The frame icon opens **Duration per moment**, where **1 sec**, **2 sec** or **3 sec** sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
                   "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
@@ -878,7 +878,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "コマのアイコンを押すと［moment の長さ］が開き、［1秒］［2秒］［3秒］から film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "コマのアイコンを押すと［moment あたりの長さ］が開き、［1秒］［2秒］［3秒］から film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
                   "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
@@ -894,7 +894,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "點按畫格圖示會開啟**moment 長度**，從**1秒**／**2秒**／**3秒**中選擇，即可一次設定所有 moment 的播放長度。",
+                  "點按畫格圖示會開啟**每個 moment 的長度**，從**1秒**／**2秒**／**3秒**中選擇，即可一次設定所有 moment 的播放長度。",
                   "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
                   "**編輯名稱**可更改 film 的標題。",
                   "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
@@ -910,7 +910,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "프레임 아이콘을 누르면 **moment 길이**가 열리고, **1초** / **2초** / **3초** 중에서 골라 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "프레임 아이콘을 누르면 **moment당 길이**가 열리고, **1초** / **2초** / **3초** 중에서 골라 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
                   "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
                   "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
                   "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
@@ -926,7 +926,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "点按画框图标会打开**moment 时长**，从**1秒** / **2秒** / **3秒**中选择，即可统一设置所有 moment 的播放时长。",
+                  "点按画框图标会打开**每个 moment 的时长**，从**1秒** / **2秒** / **3秒**中选择，即可统一设置所有 moment 的播放时长。",
                   "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
                   "**编辑名称**：更改 film 的标题。",
                   "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
@@ -942,7 +942,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "El icono de fotograma abre **duración del moment**, donde **1 s**, **2 s** o **3 s** define cuánto dura la reproducción de cada moment.",
+                  "El icono de fotograma abre **Duración por moment**, donde **1 s**, **2 s** o **3 s** define cuánto dura la reproducción de cada moment.",
                   "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
                   "**Editar nombre** cambia el título del film.",
                   "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
@@ -958,7 +958,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "Das Rahmen-Symbol öffnet **moment-Dauer**; dort legt **1 Sek.**, **2 Sek.** oder **3 Sek.** fest, wie lang jedes moment läuft.",
+                  "Das Rahmen-Symbol öffnet **Dauer pro moment**; dort legt **1 Sek.**, **2 Sek.** oder **3 Sek.** fest, wie lang jedes moment läuft.",
                   "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
                   "**Namen ändern** benennt den film um.",
                   "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
@@ -974,7 +974,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "L’icône de cadre ouvre **durée du moment**, où **1 s**, **2 s** ou **3 s** fixe la durée de lecture de chaque moment.",
+                  "L’icône de cadre ouvre **Durée par moment**, où **1 s**, **2 s** ou **3 s** fixe la durée de lecture de chaque moment.",
                   "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
                   "**Modifier le nom** renomme le film.",
                   "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
