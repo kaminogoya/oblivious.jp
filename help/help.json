@@ -187,7 +187,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "Starting in 2.2.0, you can also add photos and videos to a film with the **add to film** action in the Shortcuts app. Leave **film** empty to make a new film."
+                "text": "Starting in 2.2.0, you can also add photos and videos to a film with the **add to film** action in the Shortcuts app. To make a new film, use **create film** starting in 2.2.1. In 2.2.0, leave **film** empty."
+              },
+              {
+                "type": "paragraph",
+                "text": "Starting in 2.2.1, you can also use these actions. You can ask Siri for any of them, too (for example, “Make a film from favorites from this week in oblivious”)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**add favorites to film**: adds favorite photos and videos taken in the period you choose. Leave **film** empty to choose where to add them in the app. If you choose **New film**, you can pick the orientation there too.",
+                  "**create film from photo library**: opens a screen to choose photos and videos taken in the period you choose, and makes a new film from the ones you pick.",
+                  "**capture and add to film**: opens the camera right away. Photos and videos you take are saved to your photo library, and you choose where to add them after you take them."
+                ]
               },
               {
                 "type": "paragraph",
@@ -213,7 +225,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。［film］を空のままにすると、新しい film を作成します。"
+                "text": "2.2.0 から、ショートカットアプリのアクション［film に追加］でも、写真やビデオを film に追加できます。新しい film を作るときは、2.2.1 からは［新しい film を作る］を使います。2.2.0 では［film］を空のままにします。"
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.1 から、次のアクションも使えます。どれも Siri に頼むことができます（例：「oblivious で今週のお気に入りから film を作って」）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "［お気に入りを film に追加］：選んだ期間に撮ったお気に入りの写真や動画を追加します。［film］を空のままにすると、アプリで追加先を選べます。［新しい film］を選ぶと、向きもそこで選べます",
+                  "［写真ライブラリから film を作る］：選んだ期間に撮った写真や動画を選ぶ画面が開き、選んだものから新しい film を作ります",
+                  "［撮影して film に追加］：すぐに撮影画面が開きます。撮った写真や動画は写真ライブラリに保存され、追加先は撮ったあとで選びます"
+                ]
               },
               {
                 "type": "paragraph",
@@ -239,7 +263,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "從 2.2.0 開始，也可以使用「捷徑」App 中的 **新增到 film** 動作，把照片或影片加入 film。將 **film** 留空時，會建立新的 film。"
+                "text": "從 2.2.0 開始，也可以使用「捷徑」App 中的 **新增到 film** 動作，把照片或影片加入 film。要建立新的 film 時，從 2.2.1 開始請使用 **建立新的 film**；在 2.2.0 中，請將 **film** 留空。"
+              },
+              {
+                "type": "paragraph",
+                "text": "從 2.2.1 開始，也可以使用下列動作。每一個都可以請 Siri 執行（例如「在 oblivious 中用本週的喜好項目做一個 film」）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**將喜好項目加入 film**：加入在所選期間拍攝的喜好照片和影片。將 **film** 留空時，可以在 App 中選擇要加入的位置。選擇 **新的 film** 時，也可以在那裡選擇方向。",
+                  "**從照片圖庫建立 film**：開啟畫面，讓你選擇在所選期間拍攝的照片和影片，並用選取的項目建立新的 film。",
+                  "**拍攝並新增到 film**：馬上開啟拍攝畫面。拍攝的照片和影片會儲存到照片圖庫，拍攝後再選擇要加入的位置。"
+                ]
               },
               {
                 "type": "paragraph",
@@ -265,7 +301,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. **film**을 비워 두면 새 film을 만듭니다."
+                "text": "2.2.0부터 단축어 앱의 **film에 추가** 동작으로도 사진과 비디오를 film에 추가할 수 있습니다. 새 film을 만들 때는 2.2.1부터 **새로운 film 만들기**를 사용합니다. 2.2.0에서는 **film**을 비워 둡니다."
+              },
+              {
+                "type": "paragraph",
+                "text": "2.2.1부터 다음 동작도 사용할 수 있습니다. 모두 Siri에게 요청할 수도 있습니다(예: “oblivious에서 이번 주의 즐겨찾는 항목으로 film 만들어 줘”)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**즐겨찾는 항목을 film에 추가**: 선택한 기간에 찍은 즐겨찾는 항목의 사진과 동영상을 추가합니다. **film**을 비워 두면 앱에서 추가할 곳을 고를 수 있습니다. **새로운 film**을 선택하면 방향도 그곳에서 고를 수 있습니다.",
+                  "**사진 보관함에서 film 만들기**: 선택한 기간에 찍은 사진과 동영상을 고르는 화면이 열리고, 고른 항목으로 새 film을 만듭니다.",
+                  "**촬영해서 film에 추가**: 바로 촬영 화면이 열립니다. 촬영한 사진과 동영상은 사진 보관함에 저장되며, 추가할 곳은 촬영한 뒤에 고릅니다."
+                ]
               },
               {
                 "type": "paragraph",
@@ -291,7 +339,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "从 2.2.0 开始，也可以使用“快捷指令” App 中的 **添加到 film** 操作，把照片或视频添加到 film。将 **film** 留空时，会创建新的 film。"
+                "text": "从 2.2.0 开始，也可以使用“快捷指令” App 中的 **添加到 film** 操作，把照片或视频添加到 film。要创建新的 film 时，从 2.2.1 开始请使用 **创建新的 film**；在 2.2.0 中，请将 **film** 留空。"
+              },
+              {
+                "type": "paragraph",
+                "text": "从 2.2.1 开始，也可以使用以下操作。每一个都可以让 Siri 执行（例如“在 oblivious 中用本周的个人收藏做一个 film”）。"
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**将个人收藏添加到 film**：添加在所选时间段拍摄的个人收藏中的照片和视频。将 **film** 留空时，可以在 App 中选择要添加到的位置。选择 **新 film** 时，也可以在那里选择方向。",
+                  "**从照片图库创建 film**：打开一个画面，让你选择在所选时间段拍摄的照片和视频，并用选中的项目创建新的 film。",
+                  "**拍摄并添加到 film**：立即打开拍摄画面。拍摄的照片和视频会存储到照片图库，拍摄后再选择要添加到的位置。"
+                ]
               },
               {
                 "type": "paragraph",
@@ -317,7 +377,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Deja **film** vacío para crear un film nuevo."
+                "text": "A partir de la 2.2.0, también puedes añadir fotos y vídeos a un film con la acción **añadir al film** de la app Atajos. Para crear un film nuevo, a partir de la 2.2.1 usa **crear un film nuevo**. En la 2.2.0, deja **film** vacío."
+              },
+              {
+                "type": "paragraph",
+                "text": "A partir de la 2.2.1, también puedes usar estas acciones. Puedes pedírselas a Siri (por ejemplo, «Haz un film con favoritos de esta semana en oblivious»)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**añadir favoritos a un film**: añade las fotos y vídeos favoritos que hiciste en el periodo que elijas. Deja **film** vacío para elegir en la app dónde añadirlos. Si eliges **Nuevo film**, ahí también puedes elegir la orientación.",
+                  "**crear film desde la fototeca**: abre una pantalla para elegir fotos y vídeos hechos en el periodo que elijas y crea un film nuevo con los que selecciones.",
+                  "**capturar y añadir al film**: abre la cámara al instante. Las fotos y vídeos que hagas se guardan en tu fototeca, y eliges dónde añadirlos después de hacerlos."
+                ]
               },
               {
                 "type": "paragraph",
@@ -343,7 +415,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "Ab 2.2.0 kannst du Fotos und Videos auch mit der Aktion **zum film hinzufügen** in der Kurzbefehle-App zu einem film hinzufügen. Lässt du **film** leer, wird ein neuer film erstellt."
+                "text": "Ab 2.2.0 kannst du Fotos und Videos auch mit der Aktion **zum film hinzufügen** in der Kurzbefehle-App zu einem film hinzufügen. Um einen neuen film zu erstellen, verwende ab 2.2.1 **neuen film erstellen**. In 2.2.0 lässt du **film** leer."
+              },
+              {
+                "type": "paragraph",
+                "text": "Ab 2.2.1 kannst du auch diese Aktionen verwenden. Du kannst Siri um jede davon bitten (zum Beispiel „Mach in oblivious einen film aus Favoriten“)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**Favoriten zu film hinzufügen**: fügt Lieblingsfotos und -videos hinzu, die im gewählten Zeitraum aufgenommen wurden. Lässt du **film** leer, wählst du in der App aus, wohin sie kommen. Wählst du **Neuer film**, legst du dort auch die Ausrichtung fest.",
+                  "**film aus der Fotomediathek erstellen**: öffnet einen Bildschirm, in dem du Fotos und Videos aus dem gewählten Zeitraum auswählst, und erstellt aus deiner Auswahl einen neuen film.",
+                  "**aufnehmen und zum film hinzufügen**: öffnet sofort die Kamera. Deine Fotos und Videos werden in der Fotomediathek gesichert, und du wählst nach der Aufnahme aus, wohin sie kommen."
+                ]
               },
               {
                 "type": "paragraph",
@@ -369,7 +453,19 @@
               },
               {
                 "type": "paragraph",
-                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Laissez **film** vide pour créer un nouveau film."
+                "text": "Depuis la version 2.2.0, vous pouvez aussi ajouter des photos et des vidéos à un film avec l’action **ajouter au film** de l’app Raccourcis. Pour créer un nouveau film, utilisez **créer un nouveau film** à partir de la version 2.2.1. Dans la version 2.2.0, laissez **film** vide."
+              },
+              {
+                "type": "paragraph",
+                "text": "Depuis la version 2.2.1, vous pouvez aussi utiliser ces actions. Vous pouvez les demander à Siri (par exemple, « Fais un film à partir des favoris de cette semaine dans oblivious »)."
+              },
+              {
+                "type": "bullets",
+                "items": [
+                  "**ajouter des favoris à un film** : ajoute les photos et vidéos favorites prises pendant la période choisie. Laissez **film** vide pour choisir dans l’app où les ajouter. Si vous choisissez **Nouveau film**, vous y choisissez aussi l’orientation.",
+                  "**créer un film depuis la photothèque** : ouvre un écran pour choisir des photos et vidéos prises pendant la période choisie, et crée un nouveau film avec celles que vous sélectionnez.",
+                  "**capturer et ajouter au film** : ouvre l’appareil photo immédiatement. Les photos et vidéos prises sont enregistrées dans votre photothèque, et vous choisissez où les ajouter après la prise."
+                ]
               },
               {
                 "type": "paragraph",
@@ -766,7 +862,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "The frame icon opens **moment duration**, where **1 sec**, **2 sec** or **3 sec** sets how long every moment plays.",
+                  "The frame icon opens **Duration per moment**, where **1 sec**, **2 sec** or **3 sec** sets how long every moment plays.",
                   "**Sort by** reorders the whole film at once, by **Capture date** or **Date added**. Dragging rows by hand still works afterwards.",
                   "**Edit name** renames the film.",
                   "**Change aspect ratio** picks the shape of the frame — 16:9, 3:2, 4:3 or 1:1, portrait or landscape. Each moment keeps whether it was filled or unfilled, but position and zoom go back to the start.",
@@ -782,7 +878,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "コマのアイコンを押すと［moment の長さ］が開き、［1秒］［2秒］［3秒］から film に含まれるすべての moment の再生時間を一括で設定できます",
+                  "コマのアイコンを押すと［moment あたりの長さ］が開き、［1秒］［2秒］［3秒］から film に含まれるすべての moment の再生時間を一括で設定できます",
                   "［並び順序］で、film 全体を一括で並べ替えられます（撮影日順 / 追加順）。設定後に手動で並び替えて微調整できます",
                   "［名前を変更］で、film のタイトルを変更できます",
                   "［アスペクト比を変更］で、フレームの比率と向きを選べます（16:9 / 3:2 / 4:3 / 1:1・縦 / 横）。filled / unfilled の状態は保持されますが、位置と拡大率はリセットされます",
@@ -798,7 +894,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "點按畫格圖示會開啟**moment 長度**，從**1秒**／**2秒**／**3秒**中選擇，即可一次設定所有 moment 的播放長度。",
+                  "點按畫格圖示會開啟**每個 moment 的長度**，從**1秒**／**2秒**／**3秒**中選擇，即可一次設定所有 moment 的播放長度。",
                   "**排序方式**可依**拍攝日期**或**加入日期**一次重新排列整個 film。之後仍可以手動拖移微調。",
                   "**編輯名稱**可更改 film 的標題。",
                   "**更改長寬比**可選擇畫面的比例與方向：16:9、3:2、4:3 或 1:1，直向或橫向。每個 moment 會保留 filled 或 unfilled 的狀態，但位置與縮放會重置。",
@@ -814,7 +910,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "프레임 아이콘을 누르면 **moment 길이**가 열리고, **1초** / **2초** / **3초** 중에서 골라 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
+                  "프레임 아이콘을 누르면 **moment당 길이**가 열리고, **1초** / **2초** / **3초** 중에서 골라 film에 포함된 모든 moment의 재생 시간을 한 번에 설정할 수 있습니다.",
                   "**정렬 순서**로 film 전체를 한 번에 정렬할 수 있습니다(**촬영일순** / **추가순**). 정렬한 뒤에도 손으로 끌어서 순서를 다듬을 수 있습니다.",
                   "**이름 변경**으로 film의 제목을 바꿀 수 있습니다.",
                   "**화면 비율 변경**으로 프레임의 비율과 방향을 선택할 수 있습니다(16:9 / 3:2 / 4:3 / 1:1, 세로 / 가로). 각 moment의 filled / unfilled 상태는 유지되지만 위치와 확대율은 재설정됩니다.",
@@ -830,7 +926,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "点按画框图标会打开**moment 时长**，从**1秒** / **2秒** / **3秒**中选择，即可统一设置所有 moment 的播放时长。",
+                  "点按画框图标会打开**每个 moment 的时长**，从**1秒** / **2秒** / **3秒**中选择，即可统一设置所有 moment 的播放时长。",
                   "**排序方式**：按**拍摄日期**或**添加顺序**一次性重新排列整个 film。设置后仍可手动拖移微调。",
                   "**编辑名称**：更改 film 的标题。",
                   "**更改宽高比**：选择画框的比例和方向 — 16:9、3:2、4:3 或 1:1，竖向或横向。每个 moment 的 filled / unfilled 状态会保留，但位置和缩放会回到初始状态。",
@@ -846,7 +942,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "El icono de fotograma abre **duración del moment**, donde **1 s**, **2 s** o **3 s** define cuánto dura la reproducción de cada moment.",
+                  "El icono de fotograma abre **Duración por moment**, donde **1 s**, **2 s** o **3 s** define cuánto dura la reproducción de cada moment.",
                   "**Ordenar por** reordena todo el film de una vez, por **Fecha de captura** o **Fecha de adición**. Después puedes seguir arrastrando filas a mano.",
                   "**Editar nombre** cambia el título del film.",
                   "**Cambiar proporción** elige la forma del encuadre: 16:9, 3:2, 4:3 o 1:1, en vertical u horizontal. Cada moment conserva su estado filled o unfilled, pero la posición y el zoom se restablecen.",
@@ -862,7 +958,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "Das Rahmen-Symbol öffnet **moment-Dauer**; dort legt **1 Sek.**, **2 Sek.** oder **3 Sek.** fest, wie lang jedes moment läuft.",
+                  "Das Rahmen-Symbol öffnet **Dauer pro moment**; dort legt **1 Sek.**, **2 Sek.** oder **3 Sek.** fest, wie lang jedes moment läuft.",
                   "**Sortieren nach** ordnet den ganzen film auf einmal neu, nach **Aufnahmedatum** oder **Hinzugefügedatum**. Von Hand verschieben geht danach weiterhin.",
                   "**Namen ändern** benennt den film um.",
                   "**Seitenverhältnis ändern** wählt die Form des Rahmens – 16:9, 3:2, 4:3 oder 1:1, hoch oder quer. Jedes moment bleibt filled oder unfilled, aber Position und Zoom beginnen von vorn.",
@@ -878,7 +974,7 @@
               {
                 "type": "bullets",
                 "items": [
-                  "L’icône de cadre ouvre **durée du moment**, où **1 s**, **2 s** ou **3 s** fixe la durée de lecture de chaque moment.",
+                  "L’icône de cadre ouvre **Durée par moment**, où **1 s**, **2 s** ou **3 s** fixe la durée de lecture de chaque moment.",
                   "**Trier par** réordonne le film entier d’un coup, par **Date de prise de vue** ou **Date d’ajout**. Vous pouvez toujours déplacer les lignes à la main ensuite.",
                   "**Modifier le nom** renomme le film.",
                   "**Modifier le format d’image** choisit la forme du cadre — 16:9, 3:2, 4:3 ou 1:1, en portrait ou en paysage. Chaque moment conserve filled ou unfilled, mais la position et le zoom reviennent au départ.",
